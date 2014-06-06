@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=z\addons\dayz_server
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '7C46E4F62247B1833E713AFFA4F9ED3FCA074002'
+//////</HEADER>//////
