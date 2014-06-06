@@ -1,6 +1,4 @@
 disableSerialization;
-
-//Model Variables
 Bandit1_DZ = 	"Bandit1_DZ";
 Bandit2_DZ = 	"Bandit2_DZ";
 BanditW1_DZ = 	"BanditW1_DZ";
@@ -13,10 +11,7 @@ Sniper1_DZ = 	"Sniper1_DZ";
 Camo1_DZ = 		"Camo1_DZ";
 Soldier1_DZ = 	"Soldier1_DZ";
 Rocket_DZ = 	"Rocket_DZ";
-
 AllPlayers = ["Survivor2_DZ","SurvivorWcombat_DZ","SurvivorWdesert_DZ","SurvivorWurban_DZ","SurvivorWsequishaD_DZ","SurvivorWsequisha_DZ","SurvivorWpink_DZ","SurvivorW3_DZ","SurvivorW2_DZ","Bandit1_DZ","Bandit2_DZ","BanditW1_DZ","BanditW2_DZ","Soldier_Crew_PMC","Sniper1_DZ","Camo1_DZ","Soldier1_DZ","Rocket_DZ","Rocker1_DZ","Rocker2_DZ","Rocker3_DZ","Rocker4_DZ","Priest_DZ","Functionary1_EP1_DZ","GUE_Commander_DZ","Ins_Soldier_GL_DZ","Haris_Press_EP1_DZ","Pilot_EP1_DZ","RU_Policeman_DZ","pz_policeman","pz_suit1","pz_suit2","pz_worker1","pz_worker2","pz_worker3","pz_doctor","pz_teacher","pz_hunter","pz_villager1","pz_villager2","pz_villager3","pz_priest","Soldier_TL_PMC_DZ","Soldier_Sniper_PMC_DZ","Soldier_Bodyguard_AA12_PMC_DZ","Drake_Light_DZ","CZ_Special_Forces_GL_DES_EP1_DZ","TK_INS_Soldier_EP1_DZ","TK_INS_Warlord_EP1_DZ","FR_OHara_DZ","FR_Rodriguez_DZ","CZ_Soldier_Sniper_EP1_DZ","Graves_Light_DZ","GUE_Soldier_MG_DZ","GUE_Soldier_Sniper_DZ","GUE_Soldier_Crew_DZ","GUE_Soldier_CO_DZ","GUE_Soldier_2_DZ","TK_Special_Forces_MG_EP1_DZ","TK_Soldier_Sniper_EP1_DZ","TK_Commander_EP1_DZ","RU_Soldier_Crew_DZ","INS_Lopotev_DZ","INS_Soldier_AR_DZ","INS_Soldier_CO_DZ","INS_Bardak_DZ","INS_Worker2_DZ"];
-
-//Cooking
 meatraw = [
 	"FoodSteakRaw",
 	"FoodmeatRaw",
@@ -42,12 +37,10 @@ meatcooked = [
 	"ItemSeaBassCooked",
 	"ItemTunaCooked"
 ];
-//Eating
-no_output_food = ["FoodMRE", "FoodPistachio", "FoodNutmix","FoodBioMeat"]+meatcooked+meatraw;
-
-// Food with increased chance for infection.
+no_output_food = ["FoodMRE", "FoodPistachio", "FoodNutmix","FoodBioMeat"];
+no_output_food set [(count no_output_food), meatcooked];
+no_output_food set [(count no_output_food), meatraw];
 badfood = ["FoodBioMeat","FoodCanUnlabeled"];
-
 food_with_output=[
 	"FoodCanBakedBeans",
 	"FoodCanSardines",
@@ -66,7 +59,6 @@ food_with_output=[
 	"FoodCanTylers",
 	"FoodCanUnlabeled"
 ];
-
 food_output = [
 	"TrashTinCan",
 	"TrashTinCan",
@@ -85,10 +77,9 @@ food_output = [
 	"FoodCanTylersEmpty",
 	"FoodCanUnlabeledEmpty"
 ];
-//Drinking
 no_output_drink = ["ItemWaterbottle", "ItemWaterbottleBoiled"];
 drink_with_output = [
-	"ItemSoda",  //just to define item for ItemSodaEmpty
+	"ItemSoda",
 	"ItemSodaRbull",
 	"ItemSodaOrangeSherbet",
 	"ItemSodaCoke",
@@ -149,46 +140,38 @@ boil_tin_cans = [
 	"ItemSodaMzlyEmpty",
 	"ItemSodaRabbitEmpty"
 ];
-
 dayz_combination = "";
 dayz_humanitytarget = "";
 dayz_combatLog = "";
 canRoll = true;
-
 canbuild = true;
-
-//Hunting Variables
 dayZ_partClasses = [
 	"PartFueltank",
 	"PartWheel",
-	//"PartGeneric",	//No need to add, it is default for everything
 	"PartEngine"
 ];
 dayZ_explosiveParts = [
 	"palivo",
 	"motor"
 ];
-//Survival Variables
-SleepFood =				2160; //minutes (48 hours)
-SleepWater =			1440; //minutes (24 hours)
-SleepTemperatur	= 		90 / 100;	//Firs Value = Minutes untill Player reaches the coldest Point at night (without other effects! night factor expected to be -1)			//TeeChange
-
-//Server Variables
+SleepFood =				2160;
+SleepWater =			1440;
+SleepTemperatur	= 		90 / 100;
 allowConnection = 		false;
 isSinglePlayer =		false;
 PVDZE_serverObjectMonitor = [];
 PlayerDeaths = [];
-
-//Streaming Variables (player only)
 dayz_Locations = [];
 dayz_locationsActive = [];
-
-//GUI
-Dayz_GUI_R = 0.38; // 0.7
-Dayz_GUI_G = 0.63; // -0.63
-Dayz_GUI_B = 0.26; // -0.26
-
-//Player self-action handles
+Dayz_GUI_R = 0.38;
+Dayz_GUI_G = 0.63;
+Dayz_GUI_B = 0.26;
+R3F_action_charger_target = objNull;
+R3F_action_heliporter_object = objNull;
+R3F_action_remorquer_object = objNull;
+R3F_action_deplacer_object = objNull;
+R3F_action_remorquables_target = objNull;
+R3F_action_charger_target = objNull;
 dayz_resetSelfActions = {
 	s_player_fire =			-1;
 	s_player_cook =			-1;
@@ -250,20 +233,30 @@ dayz_resetSelfActions = {
 	s_player_heli_lift = -1;
 	s_player_heli_detach = -1;
 	s_player_lockUnlock_crtl = -1;
+	s_player_clothes = -1;
+	s_player_deploybike = -1;
+	s_player_deploybike2 = -1;
+	s_player_maintain_aread = -1;
+	s_player_maintain_area_previewd = -1;
+	R3F_action_charger_deplace = -5;
+	R3F_action_charger_selection = -5;
+	R3F_action_charger_vehicule = -5;
+	R3F_action_heliporter = -5;
+	R3F_action_heliport_largue = -5;
+	R3F_action_deplacer_objet = -5;
+	R3F_action_remorquer_deplace = -5;
+	R3F_action_remorquer_selection = -5;
+	R3F_action_selectionner_objet_remorque = -5;
+	R3F_action_detacher = -5;
+	R3F_action_selectionner_objet_charge = -5;
 };
 call dayz_resetSelfActions;
-
-//Engineering variables
 s_player_lastTarget =	[objNull,objNull,objNull,objNull,objNull];
 s_player_repairActions = [];
 s_player_lockunlock = [];
-
-// Custom
 s_player_madsci 		= 	[];
 s_player_parts 			= 	[];
 s_player_combi 			= 	[];
-
-//Initialize Medical Variables
 r_interrupt = 			false;
 r_doLoop = 				false;
 r_self = 				false;
@@ -295,10 +288,8 @@ r_action_repair = 		false;
 r_action_targets = 		[];
 r_pitchWhine = 			false;
 r_isBandit =			false;
-
+isInTraderCity =		false;
 DZE_PROTOBOX = objNull;
-
-//ammo routine
 r_player_actions2 = [];
 r_action2 = false;
 r_player_lastVehicle = objNull;
@@ -312,7 +303,6 @@ r_player_removeActions2 = {
 		r_action2 = false;
 	};
 };
-
 USEC_woundHit 	= [
 	"",
 	"body",
@@ -351,7 +341,7 @@ USEC_MinorWounds 	= [
 ];
 USEC_woundPoint	= [
 	["Pelvis","aimpoint"],
-	["aimpoint"], //,"RightShoulder","LeftShoulder"
+	["aimpoint"],
 	["lelbow","relbow"],
 	["RightFoot","LeftFoot"],
 	["neck","pilot"]
@@ -363,7 +353,6 @@ USEC_typeOfWounds = [
 	"RightFoot","LeftFoot",
 	"neck","pilot"
 ];
-
 DZE_vehicleZwounds = [
 	"sklo predni L",
 	"sklo predni P",
@@ -378,7 +367,6 @@ DZE_vehicleZwounds = [
 	"Glass5",
 	"Glass6"
 ];
-
 DZE_HeliAllowTowFrom = [
 	"CH_47F_EP1_DZE",
 	"CH_47F_EP1_DZ",
@@ -386,7 +374,6 @@ DZE_HeliAllowTowFrom = [
 	"CH_47F_EP1",
 	"BAF_Merlin_DZE"
 ];
-
 DZE_HeliAllowToTow = [
 	"hilux1_civil_1_open",
 	"HMMWV_Base",
@@ -404,31 +391,25 @@ DZE_HeliAllowToTow = [
 	"LandRover_Base",
 	"Ship"
 ];
-
-//Initialize Zombie Variables
 dayz_zombieTargetList = [
 	["SoldierWB",50],
 	["Air",500],
 	["LandVehicle",200]
 ];
 PVDZE_plr_Hit = [];
-PVDZE_obj_Publish = [];		//used for eventhandler to spawn a mirror of players tent
+PVDZE_obj_Publish = [];
 PVDZE_plr_HideBody = objNull;
 dayz_selectedVault = objNull;
 dayz_selectedDoor = objNull;
-
-PVDZE_veh_Publish = [];		// for vehicle traders
-PVDZE_obj_Trade = [];		// For all traders increment qty
-PVDZE_plr_TradeMenu = [];  		// For all traders
+PVDZE_veh_Publish = [];
+PVDZE_obj_Trade = [];
+PVDZE_plr_TradeMenu = [];
 PVDZE_plr_DeathB = [];
-
-//DayZ settings
 dayz_dawn = 6;
 dayz_dusk = 18;
 DAYZ_agentnumber = 0;
 dayz_animalDistance = 800;
 dayz_zSpawnDistance = 1000;
-
 if(isNil "dayz_maxAnimals") then {
 	dayz_maxAnimals = 5;
 };
@@ -510,18 +491,13 @@ if(isNil "DZE_DamageBeforeMaint") then {
 if(isNil "DZE_StaticConstructionCount") then {
 	DZE_StaticConstructionCount = 0;
 };
-
-
-// needed on server
 if(isNil "DZE_PlotPole") then {
 	DZE_PlotPole = [30,45];
 };
 if(isNil "DZE_maintainRange") then {
 	DZE_maintainRange = ((DZE_PlotPole select 0)+20);
 };
-
 DZE_REPLACE_WEAPONS = [["Crossbow","ItemMatchbox","ItemHatchet"],["Crossbow_DZ","ItemMatchbox_DZE","ItemHatchet_DZE"]];
-
 if(isNil "dayz_zedSpawnVehCount") then {
 	dayz_zedSpawnVehCount = dayz_maxLocalZombies / 2;
 };
@@ -531,39 +507,24 @@ if(isNil "dayz_spawnAirCount") then {
 if(isNil "dayz_zedsAttackVehicles") then {
 	dayz_zedsAttackVehicles = true;
 };
-
-// update objects
 dayz_updateObjects = ["Plane","Car", "Helicopter", "Motorcycle", "Ship", "TentStorage", "VaultStorage","LockboxStorage","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ","GunRack_DZ","WoodCrate_DZ","Scaffolding_DZ"];
 dayz_disallowedVault = ["TentStorage", "BuiltItems","ModularItems","DZE_Base_Object"];
 dayz_reveal = ["AllVehicles","WeaponHolder","Land_A_tent","BuiltItems","ModularItems","DZE_Base_Object"];
 dayz_allowedObjects = ["TentStorage","TentStorageDomed","TentStorageDomed2", "VaultStorageLocked", "Hedgehog_DZ", "Sandbag1_DZ","BagFenceRound_DZ","TrapBear","Fort_RazorWire","WoodGate_DZ","Land_HBarrier1_DZ","Land_HBarrier3_DZ","Land_HBarrier5_DZ","Fence_corrugated_DZ","M240Nest_DZ","CanvasHut_DZ","ParkBench_DZ","MetalGate_DZ","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ","Plastic_Pole_EP1_DZ","Generator_DZ","StickFence_DZ","LightPole_DZ","FuelPump_DZ","DesertCamoNet_DZ","ForestCamoNet_DZ","DesertLargeCamoNet_DZ","ForestLargeCamoNet_DZ","SandNest_DZ","DeerStand_DZ","MetalPanel_DZ","WorkBench_DZ","WoodFloor_DZ","WoodLargeWall_DZ","WoodLargeWallDoor_DZ","WoodLargeWallWin_DZ","WoodSmallWall_DZ","WoodSmallWallWin_DZ","WoodSmallWallDoor_DZ","LockboxStorageLocked","WoodFloorHalf_DZ","WoodFloorQuarter_DZ","WoodStairs_DZ","WoodStairsSans_DZ","WoodSmallWallThird_DZ","WoodLadder_DZ","Land_DZE_GarageWoodDoor","Land_DZE_LargeWoodDoor","Land_DZE_WoodDoor","Land_DZE_GarageWoodDoorLocked","Land_DZE_LargeWoodDoorLocked","Land_DZE_WoodDoorLocked","CinderWallHalf_DZ","CinderWall_DZ","CinderWallDoorway_DZ","CinderWallDoor_DZ","CinderWallDoorLocked_DZ","CinderWallSmallDoorway_DZ","CinderWallDoorSmall_DZ","CinderWallDoorSmallLocked_DZ","MetalFloor_DZ","WoodRamp_DZ","GunRack_DZ","FireBarrel_DZ","WoodCrate_DZ","Scaffolding_DZ"];
-
 DZE_LockableStorage = ["VaultStorage","VaultStorageLocked","LockboxStorageLocked","LockboxStorage"];
 DZE_LockedStorage = ["VaultStorageLocked","LockboxStorageLocked"];
 DZE_UnLockedStorage = ["VaultStorage","LockboxStorage"];
-//["ModularItems", "DZE_Housebase", "BuiltItems", "Plastic_Pole_EP1_DZ" ,"FireBarrel_DZ"] - Skaronator, looks like some classes are missing not sure if this is intended
-DZE_maintainClasses = ["ModularItems","DZE_Housebase","LightPole_DZ"];
-
+DZE_maintainClasses = ["ModularItems","DZE_Housebase","LightPole_DZ","BuiltItems","Plastic_Pole_EP1_DZ","Fence_corrugated_DZ","CanvasHut_DZ","ParkBench_DZ","MetalGate_DZ","StickFence_DZ","DesertCamoNet_DZ","ForestCamoNet_DZ","DesertLargeCamoNet_DZ","ForestLargeCamoNet_DZ","DeerStand_DZ","Scaffolding_DZ","FireBarrel_DZ"];
 DZE_DoorsLocked = ["Land_DZE_GarageWoodDoorLocked","Land_DZE_LargeWoodDoorLocked","Land_DZE_WoodDoorLocked","CinderWallDoorLocked_DZ","CinderWallDoorSmallLocked_DZ"];
-
-// List of removable items that require crowbar
 DZE_isRemovable = ["Fence_corrugated_DZ","M240Nest_DZ","ParkBench_DZ","Plastic_Pole_EP1_DZ","FireBarrel_DZ","Scaffolding_DZ"];
 DZE_isWreck = ["SKODAWreck","HMMWVWreck","UralWreck","datsun01Wreck","hiluxWreck","datsun02Wreck","UAZWreck","Land_Misc_Garb_Heap_EP1","Fort_Barricade_EP1","Rubbish2"];
 DZE_isWreckBuilding = ["Land_wreck_cinder","Land_wood_wreck_quarter","Land_wood_wreck_floor","Land_wood_wreck_third","Land_wood_wreck_frame","Land_iron_vein_wreck","Land_silver_vein_wreck","Land_gold_vein_wreck","Land_ammo_supply_wreck"];
 DZE_isNewStorage = ["VaultStorage","OutHouse_DZ","Wooden_shed_DZ","WoodShack_DZ","StorageShed_DZ","GunRack_DZ","WoodCrate_DZ"];
-
-// These work with just a running generator
 dayz_fuelpumparray = ["FuelPump_DZ","Land_A_FuelStation_Feed","Land_Ind_FuelStation_Feed_EP1","Land_FuelStation_Feed_PMC","FuelStation","Land_ibr_FuelStation_Feed","Land_fuelstation_army","Land_fuelstation","land_fuelstation_w","Land_benzina_schnell"];
 DZE_fueltruckarray = ["KamazRefuel_DZ","UralRefuel_TK_EP1_DZ","MtvrRefuel_DES_EP1_DZ","V3S_Refuel_TK_GUE_EP1_DZ","MtvrRefuel_DZ","KamazRefuel_DZE","UralRefuel_TK_EP1_DZE","MtvrRefuel_DES_EP1_DZE","V3S_Refuel_TK_GUE_EP1_DZE","MtvrRefuel_DZE"];
-
-// Standard Fuel sources
 dayz_fuelsources = ["Land_Ind_TankSmall","Land_fuel_tank_big","Land_fuel_tank_stairs","Land_fuel_tank_stairs_ep1","Land_wagon_tanker","Land_fuelstation","Land_fuelstation_army","land_fuelstation_w","Land_benzina_schnell"];
-
 DZE_Lock_Door = "";
-
-//init global arrays for Loot Chances
 call compile preprocessFileLineNumbers "extras\custom_loot\init\loot_init.sqf";
-
 if(isServer) then {
 	dayz_players = [];
 	dead_bodyCleanup = [];
@@ -593,32 +554,21 @@ if(isServer) then {
 
 	DZE_safeVehicle = ["ParachuteWest","ParachuteC"];
 };
-
 if(!isDedicated) then {
-
 	dayz_spawnPos = getPosATL player;
-
-	dayz_buildingMonitor = [];	//Buildings to check
+	dayz_buildingMonitor = [];
 	dayz_bodyMonitor = [];
-
-	// weather control var
 	zeroPreviousWeather = [0,0,[0,0],0];
 	zeroCurrentWeather = [0,0,[0,0],0];
-
 	if (DZE_MissionLootTable) then {
 		dayz_baseTypes = 		getArray (missionConfigFile >> "CfgBuildingLoot" >> "Default" >> "zombieClass");
 	} else {
 		dayz_baseTypes = 		getArray (configFile >> "CfgBuildingLoot" >> "Default" >> "zombieClass");
 	};
-
-
-	//temperature variables
-	dayz_temperatur 		= 	36;		//TeeChange
-	dayz_temperaturnormal 	= 	36;		//TeeChange
-	dayz_temperaturmax 		= 	42;		//TeeChange
-	dayz_temperaturmin 		= 	27;		//TeeChange
-
-	//player special variables
+	dayz_temperatur 		= 	36;
+	dayz_temperaturnormal 	= 	36;
+	dayz_temperaturmax 		= 	42;
+	dayz_temperaturmin 		= 	27;
 	dayZ_lastPlayerUpdate = 0;
 	dayZ_everyonesTents =	[];
 	dayz_hunger	=			0;
@@ -661,9 +611,7 @@ if(!isDedicated) then {
 	dayz_lootDelay =		3;
 	dayz_lootWait =			-300;
 	dayz_spawnZombies =		0;
-	//used to count global zeds around players
 	dayz_CurrentZombies = 0;
-	//Used to limit overall zed counts
 	dayz_maxCurrentZeds = 0;
 	dayz_inVehicle =		false;
 	dayz_Magazines = 		[];
@@ -673,12 +621,6 @@ if(!isDedicated) then {
 	dayz_scaleLight = 		0;
 	dayzDebug = false;
 	dayzState = -1;
-	//uiNamespace setVariable ['DAYZ_GUI_display',displayNull];
-	//if (uiNamespace getVariable ['DZ_displayUI', 0] == 2) then {
-	//	dayzDebug = true;
-	//};
-
-	// DayZ Epoch Client only variables
 	if(isNil "DZE_AllowForceSave") then {
 		DZE_AllowForceSave = false;
 	};
@@ -704,39 +646,27 @@ if(!isDedicated) then {
 	if(isNil "DZE_R3F_WEIGHT") then {
 		DZE_R3F_WEIGHT = true;
 	};
-
-
 	DZE_AntiWallCounter = 0;
-
 	DZE_FreshSpawn = false;
-
 	DZE_myHaloVehicle = objNull;
 	dayz_myLiftVehicle = objNull;
 	DZE_Friends = [];
-
 	DZE_CanPickup = true;
 	DZE_Q = false;
 	DZE_Z = false;
-
 	DZE_Q_alt = false;
 	DZE_Z_alt = false;
-
 	DZE_Q_ctrl = false;
 	DZE_Z_ctrl = false;
-
 	DZE_5 = false;
 	DZE_4 = false;
 	DZE_6 = false;
-
 	DZE_cancelBuilding = false;
 	DZE_PZATTACK = false;
-
 	DZE_trees = ["t_picea2s_snow.p3d","b_corylus.p3d","t_quercus3s.p3d","t_larix3s.p3d","t_pyrus2s.p3d","str_briza_kriva.p3d","dd_borovice.p3d","les_singlestrom_b.p3d","les_singlestrom.p3d","smrk_velky.p3d","smrk_siroky.p3d","smrk_maly.p3d","les_buk.p3d","str krovisko vysoke.p3d","str_fikovnik_ker.p3d","str_fikovnik.p3d","str vrba.p3d","hrusen2.p3d","str dub jiny.p3d","str lipa.p3d","str briza.p3d","p_akat02s.p3d","jablon.p3d","p_buk.p3d","str_topol.p3d","str_topol2.p3d","p_osika.p3d","t_picea3f.p3d","t_picea2s.p3d","t_picea1s.p3d","t_fagus2w.p3d","t_fagus2s.p3d","t_fagus2f.p3d","t_betula1f.p3d","t_betula2f.p3d","t_betula2s.p3d","t_betula2w.p3d","t_alnus2s.p3d","t_acer2s.p3d","t_populus3s.p3d","t_quercus2f.p3d","t_sorbus2s.p3d","t_malus1s.p3d","t_salix2s.p3d","t_picea1s_w.p3d","t_picea2s_w.p3d","t_ficusb2s_ep1.p3d","t_populusb2s_ep1.p3d","t_populusf2s_ep1.p3d","t_amygdalusc2s_ep1.p3d","t_pistacial2s_ep1.p3d","t_pinuse2s_ep1.p3d","t_pinuss3s_ep1.p3d","t_prunuss2s_ep1.p3d","t_pinusn2s.p3d","t_pinusn1s.p3d","t_pinuss2f.p3d","t_poplar2f_dead_pmc.p3d","misc_torzotree_pmc.p3d","misc_burnspruce_pmc.p3d","brg_cocunutpalm8.p3d","brg_umbrella_acacia01b.p3d","brg_jungle_tree_canopy_1.p3d","brg_jungle_tree_canopy_2.p3d","brg_cocunutpalm4.p3d","brg_cocunutpalm3.p3d","palm_01.p3d","palm_02.p3d","palm_03.p3d","palm_04.p3d","palm_09.p3d","palm_10.p3d","brg_cocunutpalm2.p3d","brg_jungle_tree_antiaris.p3d","brg_cocunutpalm1.p3d","str habr.p3d"];
 	DZE_TEMP_treedmg = 1;
-
 	DZE_Surrender = false;
 	DZE_Quarantine = false;
 	DZE_InRadiationZone = false;
-
 	DZE_SaveTime = 30;
 };

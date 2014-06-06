@@ -5,9 +5,8 @@ spawn_ammo_boxsupply  = compile preprocessFileLineNumbers "\z\addons\dayz_server
 clean_running_mission = False;
 
 //load mission config
-[] ExecVM "\z\addons\dayz_server\WAI\missions\missionCfg.sqf";
-waitUntil {WAImissionconfig};
+[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\missionCfg.sqf"));
 diag_log "WAI: Mission Config File Loaded";
-[] ExecVM "\z\addons\dayz_server\WAI\missions\missions.sqf";
+[] spawn (compile preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\missions.sqf");
 //Custom ammo boxes
-[] ExecVM "\z\addons\dayz_server\WAI\missions\StaticAmmoBoxes.sqf";
+[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\StaticAmmoBoxes.sqf"));

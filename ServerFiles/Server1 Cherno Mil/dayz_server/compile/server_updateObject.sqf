@@ -10,7 +10,7 @@ if(isNull(_object)) exitWith {
 };
 
 _type = 	_this select 1;
-_parachuteWest = ((typeOf _object == "ParachuteWest") or (typeOf _object == "ParachuteC"));
+_parachuteWest = ((typeOf _object) in ["ParachuteWest","ParachuteC"]);
 _isbuildable = (typeOf _object) in dayz_allowedObjects;
 _isNotOk = false;
 _firstTime = false;
@@ -34,7 +34,7 @@ if (!_parachuteWest and !(locked _object)) then {
 };
 
 // do not update if buildable and not ok
-if (_isNotOk and _isbuildable) exitWith {  };
+if ((_isNotOk and _isbuildable) || _parachuteWest) exitWith {  };
 
 // delete if still not ok
 if (_isNotOk) exitWith { deleteVehicle _object; diag_log(format["Deleting object %1 with invalid ID at pos [%2,%3,%4]",typeOf _object,_object_position select 0,_object_position select 1, _object_position select 2]); };

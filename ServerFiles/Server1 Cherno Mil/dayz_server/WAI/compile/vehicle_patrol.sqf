@@ -9,7 +9,9 @@ _skill = _this select 5;
 _skillarray = ["aimingAccuracy","aimingShake","aimingSpeed","endurance","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
 
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 _pilot = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _pilot];
 [_pilot] joinSilent _unitGroup;
 ai_vehicle_units = (ai_vehicle_units + 1);
 
@@ -26,6 +28,7 @@ _pilot assignAsDriver _veh;
 _pilot moveInDriver _veh;
 
 _gunner = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner];
 _gunner assignAsGunner _veh;
 _gunner moveInTurret [_veh,[0]];
 [_gunner] joinSilent _unitGroup;

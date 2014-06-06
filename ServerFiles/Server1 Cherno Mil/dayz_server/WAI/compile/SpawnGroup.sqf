@@ -20,6 +20,7 @@ _aicskill = [];
 _aipack = "";
 _skillarray = ["aimingAccuracy","aimingShake","aimingSpeed","endurance","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 
 if (!isServer) exitWith {};
 
@@ -51,6 +52,7 @@ for "_x" from 1 to _unitnumber do {
 		_aiskin = _skin
 	};
 	_unit = _unitGroup createUnit [_aiskin, [(_position select 0),(_position select 1),(_position select 2)], [], 10, "PRIVATE"];
+	WAI_AI_Array set [(count WAI_AI_Array), _unit];
 	[_unit] joinSilent _unitGroup;
 	if (_backpack == "") then {
 		_aipack = ai_packs call BIS_fnc_selectRandom;

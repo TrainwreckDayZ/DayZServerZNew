@@ -1,4 +1,4 @@
-[] spawn {[] execVM "\z\addons\dayz_server\init\AH.sqf";};
+[] spawn (compile preprocessFileLineNumbers "\z\addons\dayz_server\init\AH.sqf");
 waituntil {!isnil "bis_fnc_init"};
 
 BIS_MPF_remoteExecutionServer = {
@@ -526,11 +526,11 @@ if(isnil "DZE_DiagVerbose") then {
 };
 
 dze_diag_fps = {
-	if(DZE_DiagVerbose) then {
-		diag_log format["DEBUG FPS : %1 OBJECTS: %2 : PLAYERS: %3", diag_fps,(count (allMissionObjects "")),(playersNumber west)];
-	} else {
+	//if(DZE_DiagVerbose) then {
+		//diag_log format["DEBUG FPS : %1 OBJECTS: %2 : PLAYERS: %3", diag_fps,(count (allMissionObjects "")),(playersNumber west)];
+	//} else {
 		diag_log format["DEBUG FPS : %1", diag_fps];
-	};
+	//};
 };
 
 // Damage generator function
@@ -810,7 +810,7 @@ server_checkHackers = {
 
 server_spawnCleanFire = {
 	private ["_delQtyFP","_qty","_delQtyNull","_missionFires"];
-	_missionFires = allMissionObjects "Land_Fire_DZ";
+	_missionFires = [7650,7710,0] nearObjects ["Land_Fire_DZ", 11000];
 	_delQtyFP = 0;
 	{
 		if (local _x) then {
@@ -831,7 +831,7 @@ server_spawnCleanLoot = {
 	if(!isNil "DZE_DYN_cleanLoot") exitWith {  DZE_DYN_AntiStuck = DZE_DYN_AntiStuck + 1;};
 	DZE_DYN_cleanLoot = true;
 
-	_missionObjs =  allMissionObjects "ReammoBox";
+	_missionObjs =  [7650,7710,0] nearObjects ["ReammoBox", 11000];
 	_delQty = 0;
 	_dateNow = (DateToNumber date);
 	{

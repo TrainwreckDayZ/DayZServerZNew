@@ -5,7 +5,7 @@ _minutes =		_this select 1;
 _newObject = 	_this select 2;
 _playerID = 	_this select 3;
 _infected =		_this select 4;
-_victimName = 	name _newObject;
+_victimName = if (alive _newObject) then {name _newObject} else {"Unknown";};
 
 _victim = _newObject;
 _newObject setVariable ["bodyName", _victimName, true];

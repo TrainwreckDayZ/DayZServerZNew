@@ -10,7 +10,7 @@ OtterNas3
 */
 private ["_zheightchanged", "_zheightdirection", "_rotate"];
 diag_log "build controls";
-while {true} do {
+while {1 == 1} do {
 	_zheightchanged = false;
 	_zheightdirection = "";
 	_rotate = false;

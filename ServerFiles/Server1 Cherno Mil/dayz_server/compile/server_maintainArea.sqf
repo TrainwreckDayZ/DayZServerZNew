@@ -28,7 +28,7 @@ if (_option == 1) then {
 		};
 	} forEach _objects;
 
-	diag_log format ["MAINTAIN AREA BY %1 - %2 Objects at %3", name _player, count _objects, position _player];
+	diag_log format ["MAINTAIN AREA BY %1 - %2 Objects at %3", name _player, count _objects, ([_player] call FNC_GetPos)];
 };
 if (_option == 2) then {
 	if (damage _targetObj >= DZE_DamageBeforeMaint) then {

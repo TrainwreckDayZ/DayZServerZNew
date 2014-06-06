@@ -17,12 +17,10 @@ _hiveLoaded = false;
 "CinderWallDoorSmall_DZ",
 "CinderWallDoor_DZ"
     ];
-    // ### [CPC] Indestructible Buildables Fix
-waitUntil{initialized}; //means all the functions are now defined
 
 diag_log "HIVE: Starting";
 
-waituntil{isNil "sm_done"}; // prevent server_monitor be called twice (bug during login of the first player)
+waituntil{(isNil "sm_done") && initialized}; // prevent server_monitor be called twice (bug during login of the first player)
 
 if (isNil "server_initCount") then {
 	server_initCount = 1;

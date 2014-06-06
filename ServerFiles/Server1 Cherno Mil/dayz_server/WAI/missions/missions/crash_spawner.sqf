@@ -105,7 +105,7 @@ if ((random 3) < 1) then {
 	true						// mission true
 	] call spawn_static;  
 };
-[_position,"Chopper Crash"] execVM "\z\addons\dayz_server\WAI\missions\compile\markers.sqf";
+[_position,"Chopper Crash"] spawn markers_compile;
 [nil,nil,rTitleText,"Bandits have crashed a chopper! Check your map for the location!", "PLAIN",10] call RE;
 
 _missiontimeout = true;
@@ -115,7 +115,7 @@ _starttime = floor(time);
 while {_missiontimeout} do {
 	sleep 5;
 	_currenttime = floor(time);
-	{if((isPlayer _x) AND (_x distance _position <= 100)) then {_playerPresent = true};}forEach playableUnits;
+	{if((isPlayer _x) AND (_x distance _position <= 100)) then {_playerPresent = true};}count playableUnits;
 	if (_currenttime - _starttime >= wai_mission_timeout) then {_cleanmission = true;};
 	if ((_playerPresent) OR (_cleanmission)) then {_missiontimeout = false;};
 };
@@ -124,7 +124,7 @@ if (_playerPresent) then {
 	{
 		sleep 5;
 		_playerPresent = false;
-		{if((isPlayer _x) AND (_x distance _position <= 30)) then {_playerPresent = true};}forEach playableUnits;
+		{if((isPlayer _x) AND (_x distance _position <= 30)) then {_playerPresent = true};}count playableUnits;
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission Crash_Spawner Ended At %1",_position];
@@ -133,17 +133,18 @@ if (_playerPresent) then {
 	clean_running_mission = True;
 	deleteVehicle _crash;
 	{_cleanunits = _x getVariable "missionclean";
-	if (!isNil "_cleanunits") then {
-		switch (_cleanunits) do {
-			case "ground" : {ai_ground_units = (ai_ground_units -1);};
-			case "air" : {ai_air_units = (ai_air_units -1);};
-			case "vehicle" : {ai_vehicle_units = (ai_vehicle_units -1);};
-			case "static" : {ai_emplacement_units = (ai_emplacement_units -1);};
-		};
-		deleteVehicle _x;
-		sleep 0.05;
-	};	
-	} forEach allUnits;
+		if (!isNil "_cleanunits") then {
+			switch (_cleanunits) do {
+				case "ground" : {ai_ground_units = (ai_ground_units -1);};
+				case "air" : {ai_air_units = (ai_air_units -1);};
+				case "vehicle" : {ai_vehicle_units = (ai_vehicle_units -1);};
+				case "static" : {ai_emplacement_units = (ai_emplacement_units -1);};
+			};
+			deleteVehicle _x;
+			sleep 0.001;
+			WAI_AI_Array = WAI_AI_Array - [_x];
+		};	
+	} count WAI_AI_Array;
 	
 	diag_log format["WAI: Mission Crash_Spawner Timed Out At %1",_position];
 	[nil,nil,rTitleText,"Survivors did not secure the crash site in time!", "PLAIN",10] call RE;

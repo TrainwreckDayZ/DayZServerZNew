@@ -30,7 +30,7 @@ waitUntil
 {
 	sleep 10;
 	_playerPresent = false;
-	{if((isPlayer _x) AND (_x distance [(_position select 0),(_position select 1),0] <= _triggerdis)) then {_playerPresent = true};}forEach playableUnits;
+	{if((isPlayer _x) AND (_x distance [(_position select 0),(_position select 1),0] <= _triggerdis)) then {_playerPresent = true};}count playableUnits;
 	(_playerPresent)
 };
 //Delay before chopper spawns in.
@@ -38,7 +38,9 @@ waitUntil
 //Spawing in Chopper and crew
 diag_log format ["WAI: Spawning a %1 with %2 units to be paradropped at %3",_heli_class,_paranumber,_position];
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 _pilot = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _pilot];
 [_pilot] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
@@ -53,12 +55,14 @@ _pilot assignAsDriver _helicopter;
 _pilot moveInDriver _helicopter;
 
 _gunner = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner];
 _gunner assignAsGunner _helicopter;
 _gunner moveInTurret [_helicopter,[0]];
 [_gunner] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
 _gunner2 = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner2];
 _gunner2 assignAsGunner _helicopter;
 _gunner2 moveInTurret [_helicopter,[1]];
 [_gunner2] joinSilent _unitGroup;
@@ -82,15 +86,16 @@ _wp setWaypointType "MOVE";
 _wp setWaypointCompletionRadius 100;
 
 _drop = True;
-_helipos = getpos _helicopter;
+_helipos = [_helicopter] call FNC_GetPos;
 while {(alive _helicopter) AND (_drop)} do {
 	private ["_magazine","_weapon","_weaponandmag","_chute","_para","_pgroup"];
 	sleep 1;
-	_helipos = getpos _helicopter;
+	_helipos = [_helicopter] call FNC_GetPos;
 	if (_helipos distance [(_position select 0),(_position select 1),100] <= 200) then {
 		_pgroup = createGroup east;
+		//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _pgroup];
 		for "_x" from 1 to _paranumber do {
-			_helipos = getpos _helicopter;
+			_helipos = [_helicopter] call FNC_GetPos;
 			switch (_gun) do {
 				case 0 : {_aiweapon = ai_wep0;};
 				case 1 : {_aiweapon = ai_wep1;};
@@ -118,6 +123,7 @@ while {(alive _helicopter) AND (_drop)} do {
 				_aiskin = _skin
 			};
 			_para = _pgroup createUnit [_aiskin, [0,0,0], [], 1, "PRIVATE"];
+			WAI_AI_Array set [(count WAI_AI_Array), _para];
 			if (_backpack == "") then {
 				_aipack = ai_packs call BIS_fnc_selectRandom;
 			} else {
@@ -177,7 +183,7 @@ if (_helipatrol) then {
 	_cleanheli = True;
 	while {_cleanheli} do {
 		sleep 20;
-		_helipos1 = getpos _helicopter;
+		_helipos1 = [_helicopter] call FNC_GetPos;
 		if ((_helipos1 distance [(_startingpos select 0),(_startingpos select 1),100] <= 200) OR (!alive _helicopter)) then {
 			deleteVehicle _helicopter;
 			{deleteVehicle _x} forEach (units _unitgroup);
