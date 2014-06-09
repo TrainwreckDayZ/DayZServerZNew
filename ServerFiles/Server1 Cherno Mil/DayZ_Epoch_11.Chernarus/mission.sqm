@@ -4334,7 +4334,7 @@ class Mission
 			azimut=0;
 			id=323;
 			side=EMPTY;
-			vehicle="MAP_fort_watchtower";
+			vehicle="Land_Fort_Watchtower_EP1";
 			init="this setVectorup [0,0,0.1]";
 			skill=1;
 		};
@@ -4743,7 +4743,7 @@ class Mission
 			id=364;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo2E_EP1";
-			init="this setPos [5503.9072, 13314.766, 6.1035156e-005];";
+			init="this setPos [5503.9072, 13314.766, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item365
@@ -4753,6 +4753,7 @@ class Mission
 			id=365;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo2E";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item366
@@ -4762,7 +4763,7 @@ class Mission
 			id=366;
 			side=EMPTY;
 			vehicle="Land_CamoNetB_NATO";
-			init="this setPos [5503.6846, 13326.127, -3.0517578e-005];";
+			init="this setPos [5503.6846, 13326.127, -3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item367
@@ -4772,6 +4773,7 @@ class Mission
 			id=367;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo1E_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item368
@@ -4781,6 +4783,7 @@ class Mission
 			id=368;
 			side=EMPTY;
 			vehicle="Misc_Cargo1B_military";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item369
@@ -4790,6 +4793,7 @@ class Mission
 			id=369;
 			side=EMPTY;
 			vehicle="Misc_Cargo1Bo_military";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item370
@@ -4799,7 +4803,7 @@ class Mission
 			id=370;
 			side=EMPTY;
 			vehicle="Misc_Cargo1B_military";
-			init="this setPos [5510.3389, 13316.494, -6.1035156e-005];";
+			init="this setPos [5510.3389, 13316.494, -6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item371
@@ -4809,6 +4813,7 @@ class Mission
 			id=371;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo2E_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item372
@@ -4818,7 +4823,7 @@ class Mission
 			id=372;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo2E_EP1";
-			init="this setPos [5513.876, 13321.98, 3.0517578e-005];";
+			init="this setPos [5513.876, 13321.98, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item373
@@ -4828,7 +4833,7 @@ class Mission
 			id=373;
 			side=EMPTY;
 			vehicle="Misc_Cargo1B_military";
-			init="this setPos [5513.5107, 13328.475, 0.00021362305];";
+			init="this setPos [5513.5107, 13328.475, 0.00021362305]; this allowDammage false";
 			skill=1;
 		};
 		class Item374
@@ -4838,7 +4843,7 @@ class Mission
 			id=374;
 			side=EMPTY;
 			vehicle="Land_Misc_Cargo1E_EP1";
-			init="this setPos [5500.9282, 13336.345, 6.1035156e-005];";
+			init="this setPos [5500.9282, 13336.345, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item375
@@ -4848,6 +4853,7 @@ class Mission
 			id=375;
 			side=EMPTY;
 			vehicle="Misc_cargo_cont_small_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item376
@@ -4857,7 +4863,7 @@ class Mission
 			id=376;
 			side=EMPTY;
 			vehicle="Misc_cargo_cont_small_EP1";
-			init="this setPos [5511.582, 13332.8, 6.1035156e-005];";
+			init="this setPos [5511.582, 13332.8, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item377
@@ -4914,7 +4920,7 @@ class Mission
 			id=382;
 			side=EMPTY;
 			vehicle="Land_Ind_TankSmall2";
-			init="this setPos [5516.5649, 13321.311, -6.1035156e-005];";
+			init="this setPos [5516.5649, 13321.311, -6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item383
@@ -5351,7 +5357,7 @@ class Mission
 			id=426;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1216.9025, 5973.8364, 1.5258789e-005];";
+			init="this setPos [1216.9025, 5973.8364, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item427
@@ -5361,7 +5367,7 @@ class Mission
 			id=427;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1215.3153, 5965.6694, 1.5258789e-005];";
+			init="this setPos [1215.3153, 5965.6694, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item428
@@ -5371,7 +5377,7 @@ class Mission
 			id=428;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1211.4067, 5958.1748, 1.5258789e-005];";
+			init="this setPos [1211.4067, 5958.1748, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item429
@@ -5381,7 +5387,7 @@ class Mission
 			id=429;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1195.8153, 5947.1011, 1.5258789e-005];";
+			init="this setPos [1195.8153, 5947.1011, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item430
@@ -5391,7 +5397,7 @@ class Mission
 			id=430;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1187.343, 5946.1948, -4.5776367e-005];";
+			init="this setPos [1187.343, 5946.1948, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item431
@@ -5401,7 +5407,7 @@ class Mission
 			id=431;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1179.2036, 5948.4424, -3.0517578e-005];";
+			init="this setPos [1179.2036, 5948.4424, -3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item432
@@ -5411,6 +5417,7 @@ class Mission
 			id=432;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item433
@@ -5420,7 +5427,7 @@ class Mission
 			id=433;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1221.854, 5986.8311, 7.6293945e-005];";
+			init="this setPos [1221.854, 5986.8311, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item434
@@ -5430,7 +5437,7 @@ class Mission
 			id=434;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1202.7217, 5985.0381, 0.17549786];";
+			init="this setPos [1202.7217, 5985.0381, 0.17549786]; this allowDammage false";
 			skill=1;
 		};
 		class Item435
@@ -5440,7 +5447,7 @@ class Mission
 			id=435;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1194.7866, 5981.9697, -1.5258789e-005];";
+			init="this setPos [1194.7866, 5981.9697, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item436
@@ -5450,7 +5457,7 @@ class Mission
 			id=436;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1183.2705, 5969.7256, 3.0517578e-005];";
+			init="this setPos [1183.2705, 5969.7256, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item437
@@ -5460,7 +5467,7 @@ class Mission
 			id=437;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1188.0747, 5976.709, 1.5258789e-005];";
+			init="this setPos [1188.0747, 5976.709, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item438
@@ -5470,7 +5477,7 @@ class Mission
 			id=438;
 			side=EMPTY;
 			vehicle="MAP_BigHBarrier";
-			init="this setPos [1179.6418, 5962.1001, 0.00012207031];";
+			init="this setPos [1179.6418, 5962.1001, 0.00012207031]; this allowDammage false";
 			skill=1;
 		};
 		class Item439
@@ -5480,7 +5487,7 @@ class Mission
 			id=439;
 			side=EMPTY;
 			vehicle="MAP_CamoNetB_NATO";
-			init="this setPos [1194.2119, 5968.2773, -1.5258789e-005];";
+			init="this setPos [1194.2119, 5968.2773, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item440
@@ -5489,8 +5496,8 @@ class Mission
 			azimut=274.5135;
 			id=440;
 			side=EMPTY;
-			vehicle="MAP_Ind_IlluminantTower";
-			init="this setPos [1214.3247, 5977.0088, 6.1035156e-005];";
+			vehicle="Land_Ind_IlluminantTower";
+			init="this setPos [1214.3247, 5977.0088, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item441
@@ -5499,8 +5506,8 @@ class Mission
 			azimut=-127.5503;
 			id=441;
 			side=EMPTY;
-			vehicle="MAP_fort_watchtower";
-			init="this setPos [1205.3995, 5951.333, 1.5258789e-005];";
+			vehicle="Land_Fort_Watchtower_EP1";
+			init="this setPos [1205.3995, 5951.333, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item442
@@ -5509,7 +5516,7 @@ class Mission
 			azimut=-184.5807;
 			id=442;
 			side=EMPTY;
-			vehicle="MAP_fortified_nest_big";
+			vehicle="Land_fortified_nest_big";
 			init="this setPos [1212.3684, 5991.6216, 0.46751419];";
 			skill=1;
 		};
@@ -5560,7 +5567,7 @@ class Mission
 			id=447;
 			side=EMPTY;
 			vehicle="Land_Ind_TankSmall";
-			init="this setPos [1185.7163, 5978.332, 1.5258789e-005];";
+			init="this setPos [1185.7163, 5978.332, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item448
@@ -5599,7 +5606,7 @@ class Mission
 			id=451;
 			side=EMPTY;
 			vehicle="MAP_Misc_Cargo1Bo";
-			init="this setPos [1212.8594, 5970.5103, 7.6293945e-005];";
+			init="this setPos [1212.8594, 5970.5103, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item452
@@ -5619,6 +5626,7 @@ class Mission
 			id=453;
 			side=EMPTY;
 			vehicle="Land_Misc_GContainer_Big";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item454
@@ -5687,7 +5695,7 @@ class Mission
 			id=460;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10176.864, 14676.968, 9.1552734e-005];";
+			init="this setPos [10176.864, 14676.968, 9.1552734e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item461
@@ -5697,7 +5705,7 @@ class Mission
 			id=461;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10174.502, 14678.128, 7.6293945e-005];";
+			init="this setPos [10174.502, 14678.128, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item462
@@ -5707,7 +5715,7 @@ class Mission
 			id=462;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10172.031, 14679.224, 9.1552734e-005];";
+			init="this setPos [10172.031, 14679.224, 9.1552734e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item463
@@ -5717,7 +5725,7 @@ class Mission
 			id=463;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10169.596, 14680.254, -0.00012207031];";
+			init="this setPos [10169.596, 14680.254, -0.00012207031]; this allowDammage false";
 			skill=1;
 		};
 		class Item464
@@ -5727,7 +5735,7 @@ class Mission
 			id=464;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10166.997, 14680.941, -4.5776367e-005];";
+			init="this setPos [10166.997, 14680.941, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item465
@@ -5737,7 +5745,7 @@ class Mission
 			id=465;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10164.401, 14681.579, 0.0001373291];";
+			init="this setPos [10164.401, 14681.579, 0.0001373291]; this allowDammage false";
 			skill=1;
 		};
 		class Item466
@@ -5747,7 +5755,7 @@ class Mission
 			id=466;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10161.722, 14681.824, 3.0517578e-005];";
+			init="this setPos [10161.722, 14681.824, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item467
@@ -5757,7 +5765,7 @@ class Mission
 			id=467;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10156.525, 14681.265, -7.6293945e-005];";
+			init="this setPos [10156.525, 14681.265, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item468
@@ -5767,6 +5775,7 @@ class Mission
 			id=468;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item469
@@ -5776,7 +5785,7 @@ class Mission
 			id=469;
 			side=EMPTY;
 			vehicle="Land_Fort_Watchtower_EP1";
-			init="this setPos [10146.277, 14673.061, -3.0517578e-005];";
+			init="this setPos [10146.277, 14673.061, -3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item470
@@ -5786,7 +5795,7 @@ class Mission
 			id=470;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10140.059, 14669.39, 0.00018310547];";
+			init="this setPos [10140.059, 14669.39, 0.00018310547]; this allowDammage false";
 			skill=1;
 		};
 		class Item471
@@ -5796,7 +5805,7 @@ class Mission
 			id=471;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10138.217, 14667.556, 4.5776367e-005];";
+			init="this setPos [10138.217, 14667.556, 4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item472
@@ -5806,7 +5815,7 @@ class Mission
 			id=472;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10136.247, 14665.912, -1.5258789e-005];";
+			init="this setPos [10136.247, 14665.912, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item473
@@ -5816,7 +5825,7 @@ class Mission
 			id=473;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10133.909, 14664.845, -4.5776367e-005];";
+			init="this setPos [10133.909, 14664.845, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item474
@@ -5826,7 +5835,7 @@ class Mission
 			id=474;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10131.37, 14664.397, 7.6293945e-005];";
+			init="this setPos [10131.37, 14664.397, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item475
@@ -5836,7 +5845,7 @@ class Mission
 			id=475;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10128.796, 14664.624, 7.6293945e-005];";
+			init="this setPos [10128.796, 14664.624, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item476
@@ -5846,7 +5855,7 @@ class Mission
 			id=476;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10126.424, 14665.709, 3.0517578e-005];";
+			init="this setPos [10126.424, 14665.709, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item477
@@ -5856,7 +5865,7 @@ class Mission
 			id=477;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10122.544, 14672.255, 0.00018310547];";
+			init="this setPos [10122.544, 14672.255, 0.00018310547]; this allowDammage false";
 			skill=1;
 		};
 		class Item478
@@ -5866,7 +5875,7 @@ class Mission
 			id=478;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10123.154, 14669.732, 6.1035156e-005];";
+			init="this setPos [10123.154, 14669.732, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item479
@@ -5876,7 +5885,7 @@ class Mission
 			id=479;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10124.502, 14667.451, 3.0517578e-005];";
+			init="this setPos [10124.502, 14667.451, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item480
@@ -5886,7 +5895,7 @@ class Mission
 			id=480;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10122.844, 14675.035, 6.1035156e-005];";
+			init="this setPos [10122.844, 14675.035, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item481
@@ -5896,7 +5905,7 @@ class Mission
 			id=481;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10123.896, 14677.417, 0.00012207031];";
+			init="this setPos [10123.896, 14677.417, 0.00012207031]; this allowDammage false";
 			skill=1;
 		};
 		class Item482
@@ -5906,7 +5915,7 @@ class Mission
 			id=482;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10125.709, 14679.332, 0.00010681152];";
+			init="this setPos [10125.709, 14679.332, 0.00010681152]; this allowDammage false";
 			skill=1;
 		};
 		class Item483
@@ -5916,7 +5925,7 @@ class Mission
 			id=483;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10127.99, 14680.702, 6.1035156e-005];";
+			init="this setPos [10127.99, 14680.702, 6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item484
@@ -5926,7 +5935,7 @@ class Mission
 			id=484;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10130.535, 14681.59, -6.1035156e-005];";
+			init="this setPos [10130.535, 14681.59, -6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item485
@@ -5936,7 +5945,7 @@ class Mission
 			id=485;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10133.088, 14682.327, 4.5776367e-005];";
+			init="this setPos [10133.088, 14682.327, 4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item486
@@ -5946,7 +5955,7 @@ class Mission
 			id=486;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10135.508, 14683.455, -4.5776367e-005];";
+			init="this setPos [10135.508, 14683.455, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item487
@@ -5956,7 +5965,7 @@ class Mission
 			id=487;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10137.671, 14684.889, 7.6293945e-005];";
+			init="this setPos [10137.671, 14684.889, 7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item488
@@ -5966,7 +5975,7 @@ class Mission
 			id=488;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10139.553, 14686.796, 1.5258789e-005];";
+			init="this setPos [10139.553, 14686.796, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item489
@@ -5976,6 +5985,7 @@ class Mission
 			id=489;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item490
@@ -5985,7 +5995,7 @@ class Mission
 			id=490;
 			side=EMPTY;
 			vehicle="Land_fortified_nest_big";
-			init="this setPos [10144.68, 14694.227, -1.5258789e-005];";
+			init="this setPos [10144.68, 14694.227, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item491
@@ -5995,7 +6005,7 @@ class Mission
 			id=491;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10148.804, 14698.143, 3.0517578e-005];";
+			init="this setPos [10148.804, 14698.143, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item492
@@ -6005,7 +6015,7 @@ class Mission
 			id=492;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10150.565, 14700.146, 3.0517578e-005];";
+			init="this setPos [10150.565, 14700.146, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item493
@@ -6015,7 +6025,7 @@ class Mission
 			id=493;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10152.189, 14702.199, -0.00012207031];";
+			init="this setPos [10152.189, 14702.199, -0.00012207031]; this allowDammage false";
 			skill=1;
 		};
 		class Item494
@@ -6025,6 +6035,7 @@ class Mission
 			id=494;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item495
@@ -6034,7 +6045,7 @@ class Mission
 			id=495;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10155.818, 14706.174, -9.1552734e-005];";
+			init="this setPos [10155.818, 14706.174, -9.1552734e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item496
@@ -6044,7 +6055,7 @@ class Mission
 			id=496;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10184.381, 14674.7, 4.5776367e-005];";
+			init="this setPos [10184.381, 14674.7, 4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item497
@@ -6054,7 +6065,7 @@ class Mission
 			id=497;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10181.786, 14675.095, -1.5258789e-005];";
+			init="this setPos [10181.786, 14675.095, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item498
@@ -6064,7 +6075,7 @@ class Mission
 			id=498;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10179.266, 14675.899, -6.1035156e-005];";
+			init="this setPos [10179.266, 14675.899, -6.1035156e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item499
@@ -6074,7 +6085,7 @@ class Mission
 			id=499;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10187.156, 14674.467, -3.0517578e-005];";
+			init="this setPos [10187.156, 14674.467, -3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item500
@@ -6084,7 +6095,7 @@ class Mission
 			id=500;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10189.879, 14674.422, -1.5258789e-005];";
+			init="this setPos [10189.879, 14674.422, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item501
@@ -6094,7 +6105,7 @@ class Mission
 			id=501;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10192.415, 14674.952, -0.00010681152];";
+			init="this setPos [10192.415, 14674.952, -0.00010681152]; this allowDammage false";
 			skill=1;
 		};
 		class Item502
@@ -6104,7 +6115,7 @@ class Mission
 			id=502;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10194.705, 14676.225, -7.6293945e-005];";
+			init="this setPos [10194.705, 14676.225, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item503
@@ -6114,7 +6125,7 @@ class Mission
 			id=503;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10196.656, 14678.027, -7.6293945e-005];";
+			init="this setPos [10196.656, 14678.027, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item504
@@ -6124,7 +6135,7 @@ class Mission
 			id=504;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10198.18, 14680.242, -4.5776367e-005];";
+			init="this setPos [10198.18, 14680.242, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item505
@@ -6134,7 +6145,7 @@ class Mission
 			id=505;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10199.195, 14682.731, -7.6293945e-005];";
+			init="this setPos [10199.195, 14682.731, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item506
@@ -6144,7 +6155,7 @@ class Mission
 			id=506;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10199.383, 14685.361, -0.00015258789];";
+			init="this setPos [10199.383, 14685.361, -0.00015258789]; this allowDammage false";
 			skill=1;
 		};
 		class Item507
@@ -6154,7 +6165,7 @@ class Mission
 			id=507;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10198.692, 14687.993, -0.00021362305];";
+			init="this setPos [10198.692, 14687.993, -0.00021362305]; this allowDammage false";
 			skill=1;
 		};
 		class Item508
@@ -6164,7 +6175,7 @@ class Mission
 			id=508;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10197.391, 14690.284, -0.00010681152];";
+			init="this setPos [10197.391, 14690.284, -0.00010681152]; this allowDammage false";
 			skill=1;
 		};
 		class Item509
@@ -6174,6 +6185,7 @@ class Mission
 			id=509;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item510
@@ -6183,7 +6195,7 @@ class Mission
 			id=510;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10160.589, 14708.7, -1.5258789e-005];";
+			init="this setPos [10160.589, 14708.7, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item511
@@ -6193,7 +6205,7 @@ class Mission
 			id=511;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10163.258, 14709.131, -3.0517578e-005];";
+			init="this setPos [10163.258, 14709.131, -3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item512
@@ -6203,7 +6215,7 @@ class Mission
 			id=512;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10165.964, 14709.035, -7.6293945e-005];";
+			init="this setPos [10165.964, 14709.035, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item513
@@ -6213,7 +6225,7 @@ class Mission
 			id=513;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10168.537, 14708.221, -0.00012207031];";
+			init="this setPos [10168.537, 14708.221, -0.00012207031]; this allowDammage false";
 			skill=1;
 		};
 		class Item514
@@ -6223,7 +6235,7 @@ class Mission
 			id=514;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10170.682, 14706.515, 3.0517578e-005];";
+			init="this setPos [10170.682, 14706.515, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item515
@@ -6233,7 +6245,7 @@ class Mission
 			id=515;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10154.122, 14680.255, -4.5776367e-005];";
+			init="this setPos [10154.122, 14680.255, -4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item516
@@ -6243,7 +6255,7 @@ class Mission
 			id=516;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10151.989, 14678.727, 4.5776367e-005];";
+			init="this setPos [10151.989, 14678.727, 4.5776367e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item517
@@ -6253,7 +6265,7 @@ class Mission
 			id=517;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10150.04, 14676.939, -7.6293945e-005];";
+			init="this setPos [10150.04, 14676.939, -7.6293945e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item518
@@ -6263,7 +6275,7 @@ class Mission
 			id=518;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10172.728, 14704.656, -0.00010681152];";
+			init="this setPos [10172.728, 14704.656, -0.00010681152]; this allowDammage false";
 			skill=1;
 		};
 		class Item519
@@ -6273,7 +6285,7 @@ class Mission
 			id=519;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10174.976, 14703.092, -0.0002746582];";
+			init="this setPos [10174.976, 14703.092, -0.0002746582]; this allowDammage false";
 			skill=1;
 		};
 		class Item520
@@ -6283,7 +6295,7 @@ class Mission
 			id=520;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10179.729, 14700.369, -0.00018310547];";
+			init="this setPos [10179.729, 14700.369, -0.00018310547]; this allowDammage false";
 			skill=1;
 		};
 		class Item521
@@ -6293,6 +6305,7 @@ class Mission
 			id=521;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
+			init="this allowDammage false";
 			skill=1;
 		};
 		class Item522
@@ -6302,7 +6315,7 @@ class Mission
 			id=522;
 			side=EMPTY;
 			vehicle="Land_HBarrier_large";
-			init="this setPos [10194.594, 14696.89, 1.5258789e-005];";
+			init="this setPos [10194.594, 14696.89, 1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item523
@@ -6312,7 +6325,7 @@ class Mission
 			id=523;
 			side=EMPTY;
 			vehicle="Concrete_Wall_EP1";
-			init="this setPos [10195.438, 14692.201, -0.00019836426];";
+			init="this setPos [10195.438, 14692.201, -0.00019836426]; this allowDammage false";
 			skill=1;
 		};
 		class Item524
@@ -6322,7 +6335,7 @@ class Mission
 			id=524;
 			side=EMPTY;
 			vehicle="Land_HBarrier_large";
-			init="this setPos [10183.964, 14702.211, -1.5258789e-005];";
+			init="this setPos [10183.964, 14702.211, -1.5258789e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item525
@@ -6382,7 +6395,7 @@ class Mission
 			id=530;
 			side=EMPTY;
 			vehicle="Land_Ind_TankSmall2_EP1";
-			init="this setPos [10174.618, 14675.666, 3.0517578e-005];";
+			init="this setPos [10174.618, 14675.666, 3.0517578e-005]; this allowDammage false";
 			skill=1;
 		};
 		class Item531
@@ -6461,8 +6474,8 @@ class Mission
 			azimut=-47.11763;
 			id=538;
 			side=EMPTY;
-			vehicle="MAP_Ind_IlluminantTower";
-			init="this setPos [10195.146, 14679.558, 0.00030517578];";
+			vehicle="Land_Ind_IlluminantTower";
+			init="this setPos [10195.146, 14679.558, 0.00030517578]; this allowDammage false";
 			skill=1;
 		};
 		class Item539
