@@ -114,7 +114,8 @@ if (_R3FCond) then {
 		R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
 		R3F_action_remorquables_target removeAction R3F_action_detacher;
 		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+		R3F_action_remorquer_deplace2 = -5;
 		R3F_action_remorquer_deplace = -5;
 		R3F_action_charger_deplace = -5;
 		R3F_action_detacher = -5;
@@ -142,16 +143,16 @@ if (_R3FCond) then {
 		};
 	};
 	if ({_cursorTarget isKindOf _x} count R3F_LOG_CFG_remorqueurs > 0) then {
-		if ((R3F_action_remorquer_deplace < -4) && (R3F_action_remorquer_selection < -4)) then {
+		if ((R3F_action_remorquer_deplace2 < -4) && (R3F_action_remorquer_selection2 < -4)) then {
 			[_cursorTarget] call R3F_LOG_FNCT_remorqueur_init;
 		};
 	} else {
 		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
 		R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection;
-		R3F_action_remorquer_deplace = -5;
-		R3F_action_remorquer_selection = -5;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
+		R3F_action_remorquer_deplace2 = -5;
+		R3F_action_remorquer_selection2 = -5;
 		if (_invehicle) then {
 			R3F_action_remorquables_target = objNull;
 			R3F_action_remorquer_object = objNull;
@@ -167,8 +168,8 @@ if (_R3FCond) then {
 		R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
 		R3F_action_heliporter_object removeAction R3F_action_heliporter;
 		R3F_action_heliporter_object removeAction R3F_action_heliport_largue;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
 		if (_invehicle) then {
 			R3F_action_charger_target = objNull;
 			R3F_action_deplacer_object = objNull;
@@ -176,6 +177,8 @@ if (_R3FCond) then {
 			R3F_action_heliporter_object = objNull;
 			R3F_action_remorquer_object = objNull;
 		};
+		R3F_action_remorquer_deplace2 = -5;
+		R3F_action_remorquer_selection2 = -5;
 		R3F_action_charger_deplace = -5;
 		R3F_action_selectionner_objet_charge = -5;
 		R3F_action_deplacer_objet = -5;

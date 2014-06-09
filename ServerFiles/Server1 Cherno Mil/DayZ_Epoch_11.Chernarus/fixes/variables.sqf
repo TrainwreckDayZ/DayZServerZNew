@@ -249,6 +249,8 @@ dayz_resetSelfActions = {
 	R3F_action_selectionner_objet_remorque = -5;
 	R3F_action_detacher = -5;
 	R3F_action_selectionner_objet_charge = -5;
+	R3F_action_remorquer_deplace2 = -5;
+	R3F_action_remorquer_selection2 = -5;
 };
 call dayz_resetSelfActions;
 s_player_lastTarget =	[objNull,objNull,objNull,objNull,objNull];

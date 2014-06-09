@@ -37,7 +37,7 @@ if ({_objet isKindOf _x} count R3F_LOG_CFG_objets_deplacables > 0) then {
 	};
 };
 
-if ({_objet isKindOf _x} count R3F_LOG_CFG_objets_remorquables > 0) then {
+if (({_objet isKindOf _x} count R3F_LOG_CFG_objets_remorquables > 0) && !_inVehicle) then {
 	R3F_action_remorquables_target = _objet;
 	if ({_objet isKindOf _x} count R3F_LOG_CFG_objets_deplacables > 0) then {
 		if (R3F_action_remorquer_deplace < -4) then {
@@ -49,14 +49,27 @@ if ({_objet isKindOf _x} count R3F_LOG_CFG_objets_remorquables > 0) then {
 		R3F_action_detacher = _objet addAction [("<t color=""#dddd00"">" + STR_R3F_LOG_action_detacher + "</t>"), "R3F_ARTY_AND_LOG\R3F_LOG\remorqueur\detacher.sqf", nil, 6, true, true, "", "R3F_LOG_objet_addAction == _target && R3F_LOG_action_detacher_valide"];
 	};
 } else {
-	R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
-	R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
-	R3F_action_remorquables_target removeAction R3F_action_detacher;
-	R3F_action_remorquer_deplace = -5;
-	R3F_action_selectionner_objet_remorque = -5;
-	R3F_action_detacher = -5;
-	if (_inVehicle) then {
-		R3F_action_remorquables_target = objNull;
+	if (_inVehicle && ({(vehicle player) isKindOf _x} count R3F_LOG_CFG_heliporteurs > 0) && (R3F_action_heliporter < -4)) then {
+		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+		R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
+		R3F_action_remorquables_target removeAction R3F_action_detacher;
+		R3F_action_remorquer_deplace = -5;
+		R3F_action_selectionner_objet_remorque = -5;
+		R3F_action_detacher = -5;
+		if (_inVehicle) then {
+			R3F_action_remorquables_target = objNull;
+		};
+
+	} else {
+		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+		R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
+		R3F_action_remorquables_target removeAction R3F_action_detacher;
+		R3F_action_remorquer_deplace = -5;
+		R3F_action_selectionner_objet_remorque = -5;
+		R3F_action_detacher = -5;
+		if (_inVehicle) then {
+			R3F_action_remorquables_target = objNull;
+		};
 	};
 };
 
