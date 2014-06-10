@@ -1,6 +1,6 @@
 private ["_finished","_finishedTime","_posplr","_dirplr","_object"];
 
-if (dayz_combat == 1) exitWith {cutText [format["You are in Combat and cannot build a bike."], "PLAIN DOWN"];};
+//if (dayz_combat == 1) exitWith {cutText [format["You are in Combat and cannot build a bike."], "PLAIN DOWN"];};
 player removeAction s_player_deploybike;
 player removeWeapon "ItemToolbox";
 player playActionNow "Medic";

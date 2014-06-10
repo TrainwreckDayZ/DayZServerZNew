@@ -270,22 +270,10 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 	_player_flipveh = false;
 	_player_deleteBuild = false;
 	_player_lockUnlock_crtl = false;
-
-    if (_canDo && (speed player <= 1) && (_cursorTarget isKindOf "MAP_Sphere")) then {
-		if (s_player_maintain_aread < 0) then {
-			s_player_maintain_aread = player addAction ["<t color=""#ffffff"">Maintain Area</t>", "custom\maintain_area.sqf", "maintain", 5, false];
-			s_player_maintain_area_previewd = player addAction ["<t color=""#ccffffff"">Maintain Area Preview</t>", "custom\maintain_area.sqf", "preview", 5, false];
-		};
-    } else {
-		player removeAction s_player_maintain_aread;
-		s_player_maintain_aread = -1;
-		player removeAction s_player_maintain_area_previewd;
-		s_player_maintain_area_previewd = -1;
-    };
-	 if (_canDo && (speed player <= 1) && (_cursorTarget isKindOf "Plastic_Pole_EP1_DZ")) then {
+	 if (_canDo && (speed player <= 1) && ((_cursorTarget isKindOf "Plastic_Pole_EP1_DZ") || (_cursorTarget isKindOf "MAP_Sphere"))) then {
 		 if (s_player_maintain_area < 0) then {
-		  	s_player_maintain_area = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTAREA"], "\z\addons\dayz_code\actions\maintain_area.sqf", "maintain", 5, false];
-		 	s_player_maintain_area_preview = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTPREV"], "\z\addons\dayz_code\actions\maintain_area.sqf", "preview", 5, false];
+		  	s_player_maintain_area = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTAREA"], "custom\maintain_area.sqf", ["maintain", _cursorTarget], 5, false];
+		 	s_player_maintain_area_preview = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTPREV"], "custom\maintain_area.sqf", ["preview", _cursorTarget], 5, false];
 		 };
 	 } else {
     		player removeAction s_player_maintain_area;
@@ -305,7 +293,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
                         };
                 };
 		if(_isVehicle) then {
-			if (!(canmove _cursorTarget) && (player distance _cursorTarget >= 2) && (count (crew _cursorTarget))== 0 && ((vectorUp _cursorTarget) select 2) < 0.5) then {
+			if (!(canMove _cursorTarget) && (player distance _cursorTarget >= 2) && (count (crew _cursorTarget))== 0 && ((vectorUp _cursorTarget) select 2) < 0.5) then {
 				_playersNear = {isPlayer _x} count (player nearEntities ["CAManBase", 6]);
 				if(_isVehicletype || (_playersNear >= 2)) then {
 					_player_flipveh = true;	

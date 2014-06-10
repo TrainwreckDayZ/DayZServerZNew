@@ -1,4 +1,4 @@
-if (dayz_combat == 1) exitWith {cutText [format["You are in Combat and cannot re-build your bike."], "PLAIN DOWN"];};
+//if (dayz_combat == 1) exitWith {cutText [format["You are in Combat and cannot re-build your bike."], "PLAIN DOWN"];};
 player removeAction s_player_deploybike2;
 player playActionNow "Medic";
 r_interrupt = false;

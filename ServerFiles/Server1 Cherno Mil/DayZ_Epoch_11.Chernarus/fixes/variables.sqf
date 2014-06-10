@@ -236,8 +236,7 @@ dayz_resetSelfActions = {
 	s_player_clothes = -1;
 	s_player_deploybike = -1;
 	s_player_deploybike2 = -1;
-	s_player_maintain_aread = -1;
-	s_player_maintain_area_previewd = -1;
+	s_building_snapping = -1;
 	R3F_action_charger_deplace = -5;
 	R3F_action_charger_selection = -5;
 	R3F_action_charger_vehicule = -5;
@@ -609,6 +608,7 @@ if(!isDedicated) then {
 	dayz_firstGroup = 		group player;
 	dayz_originalPlayer = 	player;
 	dayz_playerName =		name player;
+	if (isNil {dayz_playerName}) then { [] spawn { While {isNil {dayz_playerName}} do { dayz_playerName = name player; sleep 0.001;}; }; };
 	dayz_sourceBleeding =	objNull;
 	dayz_clientPreload = 	false;
 	dayz_authed = 			false;

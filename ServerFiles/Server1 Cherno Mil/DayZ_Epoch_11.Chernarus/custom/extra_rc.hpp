@@ -118,11 +118,11 @@ class ExtraSm {
 		};
 		class distance2000m {
 			text = "2000 Meters";
-			script = "dayzSetViewDistance = 2000; setViewDistance 2000; systemChat('ViewDistance: 2000'); systemChat('Warning: Higher the view distance Lower the FPS');";
+			script = "dayzSetViewDistance = 2000; setViewDistance 2000; systemChat('ViewDistance: 2000'); systemChat('Warning: Raising view distance lowers FPS');";
 		};
 		class distance3000m {
 			text = "3000 Meters";
-			script = "dayzSetViewDistance = 3000; setViewDistance 3000; systemChat('ViewDistance: 3000'); systemChat('Warning: Higher the view distance Lower the FPS');";
+			script = "dayzSetViewDistance = 3000; setViewDistance 3000; systemChat('ViewDistance: 3000'); systemChat('Warning: Raising view distance lowers FPS');";
 		};
 	};
 };
@@ -158,11 +158,11 @@ class ExtraTm {
 		};
 		class distance2000m {
 			text = "2000 Meters";
-			script = "dayzSetViewDistance = 2000; setViewDistance 2000; systemChat('ViewDistance: 2000'); systemChat('Warning: Higher the view distance Lower the FPS');";
+			script = "dayzSetViewDistance = 2000; setViewDistance 2000; systemChat('ViewDistance: 2000'); systemChat('Warning: Raising view distance lowers FPS');";
 		};
 		class distance3000m {
 			text = "3000 Meters";
-			script = "dayzSetViewDistance = 3000; setViewDistance 3000; systemChat('ViewDistance: 3000'); systemChat('Warning: Higher the view distance Lower the FPS');";
+			script = "dayzSetViewDistance = 3000; setViewDistance 3000; systemChat('ViewDistance: 3000'); systemChat('Warning: Raising view distance lowers FPS');";
 		};
 	};
 };

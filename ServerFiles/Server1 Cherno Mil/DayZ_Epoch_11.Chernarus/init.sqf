@@ -43,6 +43,7 @@ DZE_PlayerZed = false;
 dayzSetViewDistance = 1500;
 setViewDistance 1500;
 DZE_PlotPole = [100,125];
+DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
 DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
 DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular"]; 
@@ -79,7 +80,6 @@ if (isServer) then {
 		dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
 		[] spawn compile preprocessFileLineNumbers "custom\remote_messages.sqf";	
 		[] spawn compile preprocessFileLineNumbers "service_point\service_point.sqf";
-		[] spawn compile preprocessFileLineNumbers "custom\unlockDoor.sqf";
 		_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 		_playerMonitor = [] spawn compile preprocessFileLineNumbers "\z\addons\dayz_code\system\player_monitor.sqf";
 	};
