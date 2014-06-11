@@ -16,7 +16,7 @@ if ((!isNull dayz_selectedDoor) && (isNil "KeyCodeTry")) then {
 		DZE_Lock_Door = "";
 		[player,"combo_locked",0,false] call dayz_zombieSpeak;
 		[player,20,true,(getPosATL player)] spawn player_alertZombies;
-		r_player_timeout = 300;
+		r_player_timeout = 1;
 		r_player_unconscious = true;
 		player setVariable["medForceUpdate",true,true];
 		_display = findDisplay 41144;
