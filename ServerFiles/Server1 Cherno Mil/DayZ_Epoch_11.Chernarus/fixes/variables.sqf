@@ -607,8 +607,12 @@ if(!isDedicated) then {
 	dayz_guiHumanity =		-90000;
 	dayz_firstGroup = 		group player;
 	dayz_originalPlayer = 	player;
-	dayz_playerName =		name player;
-	if (isNil {dayz_playerName}) then { [] spawn { While {isNil {dayz_playerName}} do { dayz_playerName = name player; sleep 0.001;}; }; };
+	dayz_playerName =		"Player";
+	if (!isNull player) then {
+		dayz_playerName =	name player;
+	} else {
+		[] spawn {waitUntil {!isNull player}; dayz_playerName = name player;};
+	};
 	dayz_sourceBleeding =	objNull;
 	dayz_clientPreload = 	false;
 	dayz_authed = 			false;

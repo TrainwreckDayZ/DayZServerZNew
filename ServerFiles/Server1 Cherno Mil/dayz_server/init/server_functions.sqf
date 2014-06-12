@@ -155,7 +155,9 @@ eh_localCleanup = {
 			_unit removeAllEventHandlers "Local";
 			clearVehicleInit _unit;
 			deleteVehicle _unit;
-			deleteGroup _myGroupUnit;
+			if ((count (units _myGroupUnit) == 0) && (_myGroupUnit != grpNull)) then {
+				deleteGroup _myGroupUnit;
+			};
 			//_unit = nil;
 			diag_log ("CLEANUP: DELETED A " + str(_type) );
 		};
@@ -626,6 +628,7 @@ dayz_recordLogin = {
 
 dayz_perform_purge = {
 	if(!isNull(_this)) then {
+		_group = group _this;
 		_this removeAllMPEventHandlers "mpkilled";
 		_this removeAllMPEventHandlers "mphit";
 		_this removeAllMPEventHandlers "mprespawn";
@@ -638,7 +641,9 @@ dayz_perform_purge = {
 		_this removeAllEventHandlers "Local";
 		clearVehicleInit _this;
 		deleteVehicle _this;
-		deleteGroup (group _this);
+		if ((count (units _group) == 0) && (_group != grpNull)) then {
+			deleteGroup _group;
+		};
 	};
 };
 
@@ -700,6 +705,20 @@ dayz_perform_purge_player = {
 		_holder addMagazineCargoGlobal [_x, 1];
 	} forEach _magazines;
 
+	//Get and add skin
+	_itemNew = typeOf _this;
+	if (_itemNew in ["Survivor3_DZ","Bandit1_DZ"]) then {
+		_itemNew = "Survivor2_DZ";
+	};
+	if (_itemNew != "Survivor2_DZ") then {
+		_itemNew = "Skin_" + _itemNew;
+		_okSkin = isClass (configFile >> "CfgMagazines" >> _itemNew);
+		if (_okSkin && (!(_this getVariable["clothesTaken",false]))) then {
+			_holder addMagazineCargoGlobal [_itemNew, 1];
+		};
+	};
+
+	_group = group _this;
 	_this removeAllMPEventHandlers "mpkilled";
 	_this removeAllMPEventHandlers "mphit";
 	_this removeAllMPEventHandlers "mprespawn";
@@ -712,16 +731,21 @@ dayz_perform_purge_player = {
 	_this removeAllEventHandlers "Local";
 	clearVehicleInit _this;
 	deleteVehicle _this;
-	deleteGroup (group _this);
+	if ((count (units _group) == 0) && (_group != grpNull)) then {
+		deleteGroup _group;
+	};
 	//  _this = nil;
 };
 
 
 dayz_removePlayerOnDisconnect = {
 	if(!isNull(_this)) then {
+		_group = group _this;
 		_this removeAllMPEventHandlers "mphit";
 		deleteVehicle _this;
-		deleteGroup (group _this);
+		if ((count (units _group) == 0) && (_group != grpNull)) then {
+			deleteGroup _group;
+		};
 	};
 };
 
@@ -784,7 +808,7 @@ server_cleanupGroups = {
 	if(!isNil "DZE_DYN_GroupCleanup") exitWith {  DZE_DYN_AntiStuck3rd = DZE_DYN_AntiStuck3rd + 1;};
 	DZE_DYN_GroupCleanup = true;
 	{
-		if (count units _x == 0) then {
+		if ((count (units _x) == 0) && (_x != grpNull)) then {
 			deleteGroup _x;
 		};
 		sleep 0.001;

@@ -188,7 +188,9 @@ if (_helipatrol) then {
 			deleteVehicle _helicopter;
 			{deleteVehicle _x} forEach (units _unitgroup);
 			sleep 10;
-			deleteGroup _unitGroup;
+			if ((count (units _unitGroup) == 0) && (_unitGroup != grpNull)) then {
+				deleteGroup _unitGroup;
+			};
 			ai_air_units = (ai_air_units -3);
 			diag_log "WAI: Paradrop cleaned up";
 			_cleanheli = False;
