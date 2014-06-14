@@ -1,0 +1,2392 @@
+
+
+=====================================================================
+== D:\Program Files (x86)\Steam\SteamApps\common\Arma 2 Operation Arrowhead\Expansion\beta\arma2oaserver.exe
+== "Expansion\beta\arma2oaserver.exe"  -port=2332 "-config=instance_11_Chernarus\config.cfg" "-cfg=instance_11_Chernarus\basic.cfg" "-profiles=instance_11_Chernarus" -name=instance_11_Chernarus "-mod=@DayZ_Epoch;@DayZ_Epoch_Server;" -noPause -noSound -cpuCount=4 -maxMem=2047 -exThreads=1 -noCB
+=====================================================================
+Exe timestamp: 2014/06/03 09:00:31
+Current time:  2014/06/13 19:01:04
+
+Version 1.62.103718
+Item STR_EPOCH_BULK_DESC_MP5SD listed twice
+Item STR_ACTIONS_BUILD listed twice
+Item STR_EQUIP_NAME_41 listed twice
+Item STR_EQUIP_DESC_41 listed twice
+Updating base class ->NonStrategic, by Ca\config.bin/CfgVehicles/HouseBase/
+Updating base class ->HouseBase, by Ca\config.bin/CfgVehicles/Ruins/
+Updating base class ->DestructionEffects, by Ca\config.bin/CfgVehicles/House/DestructionEffects/
+Updating base class ->FlagCarrierCore, by ca\ca_pmc\config.bin/CfgVehicles/FlagCarrier/
+Updating base class ->VehicleMagazine, by ca\weapons\config.bin/CfgMagazines/14Rnd_FFAR/
+Updating base class ->PistolCore, by ca\weapons\config.bin/cfgWeapons/Pistol/
+Updating base class ->LauncherCore, by ca\weapons\config.bin/cfgWeapons/RocketPods/
+Updating base class ->RocketPods, by ca\weapons\config.bin/cfgWeapons/FFARLauncher/
+Updating base class ->Default, by ca\weapons\config.bin/cfgWeapons/ItemCore/
+Updating base class ->Citizen, by ca\characters2\config.bin/CfgVehicles/Citizen1/
+Updating base class ->SkodaBase, by ca\wheeled\config.bin/CfgVehicles/car_sedan/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_Fire/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_A_tent/
+Updating base class ->Camp_base, by ca\misc3\config.bin/CfgVehicles/ACamp/
+Updating base class ->Car, by ca\wheeled2\lada\config.bin/CfgVehicles/Lada_base/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Small_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street1_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street2_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lampa_Ind_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_PowLines_Conc2L_EP1/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_2/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_3/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind_zebr/
+Updating base class RscStandardDisplay->, by z\addons\dayz_code\config.bin/RscDisplayStart/
+Cannot delete class CA_DebriefingInfo, it is referenced somewhere (used as a base class probably).
+Cannot delete class CA_DebriefingInfo, it is referenced somewhere (used as a base class probably).
+Updating base class RscShortcutButton->RscShortcutButtonMain, by z\addons\dayz_code\config.bin/RscDisplayMain/controls/CA_Exit/
+Updating base class RscText->, by z\addons\dayz_code\config.bin/RscTitles/Default/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_villager1/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_worker1/
+Updating base class Soldier_Crew_PMC->Soldier_Bodyguard_M4_PMC, by z\addons\dayz_code\config.bin/CfgVehicles/SurvivorW2_DZ/
+Updating base class HighCommand->Logic, by z\addons\dayz_code\config.bin/CfgVehicles/HighCommandSubordinate/
+Updating base class ->ViewOptics, by z\addons\dayz_code\config.bin/CfgVehicles/Mi17_base/Turrets/MainTurret/ViewOptics/
+Updating base class HouseBase->, by z\addons\dayz_code\config.bin/CfgVehicles/House/
+Updating base class NonStrategic->BuiltItems, by z\addons\dayz_code\config.bin/CfgVehicles/Fort_RazorWire/
+Updating base class MeleeHatchet->MeleeWeapon, by z\addons\dayz_code\config.bin/CfgWeapons/MeleeCrowbar/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/29Rnd_30mm_AGS30/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/48Rnd_40mm_MK19/
+Updating base class 4000Rnd_762x51_M134->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/2000Rnd_762x51_M134/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/100Rnd_127x99_M2/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/50Rnd_127x107_DSHKM/
+Updating base class Hatchet_Swing->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/crowbar_swing/
+Updating base class CA_Magazine->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/Hatchet_Swing/
+Updating base class ->Plane, by ca\air2\mv22\config.bin/CfgVehicles/MV22/
+Updating base class ViewOptics->, by ca\air2\uh1y\config.bin/CfgVehicles/UH1_Base/Turrets/MainTurret/ViewOptics/
+Updating base class ->HouseBase, by ca\misc_e\config.bin/CfgVehicles/House/
+Updating base class ->Land_CamoNet_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNet_EAST_EP1/
+Updating base class ->Land_CamoNetB_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNetB_EAST_EP1/
+Updating base class ->Sign_1L_Noentry, by ca\misc_e\config.bin/CfgVehicles/Sign_1L_Noentry_EP1/
+Updating base class ->Sign_circle, by ca\misc_e\config.bin/CfgVehicles/Helper_Base_EP1/
+Updating base class ->Rifle, by ca\weapons_baf\config.bin/cfgWeapons/BAF_AS50_scoped/
+Updating base class ->Rifle, by ca\weapons_e\config.bin/cfgWeapons/M60A4_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_m145_EP1/
+Updating base class ->m107, by ca\weapons_e\m107\config.bin/CfgWeapons/m107_TWS_EP1/
+Updating base class ->M240, by ca\weapons_e\m240\config.bin/CfgWeapons/m240_scoped_EP1/
+Updating base class ->V3S_Base, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Base_EP1/
+Updating base class ->V3S_Base_EP1, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Refuel_TK_GUE_EP1/
+Updating base class House->DZE_OpenHouse, by warehouse\config.bin/CfgVehicles/Land_Ind_Pec_03/
+Updating base class ->Helicopter, by ca\air_e\ah6j\config.bin/CfgVehicles/AH6_Base_EP1/
+Updating base class ->Plane, by ca\air_e\an2\config.bin/CfgVehicles/An2_Base_EP1/
+Updating base class ->CH47_base_EP1, by ca\air_e\ch47\config.bin/CfgVehicles/CH_47F_EP1/
+Updating base class ViewOptics->, by ca\air_e\uh1h\config.bin/CfgVehicles/UH1H_base/Turrets/MainTurret/ViewOptics/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Crew_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_TL_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_M4_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_AA12_PMC/
+Updating base class ->BAF_Soldier_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_W/
+Updating base class ->BAF_Soldier_L_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_L_W/
+Updating base class ->BAF_Soldier_Officer_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_Officer_W/
+Updating base class ->BAF_Soldier_SniperH_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_SniperH_W/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_UN_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_UN_EP1/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_TK_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_TK_EP1/
+Updating base class ->Helicopter, by ca\air_d_baf\config.bin/CfgVehicles/BAF_Merlin_HC3_D/
+Obsolete class Animations defined in bin\config.bin/RscCompass/
+Obsolete class Animations defined in bin\config.bin/RscWatch/
+19:01:13 Server error: Player without identity Sniper Bait (id 275818172)
+19:01:23 Strange convex component288 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component289 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component290 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component291 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component292 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component293 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component294 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component295 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component296 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component297 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component298 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component299 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component300 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component301 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component302 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component303 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component304 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component305 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component306 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component307 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component308 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component309 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component310 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component311 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component312 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component313 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component314 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component315 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component316 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component317 in warehouse\models\warehouse.p3d:geometry
+19:01:23 Strange convex component252 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component253 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component254 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component255 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component256 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component257 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component258 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component259 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component260 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component261 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component262 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component263 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component264 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component265 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component266 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component267 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component268 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component269 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component270 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component271 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component272 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component273 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component274 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component275 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component276 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component277 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component278 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component279 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component280 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component281 in warehouse\models\warehouse.p3d:geometryFire
+19:01:23 Strange convex component249 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component250 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component251 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component252 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component253 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component254 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component255 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component256 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component257 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component258 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component259 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component260 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component261 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component262 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component263 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component264 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component265 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component266 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component267 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component268 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component269 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component270 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component271 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component272 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component273 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component274 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component275 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component276 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component277 in warehouse\models\warehouse.p3d:geometryView
+19:01:23 Strange convex component278 in warehouse\models\warehouse.p3d:geometryView
+19:01:28 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 0)! MoveName: amovpercmstpsnonwnondnon_amovpercmstpsraswpstdnon
+19:01:28 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 1)! MoveName: amovpercmrunsnonwbindf_rfl
+19:01:29 "DayZ Epoch: PRELOAD Functions\init [[<No group>:0 (FunctionsManager)],any]"
+19:01:29 "DayZ Epoch: MPframework inited"
+19:01:34 "infiSTAR.de AntiHack - Waiting for bis_fnc_init..."
+19:02:15 "infiSTAR.de AntiHack - bis_fnc_init done - AntiHack STARTING...!"
+19:02:15 "infiSTAR.de _randvar1: PV_zsQGuww"
+19:02:15 "infiSTAR.de _randvar2: PV_rzPczuT"
+19:02:15 "infiSTAR.de _randvar3: PV_zwBiwmr"
+19:02:15 "infiSTAR.de _randvar4: PV_4cmOm8c"
+19:02:15 "infiSTAR.de _randvar5: PV_mKzi7BP"
+19:02:15 "infiSTAR.de _randvar6: PV_GGB8Bsv"
+19:02:15 "infiSTAR.de _randvar13: PV_QwLmmz8"
+19:02:15 "infiSTAR.de _randvar19: PV_riGBcki"
+19:02:15 "infiSTAR.de _randvar26: PV_TGzKsz7"
+19:02:15 "infiSTAR.de _randvar27: PV_wQzPmsc"
+19:02:15 "infiSTAR.de _randvar27a: PV_74QQ8zB"
+19:02:15 "infiSTAR.de _randvar28: PV_8cQwk8B"
+19:02:15 "infiSTAR.de AntiHack - AntiHack LOADED!"
+19:02:15 "infiSTAR.de AntiHack - CREATING AdminMenu"
+19:02:15 "infiSTAR.de AntiHack - ADDING PublicVariableEventHandlers"
+19:02:15 "infiSTAR.de AntiHack - AntiHack FULLY LOADED"
+19:02:15 Warning: z\addons\dayz_communityassets\models\compass.p3d:0 Error while trying to generate ST for points: 863, 853, 852
+19:02:17 No speaker given for Anthony Johnson
+19:02:19 "HIVE: Starting"
+19:02:19 "server_monitor.sqf execution count = 1"
+19:02:19 "HIVE: trying to get objects"
+19:02:19 "HIVE: found 8259 objects"
+19:02:19 "HIVE: Commence Object Streaming..."
+19:02:20 "HIVE: got 5920 Epoch Objects and 2339 Vehicles"
+19:02:21 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:02:21 "infiSTAR.de Player-Log: Sniper Bait(151656198) - 0h 00min"
+19:02:25 "Res3tting B!S effects..."
+19:02:26 "Spawn sign at: [6325.68,7982.74,0]"
+19:02:26 "Spawn sign at: [6355.25,7980.22,0]"
+19:02:26 "Spawn sign at: [6383.98,7972.74,0]"
+19:02:26 "Spawn sign at: [6411.02,7960.52,0]"
+19:02:26 "Spawn sign at: [6435.62,7943.9,0]"
+19:02:26 "Spawn sign at: [6457.04,7923.36,0]"
+19:02:26 "Spawn sign at: [6474.69,7899.5,0]"
+19:02:26 "Spawn sign at: [6488.06,7872.99,0]"
+19:02:26 "Spawn sign at: [6496.75,7844.61,0]"
+19:02:26 "Spawn sign at: [6500.52,7815.17,0]"
+19:02:26 "Spawn sign at: [6499.26,7785.51,0]"
+19:02:26 "Spawn sign at: [6493.01,7756.5,0]"
+19:02:26 "Spawn sign at: [6481.94,7728.96,0]"
+19:02:26 "Spawn sign at: [6466.38,7703.68,0]"
+19:02:26 "Spawn sign at: [6446.77,7681.4,0]"
+19:02:26 "Spawn sign at: [6423.67,7662.75,0]"
+19:02:26 "Spawn sign at: [6397.76,7648.28,0]"
+19:02:26 "Spawn sign at: [6369.77,7638.39,0]"
+19:02:26 "Spawn sign at: [6340.52,7633.37,0]"
+19:02:26 "Spawn sign at: [6310.84,7633.37,0]"
+19:02:26 "Spawn sign at: [6281.58,7638.39,0]"
+19:02:26 "Spawn sign at: [6253.59,7648.28,0]"
+19:02:26 "Spawn sign at: [6227.68,7662.75,0]"
+19:02:26 "Spawn sign at: [6204.59,7681.4,0]"
+19:02:26 "Spawn sign at: [6184.98,7703.68,0]"
+19:02:26 "Spawn sign at: [6169.42,7728.96,0]"
+19:02:26 "Spawn sign at: [6158.35,7756.5,0]"
+19:02:26 "Spawn sign at: [6152.09,7785.51,0]"
+19:02:26 "Spawn sign at: [6150.83,7815.17,0]"
+19:02:26 "Spawn sign at: [6154.6,7844.61,0]"
+19:02:26 "Spawn sign at: [6163.3,7872.99,0]"
+19:02:26 "Spawn sign at: [6176.66,7899.5,0]"
+19:02:26 "Spawn sign at: [6194.31,7923.36,0]"
+19:02:26 "Spawn sign at: [6215.74,7943.9,0]"
+19:02:26 "Spawn sign at: [6240.33,7960.52,0]"
+19:02:26 "Spawn sign at: [6267.38,7972.75,0]"
+19:02:26 "Spawn sign at: [6296.1,7980.22,0]"
+19:02:26 "Spawn sign at: [6325.68,7982.74,0]"
+19:02:28 "infiSTAR.de PlayerConnected: _uid: 136873286   _name: [FFG] Zak"
+19:02:28 "infiSTAR.de Player-Log: [FFG] Zak(136873286) - 0h 00min"
+19:02:28 AH6X_DZ: FLIR_turret - unknown animation source FLIR_turret
+19:02:28 AH6X_DZ: FLIR_gun - unknown animation source FLIR_gun
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:28 Cannot create non-ai vehicle UH1H_DZ_DZE,
+19:02:29 UH1Y_DZ: ObsTurret - unknown animation source ObsTurret
+19:02:29 UH1Y_DZ: ObsGun - unknown animation source ObsGun
+19:02:30 "HIVE: Vehicle Spawn limit reached!"
+19:02:30 "HIVE: Spawning # of Debris: 10"
+19:02:30 "HIVE: Spawning # of Ammo Boxes: 3"
+19:02:30 "HIVE: Spawning # of Veins: 50"
+19:02:30 "Total Number of spawn locations 5"
+19:02:30 "Spawn sign at: [4064.23,11815.9,0]"
+19:02:30 "Spawn sign at: [4094.42,11812.9,0]"
+19:02:30 "Spawn sign at: [4123.38,11803.8,0]"
+19:02:30 "Spawn sign at: [4149.92,11789.1,0]"
+19:02:30 "Spawn sign at: [4172.94,11769.3,0]"
+19:02:30 "Spawn sign at: [4191.52,11745.3,0]"
+19:02:30 "Spawn sign at: [4204.89,11718,0]"
+19:02:30 "Spawn sign at: [4212.5,11688.7,0]"
+19:02:30 "Spawn sign at: [4214.03,11658.3,0]"
+19:02:30 "Spawn sign at: [4209.44,11628.3,0]"
+19:02:30 "Spawn sign at: [4198.9,11599.9,0]"
+19:02:30 "Spawn sign at: [4182.84,11574.1,0]"
+19:02:30 "Spawn sign at: [4161.93,11552.1,0]"
+19:02:30 "Spawn sign at: [4137.02,11534.8,0]"
+19:02:30 "Spawn sign at: [4109.13,11522.8,0]"
+19:02:30 "Spawn sign at: [4079.4,11516.7,0]"
+19:02:30 "Spawn sign at: [4049.05,11516.7,0]"
+19:02:30 "Spawn sign at: [4019.32,11522.8,0]"
+19:02:30 "Spawn sign at: [3991.43,11534.8,0]"
+19:02:30 "Spawn sign at: [3966.52,11552.1,0]"
+19:02:30 "Spawn sign at: [3945.61,11574.1,0]"
+19:02:30 "Spawn sign at: [3929.56,11599.9,0]"
+19:02:30 "Spawn sign at: [3919.01,11628.3,0]"
+19:02:30 "Spawn sign at: [3914.42,11658.3,0]"
+19:02:30 "Spawn sign at: [3915.96,11688.7,0]"
+19:02:30 "Spawn sign at: [3923.56,11718,0]"
+19:02:30 "Spawn sign at: [3936.93,11745.3,0]"
+19:02:30 "Spawn sign at: [3955.51,11769.3,0]"
+19:02:30 "Spawn sign at: [3978.54,11789.1,0]"
+19:02:30 "Spawn sign at: [4005.07,11803.8,0]"
+19:02:30 "Spawn sign at: [4034.03,11812.9,0]"
+19:02:30 "Spawn sign at: [4064.23,11815.9,0]"
+19:02:33 "WAI: AI Config File Loaded"
+19:02:33 "WAI: Mission Config File Loaded"
+19:02:33 "EPOCH EVENTS INIT"
+19:02:33 "WAI: AI Monitor Started"
+19:02:33 "WAI: Starting AI Missions Moniter"
+19:02:49 "infiSTAR.de PlayerConnected: _uid: 122098886   _name: mikew_000"
+19:02:49 "infiSTAR.de Player-Log: mikew_000(122098886) - 0h 00min"
+19:03:00 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:03:00 "infiSTAR.de Player-Log: [FFG] Steve W.(63215878) - 0h 00min"
+19:03:00 Warning Message: No entry 'bin\config.bin/CfgGlasses.Tactical_Sunglass_Black'.
+19:03:00 Warning Message: No entry '.model'.
+19:03:00 Warning Message: '/' is not a value
+19:03:09 "infiSTAR.de PlayerConnected: _uid: 98292102   _name: [FFG] ZIEMBA"
+19:03:09 "infiSTAR.de Player-Log: [FFG] ZIEMBA(98292102) - 0h 00min"
+19:03:19 "infiSTAR.de PlayerConnected: _uid:    _name: __SERVER__"
+19:03:22 "infiSTAR.de PlayerConnected: _uid: 25084742   _name: PoonSlayer69"
+19:03:22 "infiSTAR.de Player-Log: PoonSlayer69(25084742) - 0h 00min"
+19:03:23 "infiSTAR.de PlayerConnected: _uid: 25084870   _name: Aesthetics"
+19:03:23 "infiSTAR.de Player-Log: Aesthetics(25084870) - 0h 00min"
+19:03:24 "Res3tting B!S effects..."
+19:03:25 "TIME SYNC: Local Time set to [2013,8,3,14,3]"
+19:03:25 Server: Object 8:9 not found (message 70)
+19:03:26 Server: Object 9:9 not found (message 70)
+19:03:27 Server: Object info 2:1186 not found during Changing Owner
+19:03:27 Server: Object info 2:1185 not found during Changing Owner
+19:03:28 bin\config.bin/CfgMovesZombie/States/AmovPercMrunSnonWnonDfr.InterpolateTo: item count not multiple of 2 (is 17)
+19:03:28   bin\config.bin/CfgMovesZombie/States/AmovPercMrunSnonWnonDfr.InterpolateTo: Bad move 
+19:03:28 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDl.InterpolateTo: item count not multiple of 2 (is 9)
+19:03:28   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDl.InterpolateTo: Bad move 
+19:03:28 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDb.InterpolateTo: item count not multiple of 2 (is 9)
+19:03:28   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDb.InterpolateTo: Bad move 
+19:03:28 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDbr.InterpolateTo: item count not multiple of 2 (is 9)
+19:03:28   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDbr.InterpolateTo: Bad move 
+19:03:28 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDfr.InterpolateTo: item count not multiple of 2 (is 11)
+19:03:28   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDfr.InterpolateTo: Bad move 
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medicEnd
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic0S
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic0
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic1
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic2
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic3
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic3
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic4
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic5
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic4
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic5
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic0S
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic0
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic1
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic2
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.InterpolateTo: Bad move AinvPknlMstpSnonWnonDnon_medic0S
+19:03:28   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.InterpolateTo: Bad move AinvPknlMstpSnonWnonDr_medic0S
+19:03:31 "infiSTAR.de iproductVersion: 10062014IAHAT330E"
+19:03:31 Warning: z\addons\dayz_communityassets\models\razor.p3d:0 Error while trying to generate ST for points: 214, 349, 208
+19:03:33 Server: Network message 21c35 is pending
+19:03:35 "ERROR: server_playerSync: Cannot Sync Player PoonSlayer69 [68572]. Position in debug! [20386.1,-5037.76,146.187]"
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone leftshoulder doesn't exist in some skeleton 
+19:03:44 Error: Bone rightshoulder doesn't exist in some skeleton 
+19:03:55 "infiSTAR.de PlayerConnected: _uid: 138489158   _name: charismatiic"
+19:03:55 "infiSTAR.de Player-Log: charismatiic(138489158) - 0h 00min"
+19:04:05 Server: Object 13:10 not found (message 70)
+19:04:27 "infiSTAR.de PlayerConnected: _uid: 51271110   _name: That AS50 Guy"
+19:04:27 "infiSTAR.de Player-Log: That AS50 Guy(51271110) - 0h 01min"
+19:04:30 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:04:30 "infiSTAR.de Player-Log: Elbo Grease(69983238) - 0h 01min"
+19:04:32 Server: Object 10:9 not found (message 70)
+19:04:33 SetFace error: class CfgFaces.OharaHead.Face79 not found
+19:04:33 Error: Error during SetFace - class CfgFaces.OharaHead.Face79 not found
+19:04:37 "ERROR: server_playerSync: Cannot Sync Player That AS50 Guy [68496]. Position in debug! [20387.7,-5039.56,146.194]"
+19:05:06 "infiSTAR.de PlayerConnected: _uid: 151742790   _name: CHING CHONG"
+19:05:06 "infiSTAR.de Player-Log: CHING CHONG(151742790) - 0h 01min"
+19:05:15 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+19:05:15 "infiSTAR.de Player-Log: [HoC] N9NE(239326726) - 0h 01min"
+19:05:25 "0 Active ground units"
+19:05:25 "0 Active emplacement units"
+19:05:25 "0 Active chopper patrol units (Crew)"
+19:05:25 "0 Active vehicle patrol units (Crew)"
+19:05:27 Server: Object info 6:7 not found during Changing Owner
+19:05:27 Server: Object info 6:6 not found during Changing Owner
+19:05:44 "SAFE UNLOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+19:05:44 Server: Object 14:13 not found (message 70)
+19:05:44 Server: Object 14:12 not found (message 94)
+19:05:47 Server: Object 11:14 not found (message 91)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:47 Server: Object 11:13 not found (message 99)
+19:05:48 Server: Object 11:13 not found (message 99)
+19:05:48 Server: Object 11:13 not found (message 99)
+19:06:10 "infiSTAR.de PlayerConnected: _uid: 96374662   _name: Tactical Bacon"
+19:06:10 "infiSTAR.de Player-Log: Tactical Bacon(96374662) - 0h 05min"
+19:06:14 Server: Object 17:9 not found (message 70)
+19:06:47 "CLEANUP: INITIALIZING CLEANUP SCRIPT"
+19:06:54 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:06:54 "infiSTAR.de Player-Log: Captain Oblivious(153844166) - 0h 05min"
+19:07:00 Server: Object 19:9 not found (message 70)
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.08902m with 1.47305 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.0951m with 1.47368 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.0951m with 1.47252 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.05161m with 1.4724 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.05161m with 1.47242 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.05138m with 1.47239 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.05138m with 1.47231 dmg"
+19:07:01 "PHIT: B 1-1-E:1 ([FFG] Zak) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with M240_DZ from 7.05138m with 1.47155 dmg"
+19:07:01 "PKILL: [FFG] Zak was killed by Sniper Bait with weapon M240_DZ from 7.05138m"
+19:07:01 "PDEATH: Player Died 136873286"
+19:07:12 "get: STRING (136873286), sent: STRING (136873286)"
+19:07:12 "DISCONNECT: [FFG] Zak (136873286) Object: B 1-1-E:1 ([FFG] Zak) REMOTE, _characterID: 68604 at loc [20386.5,-5038.56,146.188]"
+19:07:12 "ERROR: server_playerSync: Cannot Sync Player [FFG] Zak [68604]. Position in debug! [20386.5,-5038.56,146.188]"
+19:07:15 "EPOCH SERVERTRADE: Player: charismatiic (138489158) sold a KSVK_DZE in/at Unknown Trader City for 1x ItemGoldBar10oz"
+19:07:17 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 10.1348m with 0.257435 dmg"
+19:07:17 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 9.93879m with 0.257696 dmg"
+19:07:24 "SAFE UNLOCKED: ID:68391 UID:0 BY Elbo Grease(69983238)"
+19:07:25 Server: Object 10:25 not found (message 70)
+19:07:25 Server: Object 10:24 not found (message 94)
+19:07:25 Server: Object 10:26 not found (message 94)
+19:07:25 Server: Object 10:27 not found (message 94)
+19:07:25 "infiSTAR.de PlayerConnected: _uid: 253155014   _name: Dan"
+19:07:25 "infiSTAR.de Player-Log: Dan(253155014) - 0h 06min"
+19:07:28 "infiSTAR.de PlayerConnected: _uid: 136873286   _name: [FFG] Zak"
+19:07:32 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 13.0732m with 0.257511 dmg"
+19:07:34 Server: Object info 6:15 not found during Changing Owner
+19:07:34 Server: Object info 6:14 not found during Changing Owner
+19:07:36 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 3.99573m with 0.260129 dmg"
+19:07:36 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with MakarovSD from 3.86466m with 0.167913 dmg"
+19:07:36 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with MakarovSD from 3.86466m with 0.167976 dmg"
+19:07:36 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 3.84756m with 0.260326 dmg"
+19:07:37 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 3.84282m with 0.260297 dmg"
+19:07:40 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with MakarovSD from 6.16105m with 0.166915 dmg"
+19:07:41 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with MakarovSD from 6.64827m with 0.167285 dmg"
+19:07:41 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with MakarovSD from 8.90128m with 0.166709 dmg"
+19:07:44 "SAFE LOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+19:07:53 "SAFE UNLOCKED: ID:67286 UID:0 BY [HoC] N9NE(239326726)"
+19:07:54 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 8.19239m with 0.258945 dmg"
+19:07:55 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 8.04469m with 1.52317 dmg"
+19:07:56 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 8.04469m with 1.65724 dmg"
+19:07:56 "PHIT: B 1-1-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 8.04469m with 1.65729 dmg"
+19:07:56 "PKILL:  was killed by Captain Oblivious with weapon m240_scoped_EP1_DZE from 8.04469m"
+19:07:56 "PDEATH: Player Died 63215878"
+19:07:56 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-D:1 ([FFG] Steve W.) REMOTE with UZI_SD_EP1 from 8.04469m with 0.259011 dmg"
+19:07:56 WARNING: Function 'name' - [FFG] Steve W. is dead
+19:08:00 "get: STRING (253155014), sent: STRING (253155014)"
+19:08:00 "DISCONNECT: Dan (253155014) Object: B 1-1-E:1 (Dan) REMOTE, _characterID: 67039 at loc [5526.33,2321.28,0.00143433]"
+19:08:00 Client: Remote object 22:0 not found
+19:08:00 Client: Remote object 22:8 not found
+19:08:04 Warning: Cleanup player - person 22:7 not found
+19:08:07 "SAFE UNLOCKED: ID:65113 UID:0 BY mikew_000(122098886)"
+19:08:08 "PKILL: [FFG] Zak killed himself"
+19:08:08 "PDEATH: Player Died 136873286"
+19:08:18 "get: STRING (136873286), sent: STRING (136873286)"
+19:08:18 "DISCONNECT: [FFG] Zak (136873286) Object: B 1-2-B:1 ([FFG] Zak) REMOTE, _characterID: 68605 at loc [20386.1,-5038.17,146.186]"
+19:08:18 "ERROR: server_playerSync: Cannot Sync Player [FFG] Zak [68605]. Position in debug! [20386.1,-5038.17,146.186]"
+19:08:30 "SAFE LOCKED: ID:67286 UID:0 BY [HoC] N9NE(239326726)"
+19:08:32 "infiSTAR.de PlayerConnected: _uid: 136873286   _name: [FFG] Zak"
+19:08:35 "WAI: Starting Mission disabled_civchopper"
+19:08:36 "WAI: Mission Civilian Aircraft Started At [4581.4,7481.74]"
+19:08:36 "WAI: Mission Civilian Aircraft spawned a AH6X Little Bird"
+19:08:37 "WAI: Spawned a group of 5 Bandits at [4581.4,7481.74,0]"
+19:08:39 "infiSTAR.de PlayerConnected: _uid: 87615302   _name: SmokeBlowinClowns"
+19:08:39 "infiSTAR.de Player-Log: SmokeBlowinClowns(87615302) - 0h 07min"
+19:08:40 "SAFE LOCKED: ID:68391 UID:0 BY Elbo Grease(69983238)"
+19:08:41 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-B:1 ([FFG] ZIEMBA) REMOTE with m8_carbine from 192.067m with 0.511857 dmg"
+19:08:41 "PKILL: Captain Oblivious was killed by [FFG] ZIEMBA with weapon m8_carbine from 192.067m"
+19:08:41 "PDEATH: Player Died 153844166"
+19:08:41 "PHIT: B 1-2-A:1 (Captain Oblivious) REMOTE was hit by B 1-1-B:1 ([FFG] ZIEMBA) REMOTE with m8_carbine from 192.067m with 0.511974 dmg"
+19:08:45 Unit 9:31 not found, cannot update
+19:08:52 "get: STRING (153844166), sent: STRING (153844166)"
+19:08:52 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-2-A:1 (Captain Oblivious) REMOTE, _characterID: 68529 at loc [20386.6,-5038.51,146.188]"
+19:08:52 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68529]. Position in debug! [20386.6,-5038.51,146.188]"
+19:08:52 "infiSTAR.de Log: Captain Oblivious (153844166) | AntiHack not successfully loaded (kicked to relog) (randvar26: any   randvar28: false)   |DayZ Instance: 11|"
+19:08:52 Client: Remote object 19:0 not found
+19:08:52 Client: Remote object 19:5 not found
+19:08:52 Client: Remote object 19:6 not found
+19:08:52 Client: Remote object 19:8 not found
+19:08:58 "infiSTAR.de PlayerConnected: _uid: 83445126   _name: Rolanks"
+19:08:58 "infiSTAR.de Player-Log: Rolanks(83445126) - 0h 07min"
+19:09:03 Server: Object 23:9 not found (message 94)
+19:09:04 "ERROR: server_playerSync: Cannot Sync Player Rolanks [68286]. Position in debug! [20249.2,-4900.92,151.168]"
+19:09:14 "SAFE UNLOCKED: ID:66182 UID:0 BY Tactical Bacon(96374662)"
+19:09:14 "EPOCH SERVERTRADE: Player: charismatiic (138489158) bought a SUV_Charcoal in/at Unknown Trader City for 1x ItemGoldBar10oz"
+19:09:15 "PUBLISH: Attempt 3ca54800# 1065937: arrow_down_large_ep1.p3d REMOTE"
+19:09:15 "HIVE: WRITE: "CHILD:308:11:SUV_Charcoal:0:7946:[182,[6389.76,7753.36,0.0118103]]:[]:[]:1:63898775340515:""
+19:09:16 "HIVE: WRITE: "CHILD:388:63898775340515:""
+19:09:16 "CUSTOM: Selected "68827""
+19:09:16 "PUBLISH: B 1-1-G:1 (charismatiic) REMOTE Bought SUV_Charcoal with ID "63898775340515""
+19:09:19 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:09:21 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68601]. Position in debug! [20387.4,-5038.71,146.194]"
+19:09:21 "get: STRING (63215878), sent: STRING (63215878)"
+19:09:21 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-1-A:1 ([FFG] Steve W.) REMOTE, _characterID: 68601 at loc [20387.4,-5038.71,146.194]"
+19:09:21 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68601]. Position in debug! [20387.4,-5038.71,146.194]"
+19:09:24 Server: Object 19:22 not found (message 89)
+19:09:24 Server: Object info 9:35 not found during Changing Owner
+19:09:24 Server: Object info 9:34 not found during Changing Owner
+19:09:39 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:09:47 Server: Object 9:45 not found (message 89)
+19:09:47 Server: Object info 6:19 not found during Changing Owner
+19:09:47 Server: Object info 6:18 not found during Changing Owner
+19:10:32 "EPOCH SERVERTRADE: Player: charismatiic (138489158) sold a M8_SAW in/at Unknown Trader City for 6x ItemGoldBar"
+19:10:41 "SAFE LOCKED: ID:65113 UID:0 BY mikew_000(122098886)"
+19:10:47 Cannot load sound 'jsrs_sa58\reload.wss'
+19:11:15 "EPOCH SERVERTRADE: Player: charismatiic (138489158) bought a ItemCrowbar in/at Unknown Trader City for 2x ItemSilverBar"
+19:11:16 "PKILL: [FFG] Zak killed himself"
+19:11:16 "PDEATH: Player Died 136873286"
+19:11:26 "get: STRING (136873286), sent: STRING (136873286)"
+19:11:26 "DISCONNECT: [FFG] Zak (136873286) Object: B 1-1-E:1 ([FFG] Zak) REMOTE, _characterID: 68606 at loc [20386.6,-5038.52,146.189]"
+19:11:26 "ERROR: server_playerSync: Cannot Sync Player [FFG] Zak [68606]. Position in debug! [20386.6,-5038.52,146.189]"
+19:11:36 "EPOCH SERVERTRADE: Player: charismatiic (138489158) bought a ItemEtool in/at Unknown Trader City for 4x ItemGoldBar"
+19:11:43 "infiSTAR.de PlayerConnected: _uid: 136873286   _name: [FFG] Zak"
+19:11:47 "TIME SYNC: Local Time set to [2013,8,3,14,11]"
+19:11:48 "SAFE UNLOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:11:49 Server: Object 8:46 not found (message 94)
+19:11:49 Server: Object 8:51 not found (message 70)
+19:11:49 Server: Object 8:52 not found (message 94)
+19:11:49 Server: Object 8:47 not found (message 94)
+19:11:49 Server: Object 8:45 not found (message 94)
+19:11:49 Server: Object 8:48 not found (message 94)
+19:11:49 Server: Object 8:49 not found (message 94)
+19:11:49 Server: Object 8:50 not found (message 94)
+19:12:00 "EPOCH SERVERTRADE: Player: charismatiic (138489158) bought a ItemTentDomed2 in/at Unknown Trader City for 6x ItemSilverBar"
+19:12:29 "PKILL: [FFG] Zak killed himself"
+19:12:29 "PDEATH: Player Died 136873286"
+19:12:33 "infiSTAR.de PlayerConnected: _uid: 80781638   _name: [BCG] Jeep"
+19:12:33 "infiSTAR.de Player-Log: [BCG] Jeep(80781638) - 0h 11min"
+19:12:39 Server: Object 29:9 not found (message 70)
+19:12:39 "get: STRING (136873286), sent: STRING (136873286)"
+19:12:39 "DISCONNECT: [FFG] Zak (136873286) Object: B 1-1-E:1 ([FFG] Zak) REMOTE, _characterID: 68609 at loc [20386.6,-5038.52,146.189]"
+19:12:39 "ERROR: server_playerSync: Cannot Sync Player [FFG] Zak [68609]. Position in debug! [20386.6,-5038.52,146.189]"
+19:12:55 "infiSTAR.de PlayerConnected: _uid: 136873286   _name: [FFG] Zak"
+19:12:56 "SAFE UNLOCKED: ID:66264 UID:0 BY Tactical Bacon(96374662)"
+19:13:03 Server: Object info 6:25 not found during Changing Owner
+19:13:03 Server: Object info 6:24 not found during Changing Owner
+19:13:09 "get: STRING (25084870), sent: STRING (25084870)"
+19:13:09 "DISCONNECT: Aesthetics (25084870) Object: B 1-1-A:3 (Aesthetics) REMOTE, _characterID: 0 at loc [20385.9,-5039.04,145.087]"
+19:13:09 "ERROR: Cannot Sync Character Aesthetics as no characterID"
+19:13:09 Client: Remote object 2:3974 not found
+19:13:09 Client: Object 21:14 (type Type_149) not found.
+19:13:09 Client: Object 29:66 (type Type_149) not found.
+19:13:09 Client: Object 14:38 (type Type_149) not found.
+19:13:09 Client: Object 13:61 (type Type_149) not found.
+19:13:09 Client: Object 9:72 (type Type_149) not found.
+19:13:09 Client: Object 7:52 (type Type_149) not found.
+19:13:13 "infiSTAR.de PlayerConnected: _uid: 164938630   _name: Prototype factory"
+19:13:13 "infiSTAR.de Player-Log: Prototype factory(164938630) - 0h 12min"
+19:13:28 "SAFE UNLOCKED: ID:67826 UID:0 BY Tactical Bacon(96374662)"
+19:13:45 "SAFE LOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:13:53 "infiSTAR.de PlayerConnected: _uid: 250069766   _name: [BCG] Dodge"
+19:13:53 "infiSTAR.de Player-Log: [BCG] Dodge(250069766) - 0h 12min"
+19:14:52 "PUBLISH: Attempt 383a90c0# 1065834: ah6x.p3d"
+19:14:52 "HIVE: WRITE: "CHILD:308:11:AH6X_DZ:0:0:[214,[4581.17,7481.62,0.0167236]]:[]:[["glass1",0.103347],["glass2",0.0410941],["glass3",0.0663993],["glass4",0.010569],["glass5",0.0175946],["NEtrup",0.0429578],["motor",0.107248],["elektronika",0.0439636],["mala vrtule",0.202912],["velka vrtule",0.224855],["munice",0.234732],["sklo predni P",0.168676],["sklo predni L",0.281799],["glass6",0.0220756]]:50:45812748160214:""
+19:14:54 "HIVE: WRITE: "CHILD:388:45812748160214:""
+19:14:54 "CUSTOM: Selected "68828""
+19:14:54 "PUBLISH: Created AH6X_DZ with ID "45812748160214""
+19:15:01 "WAI: Mission Civilian Aircraft Ended At [4581.4,7481.74]"
+19:15:09 "infiSTAR.de PlayerConnected: _uid: 10711942   _name: [HoC] Riftic"
+19:15:09 "infiSTAR.de Player-Log: [HoC] Riftic(10711942) - 0h 13min"
+19:15:25 "infiSTAR.de PlayerConnected: _uid: 25084870   _name: Aesthetics"
+19:15:31 "SAFE UNLOCKED: ID:68802 UID:0 BY [BCG] Dodge(250069766)"
+19:15:47 "SAFE UNLOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:15:48 Server: Object 8:60 not found (message 70)
+19:15:48 Server: Object 8:57 not found (message 94)
+19:15:48 Server: Object 8:58 not found (message 94)
+19:15:48 Server: Object 8:59 not found (message 94)
+19:15:48 Server: Object 8:61 not found (message 94)
+19:15:48 Server: Object 8:62 not found (message 94)
+19:15:48 Server: Object 8:63 not found (message 94)
+19:15:48 Server: Object 8:64 not found (message 94)
+19:16:07 "SAFE LOCKED: ID:68802 UID:0 BY [BCG] Dodge(250069766)"
+19:16:48 "TIME SYNC: Local Time set to [2013,8,3,14,16]"
+19:17:06 "SAFE LOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:17:17 "infiSTAR.de Log: [HoC] Riftic (10711942) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+19:17:42 "SAFE UNLOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:17:42 Server: Object 8:73 not found (message 70)
+19:17:42 Server: Object 8:70 not found (message 94)
+19:17:42 Server: Object 8:71 not found (message 94)
+19:17:42 Server: Object 8:72 not found (message 94)
+19:17:42 Server: Object 8:74 not found (message 94)
+19:17:42 Server: Object 8:75 not found (message 94)
+19:17:42 Server: Object 8:76 not found (message 94)
+19:17:42 Server: Object 8:77 not found (message 94)
+19:17:50 Server: Object 11:56 not found (message 98)
+19:17:50 Server: Object 11:57 not found (message 91)
+19:17:50 Server: Object 31:27 not found (message 91)
+19:17:50 Server: Object 31:26 not found (message 99)
+19:17:51 "PHIT: B 1-2-H:1 ([HoC] Riftic) REMOTE was hit by B 1-2-H:1 ([HoC] Riftic) REMOTE with ATV from 0m with 0.0785937 dmg"
+19:17:51 "PDEATH: Player Died 239326726"
+19:17:59 Server: Object 31:49 not found (message 94)
+19:17:59 Server: Object 31:50 not found (message 94)
+19:17:59 Server: Object 31:57 not found (message 94)
+19:17:59 Server: Object 31:55 not found (message 94)
+19:17:59 Server: Object 31:56 not found (message 94)
+19:17:59 Server: Object 31:60 not found (message 70)
+19:17:59 Server: Object 31:58 not found (message 94)
+19:17:59 Server: Object 31:59 not found (message 94)
+19:17:59 Server: Object 31:61 not found (message 94)
+19:17:59 Server: Object 31:62 not found (message 94)
+19:17:59 Server: Object 31:63 not found (message 70)
+19:18:01 "get: STRING (239326726), sent: STRING (239326726)"
+19:18:01 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-1-L:1 ([HoC] N9NE) REMOTE, _characterID: 68465 at loc [20395.5,-5047.44,146.06]"
+19:18:01 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68465]. Position in debug! [20395.5,-5047.44,146.06]"
+19:18:01 Client: Remote object 11:0 not found
+19:18:03 NetServer::SendMsg: cannot find channel #216457344, users.card=20
+19:18:03 NetServer: users.get failed when sending to 216457344
+19:18:03 Message not sent - error 0, message ID = ffffffff, to 216457344 ([HoC] N9NE)
+19:18:04 Warning: Cleanup player - person 11:60 not found
+19:18:10 "SAFE LOCKED: ID:65111 UID:0 BY mikew_000(122098886)"
+19:18:25 "infiSTAR.de PlayerConnected: _uid: 26781126   _name: Tyrone"
+19:18:25 "infiSTAR.de Player-Log: Tyrone(26781126) - 0h 17min"
+19:19:19 "5 Active ground units"
+19:19:19 "0 Active emplacement units"
+19:19:19 "0 Active chopper patrol units (Crew)"
+19:19:19 "0 Active vehicle patrol units (Crew)"
+19:19:37 "infiSTAR.de Log: Elbo Grease (69983238) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:19:41 "ERROR: Cannot Sync Character Captain Oblivious as no characterID"
+19:20:05 Server: Object 23:67 not found (message 94)
+19:20:05 Server: Object 23:70 not found (message 70)
+19:20:05 Server: Object 23:69 not found (message 70)
+19:20:05 Server: Object 23:68 not found (message 70)
+19:20:05 Server: Object 23:76 not found (message 94)
+19:20:05 Server: Object 23:75 not found (message 70)
+19:20:05 Server: Object 23:71 not found (message 70)
+19:20:05 Server: Object 23:85 not found (message 70)
+19:20:05 Server: Object 23:84 not found (message 70)
+19:20:05 Server: Object 23:83 not found (message 70)
+19:20:05 Server: Object 23:82 not found (message 70)
+19:20:05 Server: Object 23:81 not found (message 70)
+19:20:05 Server: Object 23:80 not found (message 70)
+19:20:05 Server: Object 23:78 not found (message 70)
+19:20:05 Server: Object 23:72 not found (message 94)
+19:20:05 Server: Object 23:73 not found (message 94)
+19:20:05 Server: Object 23:74 not found (message 94)
+19:20:05 Server: Object 23:79 not found (message 70)
+19:20:05 Server: Object 23:77 not found (message 94)
+19:20:05 Server: Object 23:90 not found (message 94)
+19:20:05 Server: Object 23:93 not found (message 94)
+19:20:05 Server: Object 23:92 not found (message 70)
+19:20:05 Server: Object 23:91 not found (message 70)
+19:20:05 Server: Object 23:89 not found (message 70)
+19:20:05 Server: Object 23:88 not found (message 94)
+19:20:05 Server: Object 23:87 not found (message 70)
+19:20:05 Server: Object 23:86 not found (message 70)
+19:20:05 Server: Object 23:95 not found (message 70)
+19:20:05 Server: Object 23:103 not found (message 70)
+19:20:05 Server: Object 23:102 not found (message 70)
+19:20:06 Server: Object 23:101 not found (message 70)
+19:20:06 Server: Object 23:94 not found (message 94)
+19:20:06 Server: Object 23:100 not found (message 70)
+19:20:06 Server: Object 23:96 not found (message 94)
+19:20:06 Server: Object 23:97 not found (message 94)
+19:20:06 Server: Object 23:98 not found (message 94)
+19:20:06 Server: Object 23:99 not found (message 94)
+19:20:06 Server: Object 23:107 not found (message 94)
+19:20:06 Server: Object 23:106 not found (message 70)
+19:20:06 Server: Object 23:108 not found (message 70)
+19:20:06 Server: Object 23:104 not found (message 94)
+19:20:06 Server: Object 23:105 not found (message 70)
+19:20:06 Server: Object 23:109 not found (message 70)
+19:20:07 Server: Object 23:119 not found (message 94)
+19:20:07 Server: Object 23:118 not found (message 94)
+19:20:14 Server: Object 7:56 not found (message 91)
+19:20:14 Server: Object 7:55 not found (message 98)
+19:20:24 Server: Object 23:133 not found (message 94)
+19:20:24 Server: Object 23:134 not found (message 94)
+19:20:24 Server: Object 23:135 not found (message 94)
+19:20:24 Server: Object 23:136 not found (message 94)
+19:20:27 Server: Object 19:22 not found (message 221)
+19:20:31 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+19:20:59 "PKILL: [FFG] Steve W. was killed by Captain Oblivious with weapon UZI_SD_EP1 from 10.4719m"
+19:20:59 "PDEATH: Player Died 63215878"
+19:20:59 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-K:1 (Captain Oblivious) REMOTE with UZI_SD_EP1 from 7.24495m with 0.265323 dmg"
+19:21:06 "PKILL:  was killed by [FFG] ZIEMBA with weapon m8_carbine from 5.69368m"
+19:21:06 "PDEATH: Player Died 153844166"
+19:21:09 "get: STRING (63215878), sent: STRING (63215878)"
+19:21:09 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-2-D:1 ([FFG] Steve W.) REMOTE, _characterID: 68608 at loc [20386.5,-5038.57,146.188]"
+19:21:09 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68608]. Position in debug! [20386.5,-5038.57,146.188]"
+19:21:13 "get: STRING (87615302), sent: STRING (87615302)"
+19:21:13 "DISCONNECT: SmokeBlowinClowns (87615302) Object: B 1-2-B:1 (SmokeBlowinClowns) REMOTE, _characterID: 67743 at loc [1199.8,5961.33,0.0014801]"
+19:21:14 Client: Remote object 21:0 not found
+19:21:14 Client: Remote object 21:8 not found
+19:21:15 Warning: Cleanup player - person 21:7 not found
+19:21:20 "PKILL: [FFG] ZIEMBA was killed by Sniper Bait with weapon BAF_LRR_scoped from 140.828m"
+19:21:20 "PDEATH: Player Died 98292102"
+19:21:20 "PHIT: B 1-1-B:1 ([FFG] ZIEMBA) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with BAF_LRR_scoped from 140.828m with 5.32634 dmg"
+19:21:28 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68607]. Position in debug! [20385.7,-5038.78,146.181]"
+19:21:29 "get: STRING (153844166), sent: STRING (153844166)"
+19:21:29 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-2-M:1 (Captain Oblivious) REMOTE, _characterID: 68607 at loc [20385.7,-5038.78,146.181]"
+19:21:29 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68607]. Position in debug! [20385.7,-5038.78,146.181]"
+19:21:29 Client: Remote object 19:89 not found
+19:21:29 Client: Remote object 19:88 not found
+19:21:30 "get: STRING (98292102), sent: STRING (98292102)"
+19:21:30 "DISCONNECT: [FFG] ZIEMBA (98292102) Object: B 1-1-B:1 ([FFG] ZIEMBA) REMOTE, _characterID: 67807 at loc [20386.2,-5039.39,146.183]"
+19:21:30 "ERROR: server_playerSync: Cannot Sync Player [FFG] ZIEMBA [67807]. Position in debug! [20386.2,-5039.39,146.183]"
+19:21:34 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:21:37 "PKILL: [HoC] N9NE killed himself"
+19:21:37 "PDEATH: Player Died 239326726"
+19:21:48 "get: STRING (239326726), sent: STRING (239326726)"
+19:21:48 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-2-L:1 ([HoC] N9NE) REMOTE, _characterID: 68611 at loc [20386.5,-5038.57,146.188]"
+19:21:48 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68611]. Position in debug! [20386.5,-5038.57,146.188]"
+19:21:48 Client: Remote object 34:0 not found
+19:21:49 "TIME SYNC: Local Time set to [2013,8,3,14,21]"
+19:21:53 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:22:04 "infiSTAR.de PlayerConnected: _uid: 98292102   _name: [FFG] ZIEMBA"
+19:22:10 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+19:22:17 "CLEANUP: Deleted 36 Animals out of 113"
+19:22:25 Server: Object 19:106 not found (message 98)
+19:22:25 Server: Object 19:107 not found (message 91)
+19:22:27 "PKILL: Captain Oblivious killed himself"
+19:22:27 "PDEATH: Player Died 153844166"
+19:22:29 "PKILL: [FFG] Steve W. killed himself"
+19:22:29 "PDEATH: Player Died 63215878"
+19:22:37 "get: STRING (153844166), sent: STRING (153844166)"
+19:22:37 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-2-D:1 (Captain Oblivious) REMOTE, _characterID: 68613 at loc [20386.2,-5037.8,146.187]"
+19:22:37 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68613]. Position in debug! [20386.2,-5037.8,146.187]"
+19:22:39 "get: STRING (63215878), sent: STRING (63215878)"
+19:22:39 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-2-B:1 ([FFG] Steve W.) REMOTE, _characterID: 68612 at loc [20387,-5038.04,146.193]"
+19:22:39 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68612]. Position in debug! [20387,-5038.04,146.193]"
+19:23:00 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:23:02 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:23:05 Server: Object 19:119 not found (message 89)
+19:23:05 Server: Object info 34:35 not found during Changing Owner
+19:23:05 Server: Object info 34:34 not found during Changing Owner
+19:23:06 Server: Object 19:125 not found (message 91)
+19:23:10 "WAI: Starting Mission MV22"
+19:23:10 "WAI: Mission MV22 Started At [4764.64,7270.22]"
+19:23:10 "WAI: Mission MV22 spawned a MV-22"
+19:23:11 "WAI: Spawned a group of 5 Bandits at [4764.64,7270.22,0]"
+19:23:12 Server: Object 9:161 not found (message 94)
+19:23:12 Server: Object 9:160 not found (message 70)
+19:23:12 Server: Object 9:159 not found (message 94)
+19:23:12 Server: Object 9:162 not found (message 98)
+19:23:12 Server: Object 9:163 not found (message 91)
+19:23:12 Server: Object 9:167 not found (message 91)
+19:23:12 Server: Object 9:166 not found (message 99)
+19:23:13 "WAI: Spawned a group of 4 Bandits at [4764.64,7270.22,0]"
+19:23:14 "WAI: Sapwned in 2 M2StaticMG"
+19:23:19 "PKILL: [FFG] ZIEMBA killed himself"
+19:23:19 "PDEATH: Player Died 98292102"
+19:23:25 "EPOCH SERVERTRADE: Player: [BCG] Jeep (80781638) sold a BAF_Merlin_HC3_D in/at Unknown Trader City for 3x ItemGoldBar10oz"
+19:23:29 "get: STRING (98292102), sent: STRING (98292102)"
+19:23:29 "DISCONNECT: [FFG] ZIEMBA (98292102) Object: B 1-2-K:1 ([FFG] ZIEMBA) REMOTE, _characterID: 68614 at loc [20386.5,-5038.57,146.188]"
+19:23:29 "ERROR: server_playerSync: Cannot Sync Player [FFG] ZIEMBA [68614]. Position in debug! [20386.5,-5038.57,146.188]"
+19:23:38 "get: STRING (51271110), sent: STRING (51271110)"
+19:23:38 "DISCONNECT: That AS50 Guy (51271110) Object: B 1-1-I:1 (That AS50 Guy) REMOTE, _characterID: 68496 at loc [13862.1,11644.8,0.00177622]"
+19:23:38 Client: Remote object 12:8 not found
+19:23:51 "infiSTAR.de PlayerConnected: _uid: 98292102   _name: [FFG] ZIEMBA"
+19:24:55 "PDEATH: Player Died 26781126"
+19:25:02 "infiSTAR.de PlayerConnected: _uid: 14952710   _name: Vajazzler"
+19:25:02 "infiSTAR.de Player-Log: Vajazzler(14952710) - 0h 23min"
+19:25:05 "get: STRING (26781126), sent: STRING (26781126)"
+19:25:05 "DISCONNECT: Tyrone (26781126) Object: B 1-1-L:1 (Tyrone) REMOTE, _characterID: 68593 at loc [20386.8,-5038.21,146.191]"
+19:25:05 "ERROR: server_playerSync: Cannot Sync Player Tyrone [68593]. Position in debug! [20386.8,-5038.21,146.191]"
+19:25:05 Client: Remote object 33:0 not found
+19:25:05 Server: Object 35:9 not found (message 70)
+19:25:10 "PHIT: B 1-1-K:1 (CHING CHONG) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 66.9357m with 0.591489 dmg"
+19:25:10 "PHIT: B 1-1-K:1 (CHING CHONG) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 66.9357m with 0.593371 dmg"
+19:25:10 "PHIT: B 1-1-K:1 (CHING CHONG) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 60.3023m with 0.602847 dmg"
+19:25:10 "PHIT: B 1-1-K:1 (CHING CHONG) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 44.5909m with 0.624593 dmg"
+19:25:10 "PKILL:  was killed by Aesthetics with weapon SCAR_L_STD_EGLM_RCO from 44.5909m"
+19:25:10 "PDEATH: Player Died 151742790"
+19:25:14 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-1-H:1 (Elbo Grease) REMOTE with MH-6J Little Bird from 0m with 0.0904577 dmg"
+19:25:25 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Makarov from 12.1069m with 0.164702 dmg"
+19:25:25 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Makarov from 12.4499m with 0.164483 dmg"
+19:25:25 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Makarov from 13.754m with 0.163588 dmg"
+19:25:26 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Makarov from 16.1997m with 0.161895 dmg"
+19:25:30 "infiSTAR.de PlayerConnected: _uid: 26781126   _name: Tyrone"
+19:25:31 "ERROR: server_playerSync: Cannot Sync Player CHING CHONG [68592]. Position in debug! [20386.5,-5038.57,146.188]"
+19:25:32 "get: STRING (151742790), sent: STRING (151742790)"
+19:25:32 "DISCONNECT: CHING CHONG (151742790) Object: B 1-1-L:1 (CHING CHONG) REMOTE, _characterID: 68592 at loc [20386.5,-5038.57,146.188]"
+19:25:32 "ERROR: server_playerSync: Cannot Sync Player CHING CHONG [68592]. Position in debug! [20386.5,-5038.57,146.188]"
+19:25:32 Client: Remote object 14:0 not found
+19:25:47 Server: Object 10:79 not found (message 70)
+19:25:47 Server: Object 10:78 not found (message 70)
+19:25:47 "Vehicle destroyed at GPS 064076 by Elbo Grease (69983238) - MH6J_DZ, worldspace [341.916,[6424.11,7666.88,0.415222]], objID 68465, objUID 0"
+19:25:47 Server: Object 7:58 not found (message 70)
+19:25:47 Server: Object 7:57 not found (message 70)
+19:25:48 "Locked Vehicle destroyed at GPS 064076 by Elbo Grease (69983238) - SUV_Red, worldspace [162.734,[6423.9,7665.23,0.0241394]], objID 68812, objUID 0"
+19:25:49 "PHIT: B 1-1-F:1 (PoonSlayer69) REMOTE was hit by B 1-1-H:1 (Elbo Grease) REMOTE with MH-6J Little Bird from 2.0623m with 1.82239 dmg"
+19:25:49 "PHIT: B 1-1-F:1 (PoonSlayer69) REMOTE was hit by B 1-1-H:1 (Elbo Grease) REMOTE with MH-6J Little Bird from 2.0623m with 0.520116 dmg"
+19:25:52 "PUBLISH: Attempt 3b1890c0# 1067262: mv22.p3d"
+19:25:52 "HIVE: WRITE: "CHILD:308:11:MV22_DZ:0:0:[245,[4764.63,7270.05,0.00964355]]:[]:[["telo",0.287004]]:50:47646727000245:""
+19:25:55 "HIVE: WRITE: "CHILD:388:47646727000245:""
+19:25:55 "CUSTOM: Selected "68837""
+19:25:55 "PUBLISH: Created MV22_DZ with ID "47646727000245""
+19:26:02 "WAI: Mission MV-22 Ended At [4764.64,7270.22]"
+19:26:02 "infiSTAR.de PlayerConnected: _uid: 151742790   _name: CHING CHONG"
+19:26:03 "PDEATH: Player Died 83445126"
+19:26:19 "ERROR: server_playerSync: Cannot Sync Player Rolanks [68286]. Position in debug! [20386.5,-5038.62,146.188]"
+19:26:19 "get: STRING (83445126), sent: STRING (83445126)"
+19:26:19 "DISCONNECT: Rolanks (83445126) Object: B 1-2-A:1 (Rolanks) REMOTE, _characterID: 68286 at loc [20386.5,-5038.62,146.188]"
+19:26:19 "ERROR: server_playerSync: Cannot Sync Player Rolanks [68286]. Position in debug! [20386.5,-5038.62,146.188]"
+19:26:19 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 248.131m with 0.285257 dmg"
+19:26:19 Client: Remote object 23:0 not found
+19:26:20 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 248.436m with 0.509088 dmg"
+19:26:21 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 248.814m with 0.507463 dmg"
+19:26:21 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 248.813m with 0.50856 dmg"
+19:26:22 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 248.766m with 0.508808 dmg"
+19:26:25 "PHIT: B 1-2-B:1 (Captain Oblivious) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 249.754m with 0.508511 dmg"
+19:26:26 "PKILL: Captain Oblivious was killed by [FFG] Zak with weapon Sa58V_RCO_EP1 from 249.754m"
+19:26:26 "PDEATH: Player Died 153844166"
+19:26:36 "get: STRING (153844166), sent: STRING (153844166)"
+19:26:36 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-2-B:1 (Captain Oblivious) REMOTE, _characterID: 68616 at loc [20386.5,-5038.57,146.188]"
+19:26:36 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68616]. Position in debug! [20386.5,-5038.57,146.188]"
+19:26:49 "TIME SYNC: Local Time set to [2013,8,3,14,26]"
+19:26:50 "infiSTAR.de PlayerConnected: _uid: 83445126   _name: Rolanks"
+19:26:54 "EPOCH SERVERTRADE: Player: [BCG] Jeep (80781638) sold a BAF_Merlin_HC3_D in/at Unknown Trader City for 3x ItemGoldBar10oz"
+19:26:58 "PKILL: [FFG] Steve W. was killed by Sniper Bait with weapon BAF_LRR_scoped from 156.39m"
+19:26:58 "PDEATH: Player Died 63215878"
+19:26:58 "PHIT: B 1-2-D:1 ([FFG] Steve W.) REMOTE was hit by B 1-1-B:1 (Sniper Bait) REMOTE with BAF_LRR_scoped from 156.257m with 5.35143 dmg"
+19:27:03 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:27:08 "get: STRING (63215878), sent: STRING (63215878)"
+19:27:08 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-2-D:1 ([FFG] Steve W.) REMOTE, _characterID: 68617 at loc [20386.5,-5038.57,146.188]"
+19:27:08 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68617]. Position in debug! [20386.5,-5038.57,146.188]"
+19:27:10 Server: Object 19:154 not found (message 99)
+19:27:10 Server: Object 19:155 not found (message 91)
+19:27:28 "infiSTAR.de PlayerConnected: _uid: 98212038   _name: TimBR"
+19:27:28 "infiSTAR.de Player-Log: TimBR(98212038) - 0h 26min"
+19:27:32 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:27:41 Warning: Cleanup player - person 12:7 not found
+19:27:58 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.69114m with 0.676874 dmg"
+19:27:59 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.50464m with 0.675453 dmg"
+19:27:59 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.28197m with 0.674881 dmg"
+19:27:59 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.21087m with 0.674997 dmg"
+19:27:59 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.21087m with 0.675583 dmg"
+19:27:59 "PHIT: B 1-1-H:1 (Elbo Grease) REMOTE was hit by B 1-2-I:1 (Aesthetics) REMOTE with SCAR_L_STD_EGLM_RCO from 4.20209m with 0.675592 dmg"
+19:27:59 "PKILL: Elbo Grease was killed by Aesthetics with weapon SCAR_L_STD_EGLM_RCO from 4.20209m"
+19:27:59 "PDEATH: Player Died 69983238"
+19:28:01 NetServer::SendMsg: cannot find channel #1972772969, users.card=21
+19:28:01 NetServer: users.get failed when sending to 1972772969
+19:28:01 Message not sent - error 0, message ID = ffffffff, to 1972772969 (DetectiveSloth)
+19:28:02 Server: Object 13:142 not found (message 94)
+19:28:04 SetFace error: class CfgFaces.OharaHead.Face79 not found
+19:28:04 Error: Error during SetFace - class CfgFaces.OharaHead.Face79 not found
+19:28:04 SetFace error: class CfgFaces.OharaHead.Face79 not found
+19:28:04 Error: Error during SetFace - class CfgFaces.OharaHead.Face79 not found
+19:28:10 "get: STRING (69983238), sent: STRING (69983238)"
+19:28:10 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-H:1 (Elbo Grease) REMOTE, _characterID: 68411 at loc [20386.5,-5038.57,146.188]"
+19:28:10 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68411]. Position in debug! [20386.5,-5038.57,146.188]"
+19:28:10 Client: Remote object 10:0 not found
+19:28:10 "PKILL: Captain Oblivious killed himself"
+19:28:10 "PDEATH: Player Died 153844166"
+19:28:17 "PKILL: [FFG] Steve W. killed himself"
+19:28:17 "PDEATH: Player Died 63215878"
+19:28:21 "get: STRING (153844166), sent: STRING (153844166)"
+19:28:21 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-2-B:1 (Captain Oblivious) REMOTE, _characterID: 68622 at loc [20386.5,-5038.57,146.188]"
+19:28:21 "ERROR: server_playerSync: Cannot Sync Player Captain Oblivious [68622]. Position in debug! [20386.5,-5038.57,146.188]"
+19:28:25 NetServer::SendMsg: cannot find channel #284332413, users.card=20
+19:28:25 NetServer: users.get failed when sending to 284332413
+19:28:25 Message not sent - error 0, message ID = ffffffff, to 284332413 (PoonSlayer69)
+19:28:25 "get: STRING (25084742), sent: STRING (25084742)"
+19:28:25 "DISCONNECT: PoonSlayer69 (25084742) Object: B 1-1-F:1 (PoonSlayer69) REMOTE, _characterID: 68572 at loc [6422.11,7718.82,0.019989]"
+19:28:25 Client: Remote object 7:8 not found
+19:28:25 Client: Object 23:165 (type Type_149) not found.
+19:28:25 Client: Object 36:15 (type Type_149) not found.
+19:28:26 Client: Object 35:27 (type Type_149) not found.
+19:28:26 Client: Object 33:35 (type Type_149) not found.
+19:28:26 Client: Object 32:35 (type Type_149) not found.
+19:28:27 "nil player object attempting PV, :["63215878","[FFG] Steve W."]"
+19:28:27 "get: STRING (), sent: STRING (63215878)"
+19:28:27 "DISCONNECT: [FFG] Steve W. (63215878) Object: 43e50080# 1067799: annie_original.p3d REMOTE, _characterID: 68623 at loc [13480.7,4446.34,0.00143433]"
+19:28:41 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:28:43 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 61.211m with 0.831941 dmg"
+19:28:43 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 61.3068m with 0.828383 dmg"
+19:28:44 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 61.7387m with 0.828455 dmg"
+19:28:47 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:28:47 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:28:48 Server: Object 19:194 not found (message 99)
+19:28:48 Server: Object 19:193 not found (message 91)
+19:28:48 Server: Object 19:195 not found (message 91)
+19:28:48 Server: Object 19:196 not found (message 98)
+19:28:48 Server: Object 19:197 not found (message 91)
+19:28:48 Server: Object 19:198 not found (message 98)
+19:28:48 Server: Object 19:199 not found (message 91)
+19:28:49 Server: Object 5:90 not found (message 98)
+19:28:49 Server: Object 5:91 not found (message 91)
+19:28:50 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-E:1 ([FFG] Zak) REMOTE with Sa58V_RCO_EP1 from 53.0564m with 0.845569 dmg"
+19:28:51 "PKILL: Sniper Bait was killed by [FFG] Zak with weapon Sa58V_RCO_EP1 from 53.0564m"
+19:28:51 "PDEATH: Player Died 151656198"
+19:28:51 Server: Object 9:216 not found (message 89)
+19:28:51 Server: Object 10:103 not found (message 89)
+19:28:52 Server: Object info 19:189 not found during Changing Owner
+19:28:52 Server: Object info 19:188 not found during Changing Owner
+19:29:02 "get: STRING (151656198), sent: STRING (151656198)"
+19:29:02 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-B:1 (Sniper Bait) REMOTE, _characterID: 68600 at loc [20386.5,-5038.57,146.188]"
+19:29:02 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68600]. Position in debug! [20386.5,-5038.57,146.188]"
+19:29:30 "PKILL: [FFG] Steve W. killed himself"
+19:29:30 "PDEATH: Player Died 63215878"
+19:29:34 "PKILL: Elbo Grease killed himself"
+19:29:34 "PDEATH: Player Died 69983238"
+19:29:41 "get: STRING (63215878), sent: STRING (63215878)"
+19:29:41 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-1-H:1 ([FFG] Steve W.) REMOTE, _characterID: 68626 at loc [20386.1,-5039.21,146.183]"
+19:29:41 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68626]. Position in debug! [20386.1,-5039.21,146.183]"
+19:29:41 Client: Remote object 9:213 not found
+19:29:41 Client: Remote object 9:214 not found
+19:29:41 Client: Remote object 9:216 not found
+19:29:43 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:29:44 "get: STRING (69983238), sent: STRING (69983238)"
+19:29:44 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-H:1 (Elbo Grease) REMOTE, _characterID: 68625 at loc [20386.6,-5038.42,146.189]"
+19:29:44 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68625]. Position in debug! [20386.6,-5038.42,146.189]"
+19:30:00 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:30:03 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:30:05 Server: Object 9:231 not found (message 89)
+19:30:05 Server: Object info 3:215 not found during Changing Owner
+19:30:05 Server: Object info 3:214 not found during Changing Owner
+19:30:07 Server: Object 9:241 not found (message 91)
+19:30:07 Server: Object 9:237 not found (message 91)
+19:30:07 Server: Object 9:238 not found (message 98)
+19:30:07 Server: Object 9:239 not found (message 91)
+19:30:07 Server: Object 9:240 not found (message 98)
+19:30:07 Server: Object 9:245 not found (message 91)
+19:30:07 Server: Object 9:242 not found (message 98)
+19:30:07 Server: Object 9:243 not found (message 91)
+19:30:07 Server: Object 9:244 not found (message 98)
+19:30:07 Server: Object 9:246 not found (message 98)
+19:30:07 Server: Object 9:247 not found (message 91)
+19:30:07 Server: Object 9:248 not found (message 98)
+19:30:07 Server: Object 9:249 not found (message 91)
+19:30:07 Server: Object 9:254 not found (message 94)
+19:30:07 Server: Object 9:255 not found (message 70)
+19:30:07 Server: Object 9:252 not found (message 94)
+19:30:07 Server: Object 9:253 not found (message 70)
+19:30:08 Server: Object 9:250 not found (message 98)
+19:30:08 Server: Object 9:251 not found (message 91)
+19:30:08 Server: Object 9:256 not found (message 99)
+19:30:08 Server: Object 9:257 not found (message 91)
+19:30:08 Server: Object 9:258 not found (message 99)
+19:30:08 Server: Object 9:259 not found (message 91)
+19:30:13 "infiSTAR.de PlayerConnected: _uid: 25084742   _name: PoonSlayer69"
+19:30:30 "PKILL: Sniper Bait killed himself"
+19:30:30 "PDEATH: Player Died 151656198"
+19:30:35 "CLEANUP: Deleted 164 Loot Piles out of 454"
+19:30:41 "get: STRING (151656198), sent: STRING (151656198)"
+19:30:41 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-B:1 (Sniper Bait) REMOTE, _characterID: 68627 at loc [20386.5,-5038.57,146.188]"
+19:30:41 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68627]. Position in debug! [20386.5,-5038.57,146.188]"
+19:30:41 Client: Remote object 3:211 not found
+19:30:41 Client: Remote object 3:209 not found
+19:30:41 Client: Remote object 3:208 not found
+19:30:43 "PKILL: [FFG] Steve W. killed himself"
+19:30:43 "PDEATH: Player Died 63215878"
+19:30:47 "PKILL: Elbo Grease killed himself"
+19:30:47 "PDEATH: Player Died 69983238"
+19:30:53 "get: STRING (63215878), sent: STRING (63215878)"
+19:30:53 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-1-H:1 ([FFG] Steve W.) REMOTE, _characterID: 68628 at loc [20385.5,-5038.54,146.18]"
+19:30:53 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68628]. Position in debug! [20385.5,-5038.54,146.18]"
+19:30:57 "get: STRING (69983238), sent: STRING (69983238)"
+19:30:57 "DISCONNECT: Elbo Grease (69983238) Object: B 1-2-B:1 (Elbo Grease) REMOTE, _characterID: 68629 at loc [20385.3,-5039.25,146.177]"
+19:30:57 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68629]. Position in debug! [20385.3,-5039.25,146.177]"
+19:31:01 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:31:09 "Skipping Null Object: <NULL-object>"
+19:31:17 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:31:45 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:31:46 "CLEANUP: Deleted 15 Loot Piles out of 300"
+19:31:49 "TIME SYNC: Local Time set to [2013,8,3,14,31]"
+19:31:50 Unit 10:153 not found, cannot update
+19:32:01 "PKILL: Elbo Grease killed himself"
+19:32:01 "PDEATH: Player Died 69983238"
+19:32:11 "get: STRING (69983238), sent: STRING (69983238)"
+19:32:11 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-H:1 (Elbo Grease) REMOTE, _characterID: 68631 at loc [20386.5,-5038.57,146.188]"
+19:32:11 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68631]. Position in debug! [20386.5,-5038.57,146.188]"
+19:32:11 "infiSTAR.de PlayerConnected: _uid: 153798726   _name: DetectiveSloth"
+19:32:11 "infiSTAR.de Player-Log: DetectiveSloth(153798726) - 0h 31min"
+19:32:18 "get: STRING (153844166), sent: STRING (153844166)"
+19:32:18 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-1-F:1 (Captain Oblivious) REMOTE, _characterID: 68624 at loc [4778.54,2815.6,0.000986099]"
+19:32:18 Client: Remote object 19:183 not found
+19:32:18 Client: Remote object 19:182 not found
+19:32:32 "PKILL: [FFG] Steve W. killed himself"
+19:32:32 "PDEATH: Player Died 63215878"
+19:32:33 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:32:39 Server: Object 10:170 not found (message 98)
+19:32:39 Server: Object 10:171 not found (message 91)
+19:32:39 Server: Object 10:172 not found (message 98)
+19:32:39 Server: Object 10:173 not found (message 91)
+19:32:41 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+19:32:43 "get: STRING (63215878), sent: STRING (63215878)"
+19:32:43 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-2-B:1 ([FFG] Steve W.) REMOTE, _characterID: 68632 at loc [20386.3,-5038.5,146.186]"
+19:32:43 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68632]. Position in debug! [20386.3,-5038.5,146.186]"
+19:32:45 Server: Object 19:212 not found (message 70)
+19:32:46 Server: Object 19:220 not found (message 98)
+19:32:46 Server: Object 19:221 not found (message 91)
+19:32:46 Server: Object 19:222 not found (message 98)
+19:32:46 Server: Object 19:223 not found (message 91)
+19:32:48 "CLEANUP: Deleted 17 Loot Piles out of 286"
+19:33:04 Cannot load sound 'jsrs_m14\reload.wss'
+19:33:06 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:33:11 Server: Object 10:182 not found (message 94)
+19:33:11 Server: Object 10:188 not found (message 94)
+19:33:11 Server: Object 10:183 not found (message 94)
+19:33:11 Server: Object 10:184 not found (message 94)
+19:33:11 Server: Object 10:185 not found (message 94)
+19:33:11 Server: Object 10:186 not found (message 94)
+19:33:11 Server: Object 10:187 not found (message 94)
+19:33:11 Server: Object 10:189 not found (message 94)
+19:33:11 Server: Object 10:195 not found (message 94)
+19:33:11 Server: Object 10:196 not found (message 94)
+19:33:11 Server: Object 10:194 not found (message 70)
+19:33:11 Server: Object 10:193 not found (message 70)
+19:33:11 Server: Object 10:192 not found (message 70)
+19:33:11 Server: Object 10:191 not found (message 70)
+19:33:11 Server: Object 10:190 not found (message 70)
+19:33:15 "PKILL: Elbo Grease killed himself"
+19:33:15 "PDEATH: Player Died 69983238"
+19:33:26 "get: STRING (69983238), sent: STRING (69983238)"
+19:33:26 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68633 at loc [20386.5,-5038.57,146.188]"
+19:33:26 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68633]. Position in debug! [20386.5,-5038.57,146.188]"
+19:33:36 "SAFE UNLOCKED: ID:64983 UID:0 BY DetectiveSloth(153798726)"
+19:33:49 "PKILL: [FFG] Steve W. killed himself"
+19:33:49 "PDEATH: Player Died 63215878"
+19:33:50 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:33:51 "WAI: Starting Mission ikea"
+19:33:51 "WAI: Mission ikea Started At [4438.33,10519.7]"
+19:33:53 "WAI: Spawned a group of 5 Bandits at [4438.33,10519.7,0]"
+19:33:53 "SAFE LOCKED: ID:64983 UID:0 BY DetectiveSloth(153798726)"
+19:33:53 "WAI: Spawned a group of 4 Bandits at [4438.33,10519.7,0]"
+19:33:54 "CLEANUP: Deleted 2 Loot Piles out of 311"
+19:33:54 "WAI: Sapwned in 2 M2StaticMG"
+19:34:00 "get: STRING (63215878), sent: STRING (63215878)"
+19:34:00 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-3-A:1 ([FFG] Steve W.) REMOTE, _characterID: 68634 at loc [20386.3,-5038.51,146.186]"
+19:34:00 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68634]. Position in debug! [20386.3,-5038.51,146.186]"
+19:34:00 Client: Remote object 9:295 not found
+19:34:00 Client: Remote object 9:293 not found
+19:34:00 Client: Remote object 9:292 not found
+19:34:03 Server: Object 14:135 not found (message 98)
+19:34:03 Server: Object 14:136 not found (message 91)
+19:34:03 Server: Object 14:141 not found (message 99)
+19:34:03 Server: Object 14:142 not found (message 91)
+19:34:03 Server: Object 14:144 not found (message 91)
+19:34:03 Server: Object 14:143 not found (message 99)
+19:34:18 "MAINTAIN AREA BY DetectiveSloth - 31 Objects at [9150.2,3839.1,0.166351]"
+19:34:25 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:34:43 "PKILL: Elbo Grease killed himself"
+19:34:43 "PDEATH: Player Died 69983238"
+19:34:48 Cannot load sound 'jsrs_m14\reload.wss'
+19:34:54 "get: STRING (69983238), sent: STRING (69983238)"
+19:34:54 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68635 at loc [20386.5,-5038.57,146.188]"
+19:34:54 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68635]. Position in debug! [20386.5,-5038.57,146.188]"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 7.91951m with 0.147868 dmg"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 7.70155m with 0.147831 dmg"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 7.70155m with 0.147642 dmg"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 7.28104m with 0.147561 dmg"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 7.28104m with 0.147493 dmg"
+19:34:55 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 6.80563m with 0.147633 dmg"
+19:34:58 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 1.50567m with 0.149843 dmg"
+19:35:00 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-I:1 ([FFG] ZIEMBA) REMOTE with Makarov from 1.59155m with 0.150266 dmg"
+19:35:07 "get: STRING (153798726), sent: STRING (153798726)"
+19:35:07 "DISCONNECT: DetectiveSloth (153798726) Object: B 1-1-H:1 (DetectiveSloth) REMOTE, _characterID: 67339 at loc [9149.01,3842.3,0.147141]"
+19:35:07 Client: Remote object 39:0 not found
+19:35:07 Client: Remote object 39:9 not found
+19:35:09 Warning: Cleanup player - person 39:8 not found
+19:35:12 Server: Object 9:320 not found (message 94)
+19:35:12 Server: Object 9:319 not found (message 70)
+19:35:12 Server: Object 9:316 not found (message 94)
+19:35:12 Server: Object 9:317 not found (message 94)
+19:35:12 Server: Object 9:318 not found (message 94)
+19:35:12 Server: Object 9:321 not found (message 70)
+19:35:12 Server: Object 9:324 not found (message 70)
+19:35:12 Server: Object 9:323 not found (message 70)
+19:35:12 Server: Object 9:322 not found (message 70)
+19:35:12 Server: Object 9:328 not found (message 94)
+19:35:12 Server: Object 9:331 not found (message 70)
+19:35:12 Server: Object 9:330 not found (message 70)
+19:35:12 Server: Object 9:329 not found (message 70)
+19:35:12 Server: Object 9:327 not found (message 94)
+19:35:12 Server: Object 9:325 not found (message 70)
+19:35:12 Server: Object 9:326 not found (message 94)
+19:35:12 Server: Object 9:332 not found (message 70)
+19:35:16 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:35:18 "get: STRING (98212038), sent: STRING (98212038)"
+19:35:18 "DISCONNECT: TimBR (98212038) Object: B 1-2-D:1 (TimBR) REMOTE, _characterID: 68050 at loc [10205.5,2664.62,6.06011]"
+19:35:18 Client: Remote object 36:0 not found
+19:35:18 Client: Remote object 36:8 not found
+19:35:19 Warning: Cleanup player - person 36:7 not found
+19:35:22 "PHIT: B 1-1-I:1 ([FFG] ZIEMBA) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Sa58V_RCO_EP1 from 157.684m with 0.689005 dmg"
+19:35:23 "PHIT: B 1-1-I:1 ([FFG] ZIEMBA) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Sa58V_RCO_EP1 from 157.61m with 0.688347 dmg"
+19:35:25 "PHIT: B 1-1-I:1 ([FFG] ZIEMBA) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Sa58V_RCO_EP1 from 157.458m with 0.192441 dmg"
+19:35:25 "PHIT: B 1-1-I:1 ([FFG] ZIEMBA) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with Sa58V_RCO_EP1 from 157.458m with 0.471535 dmg"
+19:35:25 "PKILL:  was killed by Captain Oblivious with weapon Sa58V_RCO_EP1 from 157.458m"
+19:35:25 "PDEATH: Player Died 98292102"
+19:35:37 Server: Object 10:240 not found (message 98)
+19:35:37 Server: Object 10:241 not found (message 91)
+19:35:37 Server: Object 10:242 not found (message 98)
+19:35:37 Server: Object 10:243 not found (message 91)
+19:35:37 Server: Object 10:247 not found (message 94)
+19:35:37 Server: Object 10:249 not found (message 70)
+19:35:37 Server: Object 10:248 not found (message 70)
+19:35:37 Server: Object 10:244 not found (message 94)
+19:35:37 Server: Object 10:246 not found (message 70)
+19:35:37 Server: Object 10:245 not found (message 70)
+19:35:38 Server: Object 10:257 not found (message 70)
+19:35:38 Server: Object 10:250 not found (message 94)
+19:35:38 Server: Object 10:251 not found (message 94)
+19:35:38 Server: Object 10:252 not found (message 94)
+19:35:38 Server: Object 10:253 not found (message 94)
+19:35:38 Server: Object 10:254 not found (message 94)
+19:35:38 Server: Object 10:255 not found (message 94)
+19:35:38 Server: Object 10:256 not found (message 94)
+19:35:38 Server: Object 10:258 not found (message 94)
+19:35:38 Server: Object 10:265 not found (message 94)
+19:35:38 Server: Object 10:264 not found (message 94)
+19:35:38 Server: Object 10:260 not found (message 70)
+19:35:38 Server: Object 10:261 not found (message 94)
+19:35:38 Server: Object 10:266 not found (message 94)
+19:35:38 Server: Object 10:267 not found (message 94)
+19:35:38 Server: Object 10:268 not found (message 70)
+19:35:38 Server: Object 10:259 not found (message 94)
+19:35:38 Server: Object 10:262 not found (message 94)
+19:35:38 Server: Object 10:263 not found (message 94)
+19:35:38 Server: Object 10:269 not found (message 98)
+19:35:38 Server: Object 10:270 not found (message 91)
+19:35:38 Server: Object 10:271 not found (message 99)
+19:35:38 Server: Object 10:272 not found (message 91)
+19:35:38 Server: Object 10:273 not found (message 99)
+19:35:38 Server: Object 10:274 not found (message 91)
+19:35:39 Server: Object 10:276 not found (message 91)
+19:35:39 Server: Object 10:275 not found (message 99)
+19:35:39 Server: Object 10:279 not found (message 99)
+19:35:39 Server: Object 10:280 not found (message 91)
+19:35:39 Server: Object 10:281 not found (message 99)
+19:35:39 Server: Object 10:282 not found (message 91)
+19:35:42 Server: Object 13:246 not found (message 94)
+19:35:50 "infiSTAR.de Log: [FFG] ZIEMBA (98292102) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+19:35:58 "CLEANUP: Deleted 19 Loot Piles out of 335"
+19:36:02 "ERROR: server_playerSync: Cannot Sync Player [FFG] ZIEMBA [68618]. Position in debug! [20386.5,-5038.57,146.188]"
+19:36:02 "get: STRING (98292102), sent: STRING (98292102)"
+19:36:02 "DISCONNECT: [FFG] ZIEMBA (98292102) Object: B 1-1-A:1 ([FFG] ZIEMBA) REMOTE, _characterID: 68618 at loc [20386.5,-5038.57,146.188]"
+19:36:02 "ERROR: server_playerSync: Cannot Sync Player [FFG] ZIEMBA [68618]. Position in debug! [20386.5,-5038.57,146.188]"
+19:36:03 Client: Remote object 2:9984 not found
+19:36:03 Client: Remote object 2:9983 not found
+19:36:14 "SAFE UNLOCKED: ID:65690 UID:0 BY Tactical Bacon(96374662)"
+19:36:14 Server: Object 17:58 not found (message 94)
+19:36:18 "Vehicle destroyed at GPS 130056 - ATV_US_EP1, worldspace [329.269,[13000.6,9724.08,2.63732]], objID 68706, objUID 0"
+19:36:30 "infiSTAR.de PlayerConnected: _uid: 98292102   _name: [FFG] ZIEMBA"
+19:36:43 Server: Object 5:148 not found (message 91)
+19:36:43 Server: Object 5:147 not found (message 99)
+19:36:46 Server: Object 34:135 not found (message 98)
+19:36:46 Server: Object 34:136 not found (message 91)
+19:36:49 "TIME SYNC: Local Time set to [2013,8,3,14,36]"
+19:37:03 Server: Object 30:70 not found (message 99)
+19:37:03 Server: Object 30:71 not found (message 91)
+19:37:18 "SAFE UNLOCKED: ID:67823 UID:0 BY Tactical Bacon(96374662)"
+19:37:19 Server: Object 17:62 not found (message 94)
+19:37:30 "CLEANUP: Deleted 77 Animals out of 148"
+19:37:36 "23 Active ground units"
+19:37:36 "4 Active emplacement units"
+19:37:36 "0 Active chopper patrol units (Crew)"
+19:37:36 "0 Active vehicle patrol units (Crew)"
+19:37:38 Server: Object 9:353 not found (message 70)
+19:37:38 Server: Object 9:359 not found (message 94)
+19:37:38 Server: Object 9:361 not found (message 70)
+19:37:38 Server: Object 9:360 not found (message 70)
+19:37:38 Server: Object 9:358 not found (message 70)
+19:37:38 Server: Object 9:357 not found (message 94)
+19:37:38 Server: Object 9:364 not found (message 70)
+19:37:38 Server: Object 9:367 not found (message 70)
+19:37:38 Server: Object 9:366 not found (message 70)
+19:37:38 Server: Object 9:365 not found (message 70)
+19:37:38 Server: Object 9:363 not found (message 94)
+19:38:04 "infiSTAR.de PlayerConnected: _uid: 60115142   _name: Dimitri"
+19:38:04 "infiSTAR.de Player-Log: Dimitri(60115142) - 0h 36min"
+19:38:10 Server: Object 41:9 not found (message 70)
+19:38:12 "CLEANUP: Deleted 15 Loot Piles out of 414"
+19:38:26 "infiSTAR.de PlayerConnected: _uid: 241500614   _name: Frog"
+19:38:26 "infiSTAR.de Player-Log: Frog(241500614) - 0h 37min"
+19:38:32 "get: STRING (10711942), sent: STRING (10711942)"
+19:38:32 "DISCONNECT: [HoC] Riftic (10711942) Object: B 1-2-H:1 ([HoC] Riftic) REMOTE, _characterID: 68182 at loc [12946.4,9638.53,0.0014801]"
+19:38:32 Client: Remote object 31:0 not found
+19:38:32 Client: Remote object 31:8 not found
+19:38:32 Warning: Cleanup player - person 31:7 not found
+19:38:33 Warning: Cleanup player - person 31:7 not found
+19:38:51 "SAFE UNLOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+19:38:56 "infiSTAR.de Log: Frog (241500614) | New Player: ["68639",[],[],[0,0,0],true,"1.0.4.2","Survivor2_DZ",true,true,0]   |DayZ Instance: 11|"
+19:39:01 "infiSTAR.de PlayerConnected: _uid: 43853830   _name: Spegoty"
+19:39:01 "infiSTAR.de Player-Log: Spegoty(43853830) - 0h 37min"
+19:39:08 "SAFE UNLOCKED: ID:68340 UID:0 BY Dimitri(60115142)"
+19:39:09 Server: Object 41:13 not found (message 94)
+19:39:28 "SAFE LOCKED: ID:68340 UID:0 BY Dimitri(60115142)"
+19:39:36 Client: Object 28:184 (type Type_70) not found.
+19:39:45 "infiSTAR.de Log: Frog (241500614) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:39:46 "infiSTAR.de Log: Frog (241500614) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:39:47 "infiSTAR.de Log: Frog (241500614) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:39:47 "infiSTAR.de Log: Frog (241500614) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:39:48 "infiSTAR.de Log: Frog (241500614) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:39:50 Server: Object 32:65 not found (message 94)
+19:39:50 Server: Object 32:63 not found (message 94)
+19:39:50 Server: Object 32:64 not found (message 94)
+19:39:50 NetServer::SendMsg: cannot find channel #306551893, users.card=21
+19:39:50 NetServer: users.get failed when sending to 306551893
+19:39:50 Message not sent - error 0, message ID = ffffffff, to 306551893 (Frog)
+19:39:50 NetServer::SendMsg: cannot find channel #306551893, users.card=21
+19:39:50 NetServer: users.get failed when sending to 306551893
+19:39:50 Message not sent - error 0, message ID = ffffffff, to 306551893 (Frog)
+19:39:50 "get: STRING (241500614), sent: STRING (241500614)"
+19:39:50 "DISCONNECT: Frog (241500614) Object: B 1-2-H:1 (Frog) REMOTE, _characterID: 68639 at loc [7267.49,2627.2,0.00151348]"
+19:39:51 Client: Remote object 40:6 not found
+19:39:51 Client: Remote object 40:5 not found
+19:39:51 Client: Remote object 40:0 not found
+19:39:51 "CLEANUP: DELETED A "DebugBoxPlayer_DZ""
+19:39:51 Client: Object 32:66 (type Type_149) not found.
+19:39:51 Client: Object 33:80 (type Type_149) not found.
+19:39:51 Client: Object 35:68 (type Type_149) not found.
+19:39:51 Client: Object 3:244 (type Type_149) not found.
+19:39:51 Client: Object 29:157 (type Type_149) not found.
+19:39:51 Client: Object 23:196 (type Type_149) not found.
+19:39:59 Server: Object 32:69 not found (message 94)
+19:39:59 Server: Object 32:68 not found (message 70)
+19:39:59 Server: Object 32:67 not found (message 94)
+19:39:59 Server: Object 32:71 not found (message 94)
+19:39:59 Server: Object 32:70 not found (message 94)
+19:39:59 Server: Object 32:72 not found (message 94)
+19:39:59 Server: Object 32:75 not found (message 94)
+19:39:59 Server: Object 32:73 not found (message 94)
+19:39:59 Server: Object 32:74 not found (message 94)
+19:40:11 "SAFE LOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+19:40:12 "EPOCH SERVERTRADE: Player: Aesthetics (25084870) bought a ItemEpinephrine in/at Unknown Trader City for 2x ItemSilverBar"
+19:40:25 "CLEANUP: Deleted 39 Loot Piles out of 440"
+19:40:50 "Skipping Null Object: <NULL-object>"
+19:41:10 Server: Object 10:318 not found (message 94)
+19:41:10 Server: Object 10:320 not found (message 94)
+19:41:10 Server: Object 10:322 not found (message 94)
+19:41:10 Server: Object 10:324 not found (message 70)
+19:41:10 Server: Object 10:323 not found (message 70)
+19:41:10 Server: Object 10:321 not found (message 94)
+19:41:10 Server: Object 10:325 not found (message 70)
+19:41:10 Server: Object 10:326 not found (message 99)
+19:41:10 Server: Object 10:327 not found (message 91)
+19:41:18 Server: Object 10:333 not found (message 94)
+19:41:18 Server: Object 10:336 not found (message 70)
+19:41:18 Server: Object 10:339 not found (message 70)
+19:41:18 Server: Object 10:338 not found (message 70)
+19:41:18 Server: Object 10:337 not found (message 94)
+19:41:18 Server: Object 10:347 not found (message 70)
+19:41:18 Server: Object 10:344 not found (message 70)
+19:41:18 Server: Object 10:346 not found (message 70)
+19:41:18 Server: Object 10:345 not found (message 70)
+19:41:18 Server: Object 10:348 not found (message 94)
+19:41:18 Server: Object 10:352 not found (message 94)
+19:41:18 Server: Object 10:354 not found (message 70)
+19:41:18 Server: Object 10:353 not found (message 70)
+19:41:18 Server: Object 10:350 not found (message 94)
+19:41:18 Server: Object 10:349 not found (message 70)
+19:41:18 Server: Object 10:351 not found (message 94)
+19:41:18 Server: Object 10:355 not found (message 70)
+19:41:22 Server: Object 13:288 not found (message 70)
+19:41:49 "TIME SYNC: Local Time set to [2013,8,3,14,41]"
+19:41:54 "ERROR: server_playerSync: Cannot Sync Player Tyrone [68619]. Position in debug! [20388.2,-5039.61,146.198]"
+19:41:55 SetFace error: class CfgFaces.OharaHead.Face79 not found
+19:41:55 Error: Error during SetFace - class CfgFaces.OharaHead.Face79 not found
+19:42:38 "CLEANUP: Deleted 81 Loot Piles out of 455"
+19:43:06 "Skipping Null Object: <NULL-object>"
+19:43:12 Server: Object 33:102 not found (message 91)
+19:43:12 Server: Object 33:101 not found (message 98)
+19:43:26 "SAFE LOCKED: ID:67823 UID:0 BY Tactical Bacon(96374662)"
+19:44:06 Cannot load sound 'jsrs_grenade\reload.wss'
+19:44:25 "infiSTAR.de PlayerConnected: _uid: 10746886   _name: -ST-arsehole"
+19:44:25 "infiSTAR.de Player-Log: -ST-arsehole(10746886) - 0h 43min"
+19:44:28 "CLEANUP: Deleted 25 Loot Piles out of 452"
+19:45:04 "SAFE UNLOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+19:45:05 Server: Object 14:215 not found (message 70)
+19:45:05 Server: Object 14:216 not found (message 94)
+19:45:05 Server: Object 14:217 not found (message 94)
+19:45:27 "PDEATH: Player Died 43853830"
+19:45:28 Server: Object 42:46 not found (message 94)
+19:45:37 "get: STRING (43853830), sent: STRING (43853830)"
+19:45:37 "DISCONNECT: Spegoty (43853830) Object: B 1-3-B:1 (Spegoty) REMOTE, _characterID: 68640 at loc [20386.5,-5038.57,146.188]"
+19:45:37 "ERROR: server_playerSync: Cannot Sync Player Spegoty [68640]. Position in debug! [20386.5,-5038.57,146.188]"
+19:45:37 Client: Remote object 42:0 not found
+19:45:38 Warning: Cleanup player - person 42:57 not found
+19:45:39 "Skipping Null Object: <NULL-object>"
+19:45:47 "infiSTAR.de PlayerConnected: _uid: 51271110   _name: That AS50 Guy"
+19:45:53 "SAFE LOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+19:45:55 "Skipping Null Object: <NULL-object>"
+19:46:12 "get: STRING (138489158), sent: STRING (138489158)"
+19:46:12 "DISCONNECT: charismatiic (138489158) Object: B 1-1-G:1 (charismatiic) REMOTE, _characterID: 68014 at loc [4508.71,11196.8,0.00170898]"
+19:46:13 Client: Remote object 13:9 not found
+19:46:14 Warning: Cleanup player - person 13:8 not found
+19:46:22 "SAFE UNLOCKED: ID:68802 UID:0 BY [BCG] Dodge(250069766)"
+19:46:24 "ERROR: Cannot Sync Character Prototype factory as no characterID"
+19:46:32 "CLEANUP: Deleted 37 Loot Piles out of 428"
+19:46:49 "Purging player: 3481c080# 1065623: prizrak.p3d"
+19:46:50 "TIME SYNC: Local Time set to [2013,8,3,14,46]"
+19:46:50 "Purging player: 39c02040# 1064983: annie_original.p3d"
+19:46:53 "Purging player: 3aa2c080# 1065709: man_survivor.p3d"
+19:46:53 "Purging player: 3e556040# 1065848: man_survivor.p3d"
+19:46:55 "Purging player: 33098080# 1064987: man_survivor.p3d"
+19:46:55 "SAFE UNLOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+19:46:56 Server: Object 34:212 not found (message 94)
+19:46:56 Server: Object 34:211 not found (message 94)
+19:46:56 Server: Object 34:213 not found (message 94)
+19:46:57 "Purging player: 3f3a4080# 1066044: man_survivor.p3d"
+19:46:57 "CLEANUP: Deleted 6 players and 0 zombies out of 34 dead"
+19:47:14 "SAFE LOCKED: ID:68802 UID:0 BY [BCG] Dodge(250069766)"
+19:47:21 Server: Object 23:218 not found (message 99)
+19:47:24 Server: Object 28:8 not found (message 221)
+19:47:28 "infiSTAR.de PlayerConnected: _uid: 102637958   _name: J.Piazza"
+19:47:28 "infiSTAR.de Player-Log: J.Piazza(102637958) - 0h 46min"
+19:47:41 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-F:1 (Elbo Grease) REMOTE with MG36_camo from 86.0409m with 0.59528 dmg"
+19:47:41 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-F:1 (Elbo Grease) REMOTE with MG36_camo from 86.0409m with 0.594687 dmg"
+19:47:43 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-F:1 (Elbo Grease) REMOTE with MG36_camo from 86.3603m with 0.594301 dmg"
+19:47:44 "PHIT: B 1-1-B:1 (Sniper Bait) REMOTE was hit by B 1-1-F:1 (Elbo Grease) REMOTE with MG36_camo from 92.7663m with 0.589618 dmg"
+19:47:45 "PKILL:  was killed by Elbo Grease with weapon MG36_camo from 92.7663m"
+19:47:45 "PDEATH: Player Died 151656198"
+19:47:50 "infiSTAR.de Log: Sniper Bait (151656198) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:47:57 "Skipping Null Object: <NULL-object>"
+19:48:05 "infiSTAR.de Log: Sniper Bait (151656198) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:48:22 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68630]. Position in debug! [20386.5,-5038.57,146.188]"
+19:48:23 "CLEANUP: Deleted 5 Loot Piles out of 403"
+19:48:23 "get: STRING (151656198), sent: STRING (151656198)"
+19:48:23 "DISCONNECT: Sniper Bait (151656198) Object: B 1-3-E:1 (Sniper Bait) REMOTE, _characterID: 68630 at loc [20386.5,-5038.57,146.188]"
+19:48:23 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68630]. Position in debug! [20386.5,-5038.57,146.188]"
+19:48:24 Client: Remote object 3:262 not found
+19:48:24 Client: Remote object 3:261 not found
+19:48:39 "SAFE LOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+19:48:42 Server: Object 9:434 not found (message 91)
+19:48:42 Server: Object 9:433 not found (message 99)
+19:48:51 Server: Object 9:448 not found (message 94)
+19:48:51 Server: Object 9:449 not found (message 70)
+19:48:51 Server: Object 9:450 not found (message 94)
+19:48:51 Server: Object 9:460 not found (message 70)
+19:48:51 Server: Object 9:461 not found (message 94)
+19:48:51 Server: Object 9:459 not found (message 70)
+19:48:51 Server: Object 9:464 not found (message 94)
+19:48:51 Server: Object 9:462 not found (message 94)
+19:48:51 Server: Object 9:463 not found (message 94)
+19:48:51 Server: Object 9:466 not found (message 94)
+19:48:51 Server: Object 9:465 not found (message 70)
+19:48:51 Server: Object 9:467 not found (message 70)
+19:48:52 Server: Object 9:480 not found (message 70)
+19:48:52 Server: Object 9:485 not found (message 70)
+19:48:52 Server: Object 9:484 not found (message 70)
+19:48:52 Server: Object 9:483 not found (message 70)
+19:48:52 Server: Object 9:482 not found (message 70)
+19:48:52 Server: Object 9:481 not found (message 94)
+19:48:52 Server: Object 9:487 not found (message 70)
+19:48:52 Server: Object 9:486 not found (message 70)
+19:48:54 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:48:55 "EPOCH SERVERTRADE: Player: Dimitri (60115142) sold a BAF_Merlin_HC3_D in/at Unknown Trader City for 3x ItemGoldBar10oz"
+19:49:03 Server: Object 3:280 not found (message 99)
+19:49:03 Server: Object 3:281 not found (message 91)
+19:49:03 Server: Object 3:282 not found (message 98)
+19:49:03 Server: Object 3:283 not found (message 91)
+19:49:03 Server: Object 3:284 not found (message 98)
+19:49:03 Server: Object 3:285 not found (message 91)
+19:49:03 Server: Object 3:286 not found (message 99)
+19:49:03 Server: Object 3:287 not found (message 91)
+19:49:16 "infiSTAR.de PlayerConnected: _uid: 169675590   _name: Aaron Funk"
+19:49:16 "infiSTAR.de Player-Log: Aaron Funk(169675590) - 0h 48min"
+19:49:39 "EPOCH SERVERTRADE: Player: Dimitri (60115142) sold a BAF_Merlin_HC3_D in/at Unknown Trader City for 3x ItemGoldBar10oz"
+19:49:41 Server: Object 9:507 not found (message 94)
+19:49:41 Server: Object 9:506 not found (message 94)
+19:49:41 Server: Object 9:504 not found (message 94)
+19:49:41 Server: Object 9:505 not found (message 94)
+19:49:41 Server: Object 9:509 not found (message 70)
+19:49:41 Server: Object 9:510 not found (message 94)
+19:49:41 Server: Object 9:508 not found (message 94)
+19:49:41 Server: Object 9:520 not found (message 70)
+19:49:41 Server: Object 9:519 not found (message 70)
+19:49:41 Server: Object 9:518 not found (message 70)
+19:49:41 Server: Object 9:517 not found (message 70)
+19:49:41 Server: Object 9:514 not found (message 70)
+19:49:41 Server: Object 9:516 not found (message 70)
+19:49:41 Server: Object 9:513 not found (message 94)
+19:49:41 Server: Object 9:515 not found (message 70)
+19:49:41 Server: Object 9:512 not found (message 70)
+19:49:41 Server: Object 9:511 not found (message 94)
+19:49:41 Server: Object 9:524 not found (message 94)
+19:49:41 Server: Object 9:530 not found (message 70)
+19:49:41 Server: Object 9:529 not found (message 70)
+19:49:41 Server: Object 9:528 not found (message 70)
+19:49:41 Server: Object 9:527 not found (message 70)
+19:49:41 Server: Object 9:526 not found (message 70)
+19:49:41 Server: Object 9:525 not found (message 70)
+19:49:41 Server: Object 9:523 not found (message 70)
+19:49:41 Server: Object 9:522 not found (message 70)
+19:49:41 Server: Object 9:521 not found (message 70)
+19:49:41 Server: Object 9:535 not found (message 70)
+19:49:41 Server: Object 9:539 not found (message 70)
+19:49:41 Server: Object 9:538 not found (message 70)
+19:49:41 Server: Object 9:537 not found (message 70)
+19:49:41 Server: Object 9:536 not found (message 70)
+19:49:41 Server: Object 9:531 not found (message 94)
+19:49:41 Server: Object 9:534 not found (message 70)
+19:49:41 Server: Object 9:533 not found (message 70)
+19:49:41 Server: Object 9:532 not found (message 70)
+19:49:42 Server: Object 9:543 not found (message 70)
+19:49:42 Server: Object 9:552 not found (message 94)
+19:49:42 Server: Object 9:557 not found (message 70)
+19:49:42 Server: Object 9:556 not found (message 70)
+19:49:42 Server: Object 9:555 not found (message 70)
+19:49:42 Server: Object 9:554 not found (message 70)
+19:49:42 Server: Object 9:553 not found (message 70)
+19:49:42 Server: Object 9:551 not found (message 70)
+19:49:42 Server: Object 9:561 not found (message 70)
+19:49:42 Server: Object 9:560 not found (message 70)
+19:49:42 Server: Object 9:563 not found (message 70)
+19:49:42 Server: Object 9:562 not found (message 70)
+19:49:42 Server: Object 9:566 not found (message 70)
+19:49:42 Server: Object 9:565 not found (message 70)
+19:49:42 Server: Object 9:568 not found (message 70)
+19:49:43 Server: Object 9:581 not found (message 70)
+19:49:43 Server: Object 9:579 not found (message 70)
+19:49:43 Server: Object 9:580 not found (message 70)
+19:49:43 Server: Object 9:582 not found (message 70)
+19:49:43 Server: Object 9:588 not found (message 94)
+19:49:43 Server: Object 9:591 not found (message 70)
+19:49:43 Server: Object 9:590 not found (message 70)
+19:49:43 Server: Object 9:589 not found (message 70)
+19:49:43 Server: Object 9:583 not found (message 70)
+19:49:43 Server: Object 9:586 not found (message 94)
+19:49:43 Server: Object 9:585 not found (message 70)
+19:49:43 Server: Object 9:584 not found (message 70)
+19:49:43 Server: Object 9:587 not found (message 70)
+19:49:43 Server: Object 9:595 not found (message 70)
+19:49:43 Server: Object 9:600 not found (message 70)
+19:49:43 Server: Object 9:599 not found (message 70)
+19:49:43 Server: Object 9:598 not found (message 70)
+19:49:43 Server: Object 9:597 not found (message 70)
+19:49:43 Server: Object 9:596 not found (message 70)
+19:49:43 Server: Object 9:594 not found (message 70)
+19:49:43 Server: Object 9:593 not found (message 70)
+19:49:43 Server: Object 9:592 not found (message 70)
+19:49:50 "PKILL: Sniper Bait killed himself"
+19:49:50 "PDEATH: Player Died 151656198"
+19:50:00 "EPOCH SERVERTRADE: Player: Dimitri (60115142) bought a BRDM2_Gue in/at Unknown Trader City for 5x ItemBriefcase100oz"
+19:50:00 "get: STRING (151656198), sent: STRING (151656198)"
+19:50:00 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-B:1 (Sniper Bait) REMOTE, _characterID: 68642 at loc [20386.5,-5038.57,146.188]"
+19:50:00 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68642]. Position in debug! [20386.5,-5038.57,146.188]"
+19:50:01 "PUBLISH: Attempt 48659d00# 1071338: arrow_down_large_ep1.p3d REMOTE"
+19:50:01 "HIVE: WRITE: "CHILD:308:11:BRDM2_Gue:0:3948:[178,[14230.3,14150.1,0.000320435]]:[]:[]:1:14230314150101887:""
+19:50:03 "HIVE: WRITE: "CHILD:388:14230314150101887:""
+19:50:03 "CUSTOM: Selected "68838""
+19:50:03 "PUBLISH: B 1-2-D:1 (Dimitri) REMOTE Bought BRDM2_Gue with ID "14230314150101887""
+19:50:13 "SAFE UNLOCKED: ID:67286 UID:0 BY [HoC] N9NE(239326726)"
+19:50:23 "PDEATH: Player Died 102637958"
+19:50:27 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:50:33 Server: Object 3:300 not found (message 89)
+19:50:37 "ERROR: server_playerSync: Cannot Sync Player J.Piazza [68641]. Position in debug! [20386.4,-5038.45,146.187]"
+19:50:37 "get: STRING (102637958), sent: STRING (102637958)"
+19:50:37 "DISCONNECT: J.Piazza (102637958) Object: B 1-3-D:1 (J.Piazza) REMOTE, _characterID: 68641 at loc [20386.4,-5038.45,146.187]"
+19:50:37 "ERROR: server_playerSync: Cannot Sync Player J.Piazza [68641]. Position in debug! [20386.4,-5038.45,146.187]"
+19:50:37 Client: Remote object 47:0 not found
+19:50:46 "infiSTAR.de PlayerConnected: _uid: 139505734   _name: CLAP"
+19:50:46 "infiSTAR.de Player-Log: CLAP(139505734) - 0h 49min"
+19:50:48 "infiSTAR.de Log: Sniper Bait (151656198) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+19:50:51 "CLEANUP: Deleted 23 Loot Piles out of 499"
+19:50:58 Server: Object 38:61 not found (message 94)
+19:50:58 Server: Object 38:60 not found (message 94)
+19:50:58 Server: Object 38:62 not found (message 94)
+19:50:58 Server: Object 38:63 not found (message 94)
+19:50:58 Server: Object 38:64 not found (message 94)
+19:50:58 Server: Object 38:66 not found (message 70)
+19:50:58 Server: Object 38:72 not found (message 70)
+19:50:58 Server: Object 38:69 not found (message 94)
+19:50:58 Server: Object 38:71 not found (message 70)
+19:50:58 Server: Object 38:70 not found (message 70)
+19:50:58 Server: Object 38:68 not found (message 94)
+19:50:58 Server: Object 38:65 not found (message 94)
+19:50:58 Server: Object 38:67 not found (message 94)
+19:50:58 Server: Object 38:74 not found (message 70)
+19:50:58 Server: Object 38:73 not found (message 70)
+19:50:58 Server: Object 38:80 not found (message 70)
+19:50:58 Server: Object 38:84 not found (message 70)
+19:50:58 Server: Object 38:83 not found (message 70)
+19:50:58 Server: Object 38:82 not found (message 70)
+19:50:58 Server: Object 38:81 not found (message 70)
+19:50:58 Server: Object 38:79 not found (message 70)
+19:50:58 Server: Object 38:76 not found (message 70)
+19:50:58 Server: Object 38:78 not found (message 70)
+19:50:58 Server: Object 38:77 not found (message 70)
+19:50:58 Server: Object 38:75 not found (message 70)
+19:50:58 Server: Object 38:87 not found (message 94)
+19:50:58 Server: Object 38:92 not found (message 70)
+19:50:58 Server: Object 38:91 not found (message 70)
+19:50:58 Server: Object 38:90 not found (message 70)
+19:50:58 Server: Object 38:85 not found (message 70)
+19:50:58 Server: Object 38:89 not found (message 70)
+19:50:58 Server: Object 38:88 not found (message 70)
+19:50:58 Server: Object 38:86 not found (message 70)
+19:50:58 Server: Object 38:96 not found (message 94)
+19:50:58 Server: Object 38:98 not found (message 70)
+19:50:58 Server: Object 38:97 not found (message 70)
+19:50:58 Server: Object 38:93 not found (message 70)
+19:50:58 Server: Object 38:94 not found (message 94)
+19:50:58 Server: Object 38:95 not found (message 70)
+19:50:58 Server: Object 32:140 not found (message 70)
+19:50:58 Server: Object 32:148 not found (message 70)
+19:50:58 Server: Object 32:147 not found (message 70)
+19:50:58 Server: Object 32:146 not found (message 70)
+19:50:58 Server: Object 32:145 not found (message 70)
+19:50:59 Server: Object 38:101 not found (message 70)
+19:50:59 Server: Object 38:100 not found (message 70)
+19:50:59 Server: Object 38:99 not found (message 70)
+19:50:59 Server: Object 38:102 not found (message 70)
+19:50:59 Server: Object 32:154 not found (message 70)
+19:50:59 Server: Object 32:153 not found (message 70)
+19:50:59 Server: Object 38:103 not found (message 70)
+19:50:59 Server: Object 38:106 not found (message 94)
+19:50:59 Server: Object 38:104 not found (message 70)
+19:50:59 Server: Object 38:108 not found (message 94)
+19:50:59 Server: Object 38:107 not found (message 70)
+19:50:59 Server: Object 38:105 not found (message 94)
+19:51:04 "infiSTAR.de PlayerConnected: _uid: 102637958   _name: J.Piazza"
+19:51:15 "SAFE UNLOCKED: ID:58393 UID:0 BY Aesthetics(25084870)"
+19:51:15 Server: Object 32:170 not found (message 94)
+19:51:17 "PKILL: Sniper Bait killed himself"
+19:51:17 "PDEATH: Player Died 151656198"
+19:51:17 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 16.8275m with 1.46174 dmg"
+19:51:23 "SAFE UNLOCKED: ID:67265 UID:0 BY Tyrone(26781126)"
+19:51:27 "get: STRING (151656198), sent: STRING (151656198)"
+19:51:27 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-B:1 (Sniper Bait) REMOTE, _characterID: 68644 at loc [20386.5,-5038.57,146.188]"
+19:51:27 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68644]. Position in debug! [20386.5,-5038.57,146.188]"
+19:51:29 "PKILL: Elbo Grease was killed by Captain Oblivious with weapon m240_scoped_EP1_DZE from 4.06246m"
+19:51:29 "PDEATH: Player Died 69983238"
+19:51:29 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 5.05075m with 1.47797 dmg"
+19:51:29 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 5.05075m with 1.4786 dmg"
+19:51:39 "get: STRING (69983238), sent: STRING (69983238)"
+19:51:39 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68637 at loc [20386.5,-5038.57,146.188]"
+19:51:39 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68637]. Position in debug! [20386.5,-5038.57,146.188]"
+19:51:44 "get: STRING (60115142), sent: STRING (60115142)"
+19:51:44 "LOGOUT IN VEHICLE: Dimitri at location [14230.2,14150.1,2.07881]"
+19:51:44 "DISCONNECT: Dimitri (60115142) Object: B 1-2-D:1 (Dimitri) REMOTE, _characterID: 68544 at loc [14230.2,14150.1,2.07881]"
+19:51:44 Client: Remote object 41:0 not found
+19:51:44 Client: Remote object 41:8 not found
+19:51:45 "SAFE LOCKED: ID:67286 UID:0 BY [HoC] N9NE(239326726)"
+19:51:49 "SAFE LOCKED: ID:67265 UID:0 BY Tyrone(26781126)"
+19:51:50 "TIME SYNC: Local Time set to [2013,8,3,14,51]"
+19:51:53 "ERROR: Cannot Sync Character Captain Oblivious as no characterID"
+19:51:54 "SAFE LOCKED: ID:58393 UID:0 BY Aesthetics(25084870)"
+19:51:54 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:52:04 Server: Object 41:8 not found (message 221)
+19:52:13 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 206.361m with 0.396 dmg"
+19:52:13 "infiSTAR.de PlayerConnected: _uid: 60115142   _name: Dimitri"
+19:52:14 "infiSTAR.de PlayerConnected: _uid: 87615302   _name: SmokeBlowinClowns"
+19:52:14 Server: Object 41:8 not found (message 221)
+19:52:14 Server: Object 44:33 not found (message 69)
+19:52:14 Server: Object 44:34 not found (message 69)
+19:52:15 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 205.344m with 0.0514063 dmg"
+19:52:15 "Vehicle destroyed at GPS 038074 by CHING CHONG (151742790) - Ka137_MG_PMC, worldspace [335.461,[3847.21,7888.39,151.992]], objID 68678, objUID 0"
+19:52:15 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 205.276m with 0.104208 dmg"
+19:52:15 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 205.276m with 0.0698141 dmg"
+19:52:15 Client: Object 44:34 (type Type_70) not found.
+19:52:15 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 205.17m with 0.597945 dmg"
+19:52:15 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 205.17m with 0.332079 dmg"
+19:52:19 "infiSTAR.de PlayerConnected: _uid: 23264902   _name: Wally Lad"
+19:52:19 "infiSTAR.de Player-Log: Wally Lad(23264902) - 0h 51min"
+19:52:19 Server: Object 41:59 not found (message 70)
+19:52:21 "get: STRING (139505734), sent: STRING (139505734)"
+19:52:21 "DISCONNECT: CLAP (139505734) Object: B 1-3-D:1 (CLAP) REMOTE, _characterID: 68475 at loc [4363.34,7188.41,0.000793457]"
+19:52:21 Client: Remote object 49:0 not found
+19:52:21 Client: Remote object 49:8 not found
+19:52:22 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+19:52:23 "PKILL:  was killed by CHING CHONG with weapon M60A4_EP1_DZE from 206.576m"
+19:52:23 "PDEATH: Player Died 164938630"
+19:52:24 "CLEANUP: Deleted 29 Animals out of 118"
+19:52:25 Warning: Cleanup player - person 49:7 not found
+19:52:28 Server: Object info 41:61 not found during Changing Owner
+19:52:28 Server: Object info 41:60 not found during Changing Owner
+19:52:32 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68615]. Position in debug! [20387.1,-5037.7,146.194]"
+19:52:33 "ERROR: Cannot Sync Character [HoC] N9NE as no characterID"
+19:52:47 "PKILL: Sniper Bait killed himself"
+19:52:47 "PDEATH: Player Died 151656198"
+19:52:54 "PKILL: -ST-arsehole was killed by CHING CHONG with weapon M60A4_EP1_DZE from 91.6996m"
+19:52:54 "PDEATH: Player Died 10746886"
+19:52:54 "PHIT: B 1-3-C:1 (-ST-arsehole) REMOTE was hit by B 1-1-L:1 (CHING CHONG) REMOTE with M60A4_EP1_DZE from 91.9136m with 2.9577 dmg"
+19:52:58 "get: STRING (151656198), sent: STRING (151656198)"
+19:52:58 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-F:1 (Sniper Bait) REMOTE, _characterID: 68646 at loc [20386.8,-5038.11,146.191]"
+19:52:58 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68646]. Position in debug! [20386.8,-5038.11,146.191]"
+19:52:58 Client: Remote object 3:319 not found
+19:52:58 Client: Remote object 3:317 not found
+19:52:58 Client: Remote object 3:316 not found
+19:53:04 "ERROR: server_playerSync: Cannot Sync Player Prototype factory [68117]. Position in debug! [20386.1,-5037.61,146.187]"
+19:53:04 "get: STRING (164938630), sent: STRING (164938630)"
+19:53:04 "DISCONNECT: Prototype factory (164938630) Object: B 1-3-D:1 (Prototype factory) REMOTE, _characterID: 68117 at loc [20386.1,-5037.61,146.187]"
+19:53:04 "ERROR: server_playerSync: Cannot Sync Player Prototype factory [68117]. Position in debug! [20386.1,-5037.61,146.187]"
+19:53:04 Client: Remote object 28:0 not found
+19:53:05 Warning: Cleanup player - person 28:274 not found
+19:53:07 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:12 "EPOCH SERVERTRADE: Player: [BCG] Jeep (80781638) sold a BAF_Merlin_HC3_D in/at Unknown Trader City for 3x ItemGoldBar10oz"
+19:53:13 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:19 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:20 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:21 Server: Object 10:397 not found (message 94)
+19:53:21 Server: Object 10:401 not found (message 89)
+19:53:27 "CLEANUP: Deleted 21 Loot Piles out of 599"
+19:53:27 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:53:29 Server: Object 28:227 not found (message 221)
+19:53:30 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:30 "get: STRING (10746886), sent: STRING (10746886)"
+19:53:30 "DISCONNECT: -ST-arsehole (10746886) Object: B 1-3-C:1 (-ST-arsehole) REMOTE, _characterID: 68459 at loc [20386.8,-5037.87,146.191]"
+19:53:30 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68459]. Position in debug! [20386.8,-5037.87,146.191]"
+19:53:30 Client: Remote object 44:0 not found
+19:53:43 "EPOCH SERVERTRADE: Player: [BCG] Dodge (250069766) bought a BRDM2_Gue in/at Unknown Trader City for 5x ItemBriefcase100oz"
+19:53:44 Server: Object 30:108 not found (message 94)
+19:53:45 "PUBLISH: Attempt 337b8100# 1072224: arrow_down_large_ep1.p3d REMOTE"
+19:53:45 "HIVE: WRITE: "CHILD:308:11:BRDM2_Gue:0:10300:[92,[14230.3,14150.1,0.000320435]]:[]:[]:1:14230314150101901:""
+19:53:47 "HIVE: WRITE: "CHILD:388:14230314150101901:""
+19:53:47 "CUSTOM: Selected "68839""
+19:53:48 "PUBLISH: B 1-2-G:1 ([BCG] Dodge) REMOTE Bought BRDM2_Gue with ID "14230314150101901""
+19:54:01 "infiSTAR.de PlayerConnected: _uid: 10746886   _name: -ST-arsehole"
+19:54:08 "get: STRING (83445126), sent: STRING (83445126)"
+19:54:08 "DISCONNECT: Rolanks (83445126) Object: B 1-2-A:1 (Rolanks) REMOTE, _characterID: 68621 at loc [6541.54,8642.79,4.80536]"
+19:54:08 Client: Remote object 23:156 not found
+19:54:08 Client: Remote object 23:155 not found
+19:54:09 Warning: Cleanup player - person 23:157 not found
+19:54:13 "PKILL: Sniper Bait killed himself"
+19:54:13 "PDEATH: Player Died 151656198"
+19:54:23 "get: STRING (151656198), sent: STRING (151656198)"
+19:54:23 "DISCONNECT: Sniper Bait (151656198) Object: B 1-3-C:1 (Sniper Bait) REMOTE, _characterID: 68648 at loc [20386.5,-5038.57,146.188]"
+19:54:23 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68648]. Position in debug! [20386.5,-5038.57,146.188]"
+19:54:23 Client: Remote object 3:336 not found
+19:54:23 Client: Remote object 3:334 not found
+19:54:23 Client: Remote object 3:333 not found
+19:54:26 "SAFE UNLOCKED: ID:58393 UID:0 BY PoonSlayer69(25084742)"
+19:54:26 Server: Object 38:143 not found (message 70)
+19:54:39 "SAFE UNLOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+19:54:39 Server: Object 34:245 not found (message 70)
+19:54:39 Server: Object 34:246 not found (message 94)
+19:54:39 Server: Object 34:247 not found (message 94)
+19:54:50 "infiSTAR.de Log: [HoC] N9NE (239326726) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+19:54:54 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:55:05 "infiSTAR.de PlayerConnected: _uid: 164938630   _name: DANCE DANCE REVOLUTION"
+19:55:05 "infiSTAR.de Player-Log: DANCE DANCE REVOLUTION(164938630) - 0h 53min"
+19:55:07 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68615]. Position in debug! [20388.1,-5038.58,146.199]"
+19:55:10 "SAFE LOCKED: ID:58393 UID:0 BY PoonSlayer69(25084742)"
+19:55:28 "SAFE LOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+19:55:34 "infiSTAR.de Log: CHING CHONG (151742790) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+19:55:38 "SAFE UNLOCKED: ID:58393 UID:0 BY PoonSlayer69(25084742)"
+19:55:38 Server: Object 38:146 not found (message 94)
+19:55:44 "infiSTAR.de PlayerConnected: _uid: 83458886   _name: Shadow"
+19:55:44 "infiSTAR.de Player-Log: Shadow(83458886) - 0h 54min"
+19:55:46 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:47 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:48 Server: Object 53:9 not found (message 70)
+19:55:48 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:49 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:50 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:51 "PKILL: Sniper Bait killed himself"
+19:55:51 "PDEATH: Player Died 151656198"
+19:55:52 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:52 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:53 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:53 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:53 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:54 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:54 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:54 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:54 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:54 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:55 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:55 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:55 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:55 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:56 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:56 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:56 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:56 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:56 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:57 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:57 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:57 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:57 Server: Network message 61e731 is pending
+19:55:57 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:57 Server: Network message 61e785 is pending
+19:55:57 Server: Network message 61e785 is pending
+19:55:57 Server: Network message 61e785 is pending
+19:55:57 Server: Network message 61e786 is pending
+19:55:57 Server: Network message 61e79b is pending
+19:55:57 Server: Network message 61e79b is pending
+19:55:57 Server: Network message 61e79c is pending
+19:55:57 Server: Network message 61e79c is pending
+19:55:57 Server: Network message 61e79d is pending
+19:55:57 Server: Network message 61e79d is pending
+19:55:57 Server: Network message 61e79e is pending
+19:55:57 Server: Network message 61e79e is pending
+19:55:57 Server: Network message 61e79e is pending
+19:55:57 Server: Network message 61e79f is pending
+19:55:57 Server: Network message 61e79f is pending
+19:55:57 Server: Network message 61e79f is pending
+19:55:57 Server: Network message 61e7a0 is pending
+19:55:57 Server: Network message 61e7a0 is pending
+19:55:57 Server: Network message 61e7a1 is pending
+19:55:57 Server: Network message 61e7a1 is pending
+19:55:57 Server: Network message 61e7a2 is pending
+19:55:57 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:58 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:58 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:58 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:58 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:58 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:59 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:59 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:59 Server: Network message 61f897 is pending
+19:55:59 Server: Network message 61f897 is pending
+19:55:59 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:55:59 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:01 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:01 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:01 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:01 "get: STRING (151656198), sent: STRING (151656198)"
+19:56:01 "DISCONNECT: Sniper Bait (151656198) Object: B 1-2-A:1 (Sniper Bait) REMOTE, _characterID: 68650 at loc [20386.5,-5038.57,146.188]"
+19:56:01 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68650]. Position in debug! [20386.5,-5038.57,146.188]"
+19:56:02 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:02 Client: Remote object 3:363 not found
+19:56:02 Client: Remote object 3:361 not found
+19:56:02 Client: Remote object 3:360 not found
+19:56:02 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:02 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:02 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:02 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:03 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:03 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:03 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:03 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:03 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:04 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:05 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:05 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:05 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F2 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:14 "infiSTAR.de PlayerConnected: _uid: 242486278   _name: TacticalBacon"
+19:56:14 "infiSTAR.de Player-Log: TacticalBacon(242486278) - 0h 55min"
+19:56:15 "CLEANUP: Deleted 42 Loot Piles out of 747"
+19:56:19 Server: Object 5:224 not found (message 70)
+19:56:19 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F3 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:20 "infiSTAR.de Log: Aaron Funk (169675590) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+19:56:25 "SAFE LOCKED: ID:58393 UID:0 BY PoonSlayer69(25084742)"
+19:56:32 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+19:56:41 "PHIT: B 1-3-A:1 ([FFG] Steve W.) REMOTE was hit by B 1-1-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 87.8453m with 1.13331 dmg"
+19:56:44 "PHIT: B 1-3-A:1 ([FFG] Steve W.) REMOTE was hit by B 1-1-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 92.4973m with 1.53434 dmg"
+19:56:45 "PHIT: B 1-3-A:1 ([FFG] Steve W.) REMOTE was hit by B 1-1-B:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 92.4325m with 1.52997 dmg"
+19:56:45 "PKILL: [FFG] Steve W. was killed by Captain Oblivious with weapon m240_scoped_EP1_DZE from 92.4325m"
+19:56:45 "PDEATH: Player Died 63215878"
+19:56:50 "TIME SYNC: Local Time set to [2013,8,3,14,56]"
+19:56:53 "Purging player: 43024080# 1066956: man_survivor.p3d"
+19:56:54 "Purging player: 422f6040# 1067162: man_survivor.p3d"
+19:56:55 "Purging player: 3d974080# 1066758: loc_soldier02.p3d"
+19:56:55 "get: STRING (63215878), sent: STRING (63215878)"
+19:56:55 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-3-A:1 ([FFG] Steve W.) REMOTE, _characterID: 68636 at loc [20386.5,-5038.57,146.188]"
+19:56:55 "ERROR: server_playerSync: Cannot Sync Player [FFG] Steve W. [68636]. Position in debug! [20386.5,-5038.57,146.188]"
+19:57:03 "Purging player: 3f50e040# 1067132: annie_original.p3d"
+19:57:04 "Purging player: 3cc46040# 1065919: baf_soldier_1_baf.p3d"
+19:57:06 "Purging player: 43c34080# 1067187: annie_original.p3d"
+19:57:07 "CLEANUP: Deleted 6 players and 0 zombies out of 63 dead"
+19:57:36 "infiSTAR.de PlayerConnected: _uid: 63215878   _name: [FFG] Steve W."
+19:57:37 "get: STRING (25084742), sent: STRING (25084742)"
+19:57:37 "DISCONNECT: PoonSlayer69 (25084742) Object: B 1-2-M:1 (PoonSlayer69) REMOTE, _characterID: 68572 at loc [10648.7,8008.54,0.061554]"
+19:57:37 "get: STRING (26781126), sent: STRING (26781126)"
+19:57:37 "DISCONNECT: Tyrone (26781126) Object: B 1-2-H:1 (Tyrone) REMOTE, _characterID: 68619 at loc [10669.2,8046.82,0.976151]"
+19:57:37 Client: Remote object 38:0 not found
+19:57:37 Client: Remote object 38:8 not found
+19:57:37 Client: Remote object 33:90 not found
+19:57:37 Client: Remote object 33:89 not found
+19:57:38 Client: Object 34:257 (type Type_149) not found.
+19:57:38 Client: Object 34:258 (type Type_149) not found.
+19:57:38 Client: Object 53:12 (type Type_149) not found.
+19:57:38 Client: Object 53:11 (type Type_149) not found.
+19:57:38 Client: Object 9:658 (type Type_149) not found.
+19:57:38 Client: Object 9:657 (type Type_149) not found.
+19:57:42 Server: Object 8:308 not found (message 70)
+19:57:42 Server: Object 8:306 not found (message 70)
+19:57:42 Server: Object 8:307 not found (message 70)
+19:57:42 Server: Object 8:311 not found (message 94)
+19:57:42 Server: Object 8:310 not found (message 94)
+19:57:42 Server: Object 8:312 not found (message 70)
+19:57:42 Server: Object 8:309 not found (message 94)
+19:57:42 Server: Object 8:314 not found (message 70)
+19:57:42 Server: Object 8:316 not found (message 70)
+19:57:42 Server: Object 8:318 not found (message 70)
+19:57:42 Server: Object 8:317 not found (message 70)
+19:57:42 Server: Object 8:315 not found (message 94)
+19:57:54 "get: STRING (25084870), sent: STRING (25084870)"
+19:57:54 "DISCONNECT: Aesthetics (25084870) Object: B 1-2-I:1 (Aesthetics) REMOTE, _characterID: 68571 at loc [10648.8,8008.3,0.061554]"
+19:57:54 Client: Remote object 32:0 not found
+19:57:54 Client: Remote object 32:8 not found
+19:57:55 Warning: Cleanup player - person 32:7 not found
+19:58:31 "23 Active ground units"
+19:58:31 "4 Active emplacement units"
+19:58:31 "0 Active chopper patrol units (Crew)"
+19:58:31 "0 Active vehicle patrol units (Crew)"
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:47 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:48 Server: Object 5:231 not found (message 99)
+19:59:52 "get: STRING (83458886), sent: STRING (83458886)"
+19:59:52 "DISCONNECT: Shadow (83458886) Object: B 1-3-K:1 (Shadow) REMOTE, _characterID: 68126 at loc [6519.72,8658.12,20.4961]"
+19:59:53 Client: Remote object 53:6 not found
+19:59:53 Client: Remote object 53:5 not found
+19:59:53 Client: Remote object 53:0 not found
+19:59:54 Warning: Cleanup player - person 53:7 not found
+20:00:36 "get: STRING (63215878), sent: STRING (63215878)"
+20:00:36 "DISCONNECT: [FFG] Steve W. (63215878) Object: B 1-2-H:1 ([FFG] Steve W.) REMOTE, _characterID: 68653 at loc [9208.48,3450.08,0.00180054]"
+20:00:36 Client: Remote object 9:663 not found
+20:00:36 Client: Remote object 9:662 not found
+20:00:39 Warning: Cleanup player - person 9:664 not found
+20:01:00 "SAFE UNLOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+20:01:00 Server: Object 14:268 not found (message 70)
+20:01:00 Server: Object 14:267 not found (message 94)
+20:01:00 Server: Object 14:269 not found (message 94)
+20:01:08 "CLEANUP: Deleted 114 Loot Piles out of 942"
+20:01:16 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:01:18 "SAFE UNLOCKED: ID:7762 UID:0 BY Captain Oblivious(153844166)"
+20:01:20 "EPOCH SERVERTRADE: Player: [FFG] ZIEMBA (98292102) sold a Makarov in/at Unknown Trader City for 1x ItemSilverBar10oz"
+20:01:25 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:01:29 "PKILL: Sniper Bait killed himself"
+20:01:29 "PDEATH: Player Died 151656198"
+20:01:34 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:01:39 "get: STRING (151656198), sent: STRING (151656198)"
+20:01:39 "DISCONNECT: Sniper Bait (151656198) Object: B 1-3-L:1 (Sniper Bait) REMOTE, _characterID: 68652 at loc [20386.5,-5038.57,146.188]"
+20:01:39 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68652]. Position in debug! [20386.5,-5038.57,146.188]"
+20:01:43 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:01:51 "TIME SYNC: Local Time set to [2013,8,3,15,1]"
+20:01:52 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:01:56 "SAFE LOCKED: ID:7762 UID:0 BY Captain Oblivious(153844166)"
+20:02:01 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:10 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:13 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+20:02:20 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:29 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:37 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:47 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:02:54 "ERROR: server_playerSync: Cannot Sync Player DANCE DANCE REVOLUTION [68651]. Position in debug! [20387.1,-5038.28,146.193]"
+20:02:54 SetFace error: class CfgFaces.OharaHead.Zombie2 not found
+20:02:54 Error: Error during SetFace - class CfgFaces.OharaHead.Zombie2 not found
+20:02:54 "ERROR: Cannot Sync Character DANCE DANCE REVOLUTION as no characterID"
+20:02:55 "SAFE LOCKED: ID:68663 UID:0 BY CHING CHONG(151742790)"
+20:02:56 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemMorphine in/at Unknown Trader City for 2x ItemSilverBar"
+20:03:10 "EPOCH SERVERTRADE: Player: [FFG] Zak (136873286) bought a M4A3_CCO_EP1 in/at Unknown Trader City for 1x ItemGoldBar10oz"
+20:03:27 "Skipping Null Object: <NULL-object>"
+20:03:33 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemBloodbag in/at Unknown Trader City for 2x ItemSilverBar"
+20:04:07 "EPOCH SERVERTRADE: Player: SmokeBlowinClowns (87615302) bought a ItemBloodbag in/at Unknown Trader City for 2x ItemSilverBar"
+20:04:37 Server: Object 3:459 not found (message 70)
+20:04:38 Client: Object 3:458 (type Type_70) not found.
+20:04:38 Client: Object 3:458 (type Type_69) not found.
+20:04:38 Client: Object 3:459 (type Type_69) not found.
+20:04:39 "Locked Vehicle destroyed at GPS 114078 - Ural_CDF, worldspace [185,[11466.7,7514.39,0]], objID 68643, objUID 0"
+20:04:41 "EPOCH SERVERTRADE: Player: [FFG] ZIEMBA (98292102) bought a DZ_Backpack_EP1 in/at Unknown Trader City for 1x ItemGoldBar10oz"
+20:04:44 Server: Network message 71b1a7 is pending
+20:04:44 Server: Network message 71b1a7 is pending
+20:04:44 Server: Network message 71b1a7 is pending
+20:04:44 Server: Network message 71b1a7 is pending
+20:04:44 Server: Network message 71b1a7 is pending
+20:04:44 Server: Network message 71b1a8 is pending
+20:04:44 "CLEANUP: Deleted 46 Loot Piles out of 952"
+20:04:47 Server: Object 3:488 not found (message 94)
+20:04:47 Server: Object 3:487 not found (message 70)
+20:04:47 Server: Object 3:486 not found (message 94)
+20:04:47 Server: Object 3:491 not found (message 70)
+20:04:47 Server: Object 3:493 not found (message 70)
+20:04:47 Server: Object 3:492 not found (message 94)
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c0 is pending
+20:05:00 Server: Network message 7220c1 is pending
+20:06:06 "CLEANUP: Deleted 60 Loot Piles out of 991"
+20:06:09 "infiSTAR.de PlayerConnected: _uid: 91753414   _name: Regular Guy w/ a big Dik"
+20:06:09 "infiSTAR.de Player-Log: Regular Guy w/ a big Dik(91753414) - 1h 04min"
+20:06:29 "infiSTAR.de Log: [FFG] ZIEMBA (98292102) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+20:06:50 "Purging player: 39d02040# 1064975: baf_soldier_officer_baf.p3d"
+20:06:51 "TIME SYNC: Local Time set to [2013,8,3,15,6]"
+20:06:51 "Purging player: 405e8080# 1068467: man_survivor.p3d"
+20:06:53 "Purging player: 47158080# 1068279: annie_original.p3d"
+20:06:53 "Purging player: 47e08080# 1068286: man_survivor.p3d"
+20:06:55 "Purging player: 48e98080# 1068812: man_survivor.p3d"
+20:06:55 "Purging player: 2e864080# 1067390: annie_original.p3d"
+20:06:56 "Purging player: 3e8e6040# 1068155: annie_original.p3d"
+20:06:57 "Purging player: 4725e040# 1068260: man_survivor.p3d"
+20:06:57 "Purging player: 4414e040# 1067755: man_survivor.p3d"
+20:06:58 "Purging player: 49312040# 1068518: annie_original.p3d"
+20:06:59 "Purging player: 49090080# 1068690: annie_original.p3d"
+20:07:00 "Purging player: 46e7a040# 1068621: man_survivor.p3d"
+20:07:01 "Purging player: 43e50080# 1067799: annie_original.p3d"
+20:07:01 "Purging player: 3e8e4080# 1068157: man_survivor.p3d"
+20:07:02 "CLEANUP: Deleted 14 players and 0 zombies out of 33 dead"
+20:07:39 "CLEANUP: Deleted 59 Animals out of 143"
+20:07:49 Server: Object 55:146 not found (message 91)
+20:07:49 Server: Object 55:145 not found (message 99)
+20:08:36 Server: Object 41:131 not found (message 70)
+20:08:36 Server: Object 41:130 not found (message 70)
+20:08:36 Server: Object 41:129 not found (message 70)
+20:08:36 Server: Object 41:128 not found (message 94)
+20:08:36 Server: Object 41:127 not found (message 94)
+20:08:36 Server: Object 41:135 not found (message 70)
+20:08:36 Server: Object 41:134 not found (message 70)
+20:09:00 Server: Object 4:433 not found (message 91)
+20:09:00 Server: Object 4:432 not found (message 99)
+20:09:45 "CLEANUP: Deleted 66 Loot Piles out of 1060"
+20:10:04 "get: STRING (102637958), sent: STRING (102637958)"
+20:10:04 "DISCONNECT: J.Piazza (102637958) Object: B 1-3-F:1 (J.Piazza) REMOTE, _characterID: 68645 at loc [9735.69,8733.81,0.537567]"
+20:10:05 Client: Remote object 47:75 not found
+20:10:06 Warning: Cleanup player - person 47:74 not found
+20:10:16 Server: Object 44:113 not found (message 99)
+20:10:16 Server: Object 44:114 not found (message 91)
+20:10:23 "infiSTAR.de PlayerConnected: _uid: 32833990   _name: Andrew"
+20:10:23 "infiSTAR.de Player-Log: Andrew(32833990) - 1h 09min"
+20:10:37 "EPOCH SERVERTRADE: Player: [FFG] Zak (136873286) bought a 100Rnd_556x45_BetaCMag in/at Unknown Trader City for 3x ItemSilverBar10oz"
+20:11:08 "CLEANUP: Deleted 18 Loot Piles out of 966"
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb4 is pending
+20:11:24 Server: Network message 7d2cb5 is pending
+20:11:24 Server: Network message 7d2cb5 is pending
+20:11:24 Server: Network message 7d2cb5 is pending
+20:11:24 Server: Network message 7d2cb6 is pending
+20:11:24 Server: Network message 7d2cb6 is pending
+20:11:24 Server: Network message 7d2cb6 is pending
+20:11:24 Server: Network message 7d2cb7 is pending
+20:11:24 Server: Network message 7d2cb7 is pending
+20:11:24 Server: Network message 7d2cb7 is pending
+20:11:24 Server: Network message 7d2cb8 is pending
+20:11:24 Server: Network message 7d2cb8 is pending
+20:11:26 "get: STRING (153844166), sent: STRING (153844166)"
+20:11:26 "LOGOUT IN VEHICLE: Captain Oblivious at location [4976.21,2296.59,1.11168]"
+20:11:26 "DISCONNECT: Captain Oblivious (153844166) Object: B 1-1-B:1 (Captain Oblivious) REMOTE, _characterID: 68624 at loc [4976.21,2296.59,1.11168]"
+20:11:26 Client: Remote object 19:258 not found
+20:11:26 Client: Remote object 19:257 not found
+20:11:27 Client: Object 48:431 (type Type_149) not found.
+20:11:33 "EPOCH SERVERTRADE: Player: [FFG] Zak (136873286) bought a 100Rnd_556x45_BetaCMag in/at Unknown Trader City for 3x ItemSilverBar10oz"
+20:11:43 Server: Object 45:102 not found (message 69)
+20:11:43 Server: Object 45:101 not found (message 69)
+20:11:43 "Vehicle destroyed at GPS 056125 by That AS50 Guy (51271110) - pook_H13_medevac_INS, worldspace [218.452,[5629,2772.6,35.5464]], objID 68768, objUID 0"
+20:11:43 Client: Object 45:102 (type Type_70) not found.
+20:11:44 "EPOCH SERVERTRADE: Player: [FFG] Zak (136873286) bought a 100Rnd_556x45_BetaCMag in/at Unknown Trader City for 3x ItemSilverBar10oz"
+20:11:44 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-3-B:1 (That AS50 Guy) REMOTE with MH-13E from 0m with 2.60134 dmg"
+20:11:44 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-3-B:1 (That AS50 Guy) REMOTE with MH-13E from 0m with 0.998743 dmg"
+20:11:44 Server: Object 44:120 not found (message 70)
+20:11:44 Server: Object 44:121 not found (message 69)
+20:11:44 "Vehicle destroyed at GPS 056126 by That AS50 Guy (51271110) - pook_H13_civ_ru_black, worldspace [197.545,[5602.08,2728.31,30.3698]], objID 67303, objUID 0"
+20:11:45 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-3-B:1 (That AS50 Guy) REMOTE with MH-13E from 0m with 28.9238 dmg"
+20:11:45 "PKILL:  was killed by That AS50 Guy with weapon MH-13E from 0m"
+20:11:45 "PDEATH: Player Died 122098886"
+20:11:45 Client: Object 44:121 (type Type_70) not found.
+20:11:45 "PHIT: B 1-3-D:1 (-ST-arsehole) REMOTE was hit by B 1-3-B:1 (That AS50 Guy) REMOTE with MH-13E from 21.4705m with 8.64463 dmg"
+20:11:45 "PHIT: B 1-3-D:1 (-ST-arsehole) REMOTE was hit by B 1-3-B:1 (That AS50 Guy) REMOTE with MH-13E from 25.0438m with 0.735153 dmg"
+20:11:46 NetServer::SendMsg: cannot find channel #1808360401, users.card=21
+20:11:46 NetServer: users.get failed when sending to 1808360401
+20:11:46 Message not sent - error 0, message ID = ffffffff, to 1808360401 (That AS50 Guy)
+20:11:46 "get: STRING (51271110), sent: STRING (51271110)"
+20:11:46 "LOGOUT IN VEHICLE: That AS50 Guy at location [5587.05,2712.68,8.32705]"
+20:11:46 "DISCONNECT: That AS50 Guy (51271110) Object: B 1-3-B:1 (That AS50 Guy) REMOTE, _characterID: 68496 at loc [5587.05,2712.68,8.32705]"
+20:11:46 Client: Remote object 45:0 not found
+20:11:46 Client: Remote object 45:8 not found
+20:11:46 Client: Remote object 45:104 not found
+20:11:47 Client: Object 51:74 (type Type_149) not found.
+20:11:48 "PKILL: -ST-arsehole was killed by That AS50 Guy with weapon MH-13E from 25.0438m"
+20:11:48 "PDEATH: Player Died 10746886"
+20:11:51 "TIME SYNC: Local Time set to [2013,8,3,15,11]"
+20:11:52 "get: STRING (242486278), sent: STRING (242486278)"
+20:11:52 "DISCONNECT: TacticalBacon (242486278) Object: B 1-2-A:1 (TacticalBacon) REMOTE, _characterID: 65996 at loc [10427.6,2565.73,0.00139141]"
+20:11:52 Client: Remote object 55:0 not found
+20:11:52 Client: Remote object 55:8 not found
+20:11:55 "EPOCH SERVERTRADE: Player: [FFG] Zak (136873286) bought a 100Rnd_556x45_BetaCMag in/at Unknown Trader City for 3x ItemSilverBar10oz"
+20:11:58 "get: STRING (10746886), sent: STRING (10746886)"
+20:11:58 "DISCONNECT: -ST-arsehole (10746886) Object: B 1-3-D:1 (-ST-arsehole) REMOTE, _characterID: 68649 at loc [20386,-5038.31,146.184]"
+20:11:58 "ERROR: server_playerSync: Cannot Sync Player -ST-arsehole [68649]. Position in debug! [20386,-5038.31,146.184]"
+20:12:09 "ERROR: server_playerSync: Cannot Sync Player mikew_000 [68272]. Position in debug! [20385.8,-5039,146.182]"
+20:12:10 "get: STRING (122098886), sent: STRING (122098886)"
+20:12:10 "DISCONNECT: mikew_000 (122098886) Object: B 1-1-B:1 (mikew_000) REMOTE, _characterID: 68272 at loc [20385.8,-5039,146.182]"
+20:12:10 "ERROR: server_playerSync: Cannot Sync Player mikew_000 [68272]. Position in debug! [20385.8,-5039,146.182]"
+20:12:12 Warning: Cleanup player - person 55:7 not found
+20:12:33 Server: Object 4:465 not found (message 70)
+20:12:33 Server: Object 4:464 not found (message 70)
+20:12:33 "Locked Vehicle destroyed at GPS 062075 - pook_H13_gunship, worldspace [251.03,[6271.01,7823.38,-0.0605469]], objID 68800, objUID 0"
+20:12:33 "infiSTAR.de PlayerConnected: _uid: 10746886   _name: -ST-arsehole"
+20:12:34 "Locked Vehicle destroyed at GPS 062075 - SUV_Camo, worldspace [35.3064,[6261.48,7831.34,0.126129]], objID 68033, objUID 0"
+20:12:34 Server: Object 14:340 not found (message 70)
+20:12:34 Server: Object 14:339 not found (message 70)
+20:12:34 "Vehicle destroyed at GPS 062075 - M1030_US_DES_EP1, worldspace [30.4818,[6267.12,7828.47,-0.0125732]], objID 65466, objUID 0"
+20:12:34 Client: Object 14:340 (type Type_69) not found.
+20:12:50 "infiSTAR.de PlayerConnected: _uid: 122098886   _name: mikew_000"
+20:12:53 Server: Object 59:125 not found (message 91)
+20:12:57 "SAFE UNLOCKED: ID:68347 UID:0 BY [BCG] Jeep(80781638)"
+20:13:00 "Skipping Null Object: <NULL-object>"
+20:13:02 Server: Object 59:151 not found (message 94)
+20:13:02 Server: Object 59:155 not found (message 94)
+20:13:02 Server: Object 59:154 not found (message 70)
+20:13:02 Server: Object 59:152 not found (message 94)
+20:13:02 Server: Object 59:153 not found (message 94)
+20:13:02 Server: Object 59:158 not found (message 70)
+20:13:02 Server: Object 59:161 not found (message 70)
+20:13:02 Server: Object 59:160 not found (message 70)
+20:13:02 Server: Object 59:159 not found (message 94)
+20:13:02 Server: Object 59:157 not found (message 70)
+20:13:02 Server: Object 59:156 not found (message 94)
+20:13:02 Server: Object 59:165 not found (message 70)
+20:13:02 Server: Object 59:170 not found (message 70)
+20:13:02 Server: Object 59:169 not found (message 70)
+20:13:02 Server: Object 59:168 not found (message 70)
+20:13:02 Server: Object 59:167 not found (message 70)
+20:13:02 Server: Object 59:164 not found (message 94)
+20:13:02 Server: Object 59:163 not found (message 70)
+20:13:02 Server: Object 59:162 not found (message 70)
+20:13:02 Server: Object 59:166 not found (message 94)
+20:13:02 Server: Object 59:177 not found (message 70)
+20:13:02 Server: Object 59:183 not found (message 70)
+20:13:02 Server: Object 59:182 not found (message 70)
+20:13:02 Server: Object 59:181 not found (message 70)
+20:13:02 Server: Object 59:180 not found (message 70)
+20:13:02 Server: Object 59:179 not found (message 70)
+20:13:02 Server: Object 59:178 not found (message 70)
+20:13:02 Server: Object 59:176 not found (message 70)
+20:13:02 Server: Object 59:175 not found (message 70)
+20:13:02 Server: Object 59:174 not found (message 70)
+20:13:02 Server: Object 59:173 not found (message 70)
+20:13:02 Server: Object 59:172 not found (message 70)
+20:13:02 Server: Object 59:171 not found (message 70)
+20:13:02 Server: Object 59:184 not found (message 70)
+20:13:02 Server: Object 59:191 not found (message 70)
+20:13:02 Server: Object 59:190 not found (message 70)
+20:13:02 Server: Object 59:189 not found (message 70)
+20:13:02 Server: Object 59:188 not found (message 70)
+20:13:02 Server: Object 59:187 not found (message 70)
+20:13:02 Server: Object 59:186 not found (message 70)
+20:13:02 Server: Object 59:185 not found (message 70)
+20:13:02 Server: Object 59:199 not found (message 70)
+20:13:02 Server: Object 59:200 not found (message 94)
+20:13:02 Server: Object 59:201 not found (message 94)
+20:13:02 Server: Object 59:202 not found (message 94)
+20:13:02 Server: Object 59:211 not found (message 70)
+20:13:02 Server: Object 59:210 not found (message 70)
+20:13:02 Server: Object 59:209 not found (message 70)
+20:13:02 Server: Object 59:208 not found (message 70)
+20:13:12 "PHIT: B 1-3-G:1 (Dimitri) REMOTE was hit by B 1-1-G:1 (Wally Lad) REMOTE with UZI_EP1 from 4.65744m with 0.257196 dmg"
+20:13:15 "infiSTAR.de PlayerConnected: _uid: 153844166   _name: Captain Oblivious"
+20:13:19 "PKILL: Elbo Grease killed himself"
+20:13:19 "PDEATH: Player Died 69983238"
+20:13:23 "SAFE LOCKED: ID:68347 UID:0 BY [BCG] Jeep(80781638)"
+20:13:25 Server: Object 60:9 not found (message 70)
+20:13:29 "get: STRING (69983238), sent: STRING (69983238)"
+20:13:29 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68647 at loc [20386.5,-5038.57,146.188]"
+20:13:29 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68647]. Position in debug! [20386.5,-5038.57,146.188]"
+20:13:37 Server: Object 60:17 not found (message 99)
+20:13:37 Server: Object 60:18 not found (message 91)
+20:13:37 Server: Object 60:19 not found (message 98)
+20:13:37 Server: Object 60:20 not found (message 91)
+20:13:37 Server: Object 60:21 not found (message 98)
+20:13:37 Server: Object 60:22 not found (message 91)
+20:13:37 Server: Object 60:23 not found (message 98)
+20:13:37 Server: Object 60:24 not found (message 91)
+20:13:45 "SAFE UNLOCKED: ID:68802 UID:0 BY [BCG] Jeep(80781638)"
+20:13:58 "Skipping Null Object: <NULL-object>"
+20:14:10 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+20:14:11 "CLEANUP: Deleted 98 Loot Piles out of 1060"
+20:14:16 "infiSTAR.de PlayerConnected: _uid: 51271110   _name: That AS50 Guy"
+20:14:17 "get: STRING (32833990), sent: STRING (32833990)"
+20:14:17 "DISCONNECT: Andrew (32833990) Object: B 1-3-F:1 (Andrew) REMOTE, _characterID: 68269 at loc [12737.4,9597.46,5.35325]"
+20:14:17 Client: Remote object 59:0 not found
+20:14:17 Client: Remote object 59:8 not found
+20:14:24 "SAFE LOCKED: ID:68802 UID:0 BY [BCG] Jeep(80781638)"
+20:14:30 NetServer::SendMsg: cannot find channel #1196993641, users.card=21
+20:14:30 NetServer: users.get failed when sending to 1196993641
+20:14:30 Message not sent - error 0, message ID = ffffffff, to 1196993641 ([HoC] N9NE)
+20:14:30 NetServer::SendMsg: cannot find channel #1196993641, users.card=21
+20:14:30 NetServer: users.get failed when sending to 1196993641
+20:14:30 Message not sent - error 0, message ID = ffffffff, to 1196993641 ([HoC] N9NE)
+20:14:30 "get: STRING (239326726), sent: STRING (239326726)"
+20:14:30 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-3-C:1 ([HoC] N9NE) REMOTE, _characterID: 68615 at loc [12715.9,8549.26,0.00129986]"
+20:14:30 Client: Remote object 34:252 not found
+20:14:31 Client: Object 61:11 (type Type_149) not found.
+20:14:31 Client: Object 58:17 (type Type_149) not found.
+20:14:31 Client: Object 51:75 (type Type_149) not found.
+20:14:31 Client: Object 48:453 (type Type_149) not found.
+20:14:41 "get: STRING (23264902), sent: STRING (23264902)"
+20:14:41 "DISCONNECT: Wally Lad (23264902) Object: B 1-1-G:1 (Wally Lad) REMOTE, _characterID: 68460 at loc [13846.3,11778.8,0.0016408]"
+20:14:41 Client: Remote object 51:0 not found
+20:14:41 Client: Remote object 51:8 not found
+20:14:41 Warning: Cleanup player - person 59:7 not found
+20:14:52 "PKILL: That AS50 Guy was killed by DANCE DANCE REVOLUTION with weapon BAF_L85A2_RIS_Holo from 2.8795m"
+20:14:52 "PDEATH: Player Died 51271110"
+20:14:52 "PHIT: B 1-3-B:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with BAF_L85A2_RIS_Holo from 2.63667m with 0.6784 dmg"
+20:14:52 "PHIT: B 1-3-B:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with BAF_L85A2_RIS_Holo from 2.63667m with 0.678401 dmg"
+20:14:53 "PHIT: B 1-3-B:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with BAF_L85A2_RIS_Holo from 2.65744m with 0.678401 dmg"
+20:14:53 "PHIT: B 1-3-B:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with BAF_L85A2_RIS_Holo from 2.67525m with 0.678402 dmg"
+20:14:53 "PHIT: B 1-3-B:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with BAF_L85A2_RIS_Holo from 2.70543m with 0.678469 dmg"
+20:14:59 "infiSTAR.de Log: SmokeBlowinClowns (87615302) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+20:15:01 "infiSTAR.de Log: SmokeBlowinClowns (87615302) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+20:15:03 "get: STRING (51271110), sent: STRING (51271110)"
+20:15:03 "DISCONNECT: That AS50 Guy (51271110) Object: B 1-3-B:1 (That AS50 Guy) REMOTE, _characterID: 68496 at loc [20386.5,-5038.57,146.188]"
+20:15:03 "ERROR: server_playerSync: Cannot Sync Player That AS50 Guy [68496]. Position in debug! [20386.5,-5038.57,146.188]"
+20:15:03 Client: Remote object 61:0 not found
+20:15:10 "infiSTAR.de PlayerConnected: _uid: 149982790   _name: The Shit Abyss"
+20:15:10 "infiSTAR.de Player-Log: The Shit Abyss(149982790) - 1h 14min"
+20:15:12 "SAFE UNLOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+20:15:13 "infiSTAR.de PlayerConnected: _uid: 23264902   _name: Wally Lad"
+20:15:21 "get: STRING (87615302), sent: STRING (87615302)"
+20:15:21 "DISCONNECT: SmokeBlowinClowns (87615302) Object: B 1-2-D:1 (SmokeBlowinClowns) REMOTE, _characterID: 67743 at loc [1212.99,5972.18,0.11644]"
+20:15:21 Client: Remote object 50:6 not found
+20:15:21 Client: Remote object 50:5 not found
+20:15:21 Client: Remote object 50:0 not found
+20:15:21 Server: Object 51:86 not found (message 70)
+20:15:21 Server: Object info 2:10468 not found during Changing Owner
+20:15:21 Server: Object info 2:10467 not found during Changing Owner
+20:15:24 Warning: Cleanup player - person 50:7 not found
+20:15:27 "SAFE LOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+20:15:29 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-K:1 (Vajazzler) REMOTE with AA12_PMC from 45.8525m with 0.384541 dmg"
+20:15:29 "PKILL: Elbo Grease was killed by Vajazzler with weapon AA12_PMC from 48.0015m"
+20:15:29 "PDEATH: Player Died 69983238"
+20:15:30 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-K:1 (Vajazzler) REMOTE with AA12_PMC from 46.4589m with 0.615188 dmg"
+20:15:30 "infiSTAR.de PlayerConnected: _uid: 51271110   _name: That AS50 Guy"
+20:15:39 "get: STRING (69983238), sent: STRING (69983238)"
+20:15:39 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68657 at loc [20386.5,-5038.57,146.188]"
+20:15:39 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68657]. Position in debug! [20386.5,-5038.57,146.188]"
+20:15:49 "SAFE UNLOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+20:16:04 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+20:16:09 Server: Object 10:511 not found (message 89)
+20:16:23 "SAFE UNLOCKED: ID:67823 UID:0 BY Tactical Bacon(96374662)"
+20:16:24 Server: Object 17:95 not found (message 94)
+20:16:47 "CLEANUP: Deleted 288 Loot Piles out of 1122"
+20:16:49 "SAFE LOCKED: ID:67823 UID:0 BY Tactical Bacon(96374662)"
+20:16:51 "TIME SYNC: Local Time set to [2013,8,3,15,16]"
+20:16:54 "Purging player: 45bc2040# 1069526: man_survivor.p3d"
+20:16:56 "CLEANUP: Deleted 1 players and 0 zombies out of 32 dead"
+20:16:57 "CLEANUP: Deleted 54 Loot Piles out of 1108"
+20:17:42 "infiSTAR.de PlayerConnected: _uid: 32833990   _name: Andrew"
+20:18:10 Server: Object 65:19 not found (message 98)
+20:18:10 Server: Object 65:20 not found (message 91)
+20:18:10 Server: Object 65:21 not found (message 98)
+20:18:10 Server: Object 65:22 not found (message 91)
+20:18:10 Server: Object 65:23 not found (message 98)
+20:18:10 Server: Object 65:24 not found (message 91)
+20:18:10 Server: Object 65:29 not found (message 98)
+20:18:10 Server: Object 65:30 not found (message 91)
+20:18:18 "infiSTAR.de PlayerConnected: _uid: 26781126   _name: Tyrone"
+20:18:33 SetFace error: class CfgFaces.OharaHead.Face79 not found
+20:18:33 Error: Error during SetFace - class CfgFaces.OharaHead.Face79 not found
+20:19:13 "infiSTAR.de PlayerConnected: _uid: 80683206   _name: Sylar"
+20:19:13 "infiSTAR.de Player-Log: Sylar(80683206) - 1h 18min"
+20:19:39 Server: Object 10:520 not found (message 70)
+20:19:39 Server: Object 10:521 not found (message 94)
+20:19:39 Server: Object 10:522 not found (message 94)
+20:19:56 "SAFE LOCKED: ID:66264 UID:0 BY Regular Guy w/ a big Dik(91753414)"
+20:19:57 "get: STRING (136873286), sent: STRING (136873286)"
+20:19:57 "DISCONNECT: [FFG] Zak (136873286) Object: B 1-1-E:1 ([FFG] Zak) REMOTE, _characterID: 68610 at loc [6334.8,7784.54,0.00140381]"
+20:19:58 Client: Remote object 4:176 not found
+20:19:58 "23 Active ground units"
+20:19:58 "4 Active emplacement units"
+20:19:58 "0 Active chopper patrol units (Crew)"
+20:19:58 "0 Active vehicle patrol units (Crew)"
+20:20:22 Server: Object 8:466 not found (message 70)
+20:20:22 Server: Object 8:465 not found (message 70)
+20:20:22 Server: Object 8:464 not found (message 70)
+20:20:28 Server: Object 10:531 not found (message 94)
+20:20:28 Server: Object 10:532 not found (message 94)
+20:20:30 Server: Object 8:475 not found (message 94)
+20:20:30 Server: Object 8:478 not found (message 94)
+20:20:30 Server: Object 8:480 not found (message 70)
+20:20:30 Server: Object 8:479 not found (message 70)
+20:20:30 Server: Object 8:477 not found (message 70)
+20:20:30 Server: Object 8:481 not found (message 70)
+20:20:30 Server: Object 8:489 not found (message 94)
+20:20:30 Server: Object 8:488 not found (message 94)
+20:20:30 Server: Object 8:491 not found (message 94)
+20:20:30 Server: Object 8:490 not found (message 94)
+20:20:30 Server: Object 8:497 not found (message 94)
+20:20:30 Server: Object 8:496 not found (message 70)
+20:20:30 Server: Object 8:495 not found (message 94)
+20:20:30 Server: Object 8:494 not found (message 70)
+20:20:30 Server: Object 8:492 not found (message 70)
+20:20:30 Server: Object 8:493 not found (message 70)
+20:20:43 "SAFE UNLOCKED: ID:61020 UID:0 BY Sylar(80683206)"
+20:21:09 Server: Object 61:36 not found (message 98)
+20:21:09 Server: Object 61:37 not found (message 91)
+20:21:09 Server: Object 61:39 not found (message 91)
+20:21:09 "SAFE LOCKED: ID:68804 UID:0 BY Dimitri(60115142)"
+20:21:15 "CLEANUP: Deleted 317 Loot Piles out of 889"
+20:21:24 "MAINTAIN AREA BY Sylar - 5 Objects at [9660.46,9355.21,0.238678]"
+20:21:30 "SAFE UNLOCKED: ID:68340 UID:0 BY Dimitri(60115142)"
+20:21:30 Server: Object 41:155 not found (message 94)
+20:21:33 "infiSTAR.de PlayerConnected: _uid: 244380678   _name: Javier"
+20:21:33 "infiSTAR.de Player-Log: Javier(244380678) - 1h 20min"
+20:21:43 "SAFE UNLOCKED: ID:68802 UID:0 BY [BCG] Jeep(80781638)"
+20:21:51 "TIME SYNC: Local Time set to [2013,8,3,15,21]"
+20:21:53 "CLEANUP: Deleted 17 Loot Piles out of 767"
+20:22:02 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) sold a ItemSodaMdew in/at Unknown Trader City for 3x ItemGoldBar"
+20:22:16 "PDEATH: Player Died 151656198"
+20:22:21 "SAFE LOCKED: ID:68802 UID:0 BY [BCG] Jeep(80781638)"
+20:22:26 "get: STRING (151656198), sent: STRING (151656198)"
+20:22:26 "DISCONNECT: Sniper Bait (151656198) Object: B 1-3-B:1 (Sniper Bait) REMOTE, _characterID: 68654 at loc [20386.5,-5038.57,146.188]"
+20:22:26 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68654]. Position in debug! [20386.5,-5038.57,146.188]"
+20:22:30 "infiSTAR.de Log: Elbo Grease (69983238) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+20:22:33 "CLEANUP: Deleted 66 Animals out of 122"
+20:22:35 "SAFE LOCKED: ID:67826 UID:0 BY Regular Guy w/ a big Dik(91753414)"
+20:22:42 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) sold a SVD in/at Unknown Trader City for 6x ItemGoldBar"
+20:23:05 "Player is Null FAILED: Exiting, player sync: <NULL-object>"
+20:23:05 "ERROR: Cannot Sync Character Andrew as no characterID"
+20:23:08 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+20:23:09 "SAFE LOCKED: ID:65690 UID:0 BY Regular Guy w/ a big Dik(91753414)"
+20:23:31 "get: STRING (80683206), sent: STRING (80683206)"
+20:23:31 "DISCONNECT: Sylar (80683206) Object: B 1-3-D:1 (Sylar) REMOTE, _characterID: 64562 at loc [9661.82,9353.61,0.154755]"
+20:23:31 Client: Remote object 67:0 not found
+20:23:31 Client: Remote object 67:8 not found
+20:23:33 Warning: Cleanup player - person 67:7 not found
+20:23:49 "PHIT: B 1-1-E:1 (That AS50 Guy) REMOTE was hit by B 1-2-K:1 (Vajazzler) REMOTE with AA12_PMC from 243.987m with 0.122736 dmg"
+20:23:55 "PHIT: B 1-1-E:1 (That AS50 Guy) REMOTE was hit by B 1-2-K:1 (Vajazzler) REMOTE with AA12_PMC from 263.666m with 0.0922868 dmg"
+20:23:58 "SAFE UNLOCKED: ID:68347 UID:0 BY [BCG] Dodge(250069766)"
+20:23:59 "PKILL: Sniper Bait killed himself"
+20:23:59 "PDEATH: Player Died 151656198"
+20:24:10 "get: STRING (151656198), sent: STRING (151656198)"
+20:24:10 "DISCONNECT: Sniper Bait (151656198) Object: B 1-3-L:1 (Sniper Bait) REMOTE, _characterID: 68660 at loc [20386.5,-5038.57,146.188]"
+20:24:10 "ERROR: server_playerSync: Cannot Sync Player Sniper Bait [68660]. Position in debug! [20386.5,-5038.57,146.188]"
+20:24:15 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) bought a hilux1_civil_1_open in/at Unknown Trader City for 4x ItemGoldBar"
+20:24:16 "PUBLISH: Attempt 40f18800# 1075996: arrow_down_large_ep1.p3d REMOTE"
+20:24:16 "HIVE: WRITE: "CHILD:308:11:hilux1_civil_1_open:0:4971:[158,[6389.76,7753.36,0.0118103]]:[]:[]:1:638987753402809:""
+20:24:18 "HIVE: WRITE: "CHILD:388:638987753402809:""
+20:24:18 "CUSTOM: Selected "68840""
+20:24:18 "PUBLISH: B 1-3-E:1 (Aaron Funk) REMOTE Bought hilux1_civil_1_open with ID "638987753402809""
+20:24:19 "SAFE LOCKED: ID:68347 UID:0 BY [BCG] Dodge(250069766)"
+20:24:36 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+20:24:37 Server: Object 68:27 not found (message 98)
+20:24:37 Server: Object 68:28 not found (message 91)
+20:24:41 "SAFE UNLOCKED: ID:62090 UID:0 BY Tyrone(26781126)"
+20:24:42 Server: Object 64:144 not found (message 70)
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.685086 dmg"
+20:24:43 "PKILL: mikew_000 was killed by DANCE DANCE REVOLUTION with weapon M249_m145_EP1_DZE from 45.3802m"
+20:24:43 "PDEATH: Player Died 122098886"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703907 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.70415 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.704258 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.704275 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703799 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703793 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703858 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.0605807 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703886 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703983 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3802m with 0.703834 dmg"
+20:24:43 "PHIT: B 1-1-C:1 (mikew_000) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 45.3847m with 0.703978 dmg"
+20:24:50 Server: Object 3:582 not found (message 89)
+20:24:52 "get: STRING (122098886), sent: STRING (122098886)"
+20:24:52 "DISCONNECT: mikew_000 (122098886) Object: B 1-1-C:1 (mikew_000) REMOTE, _characterID: 68656 at loc [20386.4,-5038.44,146.187]"
+20:24:52 "ERROR: server_playerSync: Cannot Sync Player mikew_000 [68656]. Position in debug! [20386.4,-5038.44,146.187]"
+20:24:52 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 121.167m with 1.30993 dmg"
+20:24:53 "PHIT: B 1-1-F:1 (Elbo Grease) REMOTE was hit by B 1-2-A:1 (Captain Oblivious) REMOTE with m240_scoped_EP1_DZE from 121.814m with 1.3176 dmg"
+20:24:53 "PKILL: Elbo Grease was killed by Captain Oblivious with weapon m240_scoped_EP1_DZE from 121.814m"
+20:24:53 "PDEATH: Player Died 69983238"
+20:24:56 "CLEANUP: Deleted 11 Loot Piles out of 720"
+20:24:56 Server: Object 3:632 not found (message 70)
+20:24:56 Server: Object 3:631 not found (message 94)
+20:24:56 Server: Object 3:630 not found (message 70)
+20:24:56 Server: Object 3:629 not found (message 94)
+20:24:56 Server: Object 3:634 not found (message 91)
+20:24:56 Server: Object 3:633 not found (message 99)
+20:24:56 Server: Object 3:636 not found (message 91)
+20:24:56 Server: Object 3:635 not found (message 99)
+20:24:56 Server: Object 3:637 not found (message 70)
+20:24:59 "SAFE LOCKED: ID:62090 UID:0 BY Tyrone(26781126)"
+20:25:02 "get: STRING (98292102), sent: STRING (98292102)"
+20:25:02 "DISCONNECT: [FFG] ZIEMBA (98292102) Object: B 1-1-H:1 ([FFG] ZIEMBA) REMOTE, _characterID: 68638 at loc [6505.58,7736.64,0.0012207]"
+20:25:02 Client: Remote object 5:124 not found
+20:25:03 "get: STRING (69983238), sent: STRING (69983238)"
+20:25:03 "DISCONNECT: Elbo Grease (69983238) Object: B 1-1-F:1 (Elbo Grease) REMOTE, _characterID: 68659 at loc [20386.5,-5038.57,146.188]"
+20:25:03 "ERROR: server_playerSync: Cannot Sync Player Elbo Grease [68659]. Position in debug! [20386.5,-5038.57,146.188]"
+20:25:05 Warning: Cleanup player - person 5:123 not found
+20:25:19 "PHIT: B 1-1-E:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 5.07519m with 0.664001 dmg"
+20:25:20 "get: STRING (32833990), sent: STRING (32833990)"
+20:25:20 "DISCONNECT: Andrew (32833990) Object: B 1-3-K:1 (Andrew) REMOTE, _characterID: 68269 at loc [12738,9599.86,5.35325]"
+20:25:20 Client: Remote object 65:0 not found
+20:25:20 Client: Remote object 65:56 not found
+20:25:21 "PKILL: That AS50 Guy was killed by DANCE DANCE REVOLUTION with weapon M249_m145_EP1_DZE from 3.31203m"
+20:25:21 "PDEATH: Player Died 51271110"
+20:25:21 "PHIT: B 1-1-E:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 3.88934m with 0.666963 dmg"
+20:25:21 "PHIT: B 1-1-E:1 (That AS50 Guy) REMOTE was hit by B 1-2-M:1 (DANCE DANCE REVOLUTION) REMOTE with M249_m145_EP1_DZE from 3.88934m with 0.668029 dmg"
+20:25:22 Warning: Cleanup player - person 65:55 not found
+20:25:23 "infiSTAR.de PlayerConnected: _uid: 122098886   _name: mikew_000"
+20:25:30 Server: Object 8:523 not found (message 91)
+20:25:30 Server: Object 8:525 not found (message 91)
+20:25:30 Server: Object 8:527 not found (message 70)
+20:25:30 Server: Object 8:526 not found (message 70)
+20:25:31 "get: STRING (51271110), sent: STRING (51271110)"
+20:25:31 "DISCONNECT: That AS50 Guy (51271110) Object: B 1-1-E:1 (That AS50 Guy) REMOTE, _characterID: 68658 at loc [20386.5,-5038.57,146.188]"
+20:25:31 "ERROR: server_playerSync: Cannot Sync Player That AS50 Guy [68658]. Position in debug! [20386.5,-5038.57,146.188]"
+20:25:32 Warning: Cleanup player - person 61:73 not found
+20:25:33 "infiSTAR.de PlayerConnected: _uid: 69983238   _name: Elbo Grease"
+20:25:38 Server: Object 10:566 not found (message 89)
+20:25:42 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) bought a huntingrifle in/at Unknown Trader City for 2x ItemGoldBar"
+20:26:06 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) bought a 5x_22_LR_17_HMR in/at Unknown Trader City for 1x ItemGoldBar"
+20:26:12 "WAI: Mission Ikea timed out At [4438.33,10519.7]"
+20:26:17 "EPOCH SERVERTRADE: Player: Aaron Funk (169675590) bought a 5x_22_LR_17_HMR in/at Unknown Trader City for 1x ItemGoldBar"
+20:26:20 Server: Object 2:10076 not found (message 221)
+20:26:20 Server: Object 2:10081 not found (message 221)
+20:26:20 Server: Object 2:10182 not found (message 221)
+20:26:20 Server: Object 2:10187 not found (message 221)
+20:26:35 "infiSTAR.de PlayerConnected: _uid: 76642758   _name: AIRCAV"
+20:26:35 "infiSTAR.de Player-Log: AIRCAV(76642758) - 1h 25min"
+20:26:39 "ERROR: server_playerSync: Cannot Sync Player AIRCAV [68303]. Position in debug! [20387.4,-5038.37,146.194]"
+20:26:45 "get: STRING (26781126), sent: STRING (26781126)"
+20:26:45 "DISCONNECT: Tyrone (26781126) Object: B 1-3-C:1 (Tyrone) REMOTE, _characterID: 68619 at loc [10669.2,8047.79,0.975769]"
+20:26:45 Client: Remote object 64:0 not found
+20:26:45 Client: Remote object 64:8 not found
+20:26:51 "Purging player: 45474080# 1069002: man_survivor.p3d"
+20:26:51 "TIME SYNC: Local Time set to [2013,8,3,15,26]"
+20:26:52 "Purging player: 407c8080# 1068444: man_survivor.p3d"
+20:26:53 "Purging player: 49862040# 1071812: man_survivor.p3d"
+20:26:54 "Purging player: 4a8b4080# 1071408: man_survivor.p3d"
+20:26:55 "Purging player: 45c30080# 1072571: man_survivor.p3d"
+20:26:55 "Purging player: 49df6040# 1070807: man_survivor.p3d"
+20:26:56 "Purging player: 4ddc4080# 1072186: man_survivor.p3d"
+20:26:57 "Purging player: 3f81e040# 1071068: man_survivor.p3d"
+20:26:58 "CLEANUP: Deleted 8 players and 0 zombies out of 33 dead"
+20:27:03 Server: Object 2:10076 not found (message 221)
+20:27:03 Server: Object 2:10081 not found (message 221)
+20:27:03 Server: Object 2:10182 not found (message 221)
+20:27:03 Server: Object 2:10187 not found (message 221)
+20:27:04 "infiSTAR.de PlayerConnected: _uid: 32833990   _name: Andrew"
+20:27:08 Server: Object 54:87 not found (message 91)
+20:27:08 Server: Object 54:86 not found (message 99)
+20:27:08 Server: Object 54:88 not found (message 99)
+20:27:08 Server: Object 54:89 not found (message 91)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:21 not found (message 98)
+20:27:30 Server: Object 71:22 not found (message 91)
+20:27:30 Server: Object 71:23 not found (message 98)
+20:27:30 Server: Object 71:24 not found (message 91)
+20:27:30 Server: Object 71:25 not found (message 98)
+20:27:30 Server: Object 71:26 not found (message 91)
+20:27:30 Server: Object 71:28 not found (message 91)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:30 Server: Object 71:27 not found (message 99)
+20:27:42 "SAFE UNLOCKED: ID:2431 UID:0 BY Vajazzler(14952710)"
+20:27:43 Server: Object 35:160 not found (message 70)
+20:27:43 Server: Object 35:159 not found (message 94)
+20:27:57 "CLEANUP: Deleted 131 Loot Piles out of 753"
+20:28:09 "SAFE LOCKED: ID:2431 UID:0 BY Vajazzler(14952710)"
+20:28:20 Warnings in z\addons\dayz_communityassets\models\can_unlabeled_clean_empty.p3d:shadow(1000)
+20:28:32 Server: Object 17:112 not found (message 99)
+20:28:32 Server: Object 17:113 not found (message 91)
+20:28:32 Server: Object 17:114 not found (message 98)
+20:28:32 Server: Object 17:115 not found (message 91)
+20:28:32 Server: Object 58:46 not found (message 91)
+20:28:32 Server: Object 58:45 not found (message 99)
+20:28:32 Server: Object 17:121 not found (message 91)
+20:28:32 Server: Object 17:123 not found (message 91)
+20:28:32 Server: Object 17:122 not found (message 99)
+20:28:32 Server: Object 17:125 not found (message 91)
+20:28:32 Server: Object 17:124 not found (message 99)
+20:28:32 Server: Object 17:126 not found (message 98)
+20:28:32 Server: Object 17:127 not found (message 91)

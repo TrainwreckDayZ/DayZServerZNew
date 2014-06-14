@@ -1,0 +1,1471 @@
+
+
+=====================================================================
+== D:\Program Files (x86)\Steam\SteamApps\common\Arma 2 Operation Arrowhead\Expansion\beta\arma2oaserver.exe
+== "Expansion\beta\arma2oaserver.exe"  -port=2332 "-config=instance_11_Chernarus\config.cfg" "-cfg=instance_11_Chernarus\basic.cfg" "-profiles=instance_11_Chernarus" -name=instance_11_Chernarus "-mod=@DayZ_Epoch;@DayZ_Epoch_Server;" -noPause -noSound -cpuCount=4 -maxMem=2047 -exThreads=1 -noCB
+=====================================================================
+Exe timestamp: 2014/06/03 09:00:31
+Current time:  2014/06/13 07:01:04
+
+Version 1.62.103718
+Item STR_EPOCH_BULK_DESC_MP5SD listed twice
+Item STR_ACTIONS_BUILD listed twice
+Item STR_EQUIP_NAME_41 listed twice
+Item STR_EQUIP_DESC_41 listed twice
+Updating base class ->NonStrategic, by Ca\config.bin/CfgVehicles/HouseBase/
+Updating base class ->HouseBase, by Ca\config.bin/CfgVehicles/Ruins/
+Updating base class ->DestructionEffects, by Ca\config.bin/CfgVehicles/House/DestructionEffects/
+Updating base class ->FlagCarrierCore, by ca\ca_pmc\config.bin/CfgVehicles/FlagCarrier/
+Updating base class ->VehicleMagazine, by ca\weapons\config.bin/CfgMagazines/14Rnd_FFAR/
+Updating base class ->PistolCore, by ca\weapons\config.bin/cfgWeapons/Pistol/
+Updating base class ->LauncherCore, by ca\weapons\config.bin/cfgWeapons/RocketPods/
+Updating base class ->RocketPods, by ca\weapons\config.bin/cfgWeapons/FFARLauncher/
+Updating base class ->Default, by ca\weapons\config.bin/cfgWeapons/ItemCore/
+Updating base class ->Citizen, by ca\characters2\config.bin/CfgVehicles/Citizen1/
+Updating base class ->SkodaBase, by ca\wheeled\config.bin/CfgVehicles/car_sedan/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_Fire/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_A_tent/
+Updating base class ->Camp_base, by ca\misc3\config.bin/CfgVehicles/ACamp/
+Updating base class ->Car, by ca\wheeled2\lada\config.bin/CfgVehicles/Lada_base/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Small_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street1_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street2_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lampa_Ind_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_PowLines_Conc2L_EP1/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_2/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_3/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind_zebr/
+Updating base class RscStandardDisplay->, by z\addons\dayz_code\config.bin/RscDisplayStart/
+Cannot delete class CA_DebriefingInfo, it is referenced somewhere (used as a base class probably).
+Cannot delete class CA_DebriefingInfo, it is referenced somewhere (used as a base class probably).
+Updating base class RscShortcutButton->RscShortcutButtonMain, by z\addons\dayz_code\config.bin/RscDisplayMain/controls/CA_Exit/
+Updating base class RscText->, by z\addons\dayz_code\config.bin/RscTitles/Default/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_villager1/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_worker1/
+Updating base class Soldier_Crew_PMC->Soldier_Bodyguard_M4_PMC, by z\addons\dayz_code\config.bin/CfgVehicles/SurvivorW2_DZ/
+Updating base class HighCommand->Logic, by z\addons\dayz_code\config.bin/CfgVehicles/HighCommandSubordinate/
+Updating base class ->ViewOptics, by z\addons\dayz_code\config.bin/CfgVehicles/Mi17_base/Turrets/MainTurret/ViewOptics/
+Updating base class HouseBase->, by z\addons\dayz_code\config.bin/CfgVehicles/House/
+Updating base class NonStrategic->BuiltItems, by z\addons\dayz_code\config.bin/CfgVehicles/Fort_RazorWire/
+Updating base class MeleeHatchet->MeleeWeapon, by z\addons\dayz_code\config.bin/CfgWeapons/MeleeCrowbar/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/29Rnd_30mm_AGS30/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/48Rnd_40mm_MK19/
+Updating base class 4000Rnd_762x51_M134->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/2000Rnd_762x51_M134/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/100Rnd_127x99_M2/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/50Rnd_127x107_DSHKM/
+Updating base class Hatchet_Swing->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/crowbar_swing/
+Updating base class CA_Magazine->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/Hatchet_Swing/
+Updating base class ->Plane, by ca\air2\mv22\config.bin/CfgVehicles/MV22/
+Updating base class ViewOptics->, by ca\air2\uh1y\config.bin/CfgVehicles/UH1_Base/Turrets/MainTurret/ViewOptics/
+Updating base class ->HouseBase, by ca\misc_e\config.bin/CfgVehicles/House/
+Updating base class ->Land_CamoNet_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNet_EAST_EP1/
+Updating base class ->Land_CamoNetB_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNetB_EAST_EP1/
+Updating base class ->Sign_1L_Noentry, by ca\misc_e\config.bin/CfgVehicles/Sign_1L_Noentry_EP1/
+Updating base class ->Sign_circle, by ca\misc_e\config.bin/CfgVehicles/Helper_Base_EP1/
+Updating base class ->Rifle, by ca\weapons_baf\config.bin/cfgWeapons/BAF_AS50_scoped/
+Updating base class ->Rifle, by ca\weapons_e\config.bin/cfgWeapons/M60A4_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_m145_EP1/
+Updating base class ->m107, by ca\weapons_e\m107\config.bin/CfgWeapons/m107_TWS_EP1/
+Updating base class ->M240, by ca\weapons_e\m240\config.bin/CfgWeapons/m240_scoped_EP1/
+Updating base class ->V3S_Base, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Base_EP1/
+Updating base class ->V3S_Base_EP1, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Refuel_TK_GUE_EP1/
+Updating base class House->DZE_OpenHouse, by warehouse\config.bin/CfgVehicles/Land_Ind_Pec_03/
+Updating base class ->Helicopter, by ca\air_e\ah6j\config.bin/CfgVehicles/AH6_Base_EP1/
+Updating base class ->Plane, by ca\air_e\an2\config.bin/CfgVehicles/An2_Base_EP1/
+Updating base class ->CH47_base_EP1, by ca\air_e\ch47\config.bin/CfgVehicles/CH_47F_EP1/
+Updating base class ViewOptics->, by ca\air_e\uh1h\config.bin/CfgVehicles/UH1H_base/Turrets/MainTurret/ViewOptics/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Crew_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_TL_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_M4_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_AA12_PMC/
+Updating base class ->BAF_Soldier_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_W/
+Updating base class ->BAF_Soldier_L_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_L_W/
+Updating base class ->BAF_Soldier_Officer_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_Officer_W/
+Updating base class ->BAF_Soldier_SniperH_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_SniperH_W/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_UN_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_UN_EP1/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_TK_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_TK_EP1/
+Updating base class ->Helicopter, by ca\air_d_baf\config.bin/CfgVehicles/BAF_Merlin_HC3_D/
+Obsolete class Animations defined in bin\config.bin/RscCompass/
+Obsolete class Animations defined in bin\config.bin/RscWatch/
+ 7:01:42 Strange convex component288 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component289 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component290 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component291 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component292 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component293 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component294 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component295 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component296 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component297 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component298 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component299 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component300 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component301 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component302 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component303 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component304 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component305 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component306 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component307 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component308 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component309 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component310 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component311 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component312 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component313 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component314 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component315 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component316 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component317 in warehouse\models\warehouse.p3d:geometry
+ 7:01:42 Strange convex component252 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component253 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component254 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component255 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component256 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component257 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component258 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component259 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component260 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component261 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component262 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component263 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component264 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component265 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component266 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component267 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component268 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component269 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component270 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component271 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component272 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component273 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component274 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component275 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component276 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component277 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component278 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component279 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component280 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component281 in warehouse\models\warehouse.p3d:geometryFire
+ 7:01:42 Strange convex component249 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component250 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component251 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component252 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component253 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component254 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component255 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component256 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component257 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component258 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component259 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component260 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component261 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component262 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component263 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component264 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component265 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component266 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component267 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component268 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component269 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component270 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component271 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component272 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component273 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component274 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component275 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component276 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component277 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:42 Strange convex component278 in warehouse\models\warehouse.p3d:geometryView
+ 7:01:46 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 0)! MoveName: amovpercmstpsnonwnondnon_amovpercmstpsraswpstdnon
+ 7:01:46 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 1)! MoveName: amovpercmrunsnonwbindf_rfl
+ 7:01:48 "DayZ Epoch: PRELOAD Functions\init [[<No group>:0 (FunctionsManager)],any]"
+ 7:01:48 "DayZ Epoch: MPframework inited"
+ 7:01:51 "infiSTAR.de AntiHack - Waiting for bis_fnc_init..."
+ 7:02:23 "infiSTAR.de AntiHack - bis_fnc_init done - AntiHack STARTING...!"
+ 7:02:23 "infiSTAR.de _randvar1: PV_nrnBrnc"
+ 7:02:23 "infiSTAR.de _randvar2: PV_BLznKnO"
+ 7:02:23 "infiSTAR.de _randvar3: PV_zcwzkBz"
+ 7:02:23 "infiSTAR.de _randvar4: PV_OBBTGuw"
+ 7:02:23 "infiSTAR.de _randvar5: PV_KK74ikB"
+ 7:02:23 "infiSTAR.de _randvar6: PV_iruKsLB"
+ 7:02:23 "infiSTAR.de _randvar13: PV_4skzzOz"
+ 7:02:23 "infiSTAR.de _randvar19: PV_TiwscKT"
+ 7:02:23 "infiSTAR.de _randvar26: PV_GzrPBKT"
+ 7:02:23 "infiSTAR.de _randvar27: PV_ivO4Lki"
+ 7:02:23 "infiSTAR.de _randvar27a: PV_BssOuBG"
+ 7:02:23 "infiSTAR.de _randvar28: PV_zzLLBPT"
+ 7:02:23 "infiSTAR.de AntiHack - AntiHack LOADED!"
+ 7:02:23 "infiSTAR.de AntiHack - CREATING AdminMenu"
+ 7:02:23 "infiSTAR.de AntiHack - ADDING PublicVariableEventHandlers"
+ 7:02:23 "infiSTAR.de AntiHack - AntiHack FULLY LOADED"
+ 7:02:23 Warning: z\addons\dayz_communityassets\models\compass.p3d:0 Error while trying to generate ST for points: 863, 853, 852
+ 7:02:25 No speaker given for Peter Thomas
+ 7:02:26 "HIVE: Starting"
+ 7:02:26 "server_monitor.sqf execution count = 1"
+ 7:02:26 "HIVE: trying to get objects"
+ 7:02:26 "HIVE: found 8284 objects"
+ 7:02:26 "HIVE: Commence Object Streaming..."
+ 7:02:27 "HIVE: got 5881 Epoch Objects and 2403 Vehicles"
+ 7:02:28 "infiSTAR.de PlayerConnected: _uid: 252051206   _name: cyncrwler"
+ 7:02:28 "infiSTAR.de Player-Log: cyncrwler(252051206) - 0h 00min"
+ 7:02:28 "infiSTAR.de PlayerConnected: _uid:    _name: __SERVER__"
+ 7:02:28 "Res3tting B!S effects..."
+ 7:02:28 "Spawn sign at: [6325.68,7982.74,0]"
+ 7:02:28 "Spawn sign at: [6355.25,7980.22,0]"
+ 7:02:28 "Spawn sign at: [6383.98,7972.74,0]"
+ 7:02:28 "Spawn sign at: [6411.02,7960.52,0]"
+ 7:02:28 "Spawn sign at: [6435.62,7943.9,0]"
+ 7:02:28 "Spawn sign at: [6457.04,7923.36,0]"
+ 7:02:28 "Spawn sign at: [6474.69,7899.5,0]"
+ 7:02:28 "Spawn sign at: [6488.06,7872.99,0]"
+ 7:02:28 "Spawn sign at: [6496.75,7844.61,0]"
+ 7:02:28 "Spawn sign at: [6500.52,7815.17,0]"
+ 7:02:28 "Spawn sign at: [6499.26,7785.51,0]"
+ 7:02:28 "Spawn sign at: [6493.01,7756.5,0]"
+ 7:02:28 "Spawn sign at: [6481.94,7728.96,0]"
+ 7:02:28 "Spawn sign at: [6466.38,7703.68,0]"
+ 7:02:28 "Spawn sign at: [6446.77,7681.4,0]"
+ 7:02:28 "Spawn sign at: [6423.67,7662.75,0]"
+ 7:02:28 "Spawn sign at: [6397.76,7648.28,0]"
+ 7:02:28 "Spawn sign at: [6369.77,7638.39,0]"
+ 7:02:28 "Spawn sign at: [6340.52,7633.37,0]"
+ 7:02:28 "Spawn sign at: [6310.84,7633.37,0]"
+ 7:02:28 "Spawn sign at: [6281.58,7638.39,0]"
+ 7:02:28 "Spawn sign at: [6253.59,7648.28,0]"
+ 7:02:28 "Spawn sign at: [6227.68,7662.75,0]"
+ 7:02:28 "Spawn sign at: [6204.59,7681.4,0]"
+ 7:02:28 "Spawn sign at: [6184.98,7703.68,0]"
+ 7:02:28 "Spawn sign at: [6169.42,7728.96,0]"
+ 7:02:28 "Spawn sign at: [6158.35,7756.5,0]"
+ 7:02:28 "Spawn sign at: [6152.09,7785.51,0]"
+ 7:02:28 "Spawn sign at: [6150.83,7815.17,0]"
+ 7:02:28 "Spawn sign at: [6154.6,7844.61,0]"
+ 7:02:28 "Spawn sign at: [6163.3,7872.99,0]"
+ 7:02:28 "Spawn sign at: [6176.66,7899.5,0]"
+ 7:02:28 "Spawn sign at: [6194.31,7923.36,0]"
+ 7:02:28 "Spawn sign at: [6215.74,7943.9,0]"
+ 7:02:28 "Spawn sign at: [6240.33,7960.52,0]"
+ 7:02:28 "Spawn sign at: [6267.38,7972.75,0]"
+ 7:02:28 "Spawn sign at: [6296.1,7980.22,0]"
+ 7:02:28 "Spawn sign at: [6325.68,7982.74,0]"
+ 7:02:28 "Spawn sign at: [4064.23,11815.9,0]"
+ 7:02:28 "Spawn sign at: [4094.42,11812.9,0]"
+ 7:02:28 "Spawn sign at: [4123.38,11803.8,0]"
+ 7:02:28 "Spawn sign at: [4149.92,11789.1,0]"
+ 7:02:28 "Spawn sign at: [4172.94,11769.3,0]"
+ 7:02:28 "Spawn sign at: [4191.52,11745.3,0]"
+ 7:02:28 "Spawn sign at: [4204.89,11718,0]"
+ 7:02:28 "Spawn sign at: [4212.5,11688.7,0]"
+ 7:02:28 "Spawn sign at: [4214.03,11658.3,0]"
+ 7:02:28 "Spawn sign at: [4209.44,11628.3,0]"
+ 7:02:28 "Spawn sign at: [4198.9,11599.9,0]"
+ 7:02:28 "Spawn sign at: [4182.84,11574.1,0]"
+ 7:02:28 "Spawn sign at: [4161.93,11552.1,0]"
+ 7:02:28 "Spawn sign at: [4137.02,11534.8,0]"
+ 7:02:28 "Spawn sign at: [4109.13,11522.8,0]"
+ 7:02:28 "Spawn sign at: [4079.4,11516.7,0]"
+ 7:02:28 "Spawn sign at: [4049.05,11516.7,0]"
+ 7:02:28 "Spawn sign at: [4019.32,11522.8,0]"
+ 7:02:28 "Spawn sign at: [3991.43,11534.8,0]"
+ 7:02:28 "Spawn sign at: [3966.52,11552.1,0]"
+ 7:02:28 "Spawn sign at: [3945.61,11574.1,0]"
+ 7:02:28 "Spawn sign at: [3929.56,11599.9,0]"
+ 7:02:28 "Spawn sign at: [3919.01,11628.3,0]"
+ 7:02:28 "Spawn sign at: [3914.42,11658.3,0]"
+ 7:02:28 "Spawn sign at: [3915.96,11688.7,0]"
+ 7:02:28 "Spawn sign at: [3923.56,11718,0]"
+ 7:02:28 "Spawn sign at: [3936.93,11745.3,0]"
+ 7:02:28 "Spawn sign at: [3955.51,11769.3,0]"
+ 7:02:28 "Spawn sign at: [3978.54,11789.1,0]"
+ 7:02:28 "Spawn sign at: [4005.07,11803.8,0]"
+ 7:02:28 "Spawn sign at: [4034.03,11812.9,0]"
+ 7:02:28 "Spawn sign at: [4064.23,11815.9,0]"
+ 7:02:32 "Res3tting B!S effects..."
+ 7:02:39 "infiSTAR.de iproductVersion: 10062014IAHAT330E"
+ 7:02:40 AH6X_DZ: FLIR_turret - unknown animation source FLIR_turret
+ 7:02:40 AH6X_DZ: FLIR_gun - unknown animation source FLIR_gun
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:42 Cannot create non-ai vehicle UH1H_DZ_DZE,
+ 7:02:44 UH1Y_DZ: ObsTurret - unknown animation source ObsTurret
+ 7:02:44 UH1Y_DZ: ObsGun - unknown animation source ObsGun
+ 7:02:48 "HIVE: Vehicle Spawn limit reached!"
+ 7:02:48 "HIVE: Spawning # of Debris: 10"
+ 7:02:48 "HIVE: Spawning # of Ammo Boxes: 3"
+ 7:02:48 "HIVE: Spawning # of Veins: 50"
+ 7:02:48 "Total Number of spawn locations 5"
+ 7:02:48 "EPOCH EVENTS INIT"
+ 7:02:51 "DEBUG VEIN: Too many objects at [6433.8,6558.62]"
+ 7:02:51 "DEBUG VEIN: Too many objects at [3911.52,9806.06]"
+ 7:02:51 "DEBUG VEIN: Too many objects at [6906.33,4918.75]"
+ 7:02:51 "WAI: AI Config File Loaded"
+ 7:02:51 "WAI: AI Monitor Started"
+ 7:02:51 "WAI: Mission Config File Loaded"
+ 7:02:51 "WAI: Starting AI Missions Moniter"
+ 7:02:59 "TIME SYNC: Local Time set to [2013,8,3,14,2]"
+ 7:03:16 bin\config.bin/CfgMovesZombie/States/AmovPercMrunSnonWnonDfr.InterpolateTo: item count not multiple of 2 (is 17)
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AmovPercMrunSnonWnonDfr.InterpolateTo: Bad move 
+ 7:03:16 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDl.InterpolateTo: item count not multiple of 2 (is 9)
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDl.InterpolateTo: Bad move 
+ 7:03:16 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDb.InterpolateTo: item count not multiple of 2 (is 9)
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDb.InterpolateTo: Bad move 
+ 7:03:16 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDbr.InterpolateTo: item count not multiple of 2 (is 9)
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDbr.InterpolateTo: Bad move 
+ 7:03:16 bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDfr.InterpolateTo: item count not multiple of 2 (is 11)
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AmovPpneMrunSnonWnonDfr.InterpolateTo: Bad move 
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medicEnd
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic0S
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic0
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic1
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic2
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic3
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic3
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic4
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic5
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic4
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDnon_medic5
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic0S
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic0
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic1
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.ConnectTo: Bad move AinvPknlMstpSnonWnonDr_medic2
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.InterpolateTo: Bad move AinvPknlMstpSnonWnonDnon_medic0S
+ 7:03:16   bin\config.bin/CfgMovesZombie/States/AinvPknlMstpSnonWnonDnon_medic.InterpolateTo: Bad move AinvPknlMstpSnonWnonDr_medic0S
+ 7:03:44 "SAFE UNLOCKED: ID:65920 UID:0 BY cyncrwler(252051206)"
+ 7:03:44 Server: Object 3:25 not found (message 94)
+ 7:03:44 Server: Object 3:26 not found (message 94)
+ 7:03:48 "infiSTAR.de PlayerConnected: _uid: 3719488   _name: Oh snap, I "
+ 7:03:48 "infiSTAR.de Player-Log: Oh snap, I (3719488) - 0h 01min"
+ 7:04:43 "SAFE LOCKED: ID:65920 UID:0 BY cyncrwler(252051206)"
+ 7:04:53 "0 Active ground units"
+ 7:04:53 "0 Active emplacement units"
+ 7:04:53 "0 Active chopper patrol units (Crew)"
+ 7:04:53 "0 Active vehicle patrol units (Crew)"
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone leftshoulder doesn't exist in some skeleton 
+ 7:05:30 Error: Bone rightshoulder doesn't exist in some skeleton 
+ 7:06:10 "CLEANUP: INITIALIZING CLEANUP SCRIPT"
+ 7:07:54 "WAI: Starting Mission armed_vehicle"
+ 7:07:54 "WAI: Mission Armed Vehicle Started At [10698.3,9143.23]"
+ 7:07:54 "WAI: Mission Armed Vehicle spawned a UAZ (DShKM) DZ"
+ 7:07:54 "WAI: Spawned a group of 5 Bandits at [10698.3,9143.23,0]"
+ 7:07:54 "WAI: Spawned a group of 4 Bandits at [10698.3,9143.23,0]"
+ 7:07:54 "WAI: Sapwned in 1 M2StaticMG"
+ 7:08:08 "SAFE UNLOCKED: ID:61440 UID:0 BY cyncrwler(252051206)"
+ 7:08:09 Server: Object 3:56 not found (message 70)
+ 7:08:09 Server: Object 3:55 not found (message 70)
+ 7:08:48 Server: Object 4:95 not found (message 70)
+ 7:08:48 Server: Object 4:94 not found (message 94)
+ 7:08:48 Server: Object 4:97 not found (message 94)
+ 7:08:48 Server: Object 4:96 not found (message 70)
+ 7:08:48 Server: Object 4:103 not found (message 70)
+ 7:08:48 Server: Object 4:104 not found (message 70)
+ 7:08:48 Server: Object 4:102 not found (message 70)
+ 7:08:48 Server: Object 4:101 not found (message 94)
+ 7:08:48 Server: Object 4:100 not found (message 70)
+ 7:08:48 Server: Object 4:99 not found (message 70)
+ 7:08:48 Server: Object 4:98 not found (message 94)
+ 7:08:48 Server: Object 4:105 not found (message 70)
+ 7:08:56 Server: Object 4:113 not found (message 94)
+ 7:08:56 Server: Object 4:114 not found (message 94)
+ 7:08:56 Server: Object 4:115 not found (message 94)
+ 7:08:56 Server: Object 4:116 not found (message 94)
+ 7:08:56 Server: Object 4:119 not found (message 94)
+ 7:08:56 Server: Object 4:118 not found (message 70)
+ 7:08:56 Server: Object 4:120 not found (message 70)
+ 7:08:56 Server: Object 4:117 not found (message 94)
+ 7:08:56 Server: Object 4:123 not found (message 94)
+ 7:08:56 Server: Object 4:122 not found (message 94)
+ 7:08:56 Server: Object 4:121 not found (message 94)
+ 7:08:56 Server: Object 4:130 not found (message 94)
+ 7:08:56 Server: Object 4:129 not found (message 70)
+ 7:08:56 Server: Object 4:131 not found (message 94)
+ 7:08:56 Server: Object 4:133 not found (message 70)
+ 7:08:56 Server: Object 4:132 not found (message 70)
+ 7:08:56 Server: Object 4:137 not found (message 94)
+ 7:08:56 Server: Object 4:136 not found (message 70)
+ 7:08:56 Server: Object 4:138 not found (message 94)
+ 7:08:56 Server: Object 4:139 not found (message 70)
+ 7:08:56 Server: Object 4:134 not found (message 70)
+ 7:08:56 Server: Object 4:135 not found (message 94)
+ 7:10:28 "SAFE LOCKED: ID:61440 UID:0 BY cyncrwler(252051206)"
+ 7:11:10 "TIME SYNC: Local Time set to [2013,8,3,14,11]"
+ 7:11:50 "infiSTAR.de PlayerConnected: _uid: 98212038   _name: TimBR"
+ 7:11:50 "infiSTAR.de Player-Log: TimBR(98212038) - 0h 10min"
+ 7:12:09 Warnings in z\addons\dayz_communityassets\models\2shells_pellet.p3d:shadow(1000)
+ 7:12:10 Server: Object 5:62 not found (message 94)
+ 7:12:10 Server: Object 5:72 not found (message 94)
+ 7:12:10 Server: Object 5:73 not found (message 94)
+ 7:12:10 Server: Object 5:74 not found (message 94)
+ 7:12:41 "SAFE UNLOCKED: ID:7309 UID:0 BY TimBR(98212038)"
+ 7:12:42 Server: Object 5:90 not found (message 70)
+ 7:12:42 Server: Object 5:89 not found (message 70)
+ 7:13:51 "SAFE LOCKED: ID:7309 UID:0 BY TimBR(98212038)"
+ 7:14:33 "SAFE UNLOCKED: ID:65972 UID:0 BY cyncrwler(252051206)"
+ 7:14:40 "MAINTAIN AREA BY TimBR - 71 Objects at [10437.1,2343.45,0.318597]"
+ 7:14:54 "9 Active ground units"
+ 7:14:54 "1 Active emplacement units"
+ 7:14:54 "0 Active chopper patrol units (Crew)"
+ 7:14:54 "0 Active vehicle patrol units (Crew)"
+ 7:15:49 "SAFE LOCKED: ID:65972 UID:0 BY cyncrwler(252051206)"
+ 7:16:10 "TIME SYNC: Local Time set to [2013,8,3,14,16]"
+ 7:17:30 "SAFE UNLOCKED: ID:21438 UID:0 BY TimBR(98212038)"
+ 7:17:31 Server: Object 5:109 not found (message 94)
+ 7:17:31 Server: Object 5:108 not found (message 70)
+ 7:17:31 Server: Object 5:107 not found (message 94)
+ 7:17:31 Server: Object 5:112 not found (message 94)
+ 7:17:31 Server: Object 5:110 not found (message 94)
+ 7:17:31 Server: Object 5:111 not found (message 94)
+ 7:18:08 "SAFE LOCKED: ID:21438 UID:0 BY TimBR(98212038)"
+ 7:21:10 "TIME SYNC: Local Time set to [2013,8,3,14,21]"
+ 7:21:11 "CLEANUP: Deleted 1 Animals out of 26"
+ 7:23:29 "SAFE UNLOCKED: ID:66727 UID:0 BY TimBR(98212038)"
+ 7:23:48 Server: Object 3:123 not found (message 91)
+ 7:23:48 Server: Object 3:122 not found (message 99)
+ 7:23:48 Server: Object 3:125 not found (message 91)
+ 7:23:48 Server: Object 3:124 not found (message 99)
+ 7:23:56 "SAFE LOCKED: ID:66727 UID:0 BY TimBR(98212038)"
+ 7:24:22 "SAFE UNLOCKED: ID:66728 UID:0 BY TimBR(98212038)"
+ 7:24:47 "SAFE LOCKED: ID:66728 UID:0 BY TimBR(98212038)"
+ 7:24:54 "9 Active ground units"
+ 7:24:54 "1 Active emplacement units"
+ 7:24:54 "0 Active chopper patrol units (Crew)"
+ 7:24:54 "0 Active vehicle patrol units (Crew)"
+ 7:25:18 "SAFE UNLOCKED: ID:66733 UID:0 BY TimBR(98212038)"
+ 7:25:38 "SAFE LOCKED: ID:66733 UID:0 BY TimBR(98212038)"
+ 7:25:51 "SAFE UNLOCKED: ID:66748 UID:0 BY TimBR(98212038)"
+ 7:26:08 "SAFE LOCKED: ID:66748 UID:0 BY TimBR(98212038)"
+ 7:26:10 "TIME SYNC: Local Time set to [2013,8,3,14,26]"
+ 7:26:33 "MAINTAIN AREA BY TimBR - 15 Objects at [11251.7,4274.43,0.863953]"
+ 7:26:44 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a MG36 in/at Unknown Trader City for 6x ItemGoldBar"
+ 7:26:48 "infiSTAR.de PlayerConnected: _uid: 25333318   _name: Butcher Pete"
+ 7:26:48 "infiSTAR.de Player-Log: Butcher Pete(25333318) - 0h 25min"
+ 7:26:58 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+ 7:26:58 "infiSTAR.de Player-Log: [HoC] N9NE(239326726) - 0h 25min"
+ 7:27:17 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a MG36 in/at Unknown Trader City for 6x ItemGoldBar"
+ 7:28:14 Server: Object 5:193 not found (message 98)
+ 7:28:14 Server: Object 5:194 not found (message 91)
+ 7:28:18 "CLEANUP: Deleted 40 Loot Piles out of 134"
+ 7:28:43 "infiSTAR.de PlayerConnected: _uid: 97368390   _name: craig120"
+ 7:28:43 "infiSTAR.de Player-Log: craig120(97368390) - 0h 27min"
+ 7:28:52 Server: Object 9:9 not found (message 70)
+ 7:29:05 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a MG36 in/at Unknown Trader City for 6x ItemGoldBar"
+ 7:30:09 "get: STRING (97368390), sent: STRING (97368390)"
+ 7:30:09 "DISCONNECT: craig120 (97368390) Object: B 1-1-G:1 (craig120) REMOTE, _characterID: 67625 at loc [10512,6034.13,0.00210571]"
+ 7:30:09 Client: Remote object 9:6 not found
+ 7:30:09 Client: Remote object 9:5 not found
+ 7:30:09 Client: Remote object 9:0 not found
+ 7:30:11 Warning: Cleanup player - person 9:7 not found
+ 7:30:37 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a M24 in/at Unknown Trader City for 6x ItemGoldBar"
+ 7:30:43 "SAFE UNLOCKED: ID:64545 UID:0 BY TimBR(98212038)"
+ 7:30:44 Server: Object 5:222 not found (message 70)
+ 7:30:44 Server: Object 5:223 not found (message 94)
+ 7:30:44 Server: Object 5:224 not found (message 94)
+ 7:31:10 "TIME SYNC: Local Time set to [2013,8,3,14,31]"
+ 7:31:13 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a M40A3 in/at Unknown Trader City for 6x ItemGoldBar"
+ 7:31:37 "SAFE LOCKED: ID:64545 UID:0 BY TimBR(98212038)"
+ 7:31:53 "SAFE UNLOCKED: ID:67805 UID:0 BY TimBR(98212038)"
+ 7:31:53 "EPOCH SERVERTRADE: Player: cyncrwler (252051206) sold a M4A1_HWS_GL_camo in/at Unknown Trader City for 4x ItemGoldBar"
+ 7:31:54 Server: Object 5:229 not found (message 94)
+ 7:31:54 Server: Object 5:230 not found (message 70)
+ 7:32:16 "CLEANUP: Deleted 38 Loot Piles out of 95"
+ 7:32:34 "SAFE LOCKED: ID:67805 UID:0 BY TimBR(98212038)"
+ 7:32:51 "MAINTAIN AREA BY TimBR - 109 Objects at [6555,5601.93,11.493]"
+ 7:32:55 "WAI: Mission Armed vehicle Timed Out At [10698.3,9143.23]"
+ 7:33:14 "CLEANUP: Deleted 9 Loot Piles out of 58"
+ 7:33:23 "SAFE UNLOCKED: ID:51440 UID:0 BY TimBR(98212038)"
+ 7:33:24 Server: Object 5:233 not found (message 70)
+ 7:33:46 "SAFE LOCKED: ID:51440 UID:0 BY TimBR(98212038)"
+ 7:34:00 "SAFE UNLOCKED: ID:64228 UID:0 BY TimBR(98212038)"
+ 7:34:13 "CLEANUP: Deleted 1 Loot Piles out of 48"
+ 7:34:21 "SAFE LOCKED: ID:64228 UID:0 BY TimBR(98212038)"
+ 7:34:55 "0 Active ground units"
+ 7:34:55 "0 Active emplacement units"
+ 7:34:55 "0 Active chopper patrol units (Crew)"
+ 7:34:55 "0 Active vehicle patrol units (Crew)"
+ 7:35:24 "SAFE UNLOCKED: ID:56311 UID:0 BY TimBR(98212038)"
+ 7:35:25 Server: Object 5:242 not found (message 70)
+ 7:35:25 Server: Object 5:243 not found (message 94)
+ 7:35:25 Server: Object 5:245 not found (message 94)
+ 7:35:25 Server: Object 5:244 not found (message 94)
+ 7:35:40 "SAFE LOCKED: ID:56311 UID:0 BY TimBR(98212038)"
+ 7:36:10 "TIME SYNC: Local Time set to [2013,8,3,14,36]"
+ 7:36:12 "CLEANUP: Deleted 2 Animals out of 45"
+ 7:37:55 "WAI: Starting Mission MV22"
+ 7:37:55 "WAI: Mission MV22 Started At [8690.02,6162.47]"
+ 7:37:55 "WAI: Mission MV22 spawned a MV-22"
+ 7:37:55 "WAI: Spawned a group of 4 Bandits at [8690.02,6162.47,0]"
+ 7:37:56 "WAI: Spawned a group of 4 Bandits at [8690.02,6162.47,0]"
+ 7:37:56 "WAI: Sapwned in 2 M2StaticMG"
+ 7:39:14 "CLEANUP: Deleted 5 Loot Piles out of 47"
+ 7:40:14 "CLEANUP: Deleted 8 Loot Piles out of 56"
+ 7:40:52 "SAFE UNLOCKED: ID:6811 UID:0 BY TimBR(98212038)"
+ 7:41:10 "TIME SYNC: Local Time set to [2013,8,3,14,41]"
+ 7:41:26 "infiSTAR.de PlayerConnected: _uid: 10711942   _name: [HoC] Riftic"
+ 7:41:26 "infiSTAR.de Player-Log: [HoC] Riftic(10711942) - 0h 40min"
+ 7:42:13 "SAFE LOCKED: ID:6811 UID:0 BY TimBR(98212038)"
+ 7:42:15 Warning: z\addons\dayz_communityassets\models\razor.p3d:0 Error while trying to generate ST for points: 214, 349, 208
+ 7:42:30 "MAINTAIN AREA BY TimBR - 31 Objects at [9150.75,3840.13,0.197815]"
+ 7:42:52 "SAFE UNLOCKED: ID:56250 UID:0 BY TimBR(98212038)"
+ 7:43:12 "SAFE LOCKED: ID:56250 UID:0 BY TimBR(98212038)"
+ 7:43:33 "SAFE UNLOCKED: ID:64983 UID:0 BY TimBR(98212038)"
+ 7:43:53 "SAFE LOCKED: ID:64983 UID:0 BY TimBR(98212038)"
+ 7:44:04 "SAFE UNLOCKED: ID:46984 UID:0 BY Butcher Pete(25333318)"
+ 7:44:05 Server: Object 8:95 not found (message 70)
+ 7:44:05 Server: Object 8:93 not found (message 94)
+ 7:44:05 Server: Object 8:94 not found (message 94)
+ 7:44:05 Server: Object 8:96 not found (message 94)
+ 7:44:05 Server: Object 8:97 not found (message 94)
+ 7:44:05 Server: Object 8:98 not found (message 94)
+ 7:44:06 "SAFE UNLOCKED: ID:64983 UID:0 BY TimBR(98212038)"
+ 7:44:15 "CLEANUP: Deleted 21 Loot Piles out of 53"
+ 7:44:23 "SAFE LOCKED: ID:64983 UID:0 BY TimBR(98212038)"
+ 7:44:27 "SAFE LOCKED: ID:46984 UID:0 BY Butcher Pete(25333318)"
+ 7:44:34 Server: Object 6:76 not found (message 91)
+ 7:44:34 Server: Object 6:75 not found (message 99)
+ 7:44:56 "2 Active ground units"
+ 7:44:56 "0 Active emplacement units"
+ 7:44:56 "0 Active chopper patrol units (Crew)"
+ 7:44:56 "0 Active vehicle patrol units (Crew)"
+ 7:45:04 "PDEATH: Player Died 3719488"
+ 7:45:14 "SAFE UNLOCKED: ID:6811 UID:0 BY TimBR(98212038)"
+ 7:45:15 "get: STRING (3719488), sent: STRING (3719488)"
+ 7:45:15 "DISCONNECT: Oh snap, I  (3719488) Object: B 1-1-C:1 (Oh snap, I ) REMOTE, _characterID: 68456 at loc [20386.5,-5038.57,145.974]"
+ 7:45:15 "ERROR: server_playerSync: Cannot Sync Player Oh snap, I  [68456]. Position in debug! [20386.5,-5038.57,145.974]"
+ 7:45:15 Client: Remote object 4:0 not found
+ 7:45:39 NetServer::SendMsg: cannot find channel #1860355351, users.card=6
+ 7:45:39 NetServer: users.get failed when sending to 1860355351
+ 7:45:39 Message not sent - error 0, message ID = ffffffff, to 1860355351 (Eric)
+ 7:45:53 "infiSTAR.de PlayerConnected: _uid: 3719488   _name: Oh snap, I "
+ 7:46:09 "MAINTAIN AREA BY TimBR - 31 Objects at [9150.61,3840.17,0.189453]"
+ 7:46:10 "TIME SYNC: Local Time set to [2013,8,3,14,46]"
+ 7:46:16 "CLEANUP: Deleted 9 Loot Piles out of 91"
+ 7:46:57 "infiSTAR.de Log: TimBR (98212038) - Deleted an Object @[9150.79,3840.59,0.199554] - 68268 0"
+ 7:46:57 "DELETE: B 1-1-D:1 (TimBR) REMOTE Deleted by ID: 68268"
+ 7:47:17 "CLEANUP: Deleted 3 Loot Piles out of 97"
+ 7:47:50 Server: Object 13:49 not found (message 91)
+ 7:47:50 Server: Object 13:48 not found (message 99)
+ 7:47:50 Server: Object 13:53 not found (message 91)
+ 7:47:50 Server: Object 13:52 not found (message 99)
+ 7:48:32 Server: Object 4:327 not found (message 98)
+ 7:48:32 Server: Object 4:328 not found (message 91)
+ 7:48:32 Server: Object 4:343 not found (message 91)
+ 7:48:32 Server: Object 4:342 not found (message 99)
+ 7:49:00 "MAINTAIN AREA BY TimBR - 31 Objects at [9150.58,3840.24,0.188171]"
+ 7:49:25 "SAFE LOCKED: ID:6811 UID:0 BY TimBR(98212038)"
+ 7:50:25 "PUBLISH: Attempt 397fd0c0# 1065745: mv22.p3d"
+ 7:50:25 "HIVE: WRITE: "CHILD:308:11:MV22_DZ:0:0:[308,[8689.52,6162.08,0.0691223]]:[]:[["telo",0.264327]]:50:86895616211308:""
+ 7:50:26 "HIVE: WRITE: "CHILD:388:86895616211308:""
+ 7:50:26 "CUSTOM: Selected "68688""
+ 7:50:26 "PUBLISH: Created MV22_DZ with ID "86895616211308""
+ 7:50:38 "SAFE UNLOCKED: ID:45177 UID:0 BY TimBR(98212038)"
+ 7:51:01 "SAFE LOCKED: ID:45177 UID:0 BY TimBR(98212038)"
+ 7:51:11 "TIME SYNC: Local Time set to [2013,8,3,14,51]"
+ 7:51:15 "CLEANUP: Deleted 18 Animals out of 61"
+ 7:51:16 "WAI: Mission MV-22 Ended At [8690.02,6162.47]"
+ 7:51:18 "SAFE UNLOCKED: ID:33467 UID:0 BY TimBR(98212038)"
+ 7:51:39 "SAFE LOCKED: ID:33467 UID:0 BY TimBR(98212038)"
+ 7:52:04 "SAFE UNLOCKED: ID:49028 UID:0 BY TimBR(98212038)"
+ 7:52:05 Server: Object 5:339 not found (message 70)
+ 7:52:24 "SAFE UNLOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+ 7:52:25 Server: Object 6:187 not found (message 94)
+ 7:52:25 Server: Object 6:189 not found (message 70)
+ 7:52:25 Server: Object 6:190 not found (message 94)
+ 7:52:25 Server: Object 6:188 not found (message 70)
+ 7:52:35 "SAFE LOCKED: ID:49028 UID:0 BY TimBR(98212038)"
+ 7:52:48 "SAFE UNLOCKED: ID:62009 UID:0 BY TimBR(98212038)"
+ 7:53:00 "SAFE LOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+ 7:53:14 "SAFE LOCKED: ID:62009 UID:0 BY TimBR(98212038)"
+ 7:53:18 "CLEANUP: Deleted 1 Loot Piles out of 132"
+ 7:53:44 "infiSTAR.de Log: Oh snap, I  (3719488) - Deleted an Object @[5066.15,9730.4,0.00143433] - 68688 0"
+ 7:53:44 "DELETE: B 1-1-C:1 (Oh snap, I ) REMOTE Deleted by ID: 68688"
+ 7:53:44 "EPOCH SERVERTRADE: Player: Oh snap, I  (3719488) sold a MV22_DZ in/at Unknown Trader City for 2x ItemBriefcase100oz"
+ 7:53:49 "SAFE UNLOCKED: ID:62011 UID:0 BY TimBR(98212038)"
+ 7:54:07 "SAFE UNLOCKED: ID:65023 UID:0 BY cyncrwler(252051206)"
+ 7:54:47 "SAFE LOCKED: ID:62011 UID:0 BY TimBR(98212038)"
+ 7:54:56 "2 Active ground units"
+ 7:54:56 "0 Active emplacement units"
+ 7:54:56 "0 Active chopper patrol units (Crew)"
+ 7:54:56 "0 Active vehicle patrol units (Crew)"
+ 7:55:07 "SAFE UNLOCKED: ID:64611 UID:0 BY TimBR(98212038)"
+ 7:55:26 "SAFE LOCKED: ID:64611 UID:0 BY TimBR(98212038)"
+ 7:55:42 "SAFE UNLOCKED: ID:62033 UID:0 BY TimBR(98212038)"
+ 7:55:56 "WAI: Starting Mission disabled_civchopper"
+ 7:55:56 "WAI: Mission Civilian Aircraft Started At [8795.91,11202.7]"
+ 7:55:56 "WAI: Mission Civilian Aircraft spawned a AN2 Cargo Plane"
+ 7:55:56 "WAI: Spawned a group of 5 Bandits at [8795.91,11202.7,0]"
+ 7:56:03 "SAFE LOCKED: ID:62033 UID:0 BY TimBR(98212038)"
+ 7:56:05 "SAFE LOCKED: ID:65023 UID:0 BY cyncrwler(252051206)"
+ 7:56:11 "TIME SYNC: Local Time set to [2013,8,3,14,56]"
+ 7:57:10 "infiSTAR.de Log: Butcher Pete (25333318) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+ 7:57:11 "SAFE UNLOCKED: ID:50470 UID:0 BY Oh snap, I (3719488)"
+ 7:57:12 Server: Object 4:385 not found (message 94)
+ 7:57:12 Server: Object 4:381 not found (message 94)
+ 7:57:12 Server: Object 4:382 not found (message 94)
+ 7:57:12 Server: Object 4:383 not found (message 94)
+ 7:57:12 Server: Object 4:384 not found (message 94)
+ 7:57:12 Server: Object 4:388 not found (message 94)
+ 7:57:12 Server: Object 4:386 not found (message 94)
+ 7:57:12 Server: Object 4:387 not found (message 94)
+ 7:57:12 Server: Object 4:389 not found (message 94)
+ 7:57:12 Server: Object 4:390 not found (message 94)
+ 7:57:14 "SAFE UNLOCKED: ID:55384 UID:0 BY TimBR(98212038)"
+ 7:57:34 "SAFE LOCKED: ID:55384 UID:0 BY TimBR(98212038)"
+ 7:57:36 NetServer::SendMsg: cannot find channel #308968352, users.card=6
+ 7:57:36 NetServer: users.get failed when sending to 308968352
+ 7:57:36 Message not sent - error 0, message ID = ffffffff, to 308968352 (Eric)
+ 7:57:53 "SAFE UNLOCKED: ID:64606 UID:0 BY TimBR(98212038)"
+ 7:58:05 SetFace error: class CfgFaces.RodriguezHead.Face20_EP1 not found
+ 7:58:05 Error: Error during SetFace - class CfgFaces.RodriguezHead.Face20_EP1 not found
+ 7:58:10 "SAFE LOCKED: ID:64606 UID:0 BY TimBR(98212038)"
+ 7:58:13 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:58:19 "ERROR: Cannot Sync Character Oh snap, I  as no characterID"
+ 7:58:22 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:58:30 "SAFE UNLOCKED: ID:65014 UID:0 BY cyncrwler(252051206)"
+ 7:58:32 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:58:35 "ERROR: Cannot Sync Character Oh snap, I  as no characterID"
+ 7:58:36 "SAFE UNLOCKED: ID:62042 UID:0 BY TimBR(98212038)"
+ 7:58:42 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:58:51 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:58:53 "SAFE LOCKED: ID:62042 UID:0 BY TimBR(98212038)"
+ 7:59:00 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:04 "SAFE LOCKED: ID:50470 UID:0 BY Oh snap, I (3719488)"
+ 7:59:10 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:10 "SAFE UNLOCKED: ID:63071 UID:0 BY TimBR(98212038)"
+ 7:59:18 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:28 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:38 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:38 "SAFE LOCKED: ID:63071 UID:0 BY TimBR(98212038)"
+ 7:59:47 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 7:59:56 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:00:05 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:00:14 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:00:24 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:00:32 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a CinderBlocks in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:00:50 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a MortarBucket in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:01:00 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a MortarBucket in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:01:01 "SAFE LOCKED: ID:65014 UID:0 BY cyncrwler(252051206)"
+ 8:01:01 Server: Object 3:255 not found (message 99)
+ 8:01:10 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a MortarBucket in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:01:11 "TIME SYNC: Local Time set to [2013,8,3,15,1]"
+ 8:01:19 "EPOCH SERVERTRADE: Player: [HoC] N9NE (239326726) bought a MortarBucket in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 8:01:20 "CLEANUP: Deleted 1 Loot Piles out of 140"
+ 8:02:14 "SAFE UNLOCKED: ID:67776 UID:0 BY cyncrwler(252051206)"
+ 8:02:20 "CLEANUP: Deleted 11 Loot Piles out of 135"
+ 8:03:20 "CLEANUP: Deleted 7 Loot Piles out of 124"
+ 8:04:22 "SAFE UNLOCKED: ID:62270 UID:0 BY TimBR(98212038)"
+ 8:04:23 Server: Object 5:379 not found (message 94)
+ 8:04:57 "6 Active ground units"
+ 8:04:57 "0 Active emplacement units"
+ 8:04:57 "0 Active chopper patrol units (Crew)"
+ 8:04:57 "0 Active vehicle patrol units (Crew)"
+ 8:05:00 Server: Object 5:381 not found (message 94)
+ 8:05:00 "infiSTAR.de Log: TimBR (98212038) - Deleted an Object @[8836.13,2844.79,0.0010376] - 62270 0"
+ 8:05:00 "DELETE: B 1-1-D:1 (TimBR) REMOTE Deleted by ID: 62270"
+ 8:05:14 "SAFE LOCKED: ID:67776 UID:0 BY cyncrwler(252051206)"
+ 8:05:21 "CLEANUP: Deleted 47 Loot Piles out of 119"
+ 8:05:52 "DELETE: B 1-1-F:1 ([HoC] N9NE) REMOTE Deleted by ID: 67763"
+ 8:05:52 "PUBLISH: B 1-1-F:1 ([HoC] N9NE) REMOTE upgraded CinderWall_DZ with ID "127008852693150""
+ 8:05:57 "SAFE UNLOCKED: ID:0 UID:885282869301 BY TimBR(98212038)"
+ 8:06:11 "TIME SYNC: Local Time set to [2013,8,3,15,6]"
+ 8:06:12 "CLEANUP: Deleted 1 Animals out of 45"
+ 8:06:14 "SAFE LOCKED: ID:0 UID:885282869301 BY TimBR(98212038)"
+ 8:06:17 "CLEANUP: Deleted 12 Loot Piles out of 73"
+ 8:06:17 "DELETE: B 1-1-F:1 ([HoC] N9NE) REMOTE Deleted by ID: 67759"
+ 8:06:17 "PUBLISH: B 1-1-F:1 ([HoC] N9NE) REMOTE upgraded CinderWall_DZ with ID "12697085279060""
+ 8:06:30 "DELETE: B 1-1-F:1 ([HoC] N9NE) REMOTE Deleted by ID: 67304"
+ 8:06:30 "PUBLISH: B 1-1-F:1 ([HoC] N9NE) REMOTE upgraded CinderWall_DZ with ID "126943853279240""
+ 8:06:41 No player found for channel 1045594176 - message ignored
+ 8:06:41 No player found for channel 1045594176 - message ignored
+ 8:07:17 "CLEANUP: Deleted 15 Loot Piles out of 61"
+ 8:07:19 "DELETE: B 1-1-F:1 ([HoC] N9NE) REMOTE Deleted by ID: 67758"
+ 8:07:19 "PUBLISH: B 1-1-F:1 ([HoC] N9NE) REMOTE upgraded CinderWall_DZ with ID "126891854256242""
+ 8:08:15 "CLEANUP: Deleted 1 Loot Piles out of 45"
+ 8:09:16 "CLEANUP: Deleted 32 Loot Piles out of 44"
+ 8:10:14 "CLEANUP: Deleted 5 Loot Piles out of 12"
+ 8:11:00 "infiSTAR.de Log: [HoC] Riftic (10711942) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+ 8:11:03 "infiSTAR.de PlayerConnected: _uid: 244984838   _name: [PN] Sir Posh Guy"
+ 8:11:03 "infiSTAR.de Player-Log: [PN] Sir Posh Guy(244984838) - 1h 09min"
+ 8:11:11 "TIME SYNC: Local Time set to [2013,8,3,15,11]"
+ 8:11:15 "infiSTAR.de PlayerConnected: _uid: 252029894   _name: Eric"
+ 8:11:15 "infiSTAR.de Player-Log: Eric(252029894) - 1h 10min"
+ 8:11:35 Server: Object 20:47 not found (message 94)
+ 8:11:35 Server: Object 20:46 not found (message 70)
+ 8:14:58 "4 Active ground units"
+ 8:14:58 "0 Active emplacement units"
+ 8:14:58 "0 Active chopper patrol units (Crew)"
+ 8:14:58 "0 Active vehicle patrol units (Crew)"
+ 8:16:11 "TIME SYNC: Local Time set to [2013,8,3,15,16]"
+ 8:16:11 "Purging player: 37dca040# 1064933: man_survivor.p3d"
+ 8:16:12 "CLEANUP: Deleted 1 players and 0 zombies out of 16 dead"
+ 8:18:05 Server: Object 6:260 not found (message 99)
+ 8:18:05 Server: Object 6:261 not found (message 91)
+ 8:18:17 "CLEANUP: Deleted 4 Loot Piles out of 54"
+ 8:19:11 "Vehicle destroyed at GPS 129033 by [HoC] N9NE (239326726) - SUV_Orange, worldspace [245.666,[12902.6,11978.4,0.0330963]], objID 57778, objUID 0"
+ 8:19:19 "get: STRING (252051206), sent: STRING (252051206)"
+ 8:19:19 "DISCONNECT: cyncrwler (252051206) Object: B 1-1-B:1 (cyncrwler) REMOTE, _characterID: 66915 at loc [12496.1,5559.83,1.08456]"
+ 8:19:19 Client: Remote object 3:7 not found
+ 8:19:22 Warning: Cleanup player - person 3:6 not found
+ 8:19:38 Server: Object 6:272 not found (message 69)
+ 8:19:38 Server: Object 6:273 not found (message 70)
+ 8:19:44 "Vehicle destroyed at GPS 129033 by [HoC] N9NE (239326726) - hilux1_civil_2_covered, worldspace [290.527,[12905.6,11985.4,0.0289536]], objID 57812, objUID 0"
+ 8:20:17 "CLEANUP: Deleted 1 Loot Piles out of 53"
+ 8:21:01 "WAI: Mission Civilian Aircraft Timed Out At [8795.91,11202.7]"
+ 8:21:11 "TIME SYNC: Local Time set to [2013,8,3,15,21]"
+ 8:21:14 "CLEANUP: Deleted 10 Animals out of 62"
+ 8:21:59 "SAFE UNLOCKED: ID:53788 UID:0 BY Butcher Pete(25333318)"
+ 8:22:17 Server: Object 13:168 not found (message 70)
+ 8:22:17 Server: Object 13:170 not found (message 70)
+ 8:22:17 Server: Object 13:169 not found (message 70)
+ 8:22:17 Server: Object 13:171 not found (message 94)
+ 8:22:17 Server: Object 13:172 not found (message 94)
+ 8:22:17 Server: Object 13:176 not found (message 70)
+ 8:22:17 Server: Object 13:175 not found (message 70)
+ 8:22:17 Server: Object 13:174 not found (message 70)
+ 8:22:17 Server: Object 13:173 not found (message 94)
+ 8:22:17 Server: Object 13:177 not found (message 70)
+ 8:22:17 Server: Object 13:185 not found (message 94)
+ 8:22:17 Server: Object 13:183 not found (message 94)
+ 8:22:17 Server: Object 13:184 not found (message 94)
+ 8:22:17 Server: Object 13:192 not found (message 70)
+ 8:22:17 Server: Object 13:198 not found (message 70)
+ 8:22:17 Server: Object 13:197 not found (message 70)
+ 8:22:17 Server: Object 13:196 not found (message 70)
+ 8:22:17 Server: Object 13:195 not found (message 70)
+ 8:22:17 Server: Object 13:191 not found (message 70)
+ 8:22:17 Server: Object 13:190 not found (message 70)
+ 8:22:17 Server: Object 13:189 not found (message 94)
+ 8:22:17 "SAFE LOCKED: ID:53788 UID:0 BY Butcher Pete(25333318)"
+ 8:22:17 Server: Object 13:194 not found (message 70)
+ 8:22:17 Server: Object 13:193 not found (message 70)
+ 8:22:17 Server: Object 13:187 not found (message 70)
+ 8:22:17 Server: Object 13:188 not found (message 94)
+ 8:22:17 Server: Object 13:186 not found (message 94)
+ 8:22:17 Server: Object 13:199 not found (message 70)
+ 8:22:17 Server: Object 13:211 not found (message 70)
+ 8:22:17 Server: Object 13:210 not found (message 70)
+ 8:22:17 Server: Object 13:209 not found (message 70)
+ 8:22:17 Server: Object 13:208 not found (message 70)
+ 8:22:17 Server: Object 13:207 not found (message 70)
+ 8:22:17 Server: Object 13:200 not found (message 70)
+ 8:22:17 Server: Object 13:201 not found (message 94)
+ 8:22:17 Server: Object 13:206 not found (message 70)
+ 8:22:17 Server: Object 13:205 not found (message 70)
+ 8:22:17 Server: Object 13:203 not found (message 94)
+ 8:22:17 Server: Object 13:204 not found (message 70)
+ 8:22:17 Server: Object 13:202 not found (message 70)
+ 8:22:17 Server: Object 13:216 not found (message 70)
+ 8:22:17 Server: Object 13:217 not found (message 94)
+ 8:22:17 Server: Object 13:220 not found (message 70)
+ 8:22:17 Server: Object 13:219 not found (message 70)
+ 8:22:17 Server: Object 13:218 not found (message 70)
+ 8:22:17 Server: Object 13:213 not found (message 70)
+ 8:22:17 Server: Object 13:212 not found (message 94)
+ 8:22:17 Server: Object 13:215 not found (message 70)
+ 8:22:17 Server: Object 13:214 not found (message 70)
+ 8:22:17 Server: Object 13:221 not found (message 94)
+ 8:22:17 Server: Object 13:222 not found (message 70)
+ 8:22:17 Server: Object 13:223 not found (message 94)
+ 8:22:17 Server: Object 13:224 not found (message 94)
+ 8:22:17 Server: Object 13:228 not found (message 70)
+ 8:22:17 Server: Object 13:229 not found (message 70)
+ 8:22:17 Server: Object 13:236 not found (message 70)
+ 8:22:17 Server: Object 13:233 not found (message 94)
+ 8:22:17 Server: Object 13:235 not found (message 70)
+ 8:22:17 Server: Object 13:234 not found (message 70)
+ 8:22:17 Server: Object 13:232 not found (message 70)
+ 8:22:17 Server: Object 13:227 not found (message 94)
+ 8:22:17 Server: Object 13:230 not found (message 94)
+ 8:22:17 Server: Object 13:226 not found (message 94)
+ 8:22:17 Server: Object 13:231 not found (message 70)
+ 8:22:17 Server: Object 13:225 not found (message 70)
+ 8:22:17 Server: Object 13:240 not found (message 70)
+ 8:22:17 Server: Object 13:238 not found (message 94)
+ 8:22:17 Server: Object 13:246 not found (message 70)
+ 8:22:17 Server: Object 13:239 not found (message 94)
+ 8:22:17 Server: Object 13:245 not found (message 70)
+ 8:22:17 Server: Object 13:244 not found (message 70)
+ 8:22:17 Server: Object 13:243 not found (message 70)
+ 8:22:17 Server: Object 13:237 not found (message 70)
+ 8:22:17 Server: Object 13:241 not found (message 94)
+ 8:22:17 Server: Object 13:242 not found (message 94)
+ 8:22:17 Server: Object 13:250 not found (message 70)
+ 8:22:17 Server: Object 13:251 not found (message 70)
+ 8:22:17 Server: Object 13:253 not found (message 70)
+ 8:22:17 Server: Object 13:247 not found (message 94)
+ 8:22:17 Server: Object 13:252 not found (message 70)
+ 8:22:17 Server: Object 13:248 not found (message 70)
+ 8:22:17 Server: Object 13:249 not found (message 94)
+ 8:22:28 "get: STRING (3719488), sent: STRING (3719488)"
+ 8:22:28 "DISCONNECT: Oh snap, I  (3719488) Object: B 1-1-K:1 (Oh snap, I ) REMOTE, _characterID: 68462 at loc [8714.55,11191.4,0.00120544]"
+ 8:22:28 Client: Remote object 4:405 not found
+ 8:22:59 "SAFE UNLOCKED: ID:29557 UID:0 BY Butcher Pete(25333318)"
+ 8:23:00 Server: Object 8:269 not found (message 94)
+ 8:23:00 Server: Object 8:271 not found (message 70)
+ 8:23:00 Server: Object 8:270 not found (message 70)
+ 8:23:00 "infiSTAR.de PlayerConnected: _uid: 3719488   _name: Oh snap, I "
+ 8:23:03 Server: Object 4:500 not found (message 70)
+ 8:23:23 "SAFE LOCKED: ID:29557 UID:0 BY Butcher Pete(25333318)"
+ 8:23:43 "SAFE UNLOCKED: ID:53784 UID:0 BY Butcher Pete(25333318)"
+ 8:24:05 "SAFE LOCKED: ID:53784 UID:0 BY Butcher Pete(25333318)"
+ 8:24:37 "SAFE UNLOCKED: ID:55188 UID:0 BY Butcher Pete(25333318)"
+ 8:24:37 Server: Object 8:280 not found (message 94)
+ 8:24:59 "SAFE LOCKED: ID:55188 UID:0 BY Butcher Pete(25333318)"
+ 8:24:59 "-6 Active ground units"
+ 8:24:59 "0 Active emplacement units"
+ 8:24:59 "0 Active chopper patrol units (Crew)"
+ 8:24:59 "0 Active vehicle patrol units (Crew)"
+ 8:25:23 "CLEANUP: Deleted 2 Loot Piles out of 157"
+ 8:25:57 "WAI: Starting Mission MV22"
+ 8:25:57 "WAI: Mission MV22 Started At [3438.5,5022.69]"
+ 8:25:57 "WAI: Mission MV22 spawned a MV-22"
+ 8:25:58 "WAI: Spawned a group of 6 Bandits at [3438.5,5022.69,0]"
+ 8:25:58 "WAI: Spawned a group of 4 Bandits at [3438.5,5022.69,0]"
+ 8:25:58 "WAI: Sapwned in 2 M2StaticMG"
+ 8:26:11 "TIME SYNC: Local Time set to [2013,8,3,15,26]"
+ 8:26:51 Server: Object 4:543 not found (message 99)
+ 8:26:51 Server: Object 4:544 not found (message 91)
+ 8:27:35 "get: STRING (98212038), sent: STRING (98212038)"
+ 8:27:35 "DISCONNECT: TimBR (98212038) Object: B 1-1-D:1 (TimBR) REMOTE, _characterID: 68050 at loc [10207.8,2665.4,34.158]"
+ 8:27:35 Client: Remote object 5:0 not found
+ 8:27:35 Client: Remote object 5:8 not found
+ 8:27:37 Warning: Cleanup player - person 5:7 not found
+ 8:29:24 Server: Object 4:564 not found (message 94)
+ 8:29:24 Server: Object 4:568 not found (message 94)
+ 8:29:24 Server: Object 4:567 not found (message 70)
+ 8:29:24 Server: Object 4:565 not found (message 94)
+ 8:29:24 Server: Object 4:566 not found (message 94)
+ 8:31:11 "TIME SYNC: Local Time set to [2013,8,3,15,31]"
+ 8:31:45 Server: Object 6:417 not found (message 94)
+ 8:31:45 Server: Object 6:420 not found (message 94)
+ 8:31:45 Server: Object 6:419 not found (message 70)
+ 8:31:45 Server: Object 6:418 not found (message 94)
+ 8:31:45 Server: Object 6:425 not found (message 94)
+ 8:31:45 Server: Object 6:423 not found (message 70)
+ 8:31:45 Server: Object 6:424 not found (message 70)
+ 8:32:33 "CLEANUP: Deleted 30 Loot Piles out of 303"
+ 8:33:13 "infiSTAR.de PlayerConnected: _uid: 98212038   _name: TimBR"
+ 8:33:32 "CLEANUP: Deleted 2 Loot Piles out of 278"
+ 8:33:58 "SAFE UNLOCKED: ID:68163 UID:0 BY Eric(252029894)"
+ 8:33:59 Server: Object 20:210 not found (message 94)
+ 8:33:59 Server: Object 20:211 not found (message 94)
+ 8:35:00 "4 Active ground units"
+ 8:35:00 "2 Active emplacement units"
+ 8:35:00 "0 Active chopper patrol units (Crew)"
+ 8:35:00 "0 Active vehicle patrol units (Crew)"
+ 8:35:48 "PUBLISH: Attempt 3d1810c0# 1068040: mv22.p3d"
+ 8:35:48 "HIVE: WRITE: "CHILD:308:11:MV22_DZ:0:0:[228,[3438.14,5022.29,0.0546265]]:[]:[["telo",0.0439159]]:50:34381502231228:""
+ 8:35:49 "HIVE: WRITE: "CHILD:388:34381502231228:""
+ 8:35:49 "CUSTOM: Selected "68694""
+ 8:35:49 "PUBLISH: Created MV22_DZ with ID "34381502231228""
+ 8:36:11 "TIME SYNC: Local Time set to [2013,8,3,15,36]"
+ 8:36:16 "CLEANUP: Deleted 20 Animals out of 80"
+ 8:36:30 "SAFE LOCKED: ID:68163 UID:0 BY Eric(252029894)"
+ 8:37:35 "CLEANUP: Deleted 15 Loot Piles out of 291"
+ 8:39:24 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68175]. Position in debug! [20386.8,-5037.91,145.978]"
+ 8:39:25 "ERROR: Cannot Sync Character [HoC] N9NE as no characterID"
+ 8:39:32 "CLEANUP: Deleted 1 Loot Piles out of 275"
+ 8:40:32 "CLEANUP: Deleted 2 Loot Piles out of 274"
+ 8:41:11 "TIME SYNC: Local Time set to [2013,8,3,15,41]"
+ 8:41:32 "CLEANUP: Deleted 5 Loot Piles out of 272"
+ 8:42:21 Server: Object 20:246 not found (message 94)
+ 8:42:22 Server: Object 20:259 not found (message 91)
+ 8:42:22 Server: Object 20:258 not found (message 99)
+ 8:42:22 Server: Object 20:257 not found (message 94)
+ 8:42:22 Server: Object 20:256 not found (message 94)
+ 8:42:22 Server: Object 20:261 not found (message 91)
+ 8:42:22 Server: Object 20:260 not found (message 99)
+ 8:42:22 Server: Object 20:263 not found (message 91)
+ 8:42:22 Server: Object 20:262 not found (message 99)
+ 8:42:22 Server: Object 20:265 not found (message 91)
+ 8:42:22 Server: Object 20:264 not found (message 99)
+ 8:43:20 Server: Object 22:41 not found (message 99)
+ 8:43:20 Server: Object 22:42 not found (message 91)
+ 8:43:40 "CLEANUP: Deleted 96 Loot Piles out of 298"
+ 8:43:42 Server: Object 13:327 not found (message 91)
+ 8:45:02 "-1 Active ground units"
+ 8:45:02 "0 Active emplacement units"
+ 8:45:02 "0 Active chopper patrol units (Crew)"
+ 8:45:02 "0 Active vehicle patrol units (Crew)"
+ 8:46:05 "WAI: Mission MV-22 Ended At [3438.5,5022.69]"
+ 8:46:11 "TIME SYNC: Local Time set to [2013,8,3,15,46]"
+ 8:46:27 "PDEATH: Player Died 252029894"
+ 8:46:32 "CLEANUP: Deleted 4 Loot Piles out of 265"
+ 8:46:43 "ERROR: server_playerSync: Cannot Sync Player Eric [68322]. Position in debug! [20386.5,-5038.57,145.974]"
+ 8:46:43 "ERROR: server_playerSync: Cannot Sync Player Eric [68322]. Position in debug! [20386.5,-5038.57,145.974]"
+ 8:46:49 NetServer::SendMsg: cannot find channel #1161925029, users.card=6
+ 8:46:49 NetServer: users.get failed when sending to 1161925029
+ 8:46:49 Message not sent - error 0, message ID = ffffffff, to 1161925029 (Eric)
+ 8:46:49 "get: STRING (252029894), sent: STRING (252029894)"
+ 8:46:49 "DISCONNECT: Eric (252029894) Object: B 1-1-A:1 (Eric) REMOTE, _characterID: 68322 at loc [20386.5,-5038.57,145.974]"
+ 8:46:49 "ERROR: server_playerSync: Cannot Sync Player Eric [68322]. Position in debug! [20386.5,-5038.57,145.974]"
+ 8:46:49 Client: Remote object 20:0 not found
+ 8:46:49 Client: Object 6:463 (type Type_149) not found.
+ 8:47:32 "CLEANUP: Deleted 43 Loot Piles out of 272"
+ 8:49:30 "CLEANUP: Deleted 38 Loot Piles out of 231"
+ 8:50:26 "CLEANUP: Deleted 22 Loot Piles out of 190"
+ 8:50:36 "get: STRING (98212038), sent: STRING (98212038)"
+ 8:50:36 "DISCONNECT: TimBR (98212038) Object: B 1-1-D:1 (TimBR) REMOTE, _characterID: 68050 at loc [10206.2,2665.02,6.1226]"
+ 8:50:36 Client: Remote object 22:0 not found
+ 8:50:36 Client: Remote object 22:8 not found
+ 8:50:37 Warning: Cleanup player - person 22:7 not found
+ 8:51:00 "WAI: Starting Mission armed_vehicle"
+ 8:51:00 "WAI: Mission Armed Vehicle Started At [12827.2,9038.67]"
+ 8:51:00 "WAI: Mission Armed Vehicle spawned a HMMWV SOV DZ"
+ 8:51:00 "WAI: Spawned a group of 5 Bandits at [12827.2,9038.67,0]"
+ 8:51:00 "WAI: Spawned a group of 4 Bandits at [12827.2,9038.67,0]"
+ 8:51:00 "WAI: Sapwned in 1 M2StaticMG"
+ 8:51:11 "TIME SYNC: Local Time set to [2013,8,3,15,51]"
+ 8:51:14 "CLEANUP: Deleted 15 Animals out of 47"
+ 8:51:59 Server: Object 8:371 not found (message 99)
+ 8:51:59 Server: Object 8:371 not found (message 99)
+ 8:51:59 Server: Object 8:371 not found (message 99)
+ 8:51:59 Server: Object 8:371 not found (message 99)
+ 8:51:59 Server: Object 8:371 not found (message 99)
+ 8:52:06 Server: Object 8:373 not found (message 99)
+ 8:52:06 Server: Object 8:373 not found (message 99)
+ 8:52:06 Server: Object 8:373 not found (message 99)
+ 8:52:11 Server: Object 8:376 not found (message 91)
+ 8:52:11 Server: Object 8:375 not found (message 99)
+ 8:52:11 Server: Object 8:375 not found (message 99)
+ 8:52:22 Server: Object 8:377 not found (message 99)
+ 8:52:25 Server: Object 8:379 not found (message 98)
+ 8:52:25 Server: Object 8:380 not found (message 91)
+ 8:52:26 "CLEANUP: Deleted 45 Loot Piles out of 168"
+ 8:52:35 Server: Object 8:381 not found (message 98)
+ 8:53:18 "get: STRING (25333318), sent: STRING (25333318)"
+ 8:53:18 "LOGOUT IN VEHICLE: Butcher Pete at location [4339.49,10277,50.882]"
+ 8:53:18 "DISCONNECT: Butcher Pete (25333318) Object: B 1-1-E:1 (Butcher Pete) REMOTE, _characterID: 62945 at loc [4339.49,10277,50.882]"
+ 8:53:18 Client: Remote object 8:0 not found
+ 8:53:18 Client: Remote object 8:8 not found
+ 8:53:18 Client: Object 4:657 (type Type_149) not found.
+ 8:53:18 Client: Object 6:465 (type Type_149) not found.
+ 8:53:21 "CLEANUP: Deleted 5 Loot Piles out of 123"
+ 8:53:25 "Vehicle destroyed at GPS 045054 - MV22_DZ, worldspace [319.138,[4588.6,9896.02,12.6749]], objID 68686, objUID 0"
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:25 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:26 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:27 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:28 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:29 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:30 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:53:30 Cannot load sound 'ca\sounds\air\mv22\int-alarm_loop.wss'
+ 8:54:21 "CLEANUP: Deleted 7 Loot Piles out of 118"
+ 8:55:03 "3 Active ground units"
+ 8:55:03 "1 Active emplacement units"
+ 8:55:03 "0 Active chopper patrol units (Crew)"
+ 8:55:03 "0 Active vehicle patrol units (Crew)"
+ 8:55:20 "CLEANUP: Deleted 5 Loot Piles out of 111"
+ 8:55:35 "SAFE UNLOCKED: ID:67358 UID:0 BY [HoC] Riftic(10711942)"
+ 8:55:36 Server: Object 13:348 not found (message 70)
+ 8:55:36 Server: Object 13:349 not found (message 94)
+ 8:55:36 Server: Object 13:351 not found (message 94)
+ 8:55:36 Server: Object 13:350 not found (message 94)
+ 8:56:11 "TIME SYNC: Local Time set to [2013,8,3,15,56]"
+ 8:56:50 "get: STRING (3719488), sent: STRING (3719488)"
+ 8:56:50 "DISCONNECT: Oh snap, I  (3719488) Object: B 1-1-B:1 (Oh snap, I ) REMOTE, _characterID: 68462 at loc [13100,8287.8,0.0214381]"
+ 8:56:50 Client: Remote object 4:499 not found
+ 8:57:19 "CLEANUP: Deleted 2 Loot Piles out of 110"
+ 8:57:21 "infiSTAR.de PlayerConnected: _uid: 3719488   _name: Oh snap, I "
+ 8:57:24 Server: Object 4:696 not found (message 70)
+ 8:57:25 Server: Object 4:704 not found (message 99)
+ 8:57:25 Server: Object 4:707 not found (message 91)
+ 8:57:25 Server: Object 4:705 not found (message 91)
+ 8:57:25 Server: Object 4:706 not found (message 98)
+ 8:59:45 "PHIT: B 1-1-B:1 (Oh snap, I ) REMOTE was hit by B 1-1-K:1 ([HoC] N9NE) REMOTE with AA12_PMC from 116.594m with 0.058998 dmg"
+ 8:59:45 "PHIT: B 1-1-B:1 (Oh snap, I ) REMOTE was hit by B 1-1-K:1 ([HoC] N9NE) REMOTE with AA12_PMC from 118.497m with 0.0595735 dmg"
+ 8:59:46 "PHIT: B 1-1-B:1 (Oh snap, I ) REMOTE was hit by B 1-1-K:1 ([HoC] N9NE) REMOTE with AA12_PMC from 125.908m with 0.0639831 dmg"
+ 8:59:46 "PHIT: B 1-1-B:1 (Oh snap, I ) REMOTE was hit by B 1-1-K:1 ([HoC] N9NE) REMOTE with AA12_PMC from 128.864m with 0.0616202 dmg"
+ 9:01:11 "TIME SYNC: Local Time set to [2013,8,3,16,1]"
+ 9:02:20 "CLEANUP: Deleted 2 Loot Piles out of 110"
+ 9:02:54 Server: Object 4:751 not found (message 98)
+ 9:02:54 Server: Object 4:752 not found (message 91)
+ 9:03:21 "CLEANUP: Deleted 28 Loot Piles out of 108"
+ 9:04:17 Server: Object 4:774 not found (message 70)
+ 9:04:21 "CLEANUP: Deleted 62 Loot Piles out of 87"
+ 9:04:25 Server: Object 4:791 not found (message 94)
+ 9:04:25 Server: Object 4:792 not found (message 94)
+ 9:04:41 "infiSTAR.de PlayerConnected: _uid: 251924102   _name: CAS"
+ 9:04:41 "infiSTAR.de Player-Log: CAS(251924102) - 2h 03min"
+ 9:04:51 Server: Object 4:811 not found (message 70)
+ 9:04:51 Server: Object 4:822 not found (message 70)
+ 9:04:51 Server: Object 4:821 not found (message 70)
+ 9:04:51 Server: Object 4:820 not found (message 70)
+ 9:04:51 Server: Object 4:823 not found (message 70)
+ 9:04:51 Server: Object 4:819 not found (message 94)
+ 9:05:04 "3 Active ground units"
+ 9:05:04 "1 Active emplacement units"
+ 9:05:04 "0 Active chopper patrol units (Crew)"
+ 9:05:04 "0 Active vehicle patrol units (Crew)"
+ 9:05:20 "CLEANUP: Deleted 1 Loot Piles out of 100"
+ 9:06:05 "SAFE UNLOCKED: ID:64741 UID:0 BY CAS(251924102)"
+ 9:06:06 Server: Object 23:16 not found (message 94)
+ 9:06:11 "TIME SYNC: Local Time set to [2013,8,3,16,6]"
+ 9:06:15 "CLEANUP: Deleted 31 Animals out of 51"
+ 9:06:43 "infiSTAR.de PlayerConnected: _uid: 252051206   _name: cyncrwler"
+ 9:06:46 Server: Object 24:9 not found (message 94)
+ 9:07:10 "PDEATH: Player Died 239326726"
+ 9:07:21 "get: STRING (239326726), sent: STRING (239326726)"
+ 9:07:21 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-1-K:1 ([HoC] N9NE) REMOTE, _characterID: 68175 at loc [20386.5,-5038.57,145.974]"
+ 9:07:21 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68175]. Position in debug! [20386.5,-5038.57,145.974]"
+ 9:07:21 Client: Remote object 6:0 not found
+ 9:07:21 "CLEANUP: Deleted 11 Loot Piles out of 97"
+ 9:07:23 Warning: Cleanup player - person 6:473 not found
+ 9:07:27 Server: Object 6:460 not found (message 221)
+ 9:07:28 "infiSTAR.de PlayerConnected: _uid: 151656198   _name: Sniper Bait"
+ 9:07:28 "infiSTAR.de Player-Log: Sniper Bait(151656198) - 2h 06min"
+ 9:09:42 "SAFE UNLOCKED: ID:68314 UID:0 BY cyncrwler(252051206)"
+ 9:09:45 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+ 9:11:01 "PKILL: [HoC] N9NE killed himself"
+ 9:11:01 "PDEATH: Player Died 239326726"
+ 9:11:11 "get: STRING (239326726), sent: STRING (239326726)"
+ 9:11:11 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-2-A:1 ([HoC] N9NE) REMOTE, _characterID: 68463 at loc [20386.5,-5038.57,145.974]"
+ 9:11:11 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68463]. Position in debug! [20386.5,-5038.57,145.974]"
+ 9:11:11 Client: Remote object 26:0 not found
+ 9:11:11 "TIME SYNC: Local Time set to [2013,8,3,16,11]"
+ 9:11:24 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+ 9:12:24 "PKILL: [HoC] N9NE killed himself"
+ 9:12:24 "PDEATH: Player Died 239326726"
+ 9:12:35 "get: STRING (239326726), sent: STRING (239326726)"
+ 9:12:35 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-2-A:1 ([HoC] N9NE) REMOTE, _characterID: 68464 at loc [20386.5,-5038.57,145.974]"
+ 9:12:35 "ERROR: server_playerSync: Cannot Sync Player [HoC] N9NE [68464]. Position in debug! [20386.5,-5038.57,145.974]"
+ 9:12:53 "infiSTAR.de PlayerConnected: _uid: 239326726   _name: [HoC] N9NE"
+ 9:13:06 "SAFE UNLOCKED: ID:67286 UID:0 BY [HoC] Riftic(10711942)"
+ 9:13:21 "SAFE LOCKED: ID:67286 UID:0 BY [HoC] Riftic(10711942)"
+ 9:13:37 "SAFE UNLOCKED: ID:67286 UID:0 BY [HoC] Riftic(10711942)"
+ 9:14:17 "SAFE LOCKED: ID:67286 UID:0 BY [HoC] Riftic(10711942)"
+ 9:14:43 "get: STRING (151656198), sent: STRING (151656198)"
+ 9:14:43 "DISCONNECT: Sniper Bait (151656198) Object: B 1-1-K:1 (Sniper Bait) REMOTE, _characterID: 68420 at loc [5113.08,9698.59,0.00143433]"
+ 9:14:43 Client: Remote object 25:0 not found
+ 9:14:43 Client: Remote object 25:8 not found
+ 9:14:47 Warning: Cleanup player - person 25:7 not found
+ 9:15:05 "2 Active ground units"
+ 9:15:05 "1 Active emplacement units"
+ 9:15:05 "0 Active chopper patrol units (Crew)"
+ 9:15:05 "0 Active vehicle patrol units (Crew)"
+ 9:15:20 NetServer::SendMsg: cannot find channel #1230358672, users.card=7
+ 9:15:20 NetServer: users.get failed when sending to 1230358672
+ 9:15:20 Message not sent - error 0, message ID = ffffffff, to 1230358672 (Butcher Pete)
+ 9:15:37 "infiSTAR.de PlayerConnected: _uid: 99333510   _name: Krypton"
+ 9:15:37 "infiSTAR.de Player-Log: Krypton(99333510) - 2h 14min"
+ 9:16:03 "WAI: Mission Armed vehicle Timed Out At [12827.2,9038.67]"
+ 9:16:11 "TIME SYNC: Local Time set to [2013,8,3,16,16]"
+ 9:16:26 Server: Object 2:10735 not found (message 32)
+ 9:16:26 Server: Object 2:10735 not found (message 189)
+ 9:16:30 Server: Object 2:10735 not found (message 32)
+ 9:16:30 Server: Object 2:10735 not found (message 189)
+ 9:16:33 "CLEANUP: Deleted 4 Loot Piles out of 285"
+ 9:17:07 "infiSTAR.de PlayerConnected: _uid: 25333318   _name: Butcher Pete"
+ 9:18:03 Server: Object 13:406 not found (message 91)
+ 9:18:03 Server: Object 13:405 not found (message 99)
+ 9:18:40 Server: Object 21:194 not found (message 98)
+ 9:18:40 Server: Object 21:195 not found (message 91)
+ 9:18:40 Server: Object 21:194 not found (message 99)
+ 9:18:51 Server: Object 4:918 not found (message 98)
+ 9:18:51 Server: Object 4:919 not found (message 91)
+ 9:19:24 Server: Object 13:425 not found (message 94)
+ 9:20:41 "CLEANUP: Deleted 1 Loot Piles out of 336"
+ 9:21:00 "WAI: Starting Mission weapon_cache"
+ 9:21:01 "WAI: Mission Weapon Cache Started At [7884.09,9054.51]"
+ 9:21:01 "WAI: Spawned a group of 5 Bandits at [7884.09,9054.51,0]"
+ 9:21:01 "WAI: Spawned a group of 4 Bandits at [7884.09,9054.51,0]"
+ 9:21:02 "WAI: Sapwned in 2 M2StaticMG"
+ 9:21:11 "TIME SYNC: Local Time set to [2013,8,3,16,21]"
+ 9:21:12 "infiSTAR.de PlayerConnected: _uid: 44837126   _name: Jackwagon"
+ 9:21:12 "infiSTAR.de Player-Log: Jackwagon(44837126) - 2h 20min"
+ 9:21:16 "CLEANUP: Deleted 14 Animals out of 57"
+ 9:22:44 "CLEANUP: Deleted 1 Loot Piles out of 333"
+ 9:22:59 "get: STRING (44837126), sent: STRING (44837126)"
+ 9:22:59 "DISCONNECT: Jackwagon (44837126) Object: B 1-2-C:1 (Jackwagon) REMOTE, _characterID: 66821 at loc [8730.9,6355.1,0.00131226]"
+ 9:23:00 Client: Remote object 30:6 not found
+ 9:23:00 Client: Remote object 30:5 not found
+ 9:23:00 Client: Remote object 30:0 not found
+ 9:24:40 "CLEANUP: Deleted 7 Loot Piles out of 332"
+ 9:24:41 NetServer::SendMsg: cannot find channel #838599555, users.card=9
+ 9:24:41 NetServer: users.get failed when sending to 838599555
+ 9:24:41 Message not sent - error 0, message ID = ffffffff, to 838599555 ([BCG] Jeep)
+ 9:24:45 "infiSTAR.de PlayerConnected: _uid: 44837126   _name: Jackwagon"
+ 9:24:49 Server: Object 30:30 not found (message 70)
+ 9:25:06 "-3 Active ground units"
+ 9:25:06 "2 Active emplacement units"
+ 9:25:06 "0 Active chopper patrol units (Crew)"
+ 9:25:06 "0 Active vehicle patrol units (Crew)"
+ 9:25:47 "CLEANUP: Deleted 73 Loot Piles out of 326"
+ 9:26:12 "TIME SYNC: Local Time set to [2013,8,3,16,26]"
+ 9:26:12 "Purging player: 3a776040# 1066935: man_survivor.p3d"
+ 9:26:12 "CLEANUP: Deleted 1 players and 0 zombies out of 14 dead"
+ 9:27:07 "infiSTAR.de PlayerConnected: _uid: 80781638   _name: [BCG] Jeep"
+ 9:27:07 "infiSTAR.de Player-Log: [BCG] Jeep(80781638) - 2h 25min"
+ 9:28:45 "CLEANUP: Deleted 11 Loot Piles out of 275"
+ 9:29:28 "get: STRING (10711942), sent: STRING (10711942)"
+ 9:29:28 "DISCONNECT: [HoC] Riftic (10711942) Object: B 1-1-G:1 ([HoC] Riftic) REMOTE, _characterID: 68182 at loc [12770.4,8411.83,0.00146294]"
+ 9:29:28 Client: Remote object 13:6 not found
+ 9:29:28 Client: Remote object 13:5 not found
+ 9:29:28 Client: Remote object 13:0 not found
+ 9:29:33 Warning: Cleanup player - person 13:7 not found
+ 9:30:12 "get: STRING (252051206), sent: STRING (252051206)"
+ 9:30:12 "DISCONNECT: cyncrwler (252051206) Object: B 1-1-E:1 (cyncrwler) REMOTE, _characterID: 66915 at loc [12517.7,5544.24,0.000930786]"
+ 9:30:12 Client: Remote object 24:0 not found
+ 9:30:12 Client: Remote object 24:8 not found
+ 9:30:12 "CLEANUP: DELETED A "Land_Fire_DZ""
+ 9:30:14 Warning: Cleanup player - person 24:7 not found
+ 9:31:12 "TIME SYNC: Local Time set to [2013,8,3,16,31]"
+ 9:31:50 "infiSTAR.de PlayerConnected: _uid: 252051206   _name: cyncrwler"
+ 9:33:46 "CLEANUP: Deleted 36 Loot Piles out of 303"
+ 9:34:19 "WAI: Mission Weapon cache Ended At [7884.09,9054.51]"
+ 9:34:51 "CLEANUP: Deleted 80 Loot Piles out of 291"
+ 9:35:10 "-12 Active ground units"
+ 9:35:10 "0 Active emplacement units"
+ 9:35:10 "0 Active chopper patrol units (Crew)"
+ 9:35:10 "0 Active vehicle patrol units (Crew)"
+ 9:35:38 "CLEANUP: Deleted 24 Loot Piles out of 212"
+ 9:36:12 "TIME SYNC: Local Time set to [2013,8,3,16,36]"
+ 9:36:18 "CLEANUP: Deleted 14 Animals out of 79"
+ 9:36:36 "CLEANUP: Deleted 43 Loot Piles out of 189"
+ 9:36:53 Server: Object 33:105 not found (message 70)
+ 9:36:53 Server: Object 33:104 not found (message 94)
+ 9:37:00 "infiSTAR.de Log: [PN] Sir Posh Guy (244984838) | BadKey: AdminMenu Key   |DayZ Instance: 11|"
+ 9:37:11 Server: Object 33:130 not found (message 98)
+ 9:37:11 Server: Object 33:131 not found (message 91)
+ 9:37:11 Server: Object 33:132 not found (message 99)
+ 9:37:11 Server: Object 33:133 not found (message 91)
+ 9:37:14 Server: Object 30:147 not found (message 94)
+ 9:37:14 Server: Object 30:149 not found (message 70)
+ 9:37:14 Server: Object 30:148 not found (message 70)
+ 9:37:14 Server: Object 30:153 not found (message 70)
+ 9:37:14 Server: Object 30:155 not found (message 91)
+ 9:37:14 Server: Object 30:154 not found (message 99)
+ 9:37:14 Server: Object 30:160 not found (message 99)
+ 9:37:14 Server: Object 30:161 not found (message 91)
+ 9:37:38 "CLEANUP: Deleted 38 Loot Piles out of 222"
+ 9:39:04 "WAI: Starting Mission ikea"
+ 9:39:04 "WAI: Mission ikea Started At [7592.88,11470]"
+ 9:39:05 "WAI: Spawned a group of 4 Bandits at [7592.88,11470,0]"
+ 9:39:05 "WAI: Spawned a group of 4 Bandits at [7592.88,11470,0]"
+ 9:39:05 "WAI: Sapwned in 2 M2StaticMG"
+ 9:40:36 "CLEANUP: Deleted 18 Loot Piles out of 212"
+ 9:41:12 "TIME SYNC: Local Time set to [2013,8,3,16,41]"
+ 9:41:20 "SAFE LOCKED: ID:67358 UID:0 BY [HoC] N9NE(239326726)"
+ 9:41:52 Server: Object 30:181 not found (message 91)
+ 9:41:52 Server: Object 30:182 not found (message 99)
+ 9:41:52 Server: Object 30:183 not found (message 91)
+ 9:41:52 Server: Object 30:185 not found (message 91)
+ 9:41:52 Server: Object 30:184 not found (message 99)
+ 9:42:06 Server: Object 33:204 not found (message 94)
+ 9:42:06 Server: Object 33:203 not found (message 94)
+ 9:42:06 Server: Object 33:211 not found (message 91)
+ 9:42:06 Server: Object 33:215 not found (message 70)
+ 9:42:06 Server: Object 33:217 not found (message 70)
+ 9:42:06 Server: Object 33:216 not found (message 70)
+ 9:42:06 Server: Object 33:218 not found (message 70)
+ 9:42:06 Server: Object 33:220 not found (message 91)
+ 9:42:06 Server: Object 33:219 not found (message 99)
+ 9:42:06 Server: Object 33:221 not found (message 99)
+ 9:42:06 Server: Object 33:222 not found (message 91)
+ 9:42:07 Server: Object 33:227 not found (message 94)
+ 9:42:07 Server: Object 33:226 not found (message 94)
+ 9:42:07 Server: Object 33:232 not found (message 70)
+ 9:42:07 Server: Object 33:235 not found (message 70)
+ 9:42:07 Server: Object 33:234 not found (message 70)
+ 9:42:07 Server: Object 33:233 not found (message 70)
+ 9:42:07 Server: Object 33:236 not found (message 98)
+ 9:42:07 Server: Object 33:237 not found (message 91)
+ 9:42:16 Server: Object 33:268 not found (message 70)
+ 9:42:16 Server: Object 33:276 not found (message 70)
+ 9:42:16 Server: Object 33:275 not found (message 70)
+ 9:42:16 Server: Object 33:277 not found (message 94)
+ 9:42:16 Server: Object 33:283 not found (message 70)
+ 9:42:45 "infiSTAR.de PlayerConnected: _uid: 10711942   _name: [HoC] Riftic"
+ 9:43:22 "infiSTAR.de Log: CAS (251924102) | BadKey: Tild - Known to start HackMenus   |DayZ Instance: 11|"
+ 9:43:46 Server: Object 29:138 not found (message 94)
+ 9:43:46 "nil player object attempting PV, :["25333318","Butcher Pete"]"
+ 9:43:46 "get: STRING (), sent: STRING (25333318)"
+ 9:43:46 "LOGOUT IN VEHICLE: Butcher Pete at location [4350.58,10256,50.6635]"
+ 9:43:46 "DISCONNECT: Butcher Pete (25333318) Object: B 1-2-B:1 REMOTE, _characterID: 62945 at loc [4350.58,10256,50.6635]"
+ 9:43:46 Client: Remote object 29:0 not found
+ 9:43:46 Client: Remote object 29:6 not found
+ 9:43:46 Client: Remote object 29:5 not found
+ 9:44:32 "infiSTAR.de PlayerConnected: _uid: 25333318   _name: Butcher Pete"
+ 9:44:35 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a glock17_EP1 in/at Unknown Trader City for 2x ItemSilverBar10oz"
+ 9:44:35 Server: Object 29:148 not found (message 70)
+ 9:44:53 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a 17Rnd_9x19_glock17 in/at Unknown Trader City for 6x ItemSilverBar"
+ 9:45:13 "-9 Active ground units"
+ 9:45:13 "0 Active emplacement units"
+ 9:45:13 "0 Active chopper patrol units (Crew)"
+ 9:45:13 "0 Active vehicle patrol units (Crew)"
+ 9:45:14 "get: STRING (25333318), sent: STRING (25333318)"
+ 9:45:14 "DISCONNECT: Butcher Pete (25333318) Object: B 1-2-B:1 (Butcher Pete) REMOTE, _characterID: 62945 at loc [4351.06,10256,0.00146484]"
+ 9:45:14 Client: Remote object 29:145 not found
+ 9:45:14 Client: Remote object 29:144 not found
+ 9:45:15 "CLEANUP: DELETED A "DebugBoxPlayer_DZ""
+ 9:45:25 "infiSTAR.de PlayerConnected: _uid: 25333318   _name: Butcher Pete"
+ 9:45:28 Server: Object 29:160 not found (message 70)
+ 9:45:49 "get: STRING (25333318), sent: STRING (25333318)"
+ 9:45:49 "DISCONNECT: Butcher Pete (25333318) Object: B 1-2-B:1 (Butcher Pete) REMOTE, _characterID: 62945 at loc [4351.06,10256,0.00140381]"
+ 9:45:49 Client: Remote object 29:157 not found
+ 9:45:49 Client: Remote object 29:156 not found
+ 9:45:49 "CLEANUP: DELETED A "DebugBoxPlayer_DZ""
+ 9:45:55 "ERROR: Cannot Sync Character [HoC] N9NE as no characterID"
+ 9:46:12 "Purging player: 40cf2040# 1069007: ins_soldier_g.p3d"
+ 9:46:12 "TIME SYNC: Local Time set to [2013,8,3,16,46]"
+ 9:46:14 "Purging player: 37edc080# 1070533: man_survivor.p3d"
+ 9:46:14 "Purging player: 43582040# 1070577: man_survivor.p3d"
+ 9:46:15 "CLEANUP: Deleted 3 players and 0 zombies out of 41 dead"
+ 9:46:18 "infiSTAR.de Log: [HoC] Riftic (10711942) | BadKey: F1 - Known to start HackMenus   |DayZ Instance: 11|"
+ 9:46:42 "CLEANUP: Deleted 2 Loot Piles out of 301"
+ 9:46:50 "WAI: Mission Ikea Ended At [7592.88,11470]"
+ 9:47:24 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a ItemSodaMdew in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:47:32 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a ItemSodaMdew in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:47:35 Server: Object 36:32 not found (message 91)
+ 9:47:35 Server: Object 36:31 not found (message 99)
+ 9:47:35 Server: Object 36:34 not found (message 91)
+ 9:47:35 Server: Object 36:33 not found (message 99)
+ 9:47:41 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a ItemSodaMdew in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:47:42 "CLEANUP: Deleted 4 Loot Piles out of 297"
+ 9:48:01 Warning: Cleanup player - person 29:158 not found
+ 9:48:08 "EPOCH SERVERTRADE: Player: [PN] Sir Posh Guy (244984838) sold a CinderBlocks in/at Unknown Trader City for 5x ItemGoldBar"
+ 9:48:17 "EPOCH SERVERTRADE: Player: [PN] Sir Posh Guy (244984838) sold a CinderBlocks in/at Unknown Trader City for 5x ItemGoldBar"
+ 9:48:42 "CLEANUP: Deleted 11 Loot Piles out of 294"
+ 9:48:42 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a ItemGenerator in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:48:51 "EPOCH SERVERTRADE: Player: Jackwagon (44837126) sold a ItemGenerator in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:49:05 "SAFE LOCKED: ID:64741 UID:0 BY CAS(251924102)"
+ 9:49:41 "CLEANUP: Deleted 1 Loot Piles out of 294"
+ 9:50:43 "CLEANUP: Deleted 17 Loot Piles out of 293"
+ 9:51:05 "SAFE UNLOCKED: ID:64741 UID:0 BY CAS(251924102)"
+ 9:51:06 Server: Object 23:69 not found (message 70)
+ 9:51:06 "WAI: Starting Mission disabled_milchopper"
+ 9:51:06 "WAI: Mission Armed Chopper Started At [6707.23,8283.9]"
+ 9:51:06 "WAI: Mission Armed Chopper spawned a CH-47F DZ"
+ 9:51:07 "WAI: Spawned a group of 4 Bandits at [6707.23,8283.9,0]"
+ 9:51:07 "WAI: Spawned a group of 4 Bandits at [6707.23,8283.9,0]"
+ 9:51:07 "WAI: Sapwned in 1 M2StaticMG"
+ 9:51:12 "TIME SYNC: Local Time set to [2013,8,3,16,51]"
+ 9:51:17 "CLEANUP: Deleted 16 Animals out of 66"
+ 9:51:35 "SAFE LOCKED: ID:64741 UID:0 BY CAS(251924102)"
+ 9:51:42 "CLEANUP: Deleted 24 Loot Piles out of 278"
+ 9:52:24 "EPOCH SERVERTRADE: Player: [HoC] Riftic (10711942) sold a CSJ_GyroP in/at Unknown Trader City for 3x ItemGoldBar"
+ 9:52:26 Server: Object 33:338 not found (message 70)
+ 9:52:26 Server: Object 33:336 not found (message 94)
+ 9:52:26 Server: Object 33:337 not found (message 94)
+ 9:52:42 "infiSTAR.de Log: [HoC] Riftic (10711942) - Deleted an Object @[12014.7,12644.9,0.0584564] - 68029 0"
+ 9:52:42 "DELETE: B 1-1-G:1 ([HoC] Riftic) REMOTE Deleted by ID: 68029"
+ 9:52:42 "EPOCH SERVERTRADE: Player: [HoC] Riftic (10711942) sold a pook_H13_civ_ru_black in/at Unknown Trader City for 1x ItemGoldBar10oz"
+ 9:52:53 "EPOCH SERVERTRADE: Player: [PN] Sir Posh Guy (244984838) bought a pook_H13_medevac_INS in/at Unknown Trader City for 2x ItemGoldBar10oz"
+ 9:52:54 "PUBLISH: Attempt 3f575600# 1073010: arrow_down_large_ep1.p3d REMOTE"
+ 9:52:54 "HIVE: WRITE: "CHILD:308:11:pook_H13_medevac_INS:0:4110:[104,[12030.9,12700.8,0.00100708]]:[]:[]:1:120309127008010310:""
+ 9:52:55 "HIVE: WRITE: "CHILD:388:120309127008010310:""
+ 9:52:55 "CUSTOM: Selected "68697""
+ 9:52:55 "PUBLISH: B 1-1-L:1 ([PN] Sir Posh Guy) REMOTE Bought pook_H13_medevac_INS with ID "120309127008010310""
+ 9:52:59 "get: STRING (99333510), sent: STRING (99333510)"
+ 9:52:59 "DISCONNECT: Krypton (99333510) Object: B 1-1-K:1 (Krypton) REMOTE, _characterID: 68181 at loc [7814.52,9068.71,0.00164795]"
+ 9:52:59 Client: Remote object 27:0 not found
+ 9:52:59 Client: Remote object 27:8 not found
+ 9:53:01 Warning: Cleanup player - person 27:7 not found
+ 9:53:13 "PUBLISH: Attempt 46d9e080# 1072918: ch_47f.p3d"
+ 9:53:13 "HIVE: WRITE: "CHILD:308:11:CH_47F_EP1_DZ:0:0:[71,[6707.45,8283.59,0.0138855]]:[]:[["mala vrtule",0.367894],["velka vrtule",0.335752],["NEtrup",0.097922],["motor",0.338707],["elektronika",0.0363523],["munice",0.227972],["sklo predni P",0.105562],["sklo predni L",0.0993476],["glass1",0.227397],["glass2",0.024119],["glass3",0.231191],["glass4",0.336351],["glass5",0.116803],["glass6",0.398298]]:50:6707582836071:""
+ 9:53:14 "HIVE: WRITE: "CHILD:388:6707582836071:""
+ 9:53:14 "CUSTOM: Selected "68698""
+ 9:53:14 "PUBLISH: Created CH_47F_EP1_DZ with ID "6707582836071""
+ 9:53:39 "CLEANUP: Deleted 2 Loot Piles out of 293"
+ 9:53:54 "PDEATH: Player Died 80781638"
+ 9:54:05 "get: STRING (80781638), sent: STRING (80781638)"
+ 9:54:05 "DISCONNECT: [BCG] Jeep (80781638) Object: B 1-2-D:1 ([BCG] Jeep) REMOTE, _characterID: 68466 at loc [20386.5,-5038.57,145.974]"
+ 9:54:05 "ERROR: server_playerSync: Cannot Sync Player [BCG] Jeep [68466]. Position in debug! [20386.5,-5038.57,145.974]"
+ 9:54:05 Client: Remote object 33:8 not found
+ 9:54:05 Client: Remote object 33:6 not found
+ 9:54:05 Client: Remote object 33:5 not found
+ 9:54:05 Client: Remote object 33:0 not found
+ 9:54:09 "get: STRING (251924102), sent: STRING (251924102)"
+ 9:54:09 "DISCONNECT: CAS (251924102) Object: B 1-1-D:1 (CAS) REMOTE, _characterID: 66431 at loc [12490.6,5565.58,2.61308]"
+ 9:54:09 Client: Remote object 23:6 not found
+ 9:54:09 Client: Remote object 23:5 not found
+ 9:54:09 Client: Remote object 23:0 not found
+ 9:54:09 "CLEANUP: DELETED A "Land_Fire_DZ""
+ 9:54:10 Warning: Cleanup player - person 23:7 not found
+ 9:54:18 "get: STRING (252051206), sent: STRING (252051206)"
+ 9:54:18 "DISCONNECT: cyncrwler (252051206) Object: B 1-1-E:1 (cyncrwler) REMOTE, _characterID: 66915 at loc [12502.7,5560.11,0.185768]"
+ 9:54:18 Client: Remote object 34:0 not found
+ 9:54:18 Client: Remote object 34:8 not found
+ 9:54:19 Warning: Cleanup player - person 34:7 not found
+ 9:54:37 "CLEANUP: Deleted 24 Loot Piles out of 291"
+ 9:54:39 "infiSTAR.de PlayerConnected: _uid: 80781638   _name: [BCG] Jeep"
+ 9:55:15 "-4 Active ground units"
+ 9:55:15 "1 Active emplacement units"
+ 9:55:15 "0 Active chopper patrol units (Crew)"
+ 9:55:15 "0 Active vehicle patrol units (Crew)"
+ 9:55:25 "get: STRING (80781638), sent: STRING (80781638)"
+ 9:55:25 "DISCONNECT: [BCG] Jeep (80781638) Object: B 1-1-D:1 ([BCG] Jeep) REMOTE, _characterID: 68467 at loc [12253.9,6749.14,0.00140381]"
+ 9:55:25 Client: Remote object 33:358 not found
+ 9:55:25 Client: Remote object 33:357 not found
+ 9:55:26 Warning: Cleanup player - person 33:359 not found
+ 9:56:09 "PDEATH: Player Died 44837126"
+ 9:56:12 "TIME SYNC: Local Time set to [2013,8,3,16,56]"
+ 9:56:19 "get: STRING (44837126), sent: STRING (44837126)"
+ 9:56:19 "DISCONNECT: Jackwagon (44837126) Object: B 1-2-C:1 (Jackwagon) REMOTE, _characterID: 66821 at loc [20386.5,-5038.57,144.736]"
+ 9:56:19 "ERROR: server_playerSync: Cannot Sync Player Jackwagon [66821]. Position in debug! [20386.5,-5038.57,144.736]"
+ 9:56:20 Warning: Cleanup player - person 30:250 not found
+ 9:57:34 "CLEANUP: Deleted 76 Loot Piles out of 267"
+ 9:58:29 "CLEANUP: Deleted 30 Loot Piles out of 191"
+ 9:58:48 "get: STRING (239326726), sent: STRING (239326726)"
+ 9:58:48 "DISCONNECT: [HoC] N9NE (239326726) Object: B 1-2-B:1 ([HoC] N9NE) REMOTE, _characterID: 68465 at loc [12724.4,8501.04,0.00159454]"
+ 9:58:49 Client: Remote object 26:452 not found
+ 9:58:49 Client: Remote object 26:451 not found
+ 9:58:49 "get: STRING (10711942), sent: STRING (10711942)"
+ 9:58:49 "DISCONNECT: [HoC] Riftic (10711942) Object: B 1-1-G:1 ([HoC] Riftic) REMOTE, _characterID: 68182 at loc [12795.5,8416.4,7.89415]"
+ 9:58:49 Client: Remote object 36:6 not found
+ 9:58:49 Client: Remote object 36:5 not found
+ 9:58:49 Client: Remote object 36:0 not found
+ 9:58:52 Warning: Cleanup player - person 36:7 not found
+ 9:58:55 Warning: Cleanup player - person 26:453 not found
+ 9:59:04 "infiSTAR.de Log: [PN] Sir Posh Guy (244984838) | disconnected near HMMWV_Armored [["DZ_CivilBackpack_EP1"],[1]] - might be backpack duping!"
+ 9:59:04 "get: STRING (244984838), sent: STRING (244984838)"
+ 9:59:04 "DISCONNECT: [PN] Sir Posh Guy (244984838) Object: B 1-1-L:1 ([PN] Sir Posh Guy) REMOTE, _characterID: 65664 at loc [12785,8425.05,0.00146055]"
+ 9:59:04 Client: Remote object 21:0 not found
+ 9:59:04 Client: Remote object 21:8 not found
+ 9:59:07 Warning: Cleanup player - person 21:7 not found
+ 9:59:24 "CLEANUP: Deleted 1 Loot Piles out of 161"
+ 9:59:43 "get: STRING (3719488), sent: STRING (3719488)"
+ 9:59:43 "DISCONNECT: Oh snap, I  (3719488) Object: B 1-1-B:1 (Oh snap, I ) REMOTE, _characterID: 68462 at loc [4354.85,10227,0.00143433]"
+ 9:59:43 Client: Remote object 4:695 not found
