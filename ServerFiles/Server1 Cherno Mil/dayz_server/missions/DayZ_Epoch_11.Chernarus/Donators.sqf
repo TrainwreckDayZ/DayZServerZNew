@@ -2173,6 +2173,16 @@ if (true) then
   _this setPos [5734.41, 7275.04, 0];
 };
 
+//FROZZEN HAWKEYE sphere 127069 41745414 I-M9X0B6FEF37M
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [12779.8, 8428.92, 4.23], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [12779.8, 8428.92, 4.23];
+};
+
 
 //Fuel Tanks
 
