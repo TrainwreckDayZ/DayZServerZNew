@@ -2,7 +2,9 @@ private ["_display","_body","_playerID","_array","_source","_method","_canHitFre
 disableSerialization;
 if (deathHandled) exitWith {};
 deathHandled = true;
-
+if ((alive player) && {isNil {dayz_playerName}}) then {
+	dayz_playerName = name player;
+};
 //Prevent client freezes
 _display = findDisplay 49;
 if(!isNull _display) then {_display closeDisplay 0;};
@@ -13,10 +15,6 @@ _body = player;
 _playerID = getPlayerUID player;
 
 disableUserInput true;
-//add weapon on back to player...
-//if (dayz_onBack != "") then {
-//	_body addWeapon dayz_onBack;
-//};
 
 _infected = 0;
 if (r_player_infected && DZE_PlayerZed) then {
