@@ -25,7 +25,7 @@ if (isNil "SP_refueling") then {
 	while {(vehicle player == _vehicle) && (local _vehicle)} do {
 		private ["_velocity", "_fuel"];
 		_velocity = speed _vehicle;
-		if (_velocity > 1) exitWith {
+		if (_velocity > 2) exitWith {
 			titleText [format["Refueling of %1 stopped", _name], "PLAIN DOWN"];
 		};
 		_fuel = (fuel _vehicle) + _amount;

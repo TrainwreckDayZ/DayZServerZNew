@@ -11,7 +11,7 @@ if (_deathTime < 0) then {
     _diff = (_dateNow - _deathTime) * 525948;
     _temp = "their body has been here for ages, it's freezing";
     if ( _diff < 60 ) then {
-        _temp = "their body is cold, its been a while since they died";
+        _temp = "their body is cold, it's been a while since they died";
     };
     if ( _diff < 30 ) then {
         _temp = "their body is still slightly warm but their blood has started to coagulate";

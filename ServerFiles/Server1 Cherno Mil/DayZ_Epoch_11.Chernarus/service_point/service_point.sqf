@@ -21,20 +21,28 @@ _lastRole = [];
 
 s_player_refuel_action = -1;
 s_player_repair_action = -1;
-s_player_rearm_actions = [];
-
-_fnc_removeActions = {
-	if (isNull _lastVehicle) exitWith {};
-	_lastVehicle removeAction s_player_refuel_action;
-	s_player_refuel_action = -1;
-	_lastVehicle removeAction s_player_repair_action;
-	s_player_repair_action = -1;
+s_player_rearm_action = -1;
+_testMyReturn = {
+	_result = _this;
 	{
-		_lastVehicle removeAction _x;
-	} forEach s_player_rearm_actions;
-	s_player_rearm_actions = [];
-	_lastVehicle = objNull;
-	_lastRole = [];
+		if (_x in ["CarHorn","MiniCarHorn","SportCarHorn","BikeHorn","TruckHorn","TruckHorn2"]) then {
+			_result set [_forEachIndex, -1];
+			_result = _result - [-1];
+		};
+	} forEach _result;
+	_result
+};
+_fnc_removeActions = {
+	if (!isNull _lastVehicle) then {
+		_lastVehicle removeAction s_player_refuel_action;
+		s_player_refuel_action = -1;
+		_lastVehicle removeAction s_player_repair_action;
+		s_player_repair_action = -1;
+		_lastVehicle removeAction s_player_rearm_action;
+		s_player_rearm_action = -1;
+		_lastVehicle = objNull;
+		_lastRole = [];
+	};
 };
 
 _fnc_actionTitle = {
@@ -51,31 +59,6 @@ _fnc_actionTitle = {
 	};
 	_actionTitle = format [_actionTitleFormat, _actionName, _costsText];
 	_actionTitle
-};
-
-_fnc_isArmed = {
-	private ["_role","_armed"];
-	_role = _this;
-	_armed = count _role > 1;
-	_armed
-};
-
-_fnc_getWeapons = {
-	private ["_vehicle","_role","_weapons"];
-	_vehicle = _this select 0;
-	_role = _this select 1;
-	_weapons = [];
-	if (count _role > 1) then {
-		private ["_turret","_weaponsTurret"];
-		_turret = _role select 1;
-		_weaponsTurret = _vehicle weaponsTurret _turret;
-		{
-			private "_weaponName";
-			_weaponName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
-			_weapons set [count _weapons, [_x, _weaponName, _turret]];
-		} forEach _weaponsTurret;
-	};
-	_weapons
 };
 
 while {1 == 1} do {
@@ -104,16 +87,19 @@ while {1 == 1} do {
 				_actionTitle = ["Repair", _repair_costs] call _fnc_actionTitle;
 				s_player_repair_action = _vehicle addAction [_actionTitle, "service_point\service_point_repair.sqf", [_repair_costs], -1, false, true, "", _actionCondition];
 			};
-			if ((_role call _fnc_isArmed) && (count s_player_rearm_actions == 0) && _rearm_enable) then {
-				private ["_weapons"];
-				_weapons = [_vehicle, _role] call _fnc_getWeapons;
-				{
-					private "_weaponName";
-					_weaponName = _x select 1;
-					_actionTitle = [format["Rearm %1", _weaponName], _rearm_costs] call _fnc_actionTitle;
-					s_player_rearm_action = _vehicle addAction [_actionTitle, "service_point\service_point_rearm.sqf", [_rearm_costs, _rearm_magazineCount, _x], -1, false, true, "", _actionCondition];
-					s_player_rearm_actions set [count s_player_rearm_actions, s_player_rearm_action];
-				} forEach _weapons;
+			if ((((count _role) > 1) || ((driver _vehicle) == player)) && _rearm_enable && s_player_rearm_action < 0) then {
+				_allInfo = [_vehicle, false] call GetDZEMagazines;
+				if (count _allInfo > 0) then {
+					if ((driver _vehicle) == player) then {
+						_vehWep = _vehicle weaponsTurret [-1];
+						_testReturn = _vehWep call _testMyReturn;
+							if ((count _vehWep > 0) && (Count _testReturn > 0)) then {
+								s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
+							};
+						} else {
+						s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
+					};
+				};
 			};
 		} else {
 			call _fnc_removeActions;
@@ -121,5 +107,5 @@ while {1 == 1} do {
 	} else {
 		call _fnc_removeActions;
 	};
-	sleep 2;
+	sleep 0.5;
 };

@@ -24,7 +24,7 @@ if ((!isNull dayz_selectedDoor) && (isNil "KeyCodeTry")) then {
 		cutText ["WRONG CODE ENTERED - WAIT 20 SECONDS", "PLAIN DOWN"];
 		KeyCodeTry = true;
 		[] spawn {sleep 20; KeyCodeTry = nil;};
-		[] spawn {disableSerialization; while {!isNil "KeyCodeTry"} do {	_display = findDisplay 41144; _display closeDisplay 3000; sleep 0.001;};};
+		[] spawn {disableSerialization; while {!isNil "KeyCodeTry"} do { _display = findDisplay 41144; _display closeDisplay 3000; sleep 0.001;};};
 	};
 } else {
 	_display = findDisplay 41144;

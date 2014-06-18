@@ -1,6 +1,6 @@
 private ["_finished","_finishedTime","_posplr","_dirplr","_object"];
 
-//if (dayz_combat == 1) exitWith {cutText [format["You are in Combat and cannot build a bike."], "PLAIN DOWN"];};
+if (vehicle player != player) exitWith {cutText [format["WHAT THE FUCK ARE YOU THINKING? Get out before unpacking your bike"], "PLAIN DOWN"];};
 player removeAction s_player_deploybike;
 player removeWeapon "ItemToolbox";
 player playActionNow "Medic";
