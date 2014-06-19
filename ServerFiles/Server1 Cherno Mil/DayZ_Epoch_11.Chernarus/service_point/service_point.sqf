@@ -14,7 +14,66 @@ _rearm_enable = true;
 _rearm_costs = []; //"ItemBriefcase100oz",1
 _rearm_magazineCount = 1;
 
-call compile preprocessFileLineNumbers ("service_point\ac_functions.sqf");
+funcGetTurretsWeapons = {
+	//By denvdmj (probably, I found it on the biki)
+	private ["_result", "_getAnyMagazines", "_findRecurse", "_class"];
+	_result = [];
+	_getAnyMagazines = {
+	    private ["_class","_weapon", "_mags"];
+		_weapon = configFile >> "CfgWeapons" >> (_this select 0);
+		_class = _this select 1;
+		_thing = _this select 2;
+		_mags = getArray(_class >> "magazines");
+		_mags
+	};
+	_findRecurse = {
+	    private ["_root", "_class", "_path", "_currentPath", "_thisThis"];
+	    _root = (_this select 0);
+	    _path = +(_this select 1);
+		_thisThis = _this select 2;
+	    for "_i" from 0 to count _root -1 do {
+		   _class = _root select _i;
+		   if (isClass _class) then {
+			  _currentPath = _path + [_i];
+			  {
+				 _result set [count _result, [_x, [_x, _class, _thisThis] call _getAnyMagazines, _currentPath]];
+			  } count getArray (_class >> "weapons");
+			  _class = _class >> "turrets";
+			  if (isClass _class) then {
+				 [_class, _currentPath, _thisThis] call _findRecurse;
+			  };
+		   };
+	    };
+	};
+	_class = (
+	    configFile >> "CfgVehicles" >> (
+		   switch (typeName _this) do {
+			  case "STRING" : {_this};
+			  case "OBJECT" : {typeOf _this};
+			  default {nil}
+		   }
+	    ) >> "turrets"
+	);
+	[_class, [], _this] call _findRecurse;
+	_result
+};
+GetDZEMagazines = { //By icomrade
+	private ["_classMags","_toArray","_NormalizedName","_count","_uA","_isDZE","_type"];
+	_type = typeOf (_this select 0);
+	_NormalizedName = _type;
+	_toArray = toArray(_type);
+	_count = count _toArray;
+	_uA = [["69","101"],["90","122"],["68","100"]];
+	_isDZE = (((str(_toArray select (_count - 1))) in (_uA select 0)) && {(str(_toArray select (_count - 2))) in (_uA select 1)} && {(str(_toArray select (_count - 3))) in (_uA select 2)});
+	if (_isDZE) then {
+		_toArray set [(_count - 1), -1];
+		_toArray = _toArray - [-1];
+		_NormalizedName = toString(_toArray);
+	};
+	_classMags = _NormalizedName call funcGetTurretsWeapons;
+	if (_this select 1) then {_classMags = _NormalizedName;};
+	_classMags
+};
 
 _lastVehicle = objNull;
 _lastRole = [];

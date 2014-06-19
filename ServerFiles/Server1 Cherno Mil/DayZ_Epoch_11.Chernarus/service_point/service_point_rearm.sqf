@@ -7,7 +7,7 @@ _args = _this select 3;
 _costs = _args select 0;
 _allInfo = _args select 1;
 
-if !([_costs] call AC_fnc_checkAndRemoveRequirements) exitWith {};
+if !([_costs] call player_checkAndRemoveItems) exitWith {};
 _type = typeOf _vehicle;
 _name = getText(configFile >> "cfgVehicles" >> _type >> "displayName");
 _weaponNames = [];
