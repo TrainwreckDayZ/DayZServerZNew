@@ -82,6 +82,7 @@ if (isServer) then {
 		[] spawn compile preprocessFileLineNumbers "service_point\service_point.sqf";
 		_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 		_playerMonitor = [] spawn compile preprocessFileLineNumbers "\z\addons\dayz_code\system\player_monitor.sqf";
+		[] execVM "fixes\antihack.sqf";
 	};
 	[] spawn compile preprocessFileLineNumbers "custom\Server_WelcomeCredits.sqf";
 	[] spawn compile preprocessFileLineNumbers "custom\DynamicWeatherEffects.sqf";
