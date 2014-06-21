@@ -15,7 +15,8 @@ _hiveLoaded = false;
 "CinderWallSmallDoorway_DZ",
 "CinderWallDoorLocked_DZ",
 "CinderWallDoorSmall_DZ",
-"CinderWallDoor_DZ"
+"CinderWallDoor_DZ",
+"Plastic_Pole_EP1_DZ"
     ];
 
 diag_log "HIVE: Starting";
