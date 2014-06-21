@@ -376,16 +376,6 @@ if (true) then
   _this setPos [5930.24, 1159.7, 11];
 };
 
-//Sphere Halex
-_vehicle_0 = objNull;
-if (true) then
-{
-  _this = createVehicle ["MAP_Sphere", [7898.95, 1523.83, 3.975], [], 0, "CAN_COLLIDE"];
-  _vehicle_0 = _this;
-  _this setVehicleInit "this allowDammage false";
-  _this setPos [7898.95, 1523.83, 3.975];
-};
-
 //grimaudio Lon Suder sphere 237927430 053061 I-7M06NX991AL3
 _vehicle_0 = objNull;
 if (true) then
