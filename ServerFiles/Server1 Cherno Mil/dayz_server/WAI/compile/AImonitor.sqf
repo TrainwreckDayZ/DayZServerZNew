@@ -5,7 +5,7 @@ while {1 == 1} do {
 	if (ai_clean_dead) then {
 		{
 			_killedat = _x getVariable "killedat";
-			if ((!isNil "_killedat") && (!alive _x)) then {
+			if ((!isNil {_killedat}) && (!alive _x)) then {
 				if ((time - _killedat) >= cleanup_time) then {
 					deleteVehicle _x;
 					WAI_AI_Array = WAI_AI_Array - [_x];

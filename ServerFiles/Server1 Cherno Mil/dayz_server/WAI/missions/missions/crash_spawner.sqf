@@ -79,7 +79,7 @@ for "_x" from 1 to _num do {
 _nearby = _position nearObjects ["ReammoBox", sizeOf(_crashModel)];
 {
 	_x setVariable ["permaLoot",true];
-} forEach _nearBy;
+} count _nearBy;
 _rndnum = round (random 3) + 5;
 [[_position select 0, _position select 1, 0],                  //position
 
@@ -133,7 +133,7 @@ if (_playerPresent) then {
 	clean_running_mission = True;
 	deleteVehicle _crash;
 	{_cleanunits = _x getVariable "missionclean";
-		if (!isNil "_cleanunits") then {
+		if (!isNil {_cleanunits}) then {
 			switch (_cleanunits) do {
 				case "ground" : {ai_ground_units = (ai_ground_units -1);};
 				case "air" : {ai_air_units = (ai_air_units -1);};

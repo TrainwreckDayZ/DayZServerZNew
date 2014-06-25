@@ -25,7 +25,7 @@ ai_vehicle_units = 0;
 diag_log "WAI: AI Config File Loaded";
 [] spawn ai_monitor;
 //Load custom spawns
-[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\customSpawns.sqf"));
+//[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\customSpawns.sqf"));
 if (ai_mission_sysyem) then {
 	//Load AI mission system
 	[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\missionIni.sqf"));

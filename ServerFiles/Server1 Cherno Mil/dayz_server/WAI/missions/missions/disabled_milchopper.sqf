@@ -82,7 +82,7 @@ if (_playerPresent) then {
 	clean_running_mission = True;
 	deleteVehicle _veh;
 	{_cleanunits = _x getVariable "missionclean";
-		if (!isNil "_cleanunits") then {
+		if (!isNil {_cleanunits}) then {
 			switch (_cleanunits) do {
 				case "ground" : {ai_ground_units = (ai_ground_units -1);};
 				case "air" : {ai_air_units = (ai_air_units -1);};

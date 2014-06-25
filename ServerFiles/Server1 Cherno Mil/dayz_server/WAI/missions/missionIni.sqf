@@ -9,4 +9,4 @@ clean_running_mission = False;
 diag_log "WAI: Mission Config File Loaded";
 [] spawn (compile preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\missions.sqf");
 //Custom ammo boxes
-[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\StaticAmmoBoxes.sqf"));
+//[] call (compile (preprocessFileLineNumbers "\z\addons\dayz_server\WAI\missions\StaticAmmoBoxes.sqf"));

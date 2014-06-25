@@ -10,15 +10,14 @@ if (((count _this) >= 6) && {(typeName (_this select 5)) == "STRING"} && {(_this
 } else {
 	_victimName =  if (alive _newObject) then {name _newObject;} else {"";};
 };
-
 _victim = _newObject;
 _newObject setVariable ["bodyName", _victimName, true];
 
 _killer = _victim getVariable["AttackedBy", "nil"];
 _killerName = _victim getVariable["AttackedByName", "nil"];
 
-// when a zombie kills a player _killer, _killerName and _weapon will be "nil"
-// we can use this to determine a zombie kill and send a customized message for that. right now no killmsg means it was a zombie.
+// when a zombie kills a player _killer, _killerName && _weapon will be "nil"
+// we can use this to determine a zombie kill && send a customized message for that. right now no killmsg means it was a zombie.
 if ((typeName _killer) != "STRING") then
 {
 	_weapon = _victim getVariable["AttackedByWeapon", "nil"];
@@ -29,18 +28,18 @@ if ((typeName _killer) != "STRING") then
 		_message = format["%1 killed himself",_victimName];
 		_loc_message = format["PKILL: %1 killed himself", _victimName];
 	}
-	else 
+	else
 	{
 		_message = format["%1 was killed by %2 with weapon %3 from %4m",_victimName, _killerName, _weapon, _distance];
 		_loc_message = format["PKILL: %1 was killed by %2 with weapon %3 from %4m", _victimName, _killerName, _weapon, _distance];
 	};
 
 	diag_log _loc_message;
-	
+
 	if(DZE_DeathMsgGlobal) then {
 		[nil, nil, rspawn, [_killer, _message], { (_this select 0) globalChat (_this select 1) }] call RE;
 	};
-	/* needs customRemoteMessage 
+	/* needs customRemoteMessage
 	if(DZE_DeathMsgGlobal) then {
 		customRemoteMessage = ['globalChat', _message, _killer];
 		publicVariable "customRemoteMessage";
@@ -80,22 +79,22 @@ if (isnil "dayz_disco") then {
 // dayz_disco = dayz_disco - [_playerID];
 _newObject setVariable["processedDeath",diag_tickTime];
 
-if (typeName _minutes == "STRING") then 
+if (typeName _minutes == "STRING") then
 {
 	_minutes = parseNumber _minutes;
 };
 
 diag_log ("PDEATH: Player Died " + _playerID);
 
-if (_characterID != "0") then 
+if (_characterID != "0") then
 {
 	_key = format["CHILD:202:%1:%2:%3:",_characterID,_minutes,_infected];
 	#ifdef DZE_SERVER_DEBUG_HIVE
 	diag_log ("HIVE: WRITE: "+ str(_key));
 	#endif
 	_key call server_hiveWrite;
-} 
-else 
+}
+else
 {
 	deleteVehicle _newObject;
 };

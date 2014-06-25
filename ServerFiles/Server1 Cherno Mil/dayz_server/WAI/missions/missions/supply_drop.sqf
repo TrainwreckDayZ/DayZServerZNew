@@ -61,5 +61,5 @@ if (_spawnRoll <= _spawnChance) then {
 	_nearby = _position nearObjects ["ReammoBox", sizeOf(_crashModel)];
 	{
 		_x setVariable ["permaLoot",true];
-	} forEach _nearBy;
+	} count _nearBy;
 };

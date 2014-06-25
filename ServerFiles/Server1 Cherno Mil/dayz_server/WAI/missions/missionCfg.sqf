@@ -51,6 +51,7 @@ civil_aircraft = [
 "AH6X_DZ",
 "MH6J_DZ",
 "AN2_DZ",
+"CH53_DZE",
 "MV22_DZ"
 ];
 

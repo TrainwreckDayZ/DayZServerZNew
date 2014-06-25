@@ -37,7 +37,7 @@ if (_spawnDMG) then {
 				_array set [count _array,[_selection,_dam]];
 				_totaldam = _totaldam + _dam;
 			};
-		} forEach _hitpoints;
+		} count _hitpoints;
 		
 
 		// just set low base dmg - may change later
@@ -103,7 +103,7 @@ PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_object];
 		_dam = _x select 1;
 		if (_selection in dayZ_explosiveParts and _dam > 0.8) then {_dam = 0.8};
 		[_object,_selection,_dam] call object_setFixServer;
-	} forEach _array;
+	} count _array;
 
 	_object setFuel _fuel;
 	_object setvelocity [0,0,1];

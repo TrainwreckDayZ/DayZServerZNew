@@ -10,7 +10,7 @@ _playerName = name _playerObj;
 
 if (_playerName == '__SERVER__' || _playerID == '' || local player) exitWith {};
 
-if (isNil "sm_done") exitWith { 
+if (isNil {sm_done}) exitWith { 
 #ifdef DZE_SERVER_DEBUG
 	diag_log ("Login cancelled, server is not ready. " + str(_playerObj)); 
 #endif
@@ -31,7 +31,7 @@ if (_playerID == "") then {
 	_playerID = getPlayerUID _playerObj;
 };
 
-if ((_playerID == "") or (isNil "_playerID")) exitWith {
+if ((_playerID == "") || (isNil {_playerID})) exitWith {
 #ifdef DZE_SERVER_DEBUG
 	diag_log ("LOGIN FAILED: Player [" + _playerName + "] has no login ID");
 #endif
@@ -54,7 +54,7 @@ while {_doLoop < 5} do {
 	_doLoop = _doLoop + 1;
 };
 
-if (isNull _playerObj or !isPlayer _playerObj) exitWith {
+if (isNull _playerObj || !isPlayer _playerObj) exitWith {
 #ifdef DZE_SERVER_DEBUG
 	diag_log ("LOGIN RESULT: Exiting, player object null: " + str(_playerObj));
 #endif
@@ -99,7 +99,7 @@ if (!_isNew) then {
 	_model =		_primary select 4;
 	_hiveVer =		_primary select 5;
 	
-	if (isNil "_model") then {
+	if (isNil {_model}) then {
 		_model = "Survivor2_DZ";
 	} else {
 		if (_model == "") then {
@@ -115,13 +115,13 @@ if (!_isNew) then {
 		_wpns = getArray (_config >> "weapons");
 		_bcpk = getText (_config >> "backpack");
 
-		if(!isNil "DefaultMagazines") then {
+		if(!isNil {DefaultMagazines}) then {
 			_mags = DefaultMagazines;
 		};
-		if(!isNil "DefaultWeapons") then {
+		if(!isNil {DefaultWeapons}) then {
 			_wpns = DefaultWeapons;
 		};
-		if(!isNil "DefaultBackpack") then {
+		if(!isNil {DefaultBackpack}) then {
 			_bcpk = DefaultBackpack;
 		};
 		//_randomSpot = true;

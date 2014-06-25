@@ -32,13 +32,13 @@ WAI_AI_Array set [(count WAI_AI_Array), _gunner];
 _gunner assignAsGunner _veh;
 _gunner moveInTurret [_veh,[0]];
 [_gunner] joinSilent _unitGroup;
-{_gunner setSkill [_x,_skill]} forEach _skillarray;
+{_gunner setSkill [_x,_skill]} count _skillarray;
 ai_vehicle_units = (ai_vehicle_units + 1);
 
 
-{_pilot setSkill [_x,1]} forEach _skillarray;
-{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} forEach (units _unitgroup);
-{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "vehicle"] call on_kill;}];} forEach (units _unitgroup);
+{_pilot setSkill [_x,1]} count _skillarray;
+{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} count (units _unitgroup);
+{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "vehicle"] call on_kill;}];} count (units _unitgroup);
 [_veh] spawn veh_monitor;
 
 _unitGroup allowFleeing 0;

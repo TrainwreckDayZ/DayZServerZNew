@@ -68,10 +68,10 @@ _gunner2 moveInTurret [_helicopter,[1]];
 [_gunner2] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
-{_pilot setSkill [_x,1]} forEach _skillarray;
-{_gunner setSkill [_x,0.7]} forEach _skillarray;
-{_gunner2 setSkill [_x,0.7]} forEach _skillarray;
-{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} forEach (units _unitgroup);
+{_pilot setSkill [_x,1]} count _skillarray;
+{_gunner setSkill [_x,0.7]} count _skillarray;
+{_gunner2 setSkill [_x,0.7]} count _skillarray;
+{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} count (units _unitgroup);
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_helicopter];
 [_helicopter] spawn veh_monitor;
 
@@ -141,8 +141,8 @@ while {(alive _helicopter) AND (_drop)} do {
 			_para addweapon _weapon;
 			for "_i" from 1 to _mags do {_para addMagazine _magazine;};
 			_para addBackpack _aipack;
-			{_para addMagazine _x} forEach _gearmagazines;
-			{_para addweapon _x} forEach _geartools;
+			{_para addMagazine _x} count _gearmagazines;
+			{_para addweapon _x} count _geartools;
 			if (ai_custom_skills) then {
 				switch (_skill) do {
 				case 0 : {_aicskill = ai_custom_array1;};
@@ -150,9 +150,9 @@ while {(alive _helicopter) AND (_drop)} do {
 				case 2 : {_aicskill= ai_custom_array3;};
 				case "Random" : {_aicskill = ai_skill_random call BIS_fnc_selectRandom;};
 			};
-				{_para setSkill [(_x select 0),(_x select 1)]} forEach _aicskill;
+				{_para setSkill [(_x select 0),(_x select 1)]} count _aicskill;
 			} else {
-				{_para setSkill [_x,_skill]} forEach _skillarray;
+				{_para setSkill [_x,_skill]} count _skillarray;
 			};
 			ai_ground_units = (ai_ground_units + 1);
 			_para addEventHandler ["Killed",{[_this select 0, _this select 1, "ground"] call on_kill;}];
@@ -174,9 +174,9 @@ if (_helipatrol) then {
 	_unitGroup setBehaviour "AWARE";
 	_unitGroup setSpeedMode "FULL";
 	_unitGroup setCombatMode "RED";
-	{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} forEach (units _unitgroup);
+	{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} count (units _unitgroup);
 } else {
-	{_x doMove [(_startingpos select 0), (_startingpos select 1), 100]} forEach (units _unitGroup);
+	{_x doMove [(_startingpos select 0), (_startingpos select 1), 100]} count (units _unitGroup);
 	_unitGroup setBehaviour "CARELESS";
 	_unitGroup setSpeedMode "FULL";
 	_unitGroup setCombatMode "RED";
@@ -186,7 +186,7 @@ if (_helipatrol) then {
 		_helipos1 = [_helicopter] call FNC_GetPos;
 		if ((_helipos1 distance [(_startingpos select 0),(_startingpos select 1),100] <= 200) OR (!alive _helicopter)) then {
 			deleteVehicle _helicopter;
-			{deleteVehicle _x} forEach (units _unitgroup);
+			{deleteVehicle _x} count (units _unitgroup);
 			sleep 10;
 			if ((count (units _unitGroup) == 0) && (_unitGroup != grpNull)) then {
 				deleteGroup _unitGroup;
