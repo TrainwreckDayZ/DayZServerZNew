@@ -5,7 +5,7 @@ _button =	_this select 1;
 _parent = 	findDisplay 106;
 
 //if ((time - dayzClickTime) < 1) exitWith {};
-
+if (!DZE_SelfTransfuse && ((gearSlotData _control) == "ItemBloodBag")) exitWith {};
 if (_button == 1) then {
 	//dayzClickTime = time;
 	_group = _parent displayCtrl 6902;
@@ -42,7 +42,7 @@ if (_button == 1) then {
 			/*
 				This flag means that the action is output oriented
 				the output class will then be transferred to the script
-				and the type used for the name
+				&& the type used for the name
 			*/			
 			_array = 	getArray	(_config >> "output");
 			_outputClass = _array select 0;
