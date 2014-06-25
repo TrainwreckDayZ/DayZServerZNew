@@ -831,7 +831,7 @@ server_checkHackers = {
 
 server_spawnCleanFire = {
 	private ["_delQtyFP","_qty","_delQtyNull","_missionFires"];
-	_missionFires = [10246.2,10226.8,0] nearObjects ["Land_Fire_DZ", 13000];
+	_missionFires = [7650,7710,0] nearObjects ["Land_Fire_DZ", 11000];
 	_delQtyFP = 0;
 	{
 		if (local _x) then {
@@ -852,7 +852,7 @@ server_spawnCleanLoot = {
 	if(!isNil {DZE_DYN_cleanLoot}) exitWith {  DZE_DYN_AntiStuck = DZE_DYN_AntiStuck + 1;};
 	DZE_DYN_cleanLoot = true;
 
-	_missionObjs =  [10246.2,10226.8,0] nearObjects ["ReammoBox", 13000];
+	_missionObjs =  [7650,7710,0] nearObjects ["ReammoBox", 11000];
 	_delQty = 0;
 	_dateNow = (DateToNumber date);
 	{
