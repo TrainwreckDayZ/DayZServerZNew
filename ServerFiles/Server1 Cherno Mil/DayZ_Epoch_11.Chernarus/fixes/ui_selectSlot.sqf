@@ -3,6 +3,7 @@ disableSerialization;
 _control = 	_this select 0;
 _button =	_this select 1;
 _parent = 	findDisplay 106;
+if (!DZE_SelfTransfuse && ((gearSlotData _control) == "ItemBloodBag")) exitWith {};
 if (_button == 1) then {
 	_group = _parent displayCtrl 6902;
 	_pos = 		ctrlPosition _group;
@@ -40,6 +41,9 @@ if (_button == 1) then {
 	};
 	{
 		_erc_cfgActions = (missionConfigFile >> _x >> _item);
+		if ((_x == "ExtraRb") && (getNumber(configFile >> "CfgWeapons" >> (GearSlotData _control) >> "type") == 2)) then {
+			_erc_cfgActions = (missionConfigFile >> _x >> "HandGun");
+		};
 		_erc_numActions = (count _erc_cfgActions);
 		if (isClass _erc_cfgActions) then {
 			for "_j" from 0 to (_erc_numActions - 1) do 

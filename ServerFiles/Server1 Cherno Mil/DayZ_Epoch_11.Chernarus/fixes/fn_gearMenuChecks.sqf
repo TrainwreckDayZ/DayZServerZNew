@@ -1,18 +1,18 @@
-private ["_cTarget","_isOk","_display"];
+private ["_cTarget","_isOk","_display","_inVehicle"];
 disableSerialization;
-_isOk = false;
 _display = (_this select 0);
+_inVehicle = (vehicle player) != player;
 _cTarget = cursorTarget;
-if((vehicle player) != player) then {
+if(_inVehicle) then {
 	_cTarget = (vehicle player);
 };
+_isOk = false;
 {
 	if(!_isOk) then {
 		_isOk = _cTarget isKindOf _x;
 	};
-} forEach ["LandVehicle","Air", "Ship"];
-
-if((locked _cTarget) and _isOk and (((vehicle player) distance _cTarget) < 12)) then {
+} count ["LandVehicle","Air", "Ship"];
+if((locked _cTarget) && _isOk && (((vehicle player) distance _cTarget) < 12)) then {
 	cutText [(localize "str_epoch_player_7") , "PLAIN DOWN"];
 	_display closeDisplay 1;
 };

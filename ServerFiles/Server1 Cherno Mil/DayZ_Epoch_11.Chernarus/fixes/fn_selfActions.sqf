@@ -243,7 +243,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 	_isWreck = _typeOfCursorTarget in DZE_isWreck;
 	_isWreckBuilding = _typeOfCursorTarget in DZE_isWreckBuilding;
 	_isModular = _cursorTarget isKindOf "ModularItems";
-	
+	_isModularDoor = _typeOfCursorTarget in ["Land_DZE_WoodDoor","Land_DZE_LargeWoodDoor","Land_DZE_GarageWoodDoor","CinderWallDoor_DZ","CinderWallDoorSmall_DZ"];
 	_isRemovable = _typeOfCursorTarget in DZE_isRemovable;
 	_isDisallowRepair = _typeOfCursorTarget in ["M240Nest_DZ"];
 
@@ -473,7 +473,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 
 	if (_player_SurrenderedGear) then {
 		if (s_player_SurrenderedGear < 0) then {
-			s_player_SurrenderedGear = player addAction [localize "STR_EPOCH_ACTION_GEAR", "\z\addons\dayz_code\actions\surrender_gear.sqf",_cursorTarget, 1, true, true, "", ""];
+			s_player_SurrenderedGear = player addAction [localize "STR_EPOCH_ACTIONS_GEAR", "\z\addons\dayz_code\actions\surrender_gear.sqf",_cursorTarget, 1, true, true, "", ""];
 		};
 	} else {
 		player removeAction s_player_SurrenderedGear;

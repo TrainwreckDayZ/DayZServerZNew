@@ -13,6 +13,8 @@ player setVariable ["BIS_noCoreConversations", true];
 enableRadio true;
 enableSentences false;
 
+#include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
+DZE_MissionLootTable = true;
 spawnShoremode = 0; // Default = 1 (on shore)
 spawnArea= 1500;
 MaxHeliCrashes= 5;
@@ -42,17 +44,17 @@ DZE_HeliLift = false;
 DZE_PlayerZed = false;
 dayzSetViewDistance = 1500;
 setViewDistance 1500;
+setTerrainGrid 20;
 DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
 DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
 DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
-DefaultBackpackWeapon = "";
 dayz_fullMoonNights = true;
-Restrict_Wait = time; //for player_onSide.sqf
-lastBloodbag = -1800; //allow immediate bloodbag on login
-customActionConfigs = ["ExtraRc","ExtraRd","ExtraRe","ExtraRf","ExtraRg","ExtraRh","ExtraRi","ExtraRj","ExtraRk","ExtraRl","ExtraRm","ExtraSm","ExtraTm"];
+DZE_SelfTransfuse = true;
+Restrict_Wait = time;
+customActionConfigs = ["ExtraRa","ExtraRb","ExtraSm","ExtraTm"];
 
 call compile preprocessFileLineNumbers "fixes\variables.sqf";
 call compile preprocessFileLineNumbers "R3F_ARTY_AND_LOG\init.sqf";
@@ -87,5 +89,4 @@ if (isServer) then {
 	[] spawn compile preprocessFileLineNumbers "custom\Server_WelcomeCredits.sqf";
 	[] spawn compile preprocessFileLineNumbers "custom\DynamicWeatherEffects.sqf";
 	[] spawn compile preprocessFileLineNumbers "safezone\init.sqf";
-	#include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
 };

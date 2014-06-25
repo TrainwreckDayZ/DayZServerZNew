@@ -1,4 +1,4 @@
-class ExtraRc {
+class ExtraRa {
 	class ItemToolbox {
 		class Test1 {
 			text = "SpawnBike";
@@ -6,81 +6,9 @@ class ExtraRc {
 		};
 	};
 };
-class ExtraRd {
-	class ItemBloodBag {
+class ExtraRb {
+	class HandGun {
 		class Test3 {
-			text = "SelfBloodBag";
-			script = "execVM 'custom\player_selfbloodbag.sqf'";
-		};
-	};
-};
-class ExtraRe {
-	class glock17_EP1 {
-		class Test4 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRf {
-	class M9 {
-		class Test5 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRg {
-	class M9SD {
-		class Test6 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRh {
-	class Makarov {
-		class Test7 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRi {
-	class MakarovSD {
-		class Test8 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRj {
-	class revolver_EP1 {
-		class Test9 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRk {
-	class UZI_EP1 {
-		class Test10 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRl {
-	class Sa61_EP1 {
-		class Test11 {
-			text = "suicide";
-			script = "execVM 'custom\suicide.sqf'";
-		};
-	};
-};
-class ExtraRm {
-	class Colt1911 {
-		class Test12 {
 			text = "suicide";
 			script = "execVM 'custom\suicide.sqf'";
 		};
