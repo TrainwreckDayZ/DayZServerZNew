@@ -1,13 +1,14 @@
 /*
-Build Snapping - Extended v1.5
+Build Snapping - Extended v1.6
 
 Idea and first code:
 Maca
 
-Reworked:
-OtterNas3
+Reworked by: OtterNas3
 01/11/2014
+Last update 02/20/2014
 */
+
 class SnapPoints
 {
 	////////////////

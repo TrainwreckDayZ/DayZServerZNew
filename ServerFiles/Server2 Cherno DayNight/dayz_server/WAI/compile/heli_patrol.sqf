@@ -10,7 +10,9 @@ _skill = _this select 5;
 _skillarray = ["aimingAccuracy","aimingShake","aimingSpeed","endurance","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
 
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 _pilot = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _pilot];
 [_pilot] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
@@ -26,22 +28,24 @@ _pilot assignAsDriver _helicopter;
 _pilot moveInDriver _helicopter;
 
 _gunner = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner];
 _gunner assignAsGunner _helicopter;
 _gunner moveInTurret [_helicopter,[0]];
 [_gunner] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
 _gunner2 = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner2];
 _gunner2 assignAsGunner _helicopter;
 _gunner2 moveInTurret [_helicopter,[1]];
 [_gunner2] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
-{_pilot setSkill [_x,1]} forEach _skillarray;
-{_gunner setSkill [_x,_skill]} forEach _skillarray;
-{_gunner2 setSkill [_x,_skill]} forEach _skillarray;
-{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} forEach (units _unitgroup);
-{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} forEach (units _unitgroup);
+{_pilot setSkill [_x,1]} count _skillarray;
+{_gunner setSkill [_x,_skill]} count _skillarray;
+{_gunner2 setSkill [_x,_skill]} count _skillarray;
+{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} count (units _unitgroup);
+{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} count (units _unitgroup);
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_helicopter];
 [_helicopter] spawn veh_monitor;
 

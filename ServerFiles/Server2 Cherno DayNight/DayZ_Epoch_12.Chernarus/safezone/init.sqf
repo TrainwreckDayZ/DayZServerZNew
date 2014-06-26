@@ -1,24 +1,22 @@
-private ["_safezoneZonePerm", "_safezones"];
+private "_safezones";
 
 _safezones = [
-	[[4064.2258,11665.938],150, "Bash"], // Bash
-	[[6325.6772,7807.7412],175, "Stary"] // Stary
+	[[4064.2258,11665.938],150, "Bash"],
+	[[6325.6772,7807.7412],175, "Stary"]
 ];
 
 _safezoneZonePerm = {
-	private ["_trigger", "_trigger_pos", "_trigger_area", "_angle", "_radius", "_distance", "_count", "_step"];
+	private ["_trigger", "_trigger_pos", "_trigger_area", "_angle", "_radius", "_count", "_step"];
 	_trigger = _this;
-	_trigger_pos = getPos _trigger;
+	_trigger_pos = getPosATL _trigger;
 	_trigger_area = triggerArea _trigger;
 	_angle = _trigger_area select 2;
-	_radius = _trigger_area select 0; // needs to be a circle with equal a and b
-	_distance = 30; // meters
-	_count = round((2 * 3.14592653589793 * _radius) / _distance);
+	_radius = _trigger_area select 0;
+	_count = round((2 * pi * _radius) / 30);
 	_step = 360/_count;
 
 	for "_x" from 0 to _count do
 	{
-		private["_pos", "_sign"];
 		_a = (_trigger_pos select 0) + (sin(_angle)*_radius);
 		_b = (_trigger_pos select 1) + (cos(_angle)*_radius);
 
@@ -55,8 +53,8 @@ SafeZoneEnable = {
 
 	SafezoneVehicleSpeedLimit = [] spawn {
 		_maxspeed = 25;
-		while {true} do {
-			waitUntil {vehicle player != player and !((vehicle player) isKindOf 'Air')};
+		while {1 == 1} do {
+			waitUntil {(vehicle player != player) && !((vehicle player) isKindOf 'Air')};
 			_vehicle = vehicle player;
 			_curspeed = speed _vehicle;
 			if (_curspeed > _maxspeed) then {
@@ -79,13 +77,11 @@ SafeZoneDisable = {
 	terminate SafezoneSkinChange;
 	player allowDamage true;
 	player removeAllEventHandlers 'HandleDamage';
-	player addeventhandler ['HandleDamage',{_this call fnc_usec_damageHandler;} ];
+	player addEventHandler ['HandleDamage',{_this call fnc_usec_damageHandler;} ];
 	player removeEventHandler ["Fired", SafezoneFiredEvent];
 };
 
 {
-	private ["_pos", "_radius", "_name", "_trigger", "_marker"];
-
 	_pos = _x select 0;
 	_radius = _x select 1;
 	_name = _x select 2;
@@ -99,13 +95,5 @@ SafeZoneDisable = {
 		_trigger spawn _safezoneZonePerm;
 	} else {
 		_trigger setTriggerStatements ["(vehicle player) in thisList", "call SafeZoneEnable", "call SafeZoneDisable"];
-
-		//_marker = createMarkerLocal [format["Safezone%1", _name], _pos];
-		//_marker setMarkerTextLocal format["Safezone%1", _name];
-		//_marker setMarkerShapeLocal "ELLIPSE";
-		//_marker setMarkerTypeLocal "Empty";
-		//_marker setMarkerColorLocal "ColorRed";
-		//_marker setMarkerBrushLocal "Grid";
-		//_marker setMarkerSizeLocal [_radius, _radius];
 	};
-} forEach _safezones;
+} count _safezones;

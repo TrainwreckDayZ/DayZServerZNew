@@ -65,7 +65,7 @@ _start_time = time;
 _spawnRadius = 5000;
 _spawnMarker = 'center';
  
-if (isNil "EPOCH_EVENT_RUNNING") then {
+if (isNil {EPOCH_EVENT_RUNNING}) then {
 EPOCH_EVENT_RUNNING = false;
 };
  
@@ -114,10 +114,10 @@ _clutter setPos _loot_pos;
 // Add loot
 {
 _loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
+} count (_loot select 0);
 {
 _loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
+} count (_loot select 1);
  
 // Send Top Right message to users , requires Remote message script
 _hint = parseText format["<t align='center' color='#FFFF66' shadow='2' size='1.75'>Treasure Crate</t><br/><t align='center' color='#ffffff'>Bandits or Pirates? We found their treasure, Check your Map for the Location!</t>"];
@@ -128,20 +128,6 @@ publicVariable "customRemoteMessage";
 //[nil,nil,rTitleText,"Bandits or Pirates? We found their treasure, Check your Map for the Location!", "PLAIN",10] call RE;
 
 diag_log(format["Loot event setup, waiting for %1 seconds", _wait_time]);
-//set markers
-_this = createMarker ["SAR_marker_sm1", [(_loot_pos select 0) + 1, (_loot_pos select 1) + 1]];
-_this setMarkerShape "RECTANGLE";
-_this setMarkeralpha 0;
-_this setMarkerType "Flag";
-_this setMarkerBrush "Solid";
-_this setMarkerSize [100, 100];
-_this setMarkerDir 120.050;
-SAR_marker_sm1 = _this;
-
-
-//spawn troops
-[SAR_marker_sm1,3,1,3,"fortify",false] call SAR_AI;
-
 // Wait
 sleep _wait_time;
  

@@ -23,7 +23,6 @@ if (!isDedicated) then {
 	player_unlockVault =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_unlockVault.sqf";	
 	player_removeNearby =    		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\object_removeNearby.sqf";
 	player_removeTankTrap = {
-		//Object Array, Range, Error Message (@Skaronator)
 		[["Hedgehog_DZ"], 1,"STR_EPOCH_ACTIONS_14"] call player_removeNearby;
 	};
 	player_removeNet = {

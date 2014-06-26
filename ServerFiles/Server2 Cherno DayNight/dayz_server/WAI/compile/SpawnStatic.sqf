@@ -22,6 +22,7 @@ _aiskin = "";
 _aipack = "";
 _skillarray = ["aimingAccuracy","aimingShake","aimingSpeed","endurance","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 _unitnumber = count _position;
 
 if (!isServer) exitWith {};
@@ -35,6 +36,7 @@ if (_skin == "") then {
 	_aiskin = _skin
 };
 _unit = _unitGroup createUnit [_aiskin, [0,0,0], [], 10, "PRIVATE"];
+WAI_AI_Array set [(count WAI_AI_Array), _unit];
 _static = createVehicle [_class, [(_position2 select 0),(_position2 select 1),(_position2 select 2)], [], 0, "CAN_COLLIDE"];
 _static setDir round(random 360);
 _static setPos [(_position2 select 0),(_position2 select 1),(_position2 select 2)];
