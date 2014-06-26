@@ -34,7 +34,7 @@ ON_fnc_getSpotPosition = {
 			_closest_test_distance = _test_distance;
 			_closest_test_spot = _x;
 		};
-	} forEach _target_spots;
+	} count _target_spots;
 	[_closest_test_spot_position, _closest_test_spot];
 };
 
@@ -63,7 +63,7 @@ if ((count _target_spots) > 0) then {
 			_currentDistanceDiff = _distanceDiff;
 			_search_range = ((_distanceDiff) + 2);
 		};
-	} forEach _target_spots;
+	} count _target_spots;
 } else {_search_range = 10;};
 
 diag_log format["Building Object: %1", typeOf _object];
@@ -102,7 +102,7 @@ while {1 == 1} do {
 					_best_spot = _closest_spot_position_array select 1;
 				};
 			};
-		} forEach _nearest_objects;
+		} count _nearest_objects;
 		if (!isNull _best_distance_object) then {
 			_possible_targets set [(count _possible_targets), _best_distance_object];
 		};

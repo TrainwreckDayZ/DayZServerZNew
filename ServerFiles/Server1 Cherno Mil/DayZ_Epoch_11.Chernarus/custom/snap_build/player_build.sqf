@@ -85,7 +85,7 @@ _needNear = 	getArray (configFile >> "CfgMagazines" >> _item >> "ItemActions" >>
 			};
 		};
 	};
-} forEach _needNear;
+} count _needNear;
 
 
 if(_abort) exitWith {
@@ -137,7 +137,7 @@ _findNearestPole = [];
 	if (alive _x) then {
 		_findNearestPole set [(count _findNearestPole),_x];
 	};
-} foreach _findNearestPoles;
+} count _findNearestPoles;
 
 _IsNearPlot = count (_findNearestPole);
 
@@ -189,7 +189,7 @@ _hasrequireditem = true;
 {
 	_hastoolweapon = _x in weapons player;
 	if(!_hastoolweapon) exitWith { _hasrequireditem = false; _missing = getText (configFile >> "cfgWeapons" >> _x >> "displayName"); }
-} forEach _require;
+} count _require;
 
 _hasbuilditem = _this in magazines player;
 if (!_hasbuilditem) exitWith {DZE_ActionInProgress = false; cutText [format[(localize "str_player_31"),_text,"build"] , "PLAIN DOWN"]; };

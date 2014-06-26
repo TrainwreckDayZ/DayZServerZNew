@@ -530,7 +530,7 @@ if (!isDedicated) then {
 				if (_character getVariable[_x,false]) then {
 					_wounds set [count _wounds,_x];
 				};
-			} forEach USEC_typeOfWounds;
+			} count USEC_typeOfWounds;
 		};
 		_legs = _character getVariable ["hit_legs",0];
 		_arms = _character getVariable ["hit_arms",0];

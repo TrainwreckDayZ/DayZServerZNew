@@ -27,7 +27,7 @@ else
 						_chargement_actuel = _chargement_actuel + (R3F_LOG_CFG_objets_transportables select _i select 1);
 					};
 				};
-			} forEach _objets_charges;
+			} count _objets_charges;
 			_cout_capacite_objet = 99999;
 			for [{_i = 0}, {_i < count R3F_LOG_CFG_objets_transportables}, {_i = _i + 1}] do
 			{

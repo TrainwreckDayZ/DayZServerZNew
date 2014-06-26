@@ -24,7 +24,7 @@ _hitpoints = _vehicle call vehicle_getHitpoints;
 		_selection = getText(configFile >> "cfgVehicles" >> _type >> "HitPoints" >> _x >> "name");
 		[_vehicle,_selection,0] call object_setFixServer;
 	};
-} forEach _hitpoints;
+} count _hitpoints;
 
 _vehicle setDamage 0;
 _vehicle setVelocity [0,0,1];

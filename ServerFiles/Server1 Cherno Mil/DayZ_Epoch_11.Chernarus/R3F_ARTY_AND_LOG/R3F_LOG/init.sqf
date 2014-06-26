@@ -13,12 +13,12 @@ if (!isServer && !isDedicated) then {
 	R3F_LOG_classes_transporteurs = [];
 	{
 		R3F_LOG_classes_transporteurs set [(count R3F_LOG_classes_transporteurs), (_x select 0)];
-	} forEach R3F_LOG_CFG_transporteurs;
+	} count R3F_LOG_CFG_transporteurs;
 
 	R3F_LOG_classes_objets_transportables = [];
 	{
 		R3F_LOG_classes_objets_transportables set [(count R3F_LOG_classes_objets_transportables), (_x select 0)];
-	} forEach R3F_LOG_CFG_objets_transportables;
+	} count R3F_LOG_CFG_objets_transportables;
 
 	R3F_LOG_FNCT_objet_init = compile preprocessFile "R3F_ARTY_AND_LOG\R3F_LOG\objet_init.sqf";
 	R3F_LOG_FNCT_heliporteur_init = compile preprocessFile "R3F_ARTY_AND_LOG\R3F_LOG\heliporteur\heliporteur_init.sqf";
