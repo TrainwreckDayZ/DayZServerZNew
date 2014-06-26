@@ -45,7 +45,7 @@ _start_time = time;
 _spawnRadius = 5000;
 _spawnMarker = 'center';
 
-if (isNil "EPOCH_EVENT_RUNNING") then {
+if (isNil {EPOCH_EVENT_RUNNING}) then {
 	EPOCH_EVENT_RUNNING = false;
 };
 
@@ -95,10 +95,10 @@ _clutter setPos _loot_pos;
 // Add loot
 {
 _loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
+} count (_loot select 0);
 {
 _loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
+} count (_loot select 1);
 
 // Send message to users (http://dayzepoch.com/forum/index.php?/topic/1026-server-side-hintglobalchat-fix-deathmsg-fix/)
 _hint = parseText format["<t align='center' color='#52bf90' shadow='2' size='1.75'>Weapon Cache Mission</t><br/><t align='center' color='#ffffff'>A weapons cache has been located within the shaded area on the map, you have 20 minutes to grab the loot</t>"];
@@ -106,6 +106,18 @@ customRemoteMessage = ['hint', _hint];
 publicVariable "customRemoteMessage";
 diag_log(format["Loot event setup, waiting for %1 seconds", _wait_time]);
 
+//set markers
+_this = createMarker ["SAR_marker_sm1", [(_loot_pos select 0) + 1, (_loot_pos select 1) + 1]];
+_this setMarkerShape "RECTANGLE";
+_this setMarkeralpha 0;
+_this setMarkerType "Flag";
+_this setMarkerBrush "Solid";
+_this setMarkerSize [100, 100];
+_this setMarkerDir 120.050;
+SAR_marker_sm1 = _this;
+
+//spawn troops
+[SAR_marker_sm1,3,1,3,"fortify",false] call SAR_AI;
 
 
 // Wait

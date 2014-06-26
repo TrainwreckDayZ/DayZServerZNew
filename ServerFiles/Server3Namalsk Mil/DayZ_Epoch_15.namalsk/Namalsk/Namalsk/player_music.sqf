@@ -12,7 +12,7 @@ while {!r_player_dead} do {
 		_pause = ((random 25) + 2) + _length;
 	};
 
-	if (!r_player_unconscious and !r_pitchWhine) then {
+	if (!r_player_unconscious and !r_pitchWhine && isClass(configFile >> "cfgMusic" >> _sound)) then {
 		playMusic _sound;
 	};
 	sleep _pause;

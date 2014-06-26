@@ -8,7 +8,7 @@ if (!local _vehicle) exitWith { diag_log format["Error: called service_point_rep
 _args = _this select 3;
 _costs = _args select 0;
 
-if !([_costs] call AC_fnc_checkAndRemoveRequirements) exitWith {};
+if !([_costs] call player_checkAndRemoveItems) exitWith {};
 
 _type = typeOf _vehicle;
 _name = getText(configFile >> "cfgVehicles" >> _type >> "displayName");
@@ -24,7 +24,7 @@ _hitpoints = _vehicle call vehicle_getHitpoints;
 		_selection = getText(configFile >> "cfgVehicles" >> _type >> "HitPoints" >> _x >> "name");
 		[_vehicle,_selection,0] call object_setFixServer;
 	};
-} forEach _hitpoints;
+} count _hitpoints;
 
 _vehicle setDamage 0;
 _vehicle setVelocity [0,0,1];

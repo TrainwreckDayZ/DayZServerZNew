@@ -1,16 +1,17 @@
 /*
-Build Snapping - Extended v1.5
+Build Snapping - Extended v1.6
 
 Idea and first code:
 Maca
 
-Reworked:
-OtterNas3
+Reworked by: OtterNas3
 01/11/2014
+Last update 02/20/2014
 */
-private ["_zheightchanged", "_zheightdirection", "_rotate"];
-diag_log "build controls";
-while {true} do {
+private ["_zheightchanged", "_zheightdirection", "_rotate","_isAllowedUnderGround"];
+_isAllowedUnderGround = _this select 0;
+//diag_log "build controls";
+while {1 == 1} do {
 	_zheightchanged = false;
 	_zheightdirection = "";
 	_rotate = false;
@@ -80,7 +81,6 @@ while {true} do {
 		if(_zheightdirection == "down_ctrl") then {
 			SnappingOffset set [2, ((SnappingOffset select 2) - 0.01)];
 		};
-
 		if((_isAllowedUnderGround == 0) and ((SnappingOffset select 2) < 0)) then {
 			SnappingOffset set [2,0];
 		};

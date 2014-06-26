@@ -1,23 +1,19 @@
 /*
-	DayZ Base Building
-	Made for DayZ Epoch please ask permission to use/edit/distrubute email vbawol@veteranbastards.com.
-*/
-/*
-Build Snapping - Extended v1.5
+DayZ Base Building
+Made for DayZ Epoch please ask permission to use/edit/distrubute email vbawol@veteranbastards.com.
+Build Snapping - Extended v1.6
 
 Idea and first code:
 Maca
 
-Reworked:
-OtterNas3
+Reworked by: OtterNas3
 01/11/2014
+Last update 02/20/2014
 */
 private ["_location","_dir","_classname","_item","_hasrequireditem","_missing","_hastoolweapon","_cancel","_reason","_started","_finished","_animState","_isMedic","_dis","_sfx","_hasbuilditem","_tmpbuilt","_onLadder","_isWater","_require","_text","_offset","_IsNearPlot","_isOk","_location1","_location2","_counter","_limit","_proceed","_num_removed","_position","_object","_canBuildOnPlot","_friendlies","_nearestPole","_ownerID","_findNearestPoles","_findNearestPole","_distance","_classnametmp","_ghost","_isPole","_needText","_lockable","_zheightchanged","_rotate","_combination_1","_combination_2","_combination_3","_combination_4","_combination","_combination_1_Display","_combinationDisplay","_zheightdirection","_abort","_isNear","_need","_objHupDiff","_needNear","_vehicle","_inVehicle","_requireplot","_objHDiff","_isLandFireDZ","_isTankTrap"];
 
 if(DZE_ActionInProgress) exitWith { cutText [(localize "str_epoch_player_40") , "PLAIN DOWN"]; };
 DZE_ActionInProgress = true;
-
-// disallow building if too many objects are found within 30m
 if((count ((getPosATL player) nearObjects ["All",30])) >= DZE_BuildingLimit) exitWith {DZE_ActionInProgress = false; cutText [(localize "str_epoch_player_41"), "PLAIN DOWN"];};
 
 _onLadder =		(getNumber (configFile >> "CfgMovesMaleSdr" >> "States" >> (animationState player) >> "onLadder")) == 1;
@@ -89,7 +85,7 @@ _needNear = 	getArray (configFile >> "CfgMagazines" >> _item >> "ItemActions" >>
 			};
 		};
 	};
-} forEach _needNear;
+} count _needNear;
 
 
 if(_abort) exitWith {
@@ -141,7 +137,7 @@ _findNearestPole = [];
 	if (alive _x) then {
 		_findNearestPole set [(count _findNearestPole),_x];
 	};
-} foreach _findNearestPoles;
+} count _findNearestPoles;
 
 _IsNearPlot = count (_findNearestPole);
 
@@ -193,7 +189,7 @@ _hasrequireditem = true;
 {
 	_hastoolweapon = _x in weapons player;
 	if(!_hastoolweapon) exitWith { _hasrequireditem = false; _missing = getText (configFile >> "cfgWeapons" >> _x >> "displayName"); }
-} forEach _require;
+} count _require;
 
 _hasbuilditem = _this in magazines player;
 if (!_hasbuilditem) exitWith {DZE_ActionInProgress = false; cutText [format[(localize "str_player_31"),_text,"build"] , "PLAIN DOWN"]; };
@@ -223,7 +219,6 @@ if (_hasrequireditem) then {
 
 	cutText [(localize "str_epoch_player_45"), "PLAIN DOWN"];
 
-	
 	player allowDamage false;
 	SnappingOffset = _offset;
 	SnappingDir = 0;
@@ -237,7 +232,7 @@ if (_hasrequireditem) then {
 	};
 	
 	_snapper = [_object, _classname] spawn snap_object;
-	_key_monitor = [] spawn player_buildControls ;
+	_key_monitor = [_isAllowedUnderGround] spawn player_buildControls ;
 
 	while {_isOk} do {
 		sleep 1;
@@ -290,8 +285,6 @@ if (_hasrequireditem) then {
 	};
 	// No building in trader zones
 	if(!canbuild) then { _cancel = true; _reason = "Cannot build in a city."; };
-	if(!placevault) then { _cancel = true; _reason = "Cannot build in a city."; };
-
 	if(!_cancel) then {
 
 		_classname = _classnametmp;
@@ -307,8 +300,12 @@ if (_hasrequireditem) then {
 		
 		_limit = 3;
 
-		if(isNumber (configFile >> "CfgVehicles" >> _classname >> "constructioncount")) then {
-			_limit = getNumber(configFile >> "CfgVehicles" >> _classname >> "constructioncount");
+		if (DZE_StaticConstructionCount > 0) then {
+			_limit = DZE_StaticConstructionCount;
+		} else {
+			if (isNumber (configFile >> "CfgVehicles" >> _classname >> "constructioncount")) then {
+				_limit = getNumber(configFile >> "CfgVehicles" >> _classname >> "constructioncount");
+			};
 		};
 
 		_isOk = true;

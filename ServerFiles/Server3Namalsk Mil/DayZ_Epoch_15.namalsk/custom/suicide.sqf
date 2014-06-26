@@ -1,8 +1,8 @@
 private ["_Secondary"];
 canAbort = true;
 _Secondary = currentWeapon player;
-player addEventHandler ["fired", {if (alive player) then { player SetDamage 1.1;};}];
-cutText [format["I think I may have to kill myself... 10 Seconds"], "PLAIN DOWN"];
+player addEventHandler ["fired", {player setVariable["AttackedBy", player, true]; if (alive player) then { player SetDamage 1.1;};}];
+cutText [format["I think I may have to kill myself... [ABORT TO CANCEL] 10 Seconds"], "PLAIN DOWN"];
 sleep 4;
 cutText [format["I cant take this cruel world... 6 Seconds"], "PLAIN DOWN"];
 sleep 4;
@@ -12,5 +12,6 @@ cutText [format["No turning back now!"], "PLAIN DOWN"];
 canAbort = false;
 player playmove "ActsPercMstpSnonWpstDnon_suicide1B";
 sleep 8.4;
+player setVariable["AttackedBy", player, true];
 player fire _Secondary;
 player setdamage 1.0;

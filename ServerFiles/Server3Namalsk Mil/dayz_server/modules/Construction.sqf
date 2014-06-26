@@ -1,14 +1,14 @@
 private ["_spawnChance", "_spawnMarker", "_spawnRadius", "_markerRadius", "_item", "_debug", "_start_time", "_loot", "_loot_amount", "_loot_box", "_wait_time", "_spawnRoll", "_position", "_event_marker", "_loot_pos", "_debug_marker","_loot_box", "_hint"];
  
 _spawnChance =  0.60; // Percentage chance of event happening
-_markerRadius = 350; // Radius the loot can spawn and used for the marker
+_markerRadius = 450; // Radius the loot can spawn and used for the marker
 _debug = false; // Puts a marker exactly were the loot spawns
  
 _loot_box = "USVehicleBox";
 _loot_lists = [
 [
 ["M9SD"],
-["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","ItemWoodStairs","ItemWoodStairs","ItemWoodStairs","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks"]
+["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","ItemWoodStairs","ItemWoodStairs","ItemWoodStairs","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks"]
 ],
 [
 ["M9SD"],
@@ -16,7 +16,7 @@ _loot_lists = [
 ],
 [
 ["M9SD"],
-["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor"]
+["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","ItemWoodFloor","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor","metal_floor_kit","ItemWoodFloor"]
 ],
 [
 ["M9SD"],
@@ -36,7 +36,7 @@ _loot_lists = [
 ],
 [
 ["M9SD"],
-["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","PartGeneric","metal_floor_kit","Itemvault"]
+["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","PartGeneric","metal_floor_kit","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","PartGeneric","Itemvault"]
 ],
 [
 ["M9SD"],
@@ -44,11 +44,11 @@ _loot_lists = [
 ],
 [
 ["M9SD"],
-["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","workbench_kit","Itemvault","cinder_wall_kit","ItemComboLock","ItemComboLock","cinder_garage_kit","cinder_garage_kit","cinder_door_kit","cinder_door_kit","cinder_wall_kit","cinder_wall_kit","cinder_wall_kit","cinder_wall_kit","cinder_wall_kit","cinder_wall_kit"]
+["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","workbench_kit","Itemvault","cinder_wall_kit","ItemComboLock","ItemComboLock","cinder_wall_kit","cinder_wall_kit","cinder_wall_kit"]
 ],
 [
 ["M9SD"],
-["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","workbench_kit","ItemWoodStairs","ItemWoodStairs","ItemWoodStairs","wood_shack_kit","wood_shack_kit","wood_shack_kit","deer_stand_kit","deer_stand_kit","ItemWoodLadder","ItemWoodLadder","desert_net_kit","desert_net_kit","ItemWoodLadder","ItemWoodLadder","desert_net_kit","forest_net_kit","forest_net_kit","forest_net_kit","desert_net_kit","desert_net_kit","ItemSandbagLarge","ItemSandbagLarge","Itemvault","Itemvault"]
+["15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","workbench_kit","ItemWoodStairs","ItemWoodStairs","ItemWoodStairs","wood_shack_kit","wood_shack_kit","wood_shack_kit","deer_stand_kit","deer_stand_kit","ItemWoodLadder","ItemWoodLadder","desert_net_kit","desert_net_kit","ItemWoodLadder","ItemWoodLadder","desert_net_kit","forest_net_kit","ItemSandbagLarge","ItemSandbagLarge","Itemvault"]
 ]
 ];
 _loot = _loot_lists call BIS_fnc_selectRandom;
@@ -61,7 +61,7 @@ _start_time = time;
 _spawnRadius = 5000;
 _spawnMarker = 'center';
  
-if (isNil "EPOCH_EVENT_RUNNING") then {
+if (isNil {EPOCH_EVENT_RUNNING}) then {
 EPOCH_EVENT_RUNNING = false;
 };
  
@@ -110,10 +110,10 @@ _clutter setPos _loot_pos;
 // Add loot
 {
 _loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
+} count (_loot select 0);
 {
 _loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
+} count (_loot select 1);
  
 // Send Top Right message to users , requires Remote message script
 _hint = parseText format["<t align='center' color='#00FF11' shadow='2' size='1.75'>Construction Crate</t><br/><t align='center' color='#ffffff'>Ikea Truck lost its Cargo, Check your Map for the Location!</t>"];
@@ -124,8 +124,6 @@ publicVariable "customRemoteMessage";
 //[nil,nil,rTitleText,"Ikea Truck lost its Cargo, Check your Map for the Location!", "PLAIN",10] call RE;
 
 diag_log(format["Loot event setup, waiting for %1 seconds", _wait_time]);
-
-
 
 
 // Wait

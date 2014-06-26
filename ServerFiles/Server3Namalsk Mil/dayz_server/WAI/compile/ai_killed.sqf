@@ -22,10 +22,10 @@ if (isPlayer _player) then {
 		_player setVariable ["banditKills",(_banditkills + 1),true];
 	};
 	if (ai_clear_body) then {
-		{_unit removeMagazine _x;} forEach (magazines _unit);
-		{_unit removeWeapon _x;} forEach (weapons _unit);
+		{_unit removeMagazine _x;} count (magazines _unit);
+		{_unit removeWeapon _x;} count (weapons _unit);
 	};
 	if (ai_ahare_info) then {
-		{if (((position _x) distance (position _unit)) <= ai_share_distance) then {_x reveal [_player, 4.0];}} forEach allUnits;
+		{if ((([_x] call FNC_GetPos) distance ([_unit] call FNC_GetPos)) <= ai_share_distance) then {_x reveal [_player, 4.0];}} count WAI_AI_Array;
 	};
 };
