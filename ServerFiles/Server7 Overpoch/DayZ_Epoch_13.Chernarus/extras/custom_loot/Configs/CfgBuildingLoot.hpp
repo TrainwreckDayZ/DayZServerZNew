@@ -1,4 +1,4 @@
-#include "CfgLoot.hpp"
+
 
 class CfgBuildingLoot {
 	class Default {
