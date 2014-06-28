@@ -260,5 +260,3 @@ ai_skin = [
 "Bandit2_DZ",
 "SurvivorWcombat_DZ"
 ];
-//////////////////////////////////////////////////////
-WAIconfigloaded = True;

@@ -1,15 +1,16 @@
 /*
-Build Snapping - Extended v1.5
+Build Snapping - Extended v1.6
 
 Idea and first code:
 Maca
 
-Reworked:
-OtterNas3
-01/11/2014
-*/
-private ["_currentDistanceDiff","_distanceDiff","_search_range","_spot_positionA","_spot_positionB","_object", "_config", "_type", "_attachToPlayer", "_object_types", "_target_spots","_height_diff","_object_height","_target_height","_distance_diff","_object_pos","_target_pos","_best_distance_object","_best_height_object","_position", "_nearest_objects", "_closest_spot", "_closest_distance","_spot_marker","_target_object","_pos","_offsetDir","_possible_targets","_current_distance_diff","_current_height_diff","_spot_position", "_distance","_calculated_pos","_best_spot_position","_best_spot"];
+Reworked by: OtterNas3
 
+01/11/2014
+Last update 02/20/2014
+*/
+
+private ["_currentDistanceDiff","_distanceDiff","_search_range","_spot_positionA","_spot_positionB","_object", "_config", "_type", "_attachToPlayer", "_object_types", "_target_spots","_height_diff","_object_height","_target_height","_distance_diff","_object_pos","_target_pos","_best_distance_object","_best_height_object","_position", "_nearest_objects", "_closest_spot", "_closest_distance","_spot_marker","_target_object","_pos","_offsetDir","_possible_targets","_current_distance_diff","_current_height_diff","_spot_position", "_distance","_calculated_pos","_best_spot_position","_best_spot"];
 _object = _this select 0;
 _type = _this select 1;
 _config = (missionConfigFile >> "SnapPoints" >> _type);
@@ -33,7 +34,7 @@ ON_fnc_getSpotPosition = {
 			_closest_test_distance = _test_distance;
 			_closest_test_spot = _x;
 		};
-	} forEach _target_spots;
+	} count _target_spots;
 	[_closest_test_spot_position, _closest_test_spot];
 };
 
@@ -62,14 +63,14 @@ if ((count _target_spots) > 0) then {
 			_currentDistanceDiff = _distanceDiff;
 			_search_range = ((_distanceDiff) + 2);
 		};
-	} forEach _target_spots;
+	} count _target_spots;
 } else {_search_range = 10;};
 
 diag_log format["Building Object: %1", typeOf _object];
 
-while {true} do {
+while {1 == 1} do {
 	private ["_isWater"];
-	_isWater = (surfaceIsWater position _object);
+	_isWater = (surfaceIsWater (getPosASL _object));
 	if (isClass _config and SnappingEnabled) then {
 		_position = player modelToWorld SnappingOffset;
 		if (!_isWater) then {
@@ -101,7 +102,7 @@ while {true} do {
 					_best_spot = _closest_spot_position_array select 1;
 				};
 			};
-		} forEach _nearest_objects;
+		} count _nearest_objects;
 		if (!isNull _best_distance_object) then {
 			_possible_targets set [(count _possible_targets), _best_distance_object];
 		};

@@ -1,8 +1,3 @@
-﻿/*
- * Alternative to stringtable.csv which is simpler to install for the mission maker.
- * Alternative au stringtable.csv qui est plus simple à installer pour le créateur de mission.
- */
-
 STR_R3F_LOG_action_heliporter = "Heliporter l'objet";
 STR_R3F_LOG_action_heliporter_fait = "Objet ""%1"" attaché.";
 STR_R3F_LOG_action_heliporter_deja_transporte = "L'objet ""%1"" est déjà transporté un véhicule.";

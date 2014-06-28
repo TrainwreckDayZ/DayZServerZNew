@@ -121,6 +121,7 @@ R3F_LOG_CFG_heliporteurs = R3F_LOG_CFG_heliporteurs +
 	"MV22_DZ",
 	"UH1H_DZ",
 	"UH1Y_DZ",
+	"CH53_DZE",
 	"UH60M_EP1_DZ"
 	
 ];

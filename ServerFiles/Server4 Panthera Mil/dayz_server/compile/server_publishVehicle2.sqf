@@ -28,7 +28,7 @@ _location = _worldspace select 1;
 //Generate UID test using time
 _uid = _worldspace call dayz_objectUID3;
 
-// TODO: check if uid already exists and if so increment by 1 and check again as soon as we find nothing continue.
+// TODO: check if uid already exists && if so increment by 1 && check again as soon as we find nothing continue.
 
 //Send request
 _key = format["CHILD:308:%1:%2:%3:%4:%5:%6:%7:%8:%9:",dayZ_instance, _class, 0 , _characterID, _worldspace, [], [], 1,_uid];
@@ -79,8 +79,8 @@ _key call server_hiveWrite;
 	if(!_done) exitWith { diag_log("CUSTOM: failed to get id for : " + str(_uid)); };
 
 	if(DZE_TRADER_SPAWNMODE) then {
-		_object_para = "ParachuteMediumWest" createVehicle [0,0,0];
-		_object_para setpos [_location select 0, _location select 1,(_location select 2) + 65];
+		_object_para = createVehicle ["ParachuteMediumWest", [0,0,0], [], 0, "CAN_COLLIDE"];
+		_object_para setPos [_location select 0, _location select 1,(_location select 2) + 65];
 		_object = createVehicle [_class, [0,0,0], [], 0, "CAN_COLLIDE"];
 	} else {
 		_object = createVehicle [_class, _location, [], 0, "CAN_COLLIDE"];
@@ -95,18 +95,14 @@ _key call server_hiveWrite;
 	clearWeaponCargoGlobal  _object;
 	clearMagazineCargoGlobal  _object;
 	// _object setVehicleAmmo DZE_vehicleAmmo;
-		/////////////////////////////// m240 biplane
-			if (_object isKindOf "AN2_DZ") then {
-			_object addWeapon "M240_veh";
-			_object addMagazine "100Rnd_762x51_M240";
-			_object addMagazine "100Rnd_762x51_M240";
-			
-			};
-			////////////////////////////////////
-				if(_class == "Ka137_MG_PMC") then {
-			_object disableTIEquipment true; 
-			};
-			
+	if (_object isKindOf "AN2_DZ") then {
+		_object addWeapon "M240_veh";
+		_object addMagazine "100Rnd_762x51_M240";
+		_object addMagazine "100Rnd_762x51_M240";
+	};
+	if(_class == "Ka137_MG_PMC") then {
+		_object disableTIEquipment true; 
+	};
 
 	_object setVariable ["ObjectID", _oid, true];
 	
@@ -117,7 +113,7 @@ _key call server_hiveWrite;
 	if(DZE_TRADER_SPAWNMODE) then {
 		_object attachTo [_object_para, [0,0,-1.6]];
 		sleep 1.0;
-		WaitUntil{(getpos _object select 2) < 0.1};
+		WaitUntil{(([_object] call FNC_GetPos) select 2) < 0.1};
 		detach _object;
 		deleteVehicle _object_para;
 	};

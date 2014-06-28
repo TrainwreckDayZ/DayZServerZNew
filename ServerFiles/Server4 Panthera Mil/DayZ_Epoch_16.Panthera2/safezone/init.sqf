@@ -96,4 +96,4 @@ SafeZoneDisable = {
 	} else {
 		_trigger setTriggerStatements ["(vehicle player) in thisList", "call SafeZoneEnable", "call SafeZoneDisable"];
 	};
-} count _safezones;
+} forEach _safezones;

@@ -5,8 +5,8 @@ dayz_hiveVersionNo = 	getNumber(configFile >> "CfgMods" >> "DayZ" >> "hiveVersio
 
 _hiveLoaded = false;
 
-    // ### [CPC] Indestructible Buildables Fix
-    _cpcimmune =[
+
+_cpcimmune =[
 "CinderWallHalf_DZ",
 "CinderWall_DZ",
 "CinderWallDoorway_DZ",
@@ -15,39 +15,31 @@ _hiveLoaded = false;
 "CinderWallSmallDoorway_DZ",
 "CinderWallDoorLocked_DZ",
 "CinderWallDoorSmall_DZ",
-"CinderWallDoor_DZ"
-    ];
-    // ### [CPC] Indestructible Buildables Fix
-waitUntil{initialized}; //means all the functions are now defined
+"CinderWallDoor_DZ",
+"Plastic_Pole_EP1_DZ"
+];
 
 diag_log "HIVE: Starting";
 
-waituntil{isNil "sm_done"}; // prevent server_monitor be called twice (bug during login of the first player)
+waituntil{(isNil {sm_done}) && initialized}; // prevent server_monitor be called twice (bug during login of the first player)
 
-if (isNil "server_initCount") then {
-	server_initCount = 1;
-} else {
-	server_initCount = server_initCount + 1;
-};
-diag_log format["server_monitor.sqf execution count = %1", server_initCount];
-	
 // Custom Configs
-if(isnil "MaxVehicleLimit") then {
+if(isnil {MaxVehicleLimit}) then {
 	MaxVehicleLimit = 50;
 };
 
-if(isnil "MaxDynamicDebris") then {
+if(isnil {MaxDynamicDebris}) then {
 	MaxDynamicDebris = 100;
 };
-if(isnil "MaxAmmoBoxes") then {
+if(isnil {MaxAmmoBoxes}) then {
 	MaxAmmoBoxes = 3;
 };
-if(isnil "MaxMineVeins") then {
+if(isnil {MaxMineVeins}) then {
 	MaxMineVeins = 50;
 };
 // Custon Configs End
 
-if (isServer and isNil "sm_done") then {
+if (isServer && isNil {sm_done}) then {
 
 	serverVehicleCounter = [];
 	_hiveResponse = [];
@@ -56,7 +48,7 @@ if (isServer and isNil "sm_done") then {
 		diag_log "HIVE: trying to get objects";
 		_key = format["CHILD:302:%1:", dayZ_instance];
 		_hiveResponse = _key call server_hiveReadWrite;  
-		if ((((isnil "_hiveResponse") || {(typeName _hiveResponse != "ARRAY")}) || {((typeName (_hiveResponse select 1)) != "SCALAR")})) then {
+		if ((((isnil {_hiveResponse}) || {(typeName _hiveResponse != "ARRAY")}) || {((typeName (_hiveResponse select 1)) != "SCALAR")})) then {
 			if ((_hiveResponse select 1) == "Instance already initialized") then {
 				_superkey = profileNamespace getVariable "SUPERKEY";
 				_shutdown = format["CHILD:400:%1:", _superkey];
@@ -81,7 +73,7 @@ if (isServer and isNil "sm_done") then {
 	
 		// save superkey
 		profileNamespace setVariable ["SUPERKEY",(_hiveResponse select 2)];
-		saveProfileNamespace;
+
 		
 		_hiveLoaded = true;
 	
@@ -175,21 +167,21 @@ if (isServer and isNil "sm_done") then {
 			};
 
 			_object setVariable ["CharacterID", _ownerID, true];
-			
+
 			clearWeaponCargoGlobal  _object;
 			clearMagazineCargoGlobal  _object;
 			// _object setVehicleAmmo DZE_vehicleAmmo;
-			
-		/////////////////////////////// m240 biplane
-			if (_object isKindOf "AN2_DZ") then {
-			_object addWeapon "M240_veh";
-			_object addMagazine "100Rnd_762x51_M240";
-			_object addMagazine "100Rnd_762x51_M240";
-			
-			};
-			//////////////////////////////////// ball heli no thermal
+
+
+
+
+
+
+
+
+
 			if(_type == "Ka137_MG_PMC") then {
-			_object disableTIEquipment true; 
+				_object disableTIEquipment true; 
 			};
 			_object setdir _dir;
 			_object setposATL _pos;
@@ -203,23 +195,21 @@ if (isServer and isNil "sm_done") then {
 				};
 				// Test disabling simulation server side on buildables only.
 				_object enableSimulation false;
-				// used for inplace upgrades and lock/unlock of safe
+				// used for inplace upgrades && lock/unlock of safe
 				_object setVariable ["OEMPos", _pos, true];
 				
 			};
 
-// ### [CPC] Indestructible Buildables Fix
-if (typeOf(_object) in _cpcimmune) then {
-_object addEventHandler ["HandleDamage", {false}];
-_object enableSimulation false;
-};
-// ### [CPC] Indestructible Buildables Fix
+			if (typeOf(_object) in _cpcimmune) then {
+				_object addEventHandler ["HandleDamage", {false}];
+				_object enableSimulation false;
+			};
 			if (count _intentory > 0) then {
 				if (_type in DZE_LockedStorage) then {
 					// Fill variables with loot
-					_object setVariable ["WeaponCargo", (_intentory select 0)];
-					_object setVariable ["MagazineCargo", (_intentory select 1)];
-					_object setVariable ["BackpackCargo", (_intentory select 2)];
+					_object setVariable ["WeaponCargo", (_intentory select 0),true];
+					_object setVariable ["MagazineCargo", (_intentory select 1),true];
+					_object setVariable ["BackpackCargo", (_intentory select 2),true];
 				} else {
 
 					//Add weapons
@@ -238,7 +228,7 @@ _object enableSimulation false;
 
 						};
 						_countr = _countr + 1;
-					} forEach _objWpnTypes; 
+					} count _objWpnTypes; 
 				
 					//Add Magazines
 					_objWpnTypes = (_intentory select 1) select 0;
@@ -255,7 +245,7 @@ _object enableSimulation false;
 
 						};
 						_countr = _countr + 1;
-					} forEach _objWpnTypes;
+					} count _objWpnTypes;
 
 					//Add Backpacks
 					_objWpnTypes = (_intentory select 2) select 0;
@@ -267,7 +257,7 @@ _object enableSimulation false;
 							_object addBackpackCargoGlobal [_x,(_objWpnQty select _countr)];
 						};
 						_countr = _countr + 1;
-					} forEach _objWpnTypes;
+					} count _objWpnTypes;
 				};
 			};	
 			
@@ -275,9 +265,9 @@ _object enableSimulation false;
 				{
 					_selection = _x select 0;
 					_dam = _x select 1;
-					if (_selection in dayZ_explosiveParts and _dam > 0.8) then {_dam = 0.8};
+					if (_selection in dayZ_explosiveParts && _dam > 0.8) then {_dam = 0.8};
 					[_object,_selection,_dam] call object_setFixServer;
-				} forEach _hitpoints;
+				} count _hitpoints;
 
 				_object setFuel _fuel;
 
@@ -286,7 +276,7 @@ _object enableSimulation false;
 					//_object setvelocity [0,0,1];
 					_object call fnc_veh_ResetEH;		
 					
-					if(_ownerID != "0" and !(_object isKindOf "Bicycle")) then {
+					if(_ownerID != "0" && !(_object isKindOf "Bicycle")) then {
 						_object setvehiclelock "locked";
 						_object setVariable ["R3F_LOG_disabled",true,true];
 					};
@@ -301,7 +291,7 @@ _object enableSimulation false;
 			//Monitor the object
 			PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_object];
 		};
-	} forEach (_BuildingQueue + _objectQueue);
+	} count (_BuildingQueue + _objectQueue);
 	// # END SPAWN OBJECTS #
 
 	// preload server traders menu data into cache
@@ -309,7 +299,7 @@ _object enableSimulation false;
 		{
 			// get tids
 			_traderData = call compile format["menu_%1;",_x];
-			if(!isNil "_traderData") then {
+			if(!isNil {_traderData}) then {
 				{
 					_traderid = _x select 1;
 
@@ -372,16 +362,16 @@ _object enableSimulation false;
 		[] spawn spawn_mineveins;
 	};
 
-	if(isnil "dayz_MapArea") then {
+	if(isnil {dayz_MapArea}) then {
 		dayz_MapArea = 10000;
 	};
-	if(isnil "HeliCrashArea") then {
+	if(isnil {HeliCrashArea}) then {
 		HeliCrashArea = dayz_MapArea / 2;
 	};
-	if(isnil "OldHeliCrash") then {
+	if(isnil {OldHeliCrash}) then {
 		OldHeliCrash = false;
 	};
-[] ExecVM "\z\addons\dayz_server\WAI\init.sqf";
+	[] ExecVM "\z\addons\dayz_server\WAI\init.sqf";
 	// [_guaranteedLoot, _randomizedLoot, _frequency, _variance, _spawnChance, _spawnMarker, _spawnRadius, _spawnFire, _fadeFire]
 	if(OldHeliCrash) then {
 		_nul = [3, 4, (50 * 60), (15 * 60), 0.75, 'center', HeliCrashArea, true, false] spawn server_spawnCrashSite;
@@ -393,7 +383,7 @@ _object enableSimulation false;
 		[] spawn {
 			private ["_id"];
 			sleep 200; //Sleep Lootcleanup, don't need directly cleanup on startup + fix some performance issues on serverstart
-			waitUntil {!isNil "server_spawnCleanAnimals"};
+			waitUntil {!isNil {server_spawnCleanAnimals}};
 			_id = [] execFSM "\z\addons\dayz_server\system\server_cleanup.fsm";
 		};
 
@@ -405,7 +395,7 @@ _object enableSimulation false;
 		_vehicle_0 setVariable ["ObjectID","1",true];
 
 		// max number of spawn markers
-		if(isnil "spawnMarkerCount") then {
+		if(isnil {spawnMarkerCount}) then {
 			spawnMarkerCount = 10;
 		};
 		actualSpawnMarkerCount = 0;
