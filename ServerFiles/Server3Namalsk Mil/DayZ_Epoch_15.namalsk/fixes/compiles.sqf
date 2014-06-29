@@ -43,7 +43,7 @@ if (!isDedicated) then {
 	player_crossbowBolt =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_crossbowBolt.sqf";
 	player_music = 					compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_music.sqf";
 	player_death =					compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_death.sqf";
-	player_switchModel =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_switchModel.sqf";
+	player_switchModel =			compile preprocessFileLineNumbers "fixes\player_switchModel.sqf";
 	player_checkStealth =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_checkStealth.sqf";
 	world_sunRise =					compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_sunRise.sqf";
 	world_surfaceNoise =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_surfaceNoise.sqf";
