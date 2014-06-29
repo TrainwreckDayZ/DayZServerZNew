@@ -6,7 +6,7 @@
 _object = _this select 0;
 _class = typeOf _object;
 _dir = getDir _object;
-_pos = getPos _object;
+_pos = [_object] call FNC_GetPos;
 _worldspace = [_dir,_pos];
 
 //If they have vehicle saving off, then this script needs to do nothing.

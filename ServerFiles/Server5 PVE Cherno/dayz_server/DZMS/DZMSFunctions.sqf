@@ -96,15 +96,17 @@ DZMSFindPos = {
             _isBlack = false;
             {
                 if ((_pos distance (_x select 0)) <= (_x select 1)) then {_isBlack = true;};
-            } forEach DZMSBlacklistZones;
+            } count DZMSBlacklistZones;
             
 			//Lets combine all our checks to possibly end the loop
             if ((_posX != _hardX) AND (_posY != _hardY) AND _noWater AND _okDis AND !_isBlack) then {
 				if (!(_isTavi)) then {
 					_findRun = false;
 				};
-				if (_isTavi AND (_tavHeight <= 185)) then {
-					_findRun = false;
+				if (_isTavi) then {
+					if (_tavHeight <= 185) then {
+						_findRun = false;
+					};
 				};
             };
 			// If the missions never spawn after running, use this to debug the loop. noWater=true / Dis > 1000 / TaviHeight <= 185
@@ -254,6 +256,7 @@ DZMSSleep = {
 
 //function to purge objects
 DZMSPurgeObject = {
+	_group = group _this;
     _this enableSimulation false;
     _this removeAllMPEventHandlers "mpkilled";
     _this removeAllMPEventHandlers "mphit";
@@ -267,7 +270,9 @@ DZMSPurgeObject = {
     _this removeAllEventHandlers "Local";
     clearVehicleInit _this;
     deleteVehicle _this;
-    deleteGroup (group _this);
+	if ((count (units _group) == 0) && (_group != grpNull)) then {
+		deleteGroup _group;
+	};
     _this = nil;
 };
 
@@ -281,7 +286,7 @@ DZMSCleanupThread = {
         if (_x getVariable ["DZMSCleanup",false]) then {
             _x call DZMSPurgeObject;
         };
-    } forEach (_this nearObjects 50);
+    } count (_this nearObjects 50);
 };
 
 //------------------------------------------------------------------//

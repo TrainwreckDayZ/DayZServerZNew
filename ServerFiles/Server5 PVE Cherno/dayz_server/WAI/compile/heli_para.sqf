@@ -30,7 +30,7 @@ waitUntil
 {
 	sleep 10;
 	_playerPresent = false;
-	{if((isPlayer _x) AND (_x distance [(_position select 0),(_position select 1),0] <= _triggerdis)) then {_playerPresent = true};}forEach playableUnits;
+	{if((isPlayer _x) AND (_x distance [(_position select 0),(_position select 1),0] <= _triggerdis)) then {_playerPresent = true};}count playableUnits;
 	(_playerPresent)
 };
 //Delay before chopper spawns in.
@@ -38,7 +38,9 @@ waitUntil
 //Spawing in Chopper and crew
 diag_log format ["WAI: Spawning a %1 with %2 units to be paradropped at %3",_heli_class,_paranumber,_position];
 _unitGroup = createGroup east;
+//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _unitGroup];
 _pilot = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _pilot];
 [_pilot] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
@@ -53,21 +55,23 @@ _pilot assignAsDriver _helicopter;
 _pilot moveInDriver _helicopter;
 
 _gunner = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner];
 _gunner assignAsGunner _helicopter;
 _gunner moveInTurret [_helicopter,[0]];
 [_gunner] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
 _gunner2 = _unitGroup createUnit ["Bandit1_DZ", [0,0,0], [], 1, "NONE"];
+WAI_AI_Array set [(count WAI_AI_Array), _gunner2];
 _gunner2 assignAsGunner _helicopter;
 _gunner2 moveInTurret [_helicopter,[1]];
 [_gunner2] joinSilent _unitGroup;
 ai_air_units = (ai_air_units +1);
 
-{_pilot setSkill [_x,1]} forEach _skillarray;
-{_gunner setSkill [_x,0.7]} forEach _skillarray;
-{_gunner2 setSkill [_x,0.7]} forEach _skillarray;
-{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} forEach (units _unitgroup);
+{_pilot setSkill [_x,1]} count _skillarray;
+{_gunner setSkill [_x,0.7]} count _skillarray;
+{_gunner2 setSkill [_x,0.7]} count _skillarray;
+{_x addweapon "Makarov";_x addmagazine "8Rnd_9x18_Makarov";_x addmagazine "8Rnd_9x18_Makarov";} count (units _unitgroup);
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_helicopter];
 [_helicopter] spawn veh_monitor;
 
@@ -82,15 +86,16 @@ _wp setWaypointType "MOVE";
 _wp setWaypointCompletionRadius 100;
 
 _drop = True;
-_helipos = getpos _helicopter;
+_helipos = [_helicopter] call FNC_GetPos;
 while {(alive _helicopter) AND (_drop)} do {
 	private ["_magazine","_weapon","_weaponandmag","_chute","_para","_pgroup"];
 	sleep 1;
-	_helipos = getpos _helicopter;
+	_helipos = [_helicopter] call FNC_GetPos;
 	if (_helipos distance [(_position select 0),(_position select 1),100] <= 200) then {
 		_pgroup = createGroup east;
+		//WAI_AI_GroupArray set [(count WAI_AI_GroupArray), _pgroup];
 		for "_x" from 1 to _paranumber do {
-			_helipos = getpos _helicopter;
+			_helipos = [_helicopter] call FNC_GetPos;
 			switch (_gun) do {
 				case 0 : {_aiweapon = ai_wep0;};
 				case 1 : {_aiweapon = ai_wep1;};
@@ -118,6 +123,7 @@ while {(alive _helicopter) AND (_drop)} do {
 				_aiskin = _skin
 			};
 			_para = _pgroup createUnit [_aiskin, [0,0,0], [], 1, "PRIVATE"];
+			WAI_AI_Array set [(count WAI_AI_Array), _para];
 			if (_backpack == "") then {
 				_aipack = ai_packs call BIS_fnc_selectRandom;
 			} else {
@@ -135,8 +141,8 @@ while {(alive _helicopter) AND (_drop)} do {
 			_para addweapon _weapon;
 			for "_i" from 1 to _mags do {_para addMagazine _magazine;};
 			_para addBackpack _aipack;
-			{_para addMagazine _x} forEach _gearmagazines;
-			{_para addweapon _x} forEach _geartools;
+			{_para addMagazine _x} count _gearmagazines;
+			{_para addweapon _x} count _geartools;
 			if (ai_custom_skills) then {
 				switch (_skill) do {
 				case 0 : {_aicskill = ai_custom_array1;};
@@ -144,9 +150,9 @@ while {(alive _helicopter) AND (_drop)} do {
 				case 2 : {_aicskill= ai_custom_array3;};
 				case "Random" : {_aicskill = ai_skill_random call BIS_fnc_selectRandom;};
 			};
-				{_para setSkill [(_x select 0),(_x select 1)]} forEach _aicskill;
+				{_para setSkill [(_x select 0),(_x select 1)]} count _aicskill;
 			} else {
-				{_para setSkill [_x,_skill]} forEach _skillarray;
+				{_para setSkill [_x,_skill]} count _skillarray;
 			};
 			ai_ground_units = (ai_ground_units + 1);
 			_para addEventHandler ["Killed",{[_this select 0, _this select 1, "ground"] call on_kill;}];
@@ -168,21 +174,23 @@ if (_helipatrol) then {
 	_unitGroup setBehaviour "AWARE";
 	_unitGroup setSpeedMode "FULL";
 	_unitGroup setCombatMode "RED";
-	{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} forEach (units _unitgroup);
+	{_x addEventHandler ["Killed",{[_this select 0, _this select 1, "air"] call on_kill;}];} count (units _unitgroup);
 } else {
-	{_x doMove [(_startingpos select 0), (_startingpos select 1), 100]} forEach (units _unitGroup);
+	{_x doMove [(_startingpos select 0), (_startingpos select 1), 100]} count (units _unitGroup);
 	_unitGroup setBehaviour "CARELESS";
 	_unitGroup setSpeedMode "FULL";
 	_unitGroup setCombatMode "RED";
 	_cleanheli = True;
 	while {_cleanheli} do {
 		sleep 20;
-		_helipos1 = getpos _helicopter;
+		_helipos1 = [_helicopter] call FNC_GetPos;
 		if ((_helipos1 distance [(_startingpos select 0),(_startingpos select 1),100] <= 200) OR (!alive _helicopter)) then {
 			deleteVehicle _helicopter;
-			{deleteVehicle _x} forEach (units _unitgroup);
+			{deleteVehicle _x} count (units _unitgroup);
 			sleep 10;
-			deleteGroup _unitGroup;
+			if ((count (units _unitGroup) == 0) && (_unitGroup != grpNull)) then {
+				deleteGroup _unitGroup;
+			};
 			ai_air_units = (ai_air_units -3);
 			diag_log "WAI: Paradrop cleaned up";
 			_cleanheli = False;

@@ -4,20 +4,21 @@ _attacker = _this select 1;
 _damage = _this select 2;
 
 if (!isPlayer _victim || !isPlayer _attacker) exitWith {};
-if ((name _victim) == (name _attacker)) exitWith {};
+if ((owner _victim) == (owner _attacker)) exitWith {
+	_victim setVariable["AttackedBy", _victim, true];
+};
 
 _weapon = weaponState _attacker;
-if (_weapon select 0 == "Throw") then
+if (_weapon select 0 == "Throw") then 
 {
-_weapon = _weapon select 3;
+	_weapon = _weapon select 3;
 }
 else
 {
-_weapon = _weapon select 0;
+	_weapon = _weapon select 0;
 };
 
 _vehicle = typeOf (vehicle _attacker); 
-
 if ((getText (configFile >> "CfgVehicles" >> _vehicle >> "vehicleClass")) in ["CarW","Car","CarD","Armored","Ship","Support","Air","ArmouredW","ArmouredD","SupportWoodland_ACR"]) then {
 	_weapon = getText (configFile >> "CfgVehicles" >> _vehicle >> "displayName");
 };

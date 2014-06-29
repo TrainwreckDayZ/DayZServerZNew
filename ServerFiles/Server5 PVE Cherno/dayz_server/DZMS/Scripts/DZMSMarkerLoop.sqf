@@ -7,8 +7,8 @@ private["_run","_nul","_nil"];
 diag_log text format ["[DZMS]: Mission Marker Loop for JIPs Starting!"];
 
 //Lets define these
-if (isNil "DZMSMajCoords")then{DZMSMajCoords = [0,0,0];};
-if (isNil "DZMSMinCoords")then{DZMSMinCoords = [0,0,0];};
+if (isNil {DZMSMajCoords})then{DZMSMajCoords = [0,0,0];};
+if (isNil {DZMSMinCoords})then{DZMSMinCoords = [0,0,0];};
 
 //Lets start the timer
 _run = true;

@@ -12,181 +12,138 @@ DZMSBanditSkins = ["Bandit1_DZ","BanditW1_DZ"];
 ////////////////////////
 // Array of AI Skills
 DZMSSkills0 = [
-	["aimingAccuracy",0.10,0.125],
-	["aimingShake",0.45,0.55],
-	["aimingSpeed",0.45,0.55],
-	["endurance",0.40,0.50],
-	["spotDistance",0.30,0.45],
-	["spotTime",0.30,0.45],
-	["courage",0.40,0.60],
-	["reloadSpeed",0.50,0.60],
-	["commanding",0.40,0.50],
-	["general",0.40,0.60]
+	["aimingAccuracy",0.25,0.25],
+	["aimingShake",0.95,0.95],
+	["aimingSpeed",0.90,0.90],
+	["endurance",0.90,0.90],
+	["spotDistance",0.85,0.85],
+	["spotTime",0.85,0.85],
+	["courage",1.00,1.00],
+	["reloadSpeed",0.90,0.90],
+	["commanding",0.90,0.90],
+	["general",1.00,1.00]
 ];
 
 DZMSSkills1 = [
-	["aimingAccuracy",0.125,0.15],
-	["aimingShake",0.60,0.70],
-	["aimingSpeed",0.60,0.70],
-	["endurance",0.55,0.65],
-	["spotDistance",0.45,0.60],
-	["spotTime",0.45,0.60],
-	["courage",0.55,0.75],
-	["reloadSpeed",0.60,0.70],
-	["commanding",0.55,0.65],
-	["general",0.55,0.75]
+	["aimingAccuracy",0.25,0.25],
+	["aimingShake",0.95,0.95],
+	["aimingSpeed",0.90,0.90],
+	["endurance",0.90,0.90],
+	["spotDistance",0.85,0.85],
+	["spotTime",0.85,0.85],
+	["courage",1.00,1.00],
+	["reloadSpeed",0.90,0.90],
+	["commanding",0.90,0.90],
+	["general",1.00,1.00]
 ];
 
 DZMSSkills2 = [
-	["aimingAccuracy",0.15,0.20],
-	["aimingShake",0.75,0.85],
-	["aimingSpeed",0.70,0.80],
-	["endurance",0.70,0.80],
-	["spotDistance",0.60,0.75],
-	["spotTime",0.60,0.75],
-	["courage",0.70,0.90],
-	["reloadSpeed",0.70,0.80],
-	["commanding",0.70,0.90],
-	["general",0.70,0.90]
+	["aimingAccuracy",0.25,0.25],
+	["aimingShake",0.95,0.95],
+	["aimingSpeed",0.90,0.90],
+	["endurance",0.90,0.90],
+	["spotDistance",0.85,0.85],
+	["spotTime",0.85,0.85],
+	["courage",1.00,1.00],
+	["reloadSpeed",0.90,0.90],
+	["commanding",0.90,0.90],
+	["general",1.00,1.00]
 ];
 
 DZMSSkills3 = [	
-	["aimingAccuracy",0.20,0.25],
-	["aimingShake",0.85,0.95],
-	["aimingSpeed",0.80,0.90],
-	["endurance",0.80,0.90],
-	["spotDistance",0.70,0.85],
-	["spotTime",0.70,0.85],
-	["courage",0.80,1.00],
-	["reloadSpeed",0.80,0.90],
-	["commanding",0.80,0.90],
-	["general",0.80,1.00]
+	["aimingAccuracy",0.25,0.25],
+	["aimingShake",0.95,0.95],
+	["aimingSpeed",0.90,0.90],
+	["endurance",0.90,0.90],
+	["spotDistance",0.85,0.85],
+	["spotTime",0.85,0.85],
+	["courage",1.00,1.00],
+	["reloadSpeed",0.90,0.90],
+	["commanding",0.90,0.90],
+	["general",1.00,1.00]
 ];
 
 //////////////////////////////////////////////////////////////
 // This is the primary weaponlist that can be assigned to AI
 // These are assigned based on AI difficulty level
 DZMSWeps0 = [
-"M16A2",
-"M16A2GL",
-"AK_74",
-"M4A1_Aim",
-"AKS_74_kobra",
-"AKS_74_U",
-"AK_47_M",
-"M24",
-"M1014",
-"DMR_DZ",
-"M4A1",
+"FN_FAL",
+"FN_FAL_ANPVS4",
+"BAF_LRR_scoped_W",
+"M110_NVG_EP1",
+"SCAR_H_CQC_CCO",
+"SCAR_H_STD_EGLM_Spect",
+"Sa58V_RCO_EP1",
 "M14_EP1",
-"Remington870_lamp",
-"MP5A5",
-"MP5SD",
-"M4A3_CCO_EP1"
+"VSS_vintorez",
+"DMR_DZ",
+"KSVK_DZE"
 ];
 
 DZMSWeps1 = [
-"M16A2",
-"M16A2GL",
-"M249_DZ",
-"AK_74",
-"M4A1_Aim",
-"AKS_74_kobra",
-"AKS_74_U",
-"AK_47_M",
-"M24",
-"SVD_CAMO",
-"M1014",
-"DMR_DZ",
-"M4A1",
-"M14_EP1",
-"Remington870_lamp",
-"M240_DZ",
-"M4A1_AIM_SD_camo",
-"M16A4_ACG",
-"M4A1_HWS_GL_camo",
+"FN_FAL",
+"FN_FAL_ANPVS4",
 "Mk_48_DZ",
-"M4A3_CCO_EP1",
+"M249_m145_EP1_DZE",
+"M240_scoped_EP1_DZE",
+"BAF_LRR_scoped_W",
+"M110_NVG_EP1",
+"SCAR_H_CQC_CCO",
+"SCAR_H_STD_EGLM_Spect",
+"Pecheneg_DZ",
 "Sa58V_RCO_EP1",
-"Sa58V_CCO_EP1",
-"M40A3",
-"Sa58P_EP1",
-"Sa58V_EP1"
+"M14_EP1",
+"VSS_vintorez",
+"DMR_DZ",
+"KSVK_DZE"
 ];
 
 DZMSWeps2 = [
-"FN_FAL",
-"FN_FAL_ANPVS4",
-"Mk_48_DZ",
-"M249_DZ",
-"BAF_L85A2_RIS_Holo",
-"G36C",
-"G36C_camo",
-"G36A_camo",
-"G36K_camo",
-"AK_47_M",
-"AKS_74_U",
-"M14_EP1",
-"bizon_silenced",
-"DMR_DZ",
-"RPK_74"
+"BAF_L85A2_UGL_ACOG",
+"SCAR_L_STD_EGLM_RCO",
+"M16A4_acg_GL",
+"SCAR_H_STD_EGLM_Spect"
 ];
 
 DZMSWeps3 = [
-"FN_FAL",
-"FN_FAL_ANPVS4",
-"Mk_48_DZ",
-"M249_DZ",
-"BAF_L85A2_RIS_Holo",
-"G36C",
-"G36C_camo",
-"G36A_camo",
-"G36K_camo",
-"AK_47_M",
-"AKS_74_U",
-"M14_EP1",
-"bizon_silenced",
-"DMR_DZ",
-"RPK_74"
+"M249_m145_EP1_DZE",
+"M240_scoped_EP1_DZE",
+"Pecheneg_DZ"
 ];
 
 /////////////////////////////////////////////////////////////
 // These are gear sets that will be randomly given to the AI
 // They are all the same, but can be customized.
 DZMSGear0 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","ItemBloodbag","ItemMorphine"],
+["ItemKnife","Binocular_Vector"]
 ];
 
 DZMSGear1 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","HandGrenade_west"],
+["ItemKnife"]
 ];
 
 DZMSGear2 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","Mine","1rnd_HE_M203","1rnd_HE_M203"],
+["ItemKnife"]
 ];
 
 DZMSGear3 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","ItemGoldBar10oz","Mine"],
+["ItemKnife"]
 ];
 
 DZMSGear4 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife","ItemFlashlight"]
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","PipeBomb"],
+["ItemKnife"]
 ];
 
 ////////////////////////////////////////////////////////////
 // These are the backpacks that can be assigned to AI units.
 DZMSPacklist = [
-"DZ_Patrol_Pack_EP1",
-"DZ_Assault_Pack_EP1",
-"DZ_Czech_Vest_Puch",
-"DZ_ALICE_Pack_EP1",
-"DZ_TK_Assault_Pack_EP1",
-"DZ_British_ACU",
+"DZ_LargeGunBag_EP1",
+"DZ_GunBag_EP1",
 "DZ_CivilBackpack_EP1",
 "DZ_Backpack_EP1"
 ];

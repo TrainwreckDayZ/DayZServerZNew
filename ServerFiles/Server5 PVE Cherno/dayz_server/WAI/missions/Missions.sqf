@@ -7,7 +7,7 @@ missionrunning = false;
 _startTime = floor(time);
 _result = 0;
 
-while {true} do
+while {1 == 1} do
 {
 	_cnt = {alive _x} count playableUnits;
 	_currTime = floor(time);

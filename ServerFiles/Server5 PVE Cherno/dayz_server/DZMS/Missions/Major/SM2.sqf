@@ -30,7 +30,8 @@ clearWeaponCargoGlobal _plane;
 //Lets make AI for the plane and get them in it
 _aiGrp = creategroup east;
 
-_pilot = _aiGrp createUnit ["SurvivorW2_DZ",getPos _plane,[],0,"FORM"];
+_pilot = _aiGrp createUnit ["SurvivorW2_DZ",([_plane] call FNC_GetPos),[],0,"FORM"];
+DZMS_UnitArray set [(count DZMS_UnitArray), _pilot];
 _pilot moveindriver _plane;
 _pilot assignAsDriver _plane;
 
@@ -133,17 +134,19 @@ while {_loop} do {
 //The box was dropped, lets get it on the ground.
 _fallCount = 0;
 while {_fallCount < 45} do {
-	if (((getPos _box) select 2) < 1) then {_fallCount = 46};
+	if ((([_box] call FNC_GetPos) select 2) < 1) then {_fallCount = 46};
 	sleep 0.1;
 	_fallCount = _fallCount + 0.1;
 };
 
 detach _box;
-_box setpos [(getpos _box select 0), (getpos _box select 1), 0];
-_boxFin = createVehicle ["USVehicleBox",[(getpos _box select 0),(getpos _box select 1), 0],[],0,"CAN_COLLIDE"];
+_BoxPos = [_box] call FNC_GetPos;
+_boxPosFinal = [(_BoxPos select 0),(_BoxPos select 1), 0];
+_box setpos _boxPosFinal;
+_boxFin = createVehicle ["USVehicleBox",_boxPosFinal,[],0,"CAN_COLLIDE"];
 deletevehicle _box;
 deletevehicle _chute;
-[[(getpos _boxFin select 0), (getpos _boxFin select 1), 0],"AN2 Cargo"] ExecVM DZMSAddMajMarker;
+[_boxPosFinal,"AN2 Cargo"] ExecVM DZMSAddMajMarker;
 clearWeaponCargoGlobal _boxFin;
 clearMagazineCargoGlobal _boxFin;
 clearBackpackCargoGlobal _boxFin;
@@ -151,7 +154,7 @@ clearBackpackCargoGlobal _boxFin;
 [_boxFin] call DZMSProtectObj;
 
 //Wait until the player is within 30 meters and also meets the kill req
-[position _boxFin,"DZMSUnitsMajor"] call DZMSWaitMissionComp;
+[_boxPosFinal,"DZMSUnitsMajor"] call DZMSWaitMissionComp;
 
 //Let everyone know the mission is over
 [nil,nil,rTitleText,"The AN2 Cargo has been Secured by Survivors!", "PLAIN",6] call RE;

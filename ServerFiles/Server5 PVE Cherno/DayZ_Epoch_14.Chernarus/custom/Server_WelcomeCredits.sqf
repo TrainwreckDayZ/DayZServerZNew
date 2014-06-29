@@ -45,7 +45,7 @@ sleep 20; //Wait in seconds before the credits start after player loads into the
 _role1 = "Welcome to";
 _role1names = ["TrainwreckDayZ"];
 _role2 = "Admins";
-_role2names = ["Trainwreck","TowelZ","ReconDoc"];
+_role2names = ["Trainwreck","TowelZ"];
 _role3 = "Forum";
 _role3names = ["Trainwreckdayz.com"];
 _role4 = "Debug Monitor";

@@ -32,10 +32,10 @@ if (isPlayer _player) then {
 	//Lets inform the nearby AI of roughly the players position
 	//This makes the AI turn and react instead of laying around
 	{
-		if (((position _x) distance (position _unit)) <= 300) then {
+		if ((([_x] call FNC_GetPos) distance ([_unit] call FNC_GetPos)) <= 300) then {
 			_x reveal [_player, 4.0];
 		}
-	} forEach allUnits;
+	} count DZMS_UnitArray;
 	
 } else {
 
@@ -48,7 +48,7 @@ if (isPlayer _player) then {
 		removeAllWeapons _unit;
 		{
 			_unit removeMagazine _x
-		} forEach magazines _unit;
+		} count magazines _unit;
 	};
 	
 };
@@ -62,10 +62,10 @@ if (DZMSUseNVG) then {
 	_unit removeWeapon "NVGoggles";
 };
 
-if (DZMSUseRPG AND ("RPG7V" in (weapons _unit))) then {
-	_unit removeWeapon "RPG7V";
-	_unit removeMagazines "PG7V";
-};
+//if (DZMSUseRPG AND ("RPG7V" in (weapons _unit))) then {
+//	_unit removeWeapon "RPG7V";
+//	_unit removeMagazines "PG7V";
+//};
 
 //Dead body timer and cleanup
 [DZMSBodyTime,10] call DZMSSleep;

@@ -12,7 +12,7 @@ DZMSCntHumanity = 25;
 
 // Do You Want AI to use NVGs?
 //(They are deleted on death)
-DZMSUseNVG = false;
+DZMSUseNVG = true;
 
 // Do you want AI to use RPG7V's?
 //(Only one unit per group spawn will have one)
@@ -68,13 +68,13 @@ DZMSSaveVehicles = false;
 // Adjust to your liking.
 
 //Armed Choppers (Huey)
-DZMSChoppers = ["UH1H_DZ","Mi17_DZ"];
+DZMSChoppers = ["AH6J_EP1","UH1Y","UH60M_EP1"];
 
 //Small Vehicles (Humvees)
-DZMSSmallVic = ["hilux1_civil_3_open_EP1","SUV_TK_CIV_EP1","Ural_INS","HMMWV_DZ","UAZ_Unarmed_UN_EP1"];
+DZMSSmallVic = ["BTR40_MG_TK_GUE_EP1","HMMWV_M2","GAZ_Vodnik","HMMWV_Armored"];
 
 //Large Vehicles (Urals)
-DZMSLargeVic = ["Ural_TK_CIV_EP1"];
+DZMSLargeVic = ["Ural_CDF","MTVR_Repair"];
 
 /*///////////////////////////////////////////////////////////////////////////////////////////
 There are two types of missions that run simultaneously on a the server.
@@ -110,7 +110,7 @@ DZMSMinorMax = 990;
 // format: [[x,y,z],radius]
 // Ex: [[06325,07807,0],300] //Starry Sobor
 DZMSBlacklistZones = [
-	[[0,0,0],50]
+	[[06325,07807,0],750]
 ];
 
 /*=============================================================================================*/

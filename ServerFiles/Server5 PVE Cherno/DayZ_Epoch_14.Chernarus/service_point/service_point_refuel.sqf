@@ -10,7 +10,7 @@ _costs = _args select 0;
 _updateInterval = _args select 1;
 _amount = _args select 2;
 
-if !([_costs] call AC_fnc_checkAndRemoveRequirements) exitWith {};
+if !([_costs] call player_checkAndRemoveItems) exitWith {};
 
 _type = typeOf _vehicle;
 _name = getText(configFile >> "cfgVehicles" >> _type >> "displayName");
@@ -24,8 +24,8 @@ if (isNil "SP_refueling") then {
 	
 	while {(vehicle player == _vehicle) && (local _vehicle)} do {
 		private ["_velocity", "_fuel"];
-		_velocity = velocity _vehicle;
-		if ((_velocity select 0 > 1) || (_velocity select 1 > 1) || (_velocity select 2 > 1)) exitWith {
+		_velocity = speed _vehicle;
+		if (_velocity > 2) exitWith {
 			titleText [format["Refueling of %1 stopped", _name], "PLAIN DOWN"];
 		};
 		_fuel = (fuel _vehicle) + _amount;

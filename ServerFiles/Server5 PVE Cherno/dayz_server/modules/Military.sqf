@@ -69,7 +69,7 @@ _start_time = time;
 _spawnRadius = 5000;
 _spawnMarker = 'center';
  
-if (isNil "EPOCH_EVENT_RUNNING") then {
+if (isNil {EPOCH_EVENT_RUNNING}) then {
 EPOCH_EVENT_RUNNING = false;
 };
  
@@ -118,10 +118,10 @@ _clutter setPos _loot_pos;
 // Add loot
 {
 _loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
+} count (_loot select 0);
 {
 _loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
+} count (_loot select 1);
  
 // Send Top Right message to users , requires Remote message script
 _hint = parseText format["<t align='center' color='#FF0000' shadow='2' size='1.75'>Military Crate</t><br/><t align='center' color='#ffffff'>A special forces unit lost a precious cargo, Check your Map for the Location!</t>"];

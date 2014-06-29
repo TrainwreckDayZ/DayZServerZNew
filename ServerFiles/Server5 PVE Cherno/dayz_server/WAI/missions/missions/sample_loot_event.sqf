@@ -45,7 +45,7 @@ _start_time = time;
 _spawnRadius = 5000;
 _spawnMarker = 'center';
 
-if (isNil "EPOCH_EVENT_RUNNING") then {
+if (isNil {EPOCH_EVENT_RUNNING}) then {
 	EPOCH_EVENT_RUNNING = false;
 };
 
@@ -95,10 +95,10 @@ _clutter setPos _loot_pos;
 // Add loot
 {
 _loot_box addWeaponCargoGlobal [_x,1];
-} forEach (_loot select 0);
+} count (_loot select 0);
 {
 _loot_box addMagazineCargoGlobal [_x,1];
-} forEach (_loot select 1);
+} count (_loot select 1);
 
 // Send message to users (http://dayzepoch.com/forum/index.php?/topic/1026-server-side-hintglobalchat-fix-deathmsg-fix/)
 _hint = parseText format["<t align='center' color='#52bf90' shadow='2' size='1.75'>Weapon Cache Mission</t><br/><t align='center' color='#ffffff'>A weapons cache has been located within the shaded area on the map, you have 20 minutes to grab the loot</t>"];

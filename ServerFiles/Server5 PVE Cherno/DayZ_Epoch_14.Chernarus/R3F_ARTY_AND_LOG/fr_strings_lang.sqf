@@ -1,8 +1,3 @@
-﻿/*
- * Alternative to stringtable.csv which is simpler to install for the mission maker.
- * Alternative au stringtable.csv qui est plus simple à installer pour le créateur de mission.
- */
-
 #include "R3F_ARTY_disable_enable.sqf"
 #include "R3F_LOG_disable_enable.sqf"
 

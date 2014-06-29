@@ -4,8 +4,9 @@
 		Position is the coordinates to spawn at [X,Y,Z]
 		UnitCount is the number of units to spawn
 		SkillLevel is the skill number defined in DZMSAIConfig.sqf
-*/																		//
-private ["_position","_unitcount","_skill","_wpRadius","_xpos","_ypos","_unitGroup","_aiskin","_unit","_weapon","_magazine","_wppos1","_wppos2","_wppos3","_wppos4","_wp1","_wp2","_wp3","_wp4","_wpfin","_unitArrayName","_unitMissionCount"];
+*/																	//
+private ["_aicskill","_aiskin","_unit","_weaponArray","_weapon","_magazine","_aigearArray","_aigear","_gearmagazines","_geartools","_aipack","_position","_unitcount","_skill","_unitArrayName","_wpRadius","_xpos","_ypos","_unitGroup","_wppos1","_wppos2","_wppos3","_wppos4","_wp1","_wp2","_wp3","_wp4","_wpfin","_unitMissionCount"];
+
 _position = _this select 0;
 _unitcount = _this select 1;
 _skill = _this select 2;
@@ -31,7 +32,7 @@ for "_x" from 1 to _unitcount do {
 	
 	//Lets spawn the unit
 	_unit = _unitGroup createUnit [_aiskin, [(_position select 0),(_position select 1),(_position select 2)], [], 10, "PRIVATE"];
-	
+	DZMS_UnitArray set [(count DZMS_UnitArray), _unit];
 	//Make him join the correct team
 	[_unit] joinSilent _unitGroup;
 	
@@ -82,11 +83,11 @@ for "_x" from 1 to _unitcount do {
 	
 	{
 		_unit addMagazine _x
-	} forEach _gearmagazines;
+	} count _gearmagazines;
 	
 	{
 		_unit addWeapon _x
-	} forEach _geartools;
+	} count _geartools;
 	
 	//Lets set the skills
 	switch (_skill) do {
@@ -98,7 +99,7 @@ for "_x" from 1 to _unitcount do {
 	
 	{
 		_unit setSkill [(_x select 0),(_x select 1)]
-	} forEach _aicskill;
+	} count _aicskill;
 	
 	//Lets prepare the unit for cleanup
 	_unit addEventHandler ["Killed",{ [(_this select 0), (_this select 1)] ExecVM DZMSAIKilled; }];

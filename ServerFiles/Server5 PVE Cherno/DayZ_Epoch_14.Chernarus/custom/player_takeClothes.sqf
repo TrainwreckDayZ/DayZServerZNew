@@ -1,5 +1,5 @@
 // By Zabn 2013 @ BalotaBuddies.net
-private["_itemNew","_onLadder","_skin","_body","_okSkin","_clothesTaken","_itemNewName","_result"];
+private["_itemNew","_onLadder","_body","_okSkin","_clothesTaken","_itemNewName","_result"];
 _body = _this select 3;
 _onLadder = (getNumber (configFile >> "CfgMovesMaleSdr" >> "States" >> (animationState player) >> "onLadder")) == 1;
 if (_onLadder) exitWith {cutText ["You can't perform this action while on a ladder!" , "PLAIN DOWN"]};
@@ -9,17 +9,10 @@ if (vehicle player != player) exitWith {cutText ["You may not take clothes while
 player removeAction s_player_clothes;
 s_player_clothes = -1;
 
-_skin = (typeOf _body);
+_itemNew = (typeOf _body);
 
-_itemNew = _skin;
-
-switch (_itemNew) do {
-	case "Survivor3_DZ": {
-		_itemNew = "Survivor2_DZ";
-	};
-	case "Bandit1_DZ": {
-		_itemNew = "Survivor2_DZ";
-	};
+if (_itemNew in ["Survivor3_DZ", "Bandit1_DZ"]) then {
+	_itemNew = "Survivor2_DZ";
 };
 
 _itemNew = "Skin_" + _itemNew;
@@ -42,5 +35,5 @@ if(_okSkin) then {
 		cutText ["This Skin has already been taken!", "PLAIN DOWN"];
 	};
 } else {
-	cutText [format["Currently %1 is not supported by the steal skin script.",_skin], "PLAIN DOWN"];
+	cutText [format["Currently %1 is not supported by the steal skin script.",_itemNew], "PLAIN DOWN"];
 };
