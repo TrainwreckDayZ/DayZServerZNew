@@ -59,7 +59,7 @@ class Mission
 	randomSeed = 11171215;
 	class Intel
 	{
-		briefingName = "trainwreckdayz.com";
+		briefingName = "DayZ Epoch Chernarus";
 		briefingDescription = "TrainwreckDayz Epoch Chernarus Private Server";
 		startWeather = 0.06736261;
 		forecastWeather = 0.52341133;
