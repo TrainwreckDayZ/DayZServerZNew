@@ -199,7 +199,7 @@ AllowedVehiclesList = [
 //["UralRefuel_CDF",3],
 //["UralRefuel_INS",3],
 //["UralRefuel_TK_EP1",3],
-["UralRefuel_TK_EP1_DZ",5],
+["UralRefuel_TK_EP1_DZ",5]
 //["V3S_Civ",3],
 //["V3S_Open_TK_CIV_EP1",3],
 //["V3S_Open_TK_EP1",3],
