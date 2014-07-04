@@ -14,7 +14,7 @@ enableRadio true;
 enableSentences false;
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
-DZE_MissionLootTable = true;
+
 spawnShoremode = 0; // Default = 1 (on shore)
 spawnArea= 1500;
 MaxHeliCrashes= 5;
