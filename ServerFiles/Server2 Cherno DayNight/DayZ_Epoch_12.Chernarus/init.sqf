@@ -18,7 +18,7 @@ DZE_MissionLootTable = true;
 spawnShoremode = 0; // Default = 1 (on shore)
 spawnArea= 1500;
 MaxHeliCrashes= 5;
-MaxVehicleLimit = 600;
+MaxVehicleLimit = 300;
 MaxDynamicDebris = 75;
 dayz_MapArea = 14000;
 dayz_maxLocalZombies = 10;
