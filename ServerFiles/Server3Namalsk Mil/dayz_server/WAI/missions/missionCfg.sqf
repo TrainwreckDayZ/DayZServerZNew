@@ -7,7 +7,6 @@ wai_mission_timeout = 1500;
 // missions used when selecting the next random mission
 wai_missions = [
 "armed_vehicle",
-"crash_spawner",
 "disabled_civchopper",
 "disabled_milchopper",
 "MV22",
