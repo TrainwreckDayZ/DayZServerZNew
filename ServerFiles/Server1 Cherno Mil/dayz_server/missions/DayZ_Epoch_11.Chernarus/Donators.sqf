@@ -1883,8 +1883,18 @@ if (true) then
   _this setPos [12779.8, 8428.92, 4.23];
 };
 
+//Exile Sphere 80683206 95287033CT657944E
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [9659.58, 9353.51, 1], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [9659.58, 9353.51, 1];
+};
 
-//Fuel Tanks
+
+//Fuel Tanks------------------------------------------------------
 
 //Dreypa Priiest 247203078 Fuel Tank
 _vehicle_2 = objNull;
