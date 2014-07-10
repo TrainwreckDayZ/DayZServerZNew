@@ -1887,10 +1887,10 @@ if (true) then
 _vehicle_0 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_Sphere", [9659.58, 9353.51, 1], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["MAP_Sphere", [9660.51, 9355.68, 0], [], 0, "CAN_COLLIDE"];
   _vehicle_0 = _this;
   _this setVehicleInit "this allowDammage false";
-  _this setPos [9659.58, 9353.51, 1];
+  _this setPos [9660.51, 9355.68, 0];
 };
 
 
