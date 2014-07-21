@@ -142,20 +142,18 @@ if (_R3FCond) then {
 			R3F_action_heliporter_object = objNull;
 		};
 	};
-	if ({_cursorTarget isKindOf _x} count R3F_LOG_CFG_remorqueurs > 0) then {
-		if ((R3F_action_remorquer_deplace2 < -4) && (R3F_action_remorquer_selection2 < -4)) then {
-			[_cursorTarget] call R3F_LOG_FNCT_remorqueur_init;
-		};
-	} else {
-		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
-		R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
-		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
-		R3F_action_remorquer_deplace2 = -5;
-		R3F_action_remorquer_selection2 = -5;
-		if (_invehicle) then {
-			R3F_action_remorquables_target = objNull;
-			R3F_action_remorquer_object = objNull;
+	if (!_inVehicle) then {
+		if ({_cursorTarget isKindOf _x} count R3F_LOG_CFG_remorqueurs > 0) then {
+			if ((R3F_action_remorquer_deplace2 < -4) && (R3F_action_remorquer_selection2 < -4)) then {
+				[_cursorTarget] call R3F_LOG_FNCT_remorqueur_init;
+			};
+		} else {
+			R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+			R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
+			R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+			R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
+			R3F_action_remorquer_deplace2 = -5;
+			R3F_action_remorquer_selection2 = -5;
 		};
 	};
 } else {

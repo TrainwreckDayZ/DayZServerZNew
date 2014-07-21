@@ -55,6 +55,7 @@ funcGetTurretsWeapons = {
 	    ) >> "turrets"
 	);
 	[_class, [], _this] call _findRecurse;
+	//if (_this isKindOf "pook_H13_gunship") then {_result = [["pook_M60_dual",["pook_1300Rnd_762x51_M60"], [-1], ""],["pook_H13Grenades", ["pook_12Rnd_Grenade_Camel"], [-1], ""]]};
 	_result
 };
 GetDZEMagazines = { //By icomrade
@@ -68,7 +69,9 @@ GetDZEMagazines = { //By icomrade
 	if (_isDZE) then {
 		_toArray set [(_count - 1), -1];
 		_toArray = _toArray - [-1];
-		_NormalizedName = toString(_toArray);
+		if (isClass (configFile >> "CfgVehicles" >> (toString(_toArray)))) then {
+			_NormalizedName = toString(_toArray);
+		};
 	};
 	_classMags = _NormalizedName call funcGetTurretsWeapons;
 	if (_this select 1) then {_classMags = _NormalizedName;};
@@ -148,13 +151,12 @@ while {1 == 1} do {
 			};
 			if ((((count _role) > 1) || ((driver _vehicle) == player)) && _rearm_enable && s_player_rearm_action < 0) then {
 				_allInfo = [_vehicle, false] call GetDZEMagazines;
-				if (count _allInfo > 0) then {
+				if ((count _allInfo > 0) || ((driver _vehicle) == player)) then {
 					if ((driver _vehicle) == player) then {
-						_vehWep = _vehicle weaponsTurret [-1];
+						_vehWep = getArray(configFile >> "cfgVehicles" >> (typeOf _vehicle) >> "weapons");
 						_testReturn = _vehWep call _testMyReturn;
-							if ((count _vehWep > 0) && (Count _testReturn > 0)) then {
-								_actionTitle = ["Rearm", _rearm_costs] call _fnc_actionTitle;
-								s_player_rearm_action = _vehicle addAction [_actionTitle, "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
+							if ((Count _testReturn) > 0) then {
+								s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
 							};
 						} else {
 						s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
