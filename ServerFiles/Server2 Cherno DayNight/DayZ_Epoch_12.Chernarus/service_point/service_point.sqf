@@ -152,14 +152,15 @@ while {1 == 1} do {
 			if ((((count _role) > 1) || ((driver _vehicle) == player)) && _rearm_enable && s_player_rearm_action < 0) then {
 				_allInfo = [_vehicle, false] call GetDZEMagazines;
 				if ((count _allInfo > 0) || ((driver _vehicle) == player)) then {
+				_actionTitle = ["Rearm", _rearm_costs] call _fnc_actionTitle;
 					if ((driver _vehicle) == player) then {
 						_vehWep = getArray(configFile >> "cfgVehicles" >> (typeOf _vehicle) >> "weapons");
 						_testReturn = _vehWep call _testMyReturn;
 							if ((Count _testReturn) > 0) then {
-								s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
+								s_player_rearm_action = _vehicle addAction [_actionTitle, "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
 							};
 						} else {
-						s_player_rearm_action = _vehicle addAction [format["Rearm %1 (free)", (typeOf _vehicle)], "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
+						s_player_rearm_action = _vehicle addAction [_actionTitle, "service_point\service_point_rearm.sqf", [_rearm_costs, _allInfo], -1, false, true, "", _actionCondition];
 					};
 				};
 			};
