@@ -11,7 +11,7 @@ if !([_costs] call player_checkAndRemoveItems) exitWith {};
 _type = typeOf _vehicle;
 _name = getText(configFile >> "cfgVehicles" >> _type >> "displayName");
 _weaponNames = [];
-if ((count (assignedVehicleRole player)) > 1) then { //Do not let pilot/driver rearm turrets! (it doesn't work right)
+if ((count (assignedVehicleRole player)) > 1 && {(count _allInfo) > 0}) then {
 	{
 		_weaponName = _x select 0;
 		_magazines = _x select 1;
