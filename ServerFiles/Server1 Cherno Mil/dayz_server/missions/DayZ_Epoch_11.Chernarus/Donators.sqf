@@ -2938,6 +2938,16 @@ if (true) then
   _this setPos [9662.9, 9342.17, 0];
 };
 
+//Donavonrocks Sphere 76561197983306580 106-001 RYCCJSSNXC73
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [10690.1, 15240, 0.5], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [10690.1, 15240, 0.5];
+};
+
 
 //Fuel Tanks------------------------------------------------------
 
