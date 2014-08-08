@@ -17,7 +17,7 @@ briefing = 0;
 debriefing = 0;
 
 onPauseScript = "";
-loadScreen = "custom\epochsplashscreen.jpg";
+loadScreen = "custom\server3.jpg";
 
 class Header
 {

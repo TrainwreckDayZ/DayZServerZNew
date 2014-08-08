@@ -9,13 +9,13 @@ _dialog = findDisplay groupManagementDialog;
 _playerListBox = _dialog displayCtrl groupManagementPlayerList;
 lbClear _playerListBox;
 _center = getMarkerPos "center";
-_plist = (_center nearEntities [["AllVehicles"], 12000]);
+_plist = _center nearEntities [["AllVehicles"], 12000];
 {
-	if ((!isNull _x) and (getPlayerUID _x != "")) then {
+	if ((!isNull _x) && (getPlayerUID _x != "")) then {
 		if (getPlayerUID _x != getPlayerUID player) then {
 			_namestr = name(_x);             
 			_index = _playerListBox lbAdd _namestr;
 			_playerListBox lbSetData [_index, str(_x)];  
 		};
 	};	    
-} forEach _plist;
+} count _plist;

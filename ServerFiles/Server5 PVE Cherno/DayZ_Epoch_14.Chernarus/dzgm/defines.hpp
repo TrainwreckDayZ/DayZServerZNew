@@ -1,17 +1,10 @@
-#define CT_STATIC_dzgm 0 
-#define CT_LISTBOX_dzgm 5  
-#define ST_LEFT_dzgm 0x00 
-#define ST_PICTURE_dzgm 48 
-#define FontM_dzgm "Zeppelin32"
-#define true_dzgm 1
-
 class w_RscText {
 	idc = -1;
-	type = CT_STATIC_dzgm;
-	style = ST_LEFT_dzgm;
+	type = 0;
+	style = 0x00;
 	colorBackground[] = { 1 , 1 , 1 , 0 };
 	colorText[] = { 1 , 1 , 1 , 1 };
-	font = FontM_dzgm;
+	font = "Zeppelin32";
 	sizeEx = 0.025;
 	h = 0.25;
 	text = "";
@@ -42,7 +35,7 @@ class w_RscStructuredText
 
 class w_Rsclist
 {
-	type = CT_LISTBOX_dzgm;
+	type = 5;
 	style = 69;
 	idc = -1;
 	text = "";
@@ -84,9 +77,9 @@ class w_Rsclist
 class w_RscPicture 
 {
 	idc = -1; 
-	type = CT_STATIC_dzgm;
-	style = ST_PICTURE_dzgm;
-	font = FontM_dzgm;
+	type = 0;
+	style = 48;
+	font = "Zeppelin32";
 	sizeEx = 0.023;	
 	colorBackground[] = {};
 	colorText[] = {};	
@@ -150,7 +143,7 @@ class w_RscButtonBase {
 		font = "Zeppelin32";
 		color = "#E5E5E5";
 		align = "left";
-		shadow = "true_dzgm";	
+		shadow = "1";	
 	};
 	
 	class AttributesImage {
@@ -206,6 +199,6 @@ class w_RscButton : w_RscButtonBase {
 		font = "Zeppelin32";
 		color = "#E5E5E5";
 		align = "center";
-		shadow = "true_dzgm";		
+		shadow = "1";		
 	};
 };

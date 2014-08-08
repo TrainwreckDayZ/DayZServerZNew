@@ -561,3 +561,15 @@ if (!isDedicated) then {
 	player_buildControls	= compile preprocessFileLineNumbers "custom\snap_build\player_buildControls.sqf";
 	snap_object		= compile preprocessFileLineNumbers "custom\snap_build\snap_object.sqf";
 };
+if (isNil "fnc_vehicle_handleDamage") then {fnc_vehicle_handleDamage = compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\vehicle_handleDamage.sqf";};
+vehicle_handleDamage = {
+    private["_obj","_result","_state"];
+    _obj = _this select 0;
+    if ((count(nearestObjects [_obj, ["Plastic_Pole_EP1_DZ"],50]) > 0) && (locked _obj && (count (crew _obj)) == 0)) exitWith {_obj allowDamage false;};
+    _state = false;
+    {if ((_obj distance (_x select 0)) < 100) then {_state = true;};} forEach safezones;
+    if (_state) exitWith {_obj allowDamage false;};
+    _obj allowDamage true;
+    _result = _this call fnc_vehicle_handleDamage;
+    _result
+};

@@ -13,6 +13,7 @@ _veh setDir _vehdir;
 clearWeaponCargoGlobal _veh;
 clearMagazineCargoGlobal _veh;
 _veh setVariable ["ObjectID","1",true];
+_veh allowDammage false;
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh];
 diag_log format["WAI: Mission Armed Chopper spawned a %1",_vehname];
 
@@ -54,7 +55,7 @@ true
 ] call spawn_static;
 
 [_position,_vehname] spawn markers_compile;
-[nil,nil,rTitleText,"Bandits have disabled an armed chopper! Check your map for the location!", "PLAIN",10] call RE;
+[nil,nil,rTitleText,"Bandits have disabled an armed aircraft! Check your map for the location!", "PLAIN",10] call RE;
 
 _missiontimeout = true;
 _cleanmission = false;
@@ -77,7 +78,8 @@ if (_playerPresent) then {
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission armed chopper Ended At %1",_position];
-	[nil,nil,rTitleText,"Survivors have secured the armed chopper!", "PLAIN",10] call RE;
+	[nil,nil,rTitleText,"Survivors have secured the armed aircraft!", "PLAIN",10] call RE;
+	_veh allowDammage true;
 } else {
 	clean_running_mission = True;
 	deleteVehicle _veh;
@@ -96,6 +98,6 @@ if (_playerPresent) then {
 	} count WAI_AI_Array;
 	
 	diag_log format["WAI: Mission armed chopper Timed Out At %1",_position];
-	[nil,nil,rTitleText,"Survivors did not secure the armed chopper in time!", "PLAIN",10] call RE;
+	[nil,nil,rTitleText,"Survivors did not secure the armed aircraft in time!", "PLAIN",10] call RE;
 };
 missionrunning = false;

@@ -3,7 +3,7 @@ dzgm_Icons_Clear = {
     _units = [];
     _uc = 0;
 	_plist = units group player;
-	{if ((alive(_x)) && (!isNull _x) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} forEach _plist;
+	{if ((alive _x) && (!isNull _x) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} count _plist;
 
 	private ["_mrkr","_index"];
 	_index = 0;
@@ -11,7 +11,7 @@ dzgm_Icons_Clear = {
 		deleteMarkerLocal "Me";
 		_mrkr = createMarkerLocal ["Me",(getPos player)];
 		_mrkr setMarkerTypeLocal "DestroyedVehicle";
-		_mrkr setMarkerTextLocal format ["%1",(name player)];
+		_mrkr setMarkerTextLocal "I am here";
 	};
     {
 		private ["_pos","_unit","_name"];
@@ -28,7 +28,7 @@ dzgm_Icons_Clear = {
 		};
 		((uiNamespace getVariable "dzgm_Hud_Disp") displayCtrl (46300 + _index)) ctrlShow false;
         _index = _index + 1;
-    } forEach (_units);
+    } count _units;
 };
 
 dzgm_Icons_Name = {
@@ -39,7 +39,7 @@ dzgm_Icons_Name = {
     _units = [];
     _uc = 0;
 	_plist = units group player;
-	{if ((alive(_x)) && (!isNull _x) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} forEach _plist;
+	{if ((alive _x) && (!isNull _x) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} count _plist;
 
     if (isNil "_pIcons") then {
         _make_icons = true;
@@ -70,7 +70,7 @@ dzgm_Icons_Name = {
 		deleteMarkerLocal "Me";
 		_mrkr = createMarkerLocal ["Me",(getPos player)];
 		_mrkr setMarkerTypeLocal "DestroyedVehicle";
-		_mrkr setMarkerTextLocal format ["%1",(name player)];
+		_mrkr setMarkerTextLocal "I am here";
 	};
     {
         private ["_pos","_unit","_distance","_name","_scale","_screen","_sx","_sy","_tag"];
@@ -87,7 +87,7 @@ dzgm_Icons_Name = {
 		};
 		
         _distance = _pos distance player;
-		if (_distance > 1 && _distance < 7500) then {
+		if (_distance > 1 && _distance < 2500) then {
 		_pos set [2, (_pos select 2) + 1.5];
 		_screen = worldToScreen _pos;
 		_picon = _pIcons select _index;
@@ -114,7 +114,7 @@ dzgm_Icons_Name = {
 			((uiNamespace getVariable "dzgm_Hud_Disp") displayCtrl (46300 + _index)) ctrlShow false;		
 		};
         _index = _index + 1;
-    } forEach (_units);
+    } count _units;
 	if (_remove_icon) then {
 		((uiNamespace getVariable "dzgm_Hud_Disp") displayCtrl (46300 + _index)) ctrlShow false;
 		if (!isNil "_name") then {deleteMarkerLocal _name;};
@@ -125,18 +125,15 @@ dzgm_init = {
     if (!isNil "dzgm_Handle") then {terminate dzgm_Handle;};
 
     dzgm_Handle = [] spawn {
-        sleep 1;
+        uiSleep 1;
         while {true} do {
-#define SHOW_HUD (cameraView in ["INTERNAL","EXTERNAL","GUNNER"]) && (alive(player) && isNil("BIS_DEBUG_CAM"))
-            waitUntil {sleep 1;SHOW_HUD};
+#define SHOW_HUD (cameraView in ["INTERNAL","EXTERNAL","GUNNER"]) && ((alive player) && isNil("BIS_DEBUG_CAM"))
+            waitUntil {uiSleep 1;SHOW_HUD};
 			609 cutRsc ["dzgmHud_Rsc","PLAIN"];
             while {SHOW_HUD} do {
-				if (tagname) then {	
-					call dzgm_Icons_Name;
-				} else {
-					call dzgm_Icons_Clear;
-				};
-                sleep 0.01;
+				if (tagname) then {call dzgm_Icons_Name;} else {call dzgm_Icons_Clear;};
+				if (commandingMenu in ["RscTeam","#User:BIS_Menu_GroupCommunication"]) then {showCommandingMenu "";};
+                uiSleep 0.01;
             };
             609 cutText ["","PLAIN"];
         };

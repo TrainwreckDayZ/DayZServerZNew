@@ -56,6 +56,7 @@ Restrict_Wait = time;
 customActionConfigs = ["ExtraRa","ExtraRb","ExtraSm","ExtraTm"];
 
 call compile preprocessFileLineNumbers "fixes\variables.sqf";
+call compile preprocessFileLineNumbers "R3F_ARTY_AND_LOG\init.sqf";
 progressLoadingScreen 0.1;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\publicEH.sqf";	
 progressLoadingScreen 0.2;

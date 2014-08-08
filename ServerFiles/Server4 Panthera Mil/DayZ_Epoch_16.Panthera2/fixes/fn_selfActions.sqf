@@ -718,6 +718,10 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 				} count (_traderMenu select 1);
 				_buy = player addAction [localize "STR_EPOCH_PLAYER_289", "\z\addons\dayz_code\actions\show_dialog.sqf",(_traderMenu select 0), 999, true, false, "",""];
 				s_player_parts set [count s_player_parts,_buy];
+				
+				// Add static metals trader options under sub menu
+				_metals_trader = player addAction ["Trade Gems", "fixes\trade_metals.sqf",["na"], 0, true, false, "",""];
+				s_player_parts set [count s_player_parts,_metals_trader];
 			};
 			s_player_parts_crtl = 1;
 		};

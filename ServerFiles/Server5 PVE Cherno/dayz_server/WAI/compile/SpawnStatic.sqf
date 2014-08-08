@@ -90,7 +90,7 @@ if (ai_static_skills) then {
 };
 ai_emplacement_units = (ai_emplacement_units + 1);
 _unit addEventHandler ["Killed",{[_this select 0, _this select 1, "static"] call on_kill;}];
-_static addEventHandler ["GetOut",{(_this select 0) setDamage 1;}];
+_static addEventHandler ["GetOut",{(_this select 0) setDamage 0;}];
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_static];
 _unit moveingunner _static;
 if (_mission) then {

@@ -1,74 +1,61 @@
-/*
-	DZMSAIConfig.sqf
-	This is a configuration for the AI that spawn at missions.
-	This includes their skin, weapons, gear, and skills.
-	You can adjust these to your liking, but it is for advanced users.
-*/
+DZMSBanditSkins = ["Bandit2_DZ"];
 
-///////////////////////////////////////////////
-// Array of skin classnames for the AI to use
-DZMSBanditSkins = ["Bandit1_DZ","BanditW1_DZ"];
-
-////////////////////////
 // Array of AI Skills
 DZMSSkills0 = [
-	["aimingAccuracy",0.25,0.25],
-	["aimingShake",0.95,0.95],
-	["aimingSpeed",0.90,0.90],
-	["endurance",0.90,0.90],
-	["spotDistance",0.85,0.85],
-	["spotTime",0.85,0.85],
+	["aimingAccuracy",1.00,1.00],
+	["aimingShake",1.00,1.00],
+	["aimingSpeed",1.00,1.00],
+	["endurance",1.00,1.00],
+	["spotDistance",1.00,1.00],
+	["spotTime",1.00,1.00],
 	["courage",1.00,1.00],
-	["reloadSpeed",0.90,0.90],
-	["commanding",0.90,0.90],
+	["reloadSpeed",1.00,1.00],
+	["commanding",1.00,1.00],
 	["general",1.00,1.00]
 ];
 
 DZMSSkills1 = [
-	["aimingAccuracy",0.25,0.25],
-	["aimingShake",0.95,0.95],
-	["aimingSpeed",0.90,0.90],
-	["endurance",0.90,0.90],
-	["spotDistance",0.85,0.85],
-	["spotTime",0.85,0.85],
+	["aimingAccuracy",1.00,1.00],
+	["aimingShake",1.00,1.00],
+	["aimingSpeed",1.00,1.00],
+	["endurance",1.00,1.00],
+	["spotDistance",1.00,1.00],
+	["spotTime",1.00,1.00],
 	["courage",1.00,1.00],
-	["reloadSpeed",0.90,0.90],
-	["commanding",0.90,0.90],
+	["reloadSpeed",1.00,1.00],
+	["commanding",1.00,1.00],
 	["general",1.00,1.00]
 ];
 
 DZMSSkills2 = [
-	["aimingAccuracy",0.25,0.25],
-	["aimingShake",0.95,0.95],
-	["aimingSpeed",0.90,0.90],
-	["endurance",0.90,0.90],
-	["spotDistance",0.85,0.85],
-	["spotTime",0.85,0.85],
+	["aimingAccuracy",1.00,1.00],
+	["aimingShake",1.00,1.00],
+	["aimingSpeed",1.00,1.00],
+	["endurance",1.00,1.00],
+	["spotDistance",1.00,1.00],
+	["spotTime",1.00,1.00],
 	["courage",1.00,1.00],
-	["reloadSpeed",0.90,0.90],
-	["commanding",0.90,0.90],
+	["reloadSpeed",1.00,1.00],
+	["commanding",1.00,1.00],
 	["general",1.00,1.00]
 ];
 
 DZMSSkills3 = [	
-	["aimingAccuracy",0.25,0.25],
-	["aimingShake",0.95,0.95],
-	["aimingSpeed",0.90,0.90],
-	["endurance",0.90,0.90],
-	["spotDistance",0.85,0.85],
-	["spotTime",0.85,0.85],
+	["aimingAccuracy",1.00,1.00],
+	["aimingShake",1.00,1.00],
+	["aimingSpeed",1.00,1.00],
+	["endurance",1.00,1.00],
+	["spotDistance",1.00,1.00],
+	["spotTime",1.00,1.00],
 	["courage",1.00,1.00],
-	["reloadSpeed",0.90,0.90],
-	["commanding",0.90,0.90],
+	["reloadSpeed",1.00,1.00],
+	["commanding",1.00,1.00],
 	["general",1.00,1.00]
 ];
 
-//////////////////////////////////////////////////////////////
-// This is the primary weaponlist that can be assigned to AI
 // These are assigned based on AI difficulty level
 DZMSWeps0 = [
 "FN_FAL",
-"FN_FAL_ANPVS4",
 "BAF_LRR_scoped_W",
 "M110_NVG_EP1",
 "SCAR_H_CQC_CCO",
@@ -82,7 +69,6 @@ DZMSWeps0 = [
 
 DZMSWeps1 = [
 "FN_FAL",
-"FN_FAL_ANPVS4",
 "Mk_48_DZ",
 "M249_m145_EP1_DZE",
 "M240_scoped_EP1_DZE",
@@ -111,9 +97,7 @@ DZMSWeps3 = [
 "Pecheneg_DZ"
 ];
 
-/////////////////////////////////////////////////////////////
 // These are gear sets that will be randomly given to the AI
-// They are all the same, but can be customized.
 DZMSGear0 = [
 ["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","ItemBloodbag","ItemMorphine"],
 ["ItemKnife","Binocular_Vector"]
@@ -130,20 +114,18 @@ DZMSGear2 = [
 ];
 
 DZMSGear3 = [
-["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","ItemGoldBar10oz","Mine"],
+["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","ItemGoldBar10oz"],
 ["ItemKnife"]
 ];
 
 DZMSGear4 = [
-["ItemBandage","ItemBandage","ItemPainkiller","FoodmuttonCooked","ItemSodaCoke","PipeBomb"],
+["ItemBandage","ItemBandage","ItemPainkiller","SMAW_HEDP"],
 ["ItemKnife"]
 ];
 
-////////////////////////////////////////////////////////////
-// These are the backpacks that can be assigned to AI units.
 DZMSPacklist = [
 "DZ_LargeGunBag_EP1",
-"DZ_GunBag_EP1",
+"Tripod_Bag",
 "DZ_CivilBackpack_EP1",
 "DZ_Backpack_EP1"
 ];

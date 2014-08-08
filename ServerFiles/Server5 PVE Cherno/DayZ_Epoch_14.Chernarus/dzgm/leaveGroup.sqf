@@ -3,7 +3,7 @@ private ["_callerID","_friendlies","_targetID","_plist","_rfriendlies","_uc","_u
 _units = [];
 _uc = 0;
 _plist = units group player; 
-{if ((alive(_x)) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} forEach _plist;
+{if ((alive _x) && (getPlayerUID _x != "") && (name _x != name player)) then {_units set [_uc,_x];_uc = _uc + 1;};} count _plist;
 
 _callerID = player getVariable "CharacterID";
 {
@@ -19,7 +19,7 @@ _callerID = player getVariable "CharacterID";
 	_rfriendlies = _x getVariable ["friendlies", []];
 	_rfriendlies =  _rfriendlies - [_callerID];
 	_x setVariable ["friendlies", _rfriendlies, true];
-} forEach (_units);
+} count _units;
 
 [player] join grpNull;
 systemChat "You have left the group";

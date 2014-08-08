@@ -81,8 +81,6 @@ class GroupManagement {
 			color[] = {0.1,0.95,0.1,1};
 		};
 		
-		
-
 		class GroupListBox : w_Rsclist {
 			idc = groupManagementGroupList;
 			x = 0.490; y = 0.200;

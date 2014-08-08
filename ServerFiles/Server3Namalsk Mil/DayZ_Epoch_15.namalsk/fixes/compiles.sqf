@@ -79,7 +79,7 @@ if (!isDedicated) then {
 	player_harvestPlant =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_harvestPlant.sqf";
 	player_goFishing =				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_goFishing.sqf";
 	player_build =					compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_build.sqf";
-	player_wearClothes =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_wearClothes.sqf";
+	player_wearClothes =			compile preprocessFileLineNumbers "fixes\player_wearClothes.sqf";
 	object_pickup = 				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\object_pickup.sqf";
 	player_flipvehicle = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_flipvehicle.sqf";
 	player_sleep = 					compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_sleep.sqf";
@@ -560,4 +560,16 @@ if (!isDedicated) then {
 	player_build		= compile preprocessFileLineNumbers "custom\snap_build\player_build.sqf";
 	player_buildControls	= compile preprocessFileLineNumbers "custom\snap_build\player_buildControls.sqf";
 	snap_object		= compile preprocessFileLineNumbers "custom\snap_build\snap_object.sqf";
+};
+if (isNil "fnc_vehicle_handleDamage") then {fnc_vehicle_handleDamage = compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\vehicle_handleDamage.sqf";};
+vehicle_handleDamage = {
+    private["_obj","_result","_state"];
+    _obj = _this select 0;
+    if ((count(nearestObjects [_obj, ["Plastic_Pole_EP1_DZ"],50]) > 0) && (locked _obj && (count (crew _obj)) == 0)) exitWith {_obj allowDamage false;};
+    _state = false;
+    {if ((_obj distance (_x select 0)) < 100) then {_state = true;};} forEach safezones;
+    if (_state) exitWith {_obj allowDamage false;};
+    _obj allowDamage true;
+    _result = _this call fnc_vehicle_handleDamage;
+    _result
 };

@@ -1,8 +1,6 @@
-///////////////////////////////////////////////////////
 ///Use the built in mission system (config file for mission system in mission folder)
 ai_mission_sysyem = True;
 
-///////////////////////////////////////////////////////
 /// clears all Weapons and Magazines off body on death
 ai_clear_body = False;
 
@@ -11,7 +9,7 @@ ai_clean_dead = True;
 
 /// Time (in seconds) after which a dead body will be cleaned up
 cleanup_time = 1800;
-///////////////////////////////////////////////////////
+
 /// Sets radius for AI patrols (call spawn_group)
 ai_patrol_radius = 300;
 
@@ -22,14 +20,12 @@ ai_patrol_radius_wp = 10;
 ai_combatmode = "RED";
 ai_behaviour = "SAFE";
 
-///////////////////////////////////////////////////////
 /// Turns on AI info sharing (Makes them very hard even on low skill settings)
 ai_ahare_info = True;
 
 /// Distance AI will let other enemies know of your position (currently only on kill) 
 ai_share_distance = 200;
 
-///////////////////////////////////////////////////////
 /// Gain humanity for killing an AI unit (True: is on. False: is off.) 
 ai_humanity_gain = True;
 
@@ -37,7 +33,7 @@ ai_humanity_gain = True;
 ai_add_humanity = 50;
 
 /// Adds bandit kill when killing an AI (True: on. False: off.)
-ai_banditkills_gain = True;
+ai_banditkills_gain = False;
 
 ///////////////////////////////////////////////////////
 /// Allows you to set a custom skill array for units. (True: will use these arrays. False: will use number in spawn array)
@@ -45,8 +41,8 @@ ai_custom_skills = True;
 
 /// Custom skill array. Use 0 to use this with ai_custom_skills = True 
 ai_custom_array1 = [
-["aimingAccuracy",0.60],
-["aimingShake",0.60],
+["aimingAccuracy",1.00],
+["aimingShake",1.00],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
 ["spotDistance",0.60],
@@ -59,13 +55,13 @@ ai_custom_array1 = [
 
 /// Custom skill array. Use 1 to use this with ai_custom_skills = True 
 ai_custom_array2 = [
-["aimingAccuracy",0.15],
-["aimingShake",0.20],
+["aimingAccuracy",1.00],
+["aimingShake",1.00],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
-["spotDistance",0.60],
+["spotDistance",0.8],
 ["spotTime",1.00],
-["courage",1.00],
+["courage",0.60],
 ["reloadSpeed",1.00],
 ["commanding",1.00],
 ["general",1.00]
@@ -73,11 +69,11 @@ ai_custom_array2 = [
 
 /// Custom skill array. Use 2 to use this with ai_custom_skills = True 
 ai_custom_array3 = [
-["aimingAccuracy",0.60],
-["aimingShake",0.60],
+["aimingAccuracy",1.00],
+["aimingShake",1.00],
 ["aimingSpeed",1.00],
 ["endurance",1.00],
-["spotDistance",0.60],
+["spotDistance",1.00],
 ["spotTime",1.00],
 ["courage",1.00],
 ["reloadSpeed",1.00],
@@ -97,11 +93,11 @@ ai_static_skills = True;
 
 /// Custom skill array. Use this with ai_static_skills = True;
 ai_static_array = [
-["aimingAccuracy",0.15],
-["aimingShake",0.20],
+["aimingAccuracy",0.20],
+["aimingShake",0.80],
 ["aimingSpeed",0.50],
 ["endurance",1.00],
-["spotDistance",0.60],
+["spotDistance",0.75],
 ["spotTime",1.00],
 ["courage",1.00],
 ["reloadSpeed",1.00],
@@ -114,32 +110,32 @@ ai_static_array = [
 
 /// 0 ///
 ai_gear0 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
+["ItemBandage","ItemBandage","ItemPainkiller","ItemMorphine","ItemMorphine","ItemBloodbag"],
 ["ItemKnife"]
 ];
 
 /// 1 ///
 ai_gear1 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife"]
+["ItemBandage","ItemBandage","ItemPainkiller","Mine","FoodMRE","ItemWaterbottle"],
+["ItemKnife","Binocular_Vector"]
 ];
 
 /// 2 ///
 ai_gear2 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
+["ItemBandage","ItemBandage","ItemPainkiller","1rnd_HE_M203","1rnd_HE_M203","1rnd_HE_M203"],
 ["ItemKnife"]
 ];
 
 /// 3 ///
 ai_gear3 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife"]
+["ItemBandage","ItemBandage","ItemPainkiller","Laserbatteries","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD","15Rnd_9x19_M9SD"],
+["ItemKnife","M9SD"]
 ];
 
 /// 4 ///
 ai_gear4 = [
-["ItemBandage","ItemBandage","ItemPainkiller"],
-["ItemKnife"]
+["ItemBandage","ItemBandage","MAAWS_HEAT"],
+["ItemKnife","ItemGPS","MAAWS"]
 ];
 
 /// Gearsets to use if set to "Random" ///
@@ -151,57 +147,52 @@ ai_gear_random = [ai_gear0,ai_gear1,ai_gear2,ai_gear3,ai_gear4];
 
 /// 0 ///
 ai_wep0 = [
-["AKS_74_UN_kobra","30Rnd_545x39_AKSD"], 
-["M4A3_CCO_EP1","30Rnd_556x45_Stanag"], 
-["M4A1_AIM_SD_camo","30Rnd_556x45_StanagSD"], 
-["M16A4","30Rnd_556x45_Stanag"], 
-["m8_carbine","30Rnd_556x45_Stanag"], 
-["BAF_L85A2_RIS_Holo","30Rnd_556x45_Stanag"], 
-["Sa58V_CCO_EP1","30Rnd_762x39_AK47"]
+["m8_Sharpshooter","100Rnd_556x45_BetaCMag"], 
+["m16a4_acg","100Rnd_556x45_BetaCMag"], 
+["Sa58V_RCO_EP1","30Rnd_762x39_AK47"], 
+["G36K","100Rnd_556x45_BetaCMag"], 
+["SCAR_H_CQC_CCO","20rnd_762x51_B_SCAR"]
 ];
 
 /// 1 ///
 ai_wep1 = [
-["AK_107_pso","30Rnd_545x39_AK"], 
-["M16A4_ACG","30Rnd_556x45_Stanag"], 
-["Sa58V_RCO_EP1","30Rnd_762x39_AK47"], 
-["SCAR_L_STD_Mk4CQT","30Rnd_556x45_Stanag"], 
-["BAF_L86A2_ACOG","30Rnd_556x45_Stanag"], 
-["M4A1_AIM_SD_camo","30Rnd_556x45_StanagSD"], 
-["M14_EP1","20Rnd_762x51_DMR"], 
-["M8_sharpshooter","30Rnd_556x45_Stanag"]
-];
-
-/// 2 ///
-ai_wep2 = [
-["AK_107_GL_pso","30Rnd_545x39_AK"], 
-["AK_107_GL_kobra","30Rnd_545x39_AK"], 
-["M4A1_HWS_GL","30Rnd_556x45_Stanag"], 
-["M16A4_ACG_GL","30Rnd_556x45_Stanag"], 
-["M8_carbineGL","30Rnd_556x45_Stanag"], 
-["SCAR_L_STD_EGLM_RCO","30Rnd_556x45_Stanag"], 
-["BAF_L85A2_UGL_Holo","30Rnd_556x45_Stanag"], 
-["M4A3_RCO_GL_EP1","30Rnd_556x45_Stanag"]
-];
-
-/// 3 ///
-ai_wep3 = [ 
-["SCAR_H_STD_EGLM_Spect","20rnd_762x51_B_SCAR"], 
+["SCAR_H_LNG_Sniper","20rnd_762x51_B_SCAR"], 
 ["M110_NVG_EP1","20rnd_762x51_B_SCAR"], 
-["SCAR_H_LNG_Sniper_SD","20rnd_762x51_SB_SCAR"], 
-["SVD_CAMO","10Rnd_762x54_SVD"], 
+["BAF_LRR_scoped_W","5Rnd_86x70_L115A1"], 
+["KSVK_DZE","5Rnd_127x108_KSVK"], 
 ["VSS_Vintorez","20Rnd_9x39_SP5_VSS"], 
 ["DMR","20Rnd_762x51_DMR"], 
 ["M40A3","5Rnd_762x51_M24"]
 ];
 
+/// 2 ///
+ai_wep2 = [
+["AK_107_GL_pso","30Rnd_545x39_AK"], 
+["M32_EP1","6Rnd_HE_M203"], 
+["M16A4_ACG_GL","100Rnd_556x45_BetaCMag"], 
+["SCAR_H_STD_EGLM_Spect","20rnd_762x51_B_SCAR"], 
+["SCAR_L_STD_EGLM_RCO","100Rnd_556x45_BetaCMag"], 
+["BAF_L85A2_UGL_ACOG","100Rnd_556x45_BetaCMag"], 
+["M4A3_RCO_GL_EP1","100Rnd_556x45_BetaCMag"]
+];
+
+/// 3 ///
+ai_wep3 = [ 
+["M4A1_HWS_GL_SD_CAMO","30Rnd_556x45_StanagSD"],
+["G36_C_SD_Eotech","30Rnd_556x45_StanagSD"],
+["SCAR_H_LNG_Sniper_SD","20rnd_762x51_SB_SCAR"],
+["SCAR_H_CQC_CCO_SD","20rnd_762x51_SB_SCAR"],
+["VSS_Vintorez","20Rnd_9x39_SP5_VSS"]
+];
+
 /// 4 ///
 ai_wep4 = [
-["RPK_74","75Rnd_545x39_RPK"], 
-["MK_48_DZ","100Rnd_762x51_M240"], 
-["M249_DZ","200Rnd_556x45_M249"], 
-["Pecheneg_DZ","100Rnd_762x54_PK"], 
-["M240_DZ","100Rnd_762x51_M240"]
+["BAF_L110A1_Aim","200Rnd_556x45_M249"],
+["AA12_PMC","20Rnd_B_AA12_HE"],
+["M249_m145_EP1_DZE","200Rnd_556x45_M249"],
+["Pecheneg_DZ","100Rnd_762x54_PK"],
+["SMAW","SMAW_HEAA"],
+["M240_scoped_EP1_DZE","100Rnd_762x51_M240"]
 ];
 
 /// Arrays used in "Random" for weapons///
@@ -210,16 +201,14 @@ ai_wep_random = [ai_wep0,ai_wep1,ai_wep2,ai_wep3,ai_wep4];
 ///////////////////////////////////////////////////////
 /// Backpacks used when "" for random ///
 ai_packs = [
-"DZ_Patrol_Pack_EP1",
-"DZ_Assault_Pack_EP1",
-"DZ_Czech_Vest_Puch",
-"DZ_TerminalPack_EP1",
-"DZ_ALICE_Pack_EP1",
-"DZ_TK_Assault_Pack_EP1",
-"DZ_CompactPack_EP1",
-"DZ_British_ACU",
-"DZ_GunBag_EP1",
-"DZ_CivilBackpack_EP1",
+"DZ_LargeGunBag_EP1",
+"Tripod_Bag",
+"M2StaticMG_US_Bag_EP1",
+"M2HD_mini_TriPod_US_Bag_EP1",
+"KORD_high_UN_Bag_EP1",
+"TOW_TriPod_US_Bag_EP1",
+"M252_US_Bag_EP1",
+"BAF_GPMG_Minitripod_D_bag",
 "DZ_Backpack_EP1"
 ];
 

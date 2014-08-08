@@ -1,7 +1,7 @@
 private ["_callerID","_friendlies","_myGroup","_rfriendlies","_targetID","_targetName"];
 
 _myGroup = units group player;
-{[_x] join grpNull;} forEach _myGroup;
+{[_x] join grpNull;} count _myGroup;
 
 _callerID = player getVariable "CharacterID";
 {
@@ -18,4 +18,5 @@ _callerID = player getVariable "CharacterID";
 	_x setVariable ["friendlies", _rfriendlies, true];
 } count _myGroup;
 
-titleText ["\n\nAll group members have been removed from your friendly list.","PLAIN DOWN"];titleFadeOut 4;
+systemChat "The group has been disbanded";
+systemChat "All group members have been removed from your friendly list";

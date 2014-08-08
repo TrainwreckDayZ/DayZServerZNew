@@ -3,21 +3,46 @@
 Custom group spawns Eg.
 
 [[953.237,4486.48,0.001], //position
+2,						  //Number Of units
+2,					      //Skill level 0-1 or skill array number if using custom skills "Random" for random Skill array.
+"4",			      //Primary gun set number. "Random" for random weapon set.
+4,						  //Number of magazines
+"DZ_LargeGunBag_EP1",						  //Backpack "" for random or classname here.
+"Bandit2_DZ",			  //Skin "" for random or classname here.
+"4"                  //Gearset number. "Random" for random gear set.
+] call spawn_group;
+
+Place your custom group spawns below
+*/
+[[953.237,4486.48,0.001], //position
+2,						  //Number Of units
+2,					      //Skill level 0-1 or skill array number if using custom skills "Random" for random Skill array.
+"4",			      //Primary gun set number. "Random" for random weapon set.
+4,						  //Number of magazines
+"DZ_LargeGunBag_EP1",						  //Backpack "" for random or classname here.
+"Bandit2_DZ",			  //Skin "" for random or classname here.
+"4"                  //Gearset number. "Random" for random gear set.
+] call spawn_group;
+
+[[953.237,4486.48,0.001], //position
 4,						  //Number Of units
 1,					      //Skill level 0-1 or skill array number if using custom skills "Random" for random Skill array.
+"1",			      //Primary gun set number. "Random" for random weapon set.
+4,						  //Number of magazines
+"",						  //Backpack "" for random or classname here.
+"Bandit2_DZ",			  //Skin "" for random or classname here.
+"1"                  //Gearset number. "Random" for random gear set.
+] call spawn_group;
+
+[[953.237,4486.48,0.001], //position
+4,						  //Number Of units
+0,					      //Skill level 0-1 or skill array number if using custom skills "Random" for random Skill array.
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
 "Bandit2_DZ",			  //Skin "" for random or classname here.
 "Random"                  //Gearset number. "Random" for random gear set.
 ] call spawn_group;
-
-Place your custom group spawns below
-*/
-
-
-
-
 
 /*
 Custom static weapon spawns Eg. (with one position)
@@ -46,10 +71,25 @@ Custom static weapon spawns Eg. (with mutiple positions)
 
 Place your custom static weapon spawns below
 */
+[[[911.21545,4532.7612,2.6292224]], //position(s) (can be multiple).
+"Zu23_CDF",             //Classname of turret
+0.5,					  //Skill level 0-1. Has no effect if using custom skills
+"Bandit2_DZ",			  //Skin "" for random or classname here.
+1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
+2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
+"",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
+"Random"				  //Gearset number. "Random" for random gear set. (not needed if ai_static_useweapon = False)
+] call spawn_static;
 
-
-
-
+[[[921.21545,4532.7612,2.6292224]], //position(s) (can be multiple).
+"TOW_Tripod",             //Classname of turret
+0.5,					  //Skill level 0-1. Has no effect if using custom skills
+"Bandit2_DZ",			  //Skin "" for random or classname here.
+1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
+2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
+"",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
+"Random"				  //Gearset number. "Random" for random gear set. (not needed if ai_static_useweapon = False)
+] call spawn_static;
 
 /*
 Custom Chopper Patrol spawn Eg.

@@ -1,22 +1,16 @@
-/*
-	Below are the lists of allowed weapons for the weapon crates. Adjust them to your liking.
-*/
-
-//////////////////////////////////////////////////////////////////////////////////////////////
 // Pistols
-DZMSpistolList = ["UZI_SD_EP1","glock17_EP1","M9SD","MakarovSD","UZI_EP1"];
+DZMSpistolList = ["UZI_SD_EP1","M9SD"];
 
 // Sniper Rifles
-DZMSsniperList = ["BAF_LRR_scoped_W","DMR_DZ","M110_NVG_EP1","BAF_LRR_scoped","KSVK_DZE","BAF_AS50_Scoped","m107"];
+DZMSsniperList = ["BAF_LRR_scoped_W","DMR_DZ","M110_NVG_EP1","BAF_AS50_Scoped","m107"];
 
 // Light Machineguns
-DZMSmgList = ["Pecheneg_DZ"];
+DZMSmgList = ["MAAWS","SMAW","M47Launcher_EP1","MetisLauncher","Stinger","M110_TWS_EP1","m107_TWS_EP1"];
 
 // Primary Rifles
-DZMSprimaryList = ["SCAR_H_STD_EGLM_Spect","M79_EP1","M32_EP1","SCAR_H_CQC_CCO","SCAR_H_CQC_CCO_SD","BAF_L85A2_UGL_ACOG","SCAR_L_STD_EGLM_RCO"];
+DZMSprimaryList = ["SCAR_H_STD_EGLM_Spect","Pecheneg_DZ","M32_EP1","SCAR_L_STD_EGLM_RCO","AA12_PMC","BAF_LRR_scoped_W","DMR_DZ","M110_NVG_EP1","BAF_AS50_Scoped","m107"];
 
-////////////////////////////////////////////////////////////////////////////////////////////////
 // Epoch Supplies. If you have Epoch, these are the supplies in the Construction Crates
-DZMSConTools = ["ItemToolbox","ItemCrowbar","ItemKnife","ItemEtool","ItemHatchet_DZE","NVGoggles","ItemMatchbox_DZE"];
+DZMSConTools = ["ItemToolbox","ItemCrowbar","ItemGPS","ItemEtool","ItemHatchet_DZE","Binocular_Vector","ItemFishingPole","LaserDesignator"];
 
-DZMSConSupply = ["CinderBlocks","MortarBucket","bulk_ItemTankTrap","ItemPole","bulk_PartGeneric","PartPlywoodPack","PartPlankPack","ItemTentDomed2","ItemSandbag","bulk_ItemWire","workbench_kit","Itemvault","cinder_garage_kit","cinder_door_kit","ItemComboLock","cinder_wall_kit","ItemWoodStairs","metal_floor_kit","ItemWoodWallLg","ItemWoodLadder","storage_shed_kit"];
+DZMSConSupply = ["ItemWoodStairs","ItemPole","ItemPole","bulk_ItemTankTrap","bulk_PartGeneric","bulk_PartGeneric","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","MortarBucket","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","CinderBlocks","PartPlankPack","PartPlywoodPack","ItemWoodFloor","ItemWoodFloor","metal_floor_kit","metal_floor_kit","metal_floor_kit","outhouse_kit","cinder_wall_kit","ItemComboLock","ItemWoodWallLg","ItemWoodWallGarageDoor","ItemWoodWallWindowLg","Itemvault","cinder_garage_kit","cinder_door_kit","storage_shed_kit","wood_shack_kit","deer_stand_kit","ItemWoodLadder","forest_net_kit","bulk_ItemSandbag","ItemWoodStairs","ItemPole","ItemPole","bulk_ItemTankTrap","MortarBucket","CinderBlocks","PartPlankPack","PartPlywoodPack","ItemWoodFloor","metal_floor_kit","cinder_wall_kit","ItemWoodWallLg","ItemWoodWallGarageDoor","ItemWoodWallWindowLg","storage_shed_kit","ItemWoodLadder","bulk_ItemSandbag"];

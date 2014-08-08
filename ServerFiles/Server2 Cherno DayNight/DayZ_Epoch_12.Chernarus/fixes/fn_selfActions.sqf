@@ -95,6 +95,101 @@ if(_isPZombie) then {
 	};
 };
 _allowedDistance = if ((cursorTarget isKindOf "Air") || (cursorTarget isKindOf "Ship")) then {8;} else {4;};
+//R3F TOWING BEGIN
+_nearArray = (vehicle player) nearEntities [["Land","Ship","Air","Static"], 20];
+if (_invehicle) then {
+	if (((_nearArray select 0) == (vehicle player)) && (count _nearArray > 1)) then { _cursorTarget = _nearArray select 1; } else { _cursorTarget = _nearArray select 0; };
+} else {
+	_cursorTarget = cursorTarget;
+};
+if (isNil "_cursorTarget") then { _cursorTarget = objNull; };
+_R3FCond = if (!_invehicle) then { ((!isNull cursorTarget) && !_isPZombie && ((player distance cursorTarget) < _allowedDistance) && _canDo) } else { (((count _nearArray) > 1) && (_cursorTarget != (vehicle player)) && (!(_cursorTarget in [R3F_action_deplacer_object,R3F_action_charger_target,R3F_action_remorquables_target,R3F_action_remorquer_object,R3F_action_heliporter_object])))};
+if (_R3FCond) then {
+	if ({_cursorTarget isKindOf _x} count R3F_liste_objets_depl_heli_remorq_transp > 0) then {
+		[_cursorTarget] call R3F_LOG_FNCT_objet_init;
+	} else {
+		R3F_action_charger_target removeAction R3F_action_charger_deplace;
+		R3F_action_charger_target removeAction R3F_action_selectionner_objet_charge;
+		R3F_action_deplacer_object removeAction R3F_action_deplacer_objet;
+		R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
+		R3F_action_remorquables_target removeAction R3F_action_detacher;
+		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+		R3F_action_remorquer_deplace2 = -5;
+		R3F_action_remorquer_deplace = -5;
+		R3F_action_charger_deplace = -5;
+		R3F_action_detacher = -5;
+		R3F_action_selectionner_objet_remorque = -5;
+		R3F_action_deplacer_objet = -5;
+		R3F_action_selectionner_objet_charge = -5;
+		if (_invehicle) then {
+			R3F_action_deplacer_object = objNull;
+			R3F_action_charger_target = objNull;
+			R3F_action_remorquables_target = objNull;
+			R3F_action_remorquer_object = objNull;
+		};
+	};
+	if ({(vehicle player) isKindOf _x} count R3F_LOG_CFG_heliporteurs > 0) then {
+		if (R3F_action_heliporter < -4) then {
+			[(vehicle player), _cursorTarget] call R3F_LOG_FNCT_heliporteur_init;
+		};
+	} else {
+		R3F_action_heliporter_object removeAction R3F_action_heliporter;
+		R3F_action_heliporter_object removeAction R3F_action_heliport_largue;
+		R3F_action_heliporter = -5;
+		R3F_action_heliport_largue = -5;
+		if (_invehicle) then {
+			R3F_action_heliporter_object = objNull;
+		};
+	};
+	if (!_inVehicle) then {
+		if ({_cursorTarget isKindOf _x} count R3F_LOG_CFG_remorqueurs > 0) then {
+			if ((R3F_action_remorquer_deplace2 < -4) && (R3F_action_remorquer_selection2 < -4)) then {
+				[_cursorTarget] call R3F_LOG_FNCT_remorqueur_init;
+			};
+		} else {
+			R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+			R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
+			R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+			R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
+			R3F_action_remorquer_deplace2 = -5;
+			R3F_action_remorquer_selection2 = -5;
+		};
+	};
+} else {
+		R3F_action_charger_target removeAction R3F_action_charger_deplace;
+		R3F_action_charger_target removeAction R3F_action_selectionner_objet_charge;
+		R3F_action_deplacer_object removeAction R3F_action_deplacer_objet;
+		R3F_action_remorquables_target removeAction R3F_action_selectionner_objet_remorque;
+		R3F_action_remorquables_target removeAction R3F_action_detacher;
+		R3F_action_remorquables_target removeAction R3F_action_remorquer_deplace;
+		R3F_action_remorquables_target removeAction R3F_action_remorquer_selection;
+		R3F_action_heliporter_object removeAction R3F_action_heliporter;
+		R3F_action_heliporter_object removeAction R3F_action_heliport_largue;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_deplace2;
+		R3F_action_remorquer_object removeAction R3F_action_remorquer_selection2;
+		if (_invehicle) then {
+			R3F_action_charger_target = objNull;
+			R3F_action_deplacer_object = objNull;
+			R3F_action_remorquables_target = objNull;
+			R3F_action_heliporter_object = objNull;
+			R3F_action_remorquer_object = objNull;
+		};
+		R3F_action_remorquer_deplace2 = -5;
+		R3F_action_remorquer_selection2 = -5;
+		R3F_action_charger_deplace = -5;
+		R3F_action_selectionner_objet_charge = -5;
+		R3F_action_deplacer_objet = -5;
+		R3F_action_selectionner_objet_remorque = -5;
+		R3F_action_detacher = -5;
+		R3F_action_remorquer_deplace = -5;
+		R3F_action_remorquer_selection = -5;
+		R3F_action_heliporter = -5;
+		R3F_action_heliport_largue = -5;
+		R3F_action_remorquer_deplace = -5;
+		R3F_action_remorquer_selection = -5;
+};
+//END R3F TOWING
 if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cursorTarget) < _allowedDistance) && _canDo) then {
 	_cursorTarget = cursorTarget;
 	_typeOfCursorTarget = typeOf _cursorTarget;
@@ -623,6 +718,10 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 				} count (_traderMenu select 1);
 				_buy = player addAction [localize "STR_EPOCH_PLAYER_289", "\z\addons\dayz_code\actions\show_dialog.sqf",(_traderMenu select 0), 999, true, false, "",""];
 				s_player_parts set [count s_player_parts,_buy];
+				
+				// Add static metals trader options under sub menu
+				_metals_trader = player addAction ["Trade Gems", "fixes\trade_metals.sqf",["na"], 0, true, false, "",""];
+				s_player_parts set [count s_player_parts,_metals_trader];
 			};
 			s_player_parts_crtl = 1;
 		};
