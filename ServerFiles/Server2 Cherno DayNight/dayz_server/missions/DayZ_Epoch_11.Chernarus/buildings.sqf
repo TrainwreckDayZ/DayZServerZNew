@@ -108,4 +108,32 @@ if (true) then
   _this setPos [6863.9, 2500.11, 39.693];
 };
 
+//mhallensworth Hunter Sphere 76561198088177626
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [1861.33, 11024.6, 0.5], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [1861.33, 11024.6, 0.5];
+};
+
+//mhallensworth Hunter Fuel Tank 76561198088177626
+_vehicle_4 = objNull;
+if (true) then
+{
+  _this = createVehicle ["Land_Ind_TankSmall", [1842.8, 11020.8], [], 0, "CAN_COLLIDE"];
+  _vehicle_4 = _this;
+  _this setDir -276.969;
+  _this setPos [1842.8, 11020.8];
+};
+
+_vehicle_3 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_SmallObj_money", [1842.8, 11020.8, 0], [], 0, "CAN_COLLIDE"];
+  _vehicle_3 = _this;
+  _this setPos [1842.8, 11020.8, 0];
+};
+
 };
