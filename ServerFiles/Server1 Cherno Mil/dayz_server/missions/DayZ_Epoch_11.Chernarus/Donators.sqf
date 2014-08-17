@@ -2796,7 +2796,226 @@ if (true) then
   _this setPos [9373.1602, 9917.7441, -3.0517578e-005];
 };
 
-//Free Building Maintenance
+
+_vehicle_4 = objNull;
+if (true) then
+{
+  _this = createVehicle ["CinderWall_DZ", [9837.1895, 3863.4575, -0.21942085], [], 0, "CAN_COLLIDE"];
+  _vehicle_4 = _this;
+  _this setDir 99.173027;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9837.1895, 3863.4575, -0.21942085];
+};
+
+_vehicle_6 = objNull;
+if (true) then
+{
+  _this = createVehicle ["CinderWall_DZ", [9831.9834, 3864.2024, -0.12942702], [], 0, "CAN_COLLIDE"];
+  _vehicle_6 = _this;
+  _this setDir 99.507744;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9831.9834, 3864.2024, -0.12942702];
+};
+
+_vehicle_8 = objNull;
+if (true) then
+{
+  _this = createVehicle ["CinderWall_DZ", [9835.0771, 3866.4302, -0.089317471], [], 0, "CAN_COLLIDE"];
+  _vehicle_8 = _this;
+  _this setDir 189.31183;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9835.0771, 3866.4302, -0.089317471];
+};
+
+_vehicle_9 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MetalFloor_DZ", [9834.5459, 3863.7297, 3.0561168], [], 0, "CAN_COLLIDE"];
+  _vehicle_9 = _this;
+  _this setDir 99.225517;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9834.5459, 3863.7297, 3.0561168];
+};
+
+_vehicle_26 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9841.4043, 3869.0256, 3.0517578e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_26 = _this;
+  _this setDir 142.55994;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9841.4043, 3869.0256, 3.0517578e-005];
+};
+
+_vehicle_34 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9835.8379, 3872.3926, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_34 = _this;
+  _this setDir 98.818428;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9835.8379, 3872.3926, 6.1035156e-005];
+};
+
+_vehicle_36 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9829.2861, 3870.8655, 0.00021362305], [], 0, "CAN_COLLIDE"];
+  _vehicle_36 = _this;
+  _this setDir 235.82645;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9829.2861, 3870.8655, 0.00021362305];
+};
+
+_vehicle_43 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9836.9307, 3845.1733, 9.1552734e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_43 = _this;
+  _this setDir 235.4693;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9836.9307, 3845.1733, 9.1552734e-005];
+};
+
+_vehicle_45 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9825.8398, 3846.7634, 0.00039672852], [], 0, "CAN_COLLIDE"];
+  _vehicle_45 = _this;
+  _this setDir 139.42325;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9825.8398, 3846.7634, 0.00039672852];
+};
+
+_vehicle_52 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9825.834, 3865.4006, 9.1552734e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_52 = _this;
+  _this setDir 189.45602;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9825.834, 3865.4006, 9.1552734e-005];
+};
+
+_vehicle_55 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9842.7666, 3862.6355, 3.0517578e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_55 = _this;
+  _this setDir 190.76266;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9842.7666, 3862.6355, 3.0517578e-005];
+};
+
+_vehicle_58 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9824.8906, 3859.2371, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_58 = _this;
+  _this setDir 189.49673;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9824.8906, 3859.2371, 6.1035156e-005];
+};
+
+_vehicle_61 = objNull;
+if (true) then
+{
+  _this = createVehicle ["CinderWall_DZ", [9836.3232, 3858.0532, -0.27406585], [], 0, "CAN_COLLIDE"];
+  _vehicle_61 = _this;
+  _this setDir 98.930504;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9836.3232, 3858.0532, -0.27406585];
+};
+
+_vehicle_63 = objNull;
+if (true) then
+{
+  _this = createVehicle ["CinderWall_DZ", [9831.1094, 3858.8572, -0.34120566], [], 0, "CAN_COLLIDE"];
+  _vehicle_63 = _this;
+  _this setDir 99.677711;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9831.1094, 3858.8572, -0.34120566];
+};
+
+_vehicle_67 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MetalFloor_DZ", [9833.7148, 3858.5186, 2.9351661], [], 0, "CAN_COLLIDE"];
+  _vehicle_67 = _this;
+  _this setDir 98.916954;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9833.7148, 3858.5186, 2.9351661];
+};
+
+_vehicle_70 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9841.709, 3856.6038, 3.0517578e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_70 = _this;
+  _this setDir 190.76266;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9841.709, 3856.6038, 3.0517578e-005];
+};
+
+_vehicle_76 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9823.8984, 3853.0952], [], 0, "CAN_COLLIDE"];
+  _vehicle_76 = _this;
+  _this setDir 189.49673;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9823.8984, 3853.0952];
+};
+
+_vehicle_79 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_Cargo1B", [9840.5957, 3850.605], [], 0, "CAN_COLLIDE"];
+  _vehicle_79 = _this;
+  _this setDir 190.76266;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9840.5957, 3850.605];
+};
+
+_vehicle_81 = objNull;
+if (true) then
+{
+  _this = createVehicle ["Land_Fire_barrel", [9841.5029, 3865.5698], [], 0, "CAN_COLLIDE"];
+  _vehicle_81 = _this;
+  _this setDir -113.2674;
+  _this setPos [9841.5029, 3865.5698];
+};
+
+//sigmamercc Econo Base 76561197995164259 098 114 PNMU6U33WV8T
+_vehicle_82 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Misc_WellPump", [9828.877, 3867.4937], [], 0, "CAN_COLLIDE"];
+  _vehicle_82 = _this;
+  _this setDir -113.2674;
+  _this setPos [9828.877, 3867.4937];
+};
+
+_vehicle_84 = objNull;
+if (true) then
+{
+  _this = createVehicle ["Land_Ind_TankSmall2_EP1", [9823.833, 3845.0669, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_84 = _this;
+  _this setDir -130.51422;
+  _this setVehicleInit "this allowDammage false; this setVectorup [0,0,0.1]";
+  _this setPos [9823.833, 3845.0669, 6.1035156e-005];
+};
+
+_vehicle_85 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [9834.9688, 3865.8286, 0.23107243], [], 0, "CAN_COLLIDE"];
+  _vehicle_85 = _this;
+  _this setPos [9834.9688, 3865.8286, 0.23107243];
+};
+
+
+//Free Building Maintenance-------------------------------------------------------
 
 //Dominick Sphere 121523302
 _vehicle_0 = objNull;
