@@ -15,7 +15,6 @@ _crash = createVehicle ["HMMWVwreck",_coords,[], 0, "CAN_COLLIDE"];
 _crate = createVehicle ["RULaunchersBox",[(_coords select 0) - 14, _coords select 1,0],[], 0, "CAN_COLLIDE"];
 [_crate,"money"] ExecVM DZMSBoxSetup;
 [_crate] call DZMSProtectObj;
-_crate setVehicleInit "this allowDammage false";
 
 //Usage: [_coords, count, skillLevel, unitArray]
 [_coords,3,1,"DZMSUnitsMinor"] call DZMSAISpawn;

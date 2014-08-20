@@ -11,7 +11,7 @@ _veh = createVehicle [_vehclass,_position, [], 0, "CAN_COLLIDE"];
 _vehdir = round(random 360);
 _veh setDir _vehdir;
 _veh setVariable ["ObjectID","1",true];
-_veh setVehicleInit "this allowDammage false";
+_veh allowDammage false;
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh];
 diag_log format["WAI: Mission Armed Vehicle spawned a %1",_vehname];
 
@@ -77,8 +77,8 @@ if (_playerPresent) then {
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission Armed vehicle Ended At %1",_position];
-	_veh setVehicleInit "this allowDammage true";
 	[nil,nil,rTitleText,"Survivors have secured the armed vehicle!", "PLAIN",10] call RE;
+	_veh allowDammage true;
 } else {
 	clean_running_mission = True;
 	deleteVehicle _veh;

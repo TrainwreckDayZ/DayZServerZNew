@@ -13,7 +13,7 @@ _veh setDir _vehdir;
 clearWeaponCargoGlobal _veh;
 clearMagazineCargoGlobal _veh;
 _veh setVariable ["ObjectID","1",true];
-_veh setVehicleInit "this allowDammage false";
+_veh allowDammage false;
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh];
 diag_log format["WAI: Mission Armed Chopper spawned a %1",_vehname];
 
@@ -78,8 +78,8 @@ if (_playerPresent) then {
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission armed chopper Ended At %1",_position];
-	_veh setVehicleInit "this allowDammage true";
 	[nil,nil,rTitleText,"Survivors have secured the armed aircraft!", "PLAIN",10] call RE;
+	_veh allowDammage true;
 } else {
 	clean_running_mission = True;
 	deleteVehicle _veh;
