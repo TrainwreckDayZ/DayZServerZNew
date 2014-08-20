@@ -1062,16 +1062,6 @@ if (true) then
   _this setPos [1179.6418, 5962.1001, 0.00012207031];
 };
 
-_vehicle_33 = objNull;
-if (true) then
-{
-  _this = createVehicle ["MAP_CamoNetB_NATO", [1194.2119, 5968.2773, -1.5258789e-005], [], 0, "CAN_COLLIDE"];
-  _vehicle_33 = _this;
-  _this setDir -52.570152;
-  _this setVehicleInit "this allowDammage false";
-  _this setPos [1194.2119, 5968.2773, -1.5258789e-005];
-};
-
 _vehicle_34 = objNull;
 if (true) then
 {
@@ -1080,25 +1070,6 @@ if (true) then
   _this setDir 274.51358;
   _this setVehicleInit "this allowDammage false";
   _this setPos [1214.3247, 5977.0088, 6.1035156e-005];
-};
-
-_vehicle_39 = objNull;
-if (true) then
-{
-  _this = createVehicle ["Land_Fort_Watchtower_EP1", [1205.3995, 5951.333, 1.5258789e-005], [], 0, "CAN_COLLIDE"];
-  _vehicle_39 = _this;
-  _this setDir -127.55032;
-  _this setVehicleInit "this allowDammage false";
-  _this setPos [1205.3995, 5951.333, 1.5258789e-005];
-};
-
-_vehicle_40 = objNull;
-if (true) then
-{
-  _this = createVehicle ["Land_fortified_nest_big", [1212.3684, 5991.6216, 0.46751419], [], 0, "CAN_COLLIDE"];
-  _vehicle_40 = _this;
-  _this setDir -184.58072;
-  _this setPos [1212.3684, 5991.6216, 0.46751419];
 };
 
 _vehicle_43 = objNull;
