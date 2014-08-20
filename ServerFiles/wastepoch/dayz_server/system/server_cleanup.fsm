@@ -314,26 +314,26 @@ class FSM
     };
     /*%FSM</STATE>*/
     /*%FSM<STATE "group_cleanup">*/
-   // class group_cleanup
-   // {
-     // name = "group_cleanup";
-     // init = /*%FSM<STATEINIT""">*/"[] spawn server_checkHackers;" \n
-      // "[] spawn server_cleanupGroups;"/*%FSM</STATEINIT""">*/;
-     // precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
-      //class Links
-     // {
+    class group_cleanup
+    {
+      name = "group_cleanup";
+      init = /*%FSM<STATEINIT""">*/"[] spawn server_checkHackers;" \n
+       "[] spawn server_cleanupGroups;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
         /*%FSM<LINK "true">*/
-     //   class true
-    //    {
-    //      priority = 0.000000;
-     //     to="general_cleanup";
-     //     precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
-      //    condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
-     //     action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
-      //  };
-     //   /*%FSM</LINK>*/
-     // };
-  //  };
+        class true
+        {
+          priority = 0.000000;
+          to="general_cleanup";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
     /*%FSM</STATE>*/
     /*%FSM<STATE "update_objects">*/
     class update_objects
