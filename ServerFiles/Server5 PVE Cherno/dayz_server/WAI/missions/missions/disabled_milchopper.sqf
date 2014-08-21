@@ -27,7 +27,7 @@ _rndnum,						  //Number Of units
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",						  //Skin "" for random or classname here.
+"TK_Soldier_EP1",						  //Skin "" for random or classname here.
 "Random",				  //Gearset number. "Random" for random gear set.
 true
 ] call spawn_group;
@@ -38,7 +38,7 @@ true
 "Random",			      //Primary gun set number. "Random" for random weapon set.
 4,						  //Number of magazines
 "",						  //Backpack "" for random or classname here.
-"Bandit2_DZ",						  //Skin "" for random or classname here.
+"TK_Soldier_EP1",						  //Skin "" for random or classname here.
 "Random",				  //Gearset number. "Random" for random gear set.
 true
 ] call spawn_group;
@@ -46,7 +46,7 @@ true
 [[[(_position select 0), (_position select 1) + 10, 0]], //position(s) (can be multiple).
 "M2StaticMG",             //Classname of turret
 0.5,					  //Skill level 0-1. Has no effect if using custom skills
-"Bandit2_DZ",				          //Skin "" for random or classname here.
+"TK_Soldier_EP1",				          //Skin "" for random or classname here.
 1,						  //Primary gun set number. "Random" for random weapon set. (not needed if ai_static_useweapon = False)
 2,						  //Number of magazines. (not needed if ai_static_useweapon = False)
 "",						  //Backpack "" for random or classname here. (not needed if ai_static_useweapon = False)
