@@ -1,4 +1,4 @@
-DZMSBanditSkins = ["Bandit2_DZ"];
+DZMSBanditSkins = ["TK_Soldier_EP1"];
 
 // Array of AI Skills
 DZMSSkills0 = [
