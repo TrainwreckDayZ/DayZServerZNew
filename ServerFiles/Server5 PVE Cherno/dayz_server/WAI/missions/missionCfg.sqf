@@ -11,8 +11,6 @@ armed_vehicle = [
 "M2A3_EP1",
 "M6_EP1",
 "BAF_FV510_W",
-"MLRS",
-"GRAD_CDF",
 "T90",
 "2S6M_Tunguska"
 ];
