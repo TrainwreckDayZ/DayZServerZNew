@@ -830,7 +830,7 @@ server_checkHackers = {
 };
 
 server_spawnCleanFire = {
-	private ["_delQtyFP","_qty","_delQtyNull","_missionFires"];
+	private ["_delQtyFP","_qty","_missionFires"];
 	_missionFires = [7650,7710,0] nearObjects ["Land_Fire_DZ", 11000];
 	_delQtyFP = 0;
 	{
@@ -843,7 +843,7 @@ server_spawnCleanFire = {
 	} count _missionFires;
 	if (_delQtyFP > 0) then {
 		_qty = count _missionFires;
-		diag_log (format["CLEANUP: Deleted %1 fireplaces out of %2",_delQtyNull,_qty]);
+		diag_log (format["CLEANUP: Deleted %1 fireplaces out of %2",_delQtyFP,_qty]);
 	};
 };
 server_spawnCleanLoot = {
