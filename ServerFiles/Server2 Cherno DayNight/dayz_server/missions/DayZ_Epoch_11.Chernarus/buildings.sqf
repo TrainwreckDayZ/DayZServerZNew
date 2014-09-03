@@ -102,10 +102,10 @@ if (true) then
 _vehicle_0 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_Sphere", [6863.9, 2500.11, 39.693], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["MAP_Sphere", [4438.22, 8058.1, 356.823], [], 0, "CAN_COLLIDE"];
   _vehicle_0 = _this;
   _this setVehicleInit "this allowDammage false";
-  _this setPos [6863.9, 2500.11, 39.693];
+  _this setPos [4438.22, 8058.1, 356.823];
 };
 
 //mhallensworth Hunter Sphere 76561198088177626
