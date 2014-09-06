@@ -11,12 +11,14 @@ _groupExists = false;
 } forEach currentInvites;
 
 _center = getMarkerPos "center";
-_plist = _center nearEntities [["AllVehicles"], 12000];
+_plist = _center nearEntities ["AllVehicles",10000];
 {
-	if (getPlayerUID _x == _inviterUID) then {
-    	_inviter = _x;
-        _groupExists = true;	    
-    };   
+	if ((!isNull _x) && (getPlayerUID _x != "")) then {
+		if (getPlayerUID _x == _inviterUID) then {
+			_inviter = _x;
+			_groupExists = true;	    
+		};
+	};
 } count _plist;
 
 if (_groupExists) then {

@@ -1,21 +1,16 @@
-#define groupManagementDialog 55510
-#define groupManagementPlayerList 55511
-            
 disableSerialization;
 				
 private ["_center","_dialog","_playerListBox","_plist","_namestr","_index"];
 	
-_dialog = findDisplay groupManagementDialog;
-_playerListBox = _dialog displayCtrl groupManagementPlayerList;
+_dialog = findDisplay 55510;
+_playerListBox = _dialog displayCtrl 55511;
 lbClear _playerListBox;
 _center = getMarkerPos "center";
-_plist = _center nearEntities [["AllVehicles"], 12000];
+_plist = _center nearEntities ["AllVehicles",10000];
 {
 	if ((!isNull _x) && (getPlayerUID _x != "")) then {
-		if (getPlayerUID _x != getPlayerUID player) then {
-			_namestr = name(_x);             
-			_index = _playerListBox lbAdd _namestr;
-			_playerListBox lbSetData [_index, str(_x)];  
-		};
+		_namestr = name _x;
+		_index = _playerListBox lbAdd _namestr;
+		_playerListBox lbSetData [_index,str(_x)];
 	};	    
 } count _plist;

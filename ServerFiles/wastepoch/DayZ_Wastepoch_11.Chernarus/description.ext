@@ -154,8 +154,8 @@ class DayZ_loadingScreen
 #include "custom\extra_rc.hpp"
 #include "dayz_code\config\RscDisplaySpawnSelecter.hpp"
 #include "dzgm\defines.hpp"
-#include "dzgm\groupManagement.hpp"
 class RscTitles
 {
 #include "dzgm\icons.hpp"
 };
+#include "dzgm\groupManagement.hpp"

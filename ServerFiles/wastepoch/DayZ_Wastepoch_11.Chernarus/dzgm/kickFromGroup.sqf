@@ -1,25 +1,24 @@
-#define groupManagementDialog 55510
-#define groupManagementGroupList 55512
-
 disableSerialization;
 
 private ["_plist","_dialog","_target","_index","_playerData","_check","_targetName"];
 
-_dialog = findDisplay groupManagementDialog;
-_groupListBox = _dialog displayCtrl groupManagementGroupList;
-
+_dialog = findDisplay 55510;
+_groupListBox = _dialog displayCtrl 55512;
 _index = lbCurSel _groupListBox;
 _playerData = _groupListBox lbData _index;
 _check = 0;
 
-_plist = units group player;         			
-{if (str(_x) == _playerData) then {_target = _x;_check = 1;};} count _plist;
+_plist = units group player;
+{
+	if ((!isNull _x) && (alive _x)) then {
+		if (str(_x) == _playerData) then {_target = _x;_check = 1;};
+	};
+} count _plist;
 
 if (_target == player) exitWith {systemChat "You can't kick yourself";};
 if (_check == 0) exitWith {systemChat "You must select someone to kick first";};
-
 [_target] join grpNull;
-_targetName = (name _target);
+_targetName = name _target;
 deleteMarkerLocal _targetName;
 
 systemChat format["You have kicked %1 from the group",name _target];

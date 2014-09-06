@@ -1,17 +1,6 @@
-#define groupManagementDialog 55510
-#define groupManagementPlayerList 55511
-#define groupManagementGroupList 55512
-#define groupManagementInviteButton 55514
-#define groupManagementKickButton 55515
-#define groupManagementDisbandButton 55516
-#define groupManagementLeaveButton 55517
-#define groupManagementAcceptButton 55518
-#define groupManagementDeclineButton 55519
-#define groupManagementInviteText 55520
-
 class GroupManagement {
 
-	idd = groupManagementDialog;
+	idd = 55510;
 	movingEnable = true;
 	enableSimulation = true;
 	
@@ -54,10 +43,9 @@ class GroupManagement {
 
 		class InviteText: w_RscStructuredText
 		{
-			idc = groupManagementInviteText;
+			idc = 55520;
 			text = "";
 			size = 0.025;
-
 			x = 0.255; y = 0.500;
 			w = 0.235; h = 0.075;
 		};
@@ -66,7 +54,7 @@ class GroupManagement {
 	class controls {
 
 		class PlayerListBox : w_Rsclist {
-			idc = groupManagementPlayerList;
+			idc = 55511;
 			onLBSelChanged = "call playerSelectChange;";
 			x = 0.020; y = 0.200;
 			w = 0.235; h = 0.380;
@@ -82,7 +70,7 @@ class GroupManagement {
 		};
 		
 		class GroupListBox : w_Rsclist {
-			idc = groupManagementGroupList;
+			idc = 55512;
 			x = 0.490; y = 0.200;
 			w = 0.235; h = 0.425;
 		};
@@ -97,7 +85,7 @@ class GroupManagement {
 		};
 
 		class InviteButton : w_RscButton {
-			idc = groupManagementInviteButton;
+			idc = 55514;
 			text = "Invite";
 			onButtonClick = "call inviteToGroup;";
 			x = 0.3075; y = 0.200;
@@ -106,7 +94,7 @@ class GroupManagement {
 		};
 
 		class KickButton : w_RscButton {
-			idc = groupManagementKickButton;
+			idc = 55515;
 			text = "Kick";
 			onButtonClick = "call kickFromGroup;";
 			x = 0.3075; y = 0.250;
@@ -115,7 +103,7 @@ class GroupManagement {
 		};
 
 		class DisbandButton : w_RscButton {
-			idc = groupManagementDisbandButton;
+			idc = 55516;
 			text = "Disband";
 			onButtonClick = "call disbandGroup;";
 			x = 0.3075; y = 0.300;
@@ -124,7 +112,7 @@ class GroupManagement {
 		};
 
 		class LeaveButton : w_RscButton {
-			idc = groupManagementLeaveButton;
+			idc = 55517;
 			text = "Leave Group";
 			onButtonClick = "call leaveGroup;";
 			x = 0.3075; y = 0.400;
@@ -133,7 +121,7 @@ class GroupManagement {
 		};
 
 		class AcceptInviteButton : w_RscButton {
-			idc = groupManagementAcceptButton;
+			idc = 55518;
 			text = "Accept";
 			onButtonClick = "call acceptGroupInvite;";
 			x = 0.275; y = 0.625 - 0.0255 * safezoneH;
@@ -142,7 +130,7 @@ class GroupManagement {
 		};
 
 		class DeclineInviteButton : w_RscButton {
-			idc = groupManagementDeclineButton;
+			idc = 55519;
 			text = "Decline";
 			onButtonClick = "call declineGroupInvite;";
 			x = 0.375; y = 0.625 - 0.0255 * safezoneH;
