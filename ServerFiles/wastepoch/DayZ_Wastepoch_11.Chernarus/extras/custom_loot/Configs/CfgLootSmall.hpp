@@ -3,7 +3,6 @@ class CfgLootSmall {
 		{"TrashTinCan",0.01}
 	};
 	civilian[] = {
-		{"FoodCanUnlabeled",0.05},
 		{"ItemSodaCoke",0.2},
 		{"ItemSodaPepsi",0.2},
 		{"FoodCanBakedBeans",0.1},
@@ -25,7 +24,6 @@ class CfgLootSmall {
 		{"15Rnd_9x19_M9SD",0.06}
 	};
 	office2[] = {
-		{"FoodCanUnlabeled",0.05},
 		{"ItemSodaCoke",0.12},
 		{"ItemSodaPepsi",0.12},
 		{"FoodCanBakedBeans",0.06},
@@ -53,7 +51,6 @@ class CfgLootSmall {
 		{"FoodCanSardines",0.07},
 		{"FoodCanFrankBeans",0.07},
 		{"FoodCanPasta",0.07},
-		{"FoodCanUnlabeled",0.03},
 		{"FoodPistachio",0.05},
 		{"FoodNutmix",0.04}
 	};

@@ -45,7 +45,6 @@ class CfgLoot {
  		{"FoodCanSardines", 0.07},
  		{"FoodCanFrankBeans", 0.07},
  		{"FoodCanPasta", 0.07},
- 		{"FoodCanUnlabeled", 0.05},
  		{"FoodPistachio", 0.05},
  		{"FoodNutmix", 0.04}
 	};
