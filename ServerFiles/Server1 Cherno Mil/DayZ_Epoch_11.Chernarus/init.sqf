@@ -87,6 +87,7 @@ if (isServer) then {
 		[] execVM "fixes\antihack.sqf";
 	};
 	[] spawn compile preprocessFileLineNumbers "custom\Server_WelcomeCredits.sqf";
+	[] spawn compile preprocessFileLineNumbers "dzgm\init.sqf";
 	[] spawn compile preprocessFileLineNumbers "custom\DynamicWeatherEffects.sqf";
 	[] spawn compile preprocessFileLineNumbers "safezone\init.sqf";
 };
