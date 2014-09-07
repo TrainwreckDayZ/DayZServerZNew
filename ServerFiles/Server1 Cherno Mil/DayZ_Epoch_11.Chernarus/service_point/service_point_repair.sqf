@@ -1,6 +1,13 @@
 // Vehicle Service Point (Repair) by Axe Cop
+// Modified for TrainwreckDayZ
 
 private ["_vehicle","_args","_costs","_type","_name","_hitpoints"];
+
+if (dayz_combat == 1) then {
+	titleText ["You can't repair your vehicle while in combat.", "PLAIN DOWN", 3];
+	sleep 5;
+	titleFadeOut 1;
+} else {
 
 _vehicle = _this select 0;
 if (!local _vehicle) exitWith { diag_log format["Error: called service_point_repair.sqf with non-local vehicle: %1", _vehicle] };
@@ -30,3 +37,4 @@ _vehicle setDamage 0;
 _vehicle setVelocity [0,0,1];
 
 titleText [format["%1 Repaired", _name], "PLAIN DOWN"];
+};
