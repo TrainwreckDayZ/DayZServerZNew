@@ -622,8 +622,6 @@ dayz_recordLogin = {
 	_key = format["CHILD:103:%1:%2:%3:",_this select 0,_this select 1,_this select 2];
 	_key call server_hiveWrite;
 };
-currentInvites = [];
-publicVariable "currentInvites";
 
 dayz_perform_purge = {
 	if(!isNull(_this)) then {
@@ -934,4 +932,3 @@ server_logUnlockLockEvent = {
 		diag_log format["SAFE %5: ID:%1 UID:%2 BY %3(%4)", _objectID, _objectUID, (name _player), (getPlayerUID _player), _statusText];
 	};
 };
-execVM "\z\addons\dayz_server\init\broadcaster.sqf";
