@@ -16,4 +16,4 @@ if (isNil "dzgm_init") then {call compile preprocessFileLineNumbers "dzgm\icons.
 uiSleep 1;
 [] spawn dzgm_init;
 [] spawn mapLoop;
-systemChat "Right click on radio to open group management";
+systemChat "Press right control to open group management";
