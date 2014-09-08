@@ -155,6 +155,7 @@ if (_dikCode in actionKeys "TacticalView") then {
 
 if (_dikCode == 0x9D) then {
   if (dialog) then {closeDialog 0;groupManagementActive = false;} else {createGearDialog [player, "RscDisplayGear"];[] execVM "dzgm\loadGroupManagement.sqf";};
+};
   
 (_this) spawn Restrict_sideChat;
 _handled;

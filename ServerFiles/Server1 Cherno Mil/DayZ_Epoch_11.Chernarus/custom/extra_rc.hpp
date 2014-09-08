@@ -14,6 +14,14 @@ class ExtraRb {
 		};
 	};
 };
+class ExtraRc {
+  class ItemRadio {
+     class GroupManagement {
+        text = "Group Management";
+        script = "execVM 'dzgm\loadGroupManagement.sqf'";
+     };
+  };
+};
 class ExtraSm {
 	class Binocular_Vector  {
 		class viewdistanceTitle {
