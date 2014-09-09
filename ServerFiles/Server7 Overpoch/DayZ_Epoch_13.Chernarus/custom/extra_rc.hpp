@@ -14,6 +14,26 @@ class ExtraRb {
 		};
 	};
 };
+ class ExtraRc {
+    class ItemKnife {
+		class farmhemp {
+			text = "Harvest the weed";
+			script = "execVM 'custom\hemp.sqf'";
+		};
+	};
+    class ItemKiloHemp {
+		class smokeweed {
+			text = "Smoke the Dank";
+			script = "execVM 'custom\smokeshit.sqf'";
+		};
+    };
+	class ItemRadio {
+		class GroupManagement {
+			text = "Group Management";
+			script = "execVM 'dzgm\loadGroupManagement.sqf'";
+		};
+	};
+};
 class ExtraSm {
 	class Binocular_Vector  {
 		class viewdistanceTitle {

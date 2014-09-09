@@ -15,8 +15,7 @@ dayz_previousID = 0;
 
 player setVariable ["BIS_noCoreConversations", true];
 
-enableRadio true;
-
+enableRadio false;
 enableSentences false;
 
 
@@ -59,7 +58,7 @@ DZE_R3F_WEIGHT = false;
 
 
 DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
-DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular"]; 
+DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
 
 
@@ -67,7 +66,7 @@ DefaultBackpack = "DZ_Patrol_Pack_EP1";
 dayz_fullMoonNights = true;
 DZE_SelfTransfuse = true;
 Restrict_Wait = time;
-customActionConfigs = ["ExtraRa","ExtraRb","ExtraSm","ExtraTm"];
+customActionConfigs = ["ExtraRa","ExtraRb","ExtraRc","ItemKiloHemp","ExtraSm","ExtraTm"];
 
 
 call compile preprocessFileLineNumbers "fixes\variables.sqf";
@@ -127,6 +126,7 @@ if (isServer) then {
 		[] execVM "fixes\antihack.sqf";
 	};
 	[] spawn compile preprocessFileLineNumbers "custom\Server_WelcomeCredits.sqf";
+	[] spawn compile preprocessFileLineNumbers "dzgm\init.sqf";
 
 
 	[] spawn compile preprocessFileLineNumbers "custom\DynamicWeatherEffects.sqf";

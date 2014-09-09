@@ -78,7 +78,7 @@ if (!isDedicated) then {
 	player_makeFire =				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_makefire.sqf";
 	player_harvestPlant =			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_harvestPlant.sqf";
 	player_goFishing =				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_goFishing.sqf";
-	player_build =					compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_build.sqf";
+	player_build = compile preprocessFileLineNumbers "custom\snap_pro\player_build.sqf";
 	player_wearClothes =			compile preprocessFileLineNumbers "fixes\player_wearClothes.sqf";
 	object_pickup = 				compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\object_pickup.sqf";
 	player_flipvehicle = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\actions\player_flipvehicle.sqf";
@@ -557,9 +557,8 @@ if (!isDedicated) then {
 	};
 initialized = true;
 if (!isDedicated) then {
-	player_build		= compile preprocessFileLineNumbers "custom\snap_build\player_build.sqf";
-	player_buildControls	= compile preprocessFileLineNumbers "custom\snap_build\player_buildControls.sqf";
-	snap_object		= compile preprocessFileLineNumbers "custom\snap_build\snap_object.sqf";
+
+    snap_build = compile preprocessFileLineNumbers "custom\snap_pro\snap_build.sqf";
 };
 if (isNil "fnc_vehicle_handleDamage") then {fnc_vehicle_handleDamage = compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\vehicle_handleDamage.sqf";};
 vehicle_handleDamage = {

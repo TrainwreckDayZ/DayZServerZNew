@@ -558,7 +558,6 @@ if (!isDedicated) then {
 	} else {
 		eh_localCleanup = {};
 	};
-initialized = true;
 if (!isDedicated) then {
 
     snap_build = compile preprocessFileLineNumbers "custom\snap_pro\snap_build.sqf";

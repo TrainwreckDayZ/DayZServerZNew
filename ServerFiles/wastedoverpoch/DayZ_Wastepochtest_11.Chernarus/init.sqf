@@ -10,7 +10,7 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 player setVariable ["BIS_noCoreConversations", true];
-enableRadio true;
+enableRadio false;
 enableSentences false;
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
@@ -52,7 +52,7 @@ dayz_spawnselection = 1;
 DZE_noRotate = []; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
 DZE_curPitch = 45; //Starting rotation angle. Only 1, 5, 45, or 90.
 DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
-DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular"]; 
+DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
 dayz_fullMoonNights = true;
 DZE_SelfTransfuse = true;

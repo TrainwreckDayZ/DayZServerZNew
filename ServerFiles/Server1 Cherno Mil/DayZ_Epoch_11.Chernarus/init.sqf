@@ -54,7 +54,8 @@ DefaultBackpack = "DZ_Patrol_Pack_EP1";
 dayz_fullMoonNights = true;
 DZE_SelfTransfuse = true;
 Restrict_Wait = time;
-customActionConfigs = ["ExtraRa","ExtraRb","ExtraSm","ExtraTm"];
+customActionConfigs = ["ExtraRa","ExtraRb","ExtraRc","ItemKiloHemp","ExtraSm","ExtraTm"];
+
 
 call compile preprocessFileLineNumbers "fixes\variables.sqf";
 call compile preprocessFileLineNumbers "R3F_ARTY_AND_LOG\init.sqf";

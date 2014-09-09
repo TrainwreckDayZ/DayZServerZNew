@@ -150,7 +150,7 @@ class DayZ_loadingScreen
 		};
 	};
 };
-#include "custom\snap_build\points.hpp"
+#include "custom\snap_pro\snappoints.hpp"
 #include "custom\extra_rc.hpp"
 #include "dzgm\defines.hpp"
 class RscTitles

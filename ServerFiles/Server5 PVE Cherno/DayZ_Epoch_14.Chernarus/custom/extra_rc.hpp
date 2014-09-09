@@ -27,6 +27,12 @@ class ExtraRb {
 			script = "execVM 'custom\smokeshit.sqf'";
 		};
     };
+	class ItemRadio {
+		class GroupManagement {
+			text = "Group Management";
+			script = "execVM 'dzgm\loadGroupManagement.sqf'";
+		};
+	};
 };
 class ExtraSm {
 	class Binocular_Vector  {

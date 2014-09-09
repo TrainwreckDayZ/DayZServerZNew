@@ -150,16 +150,12 @@ if ((_dikCode == 0x21 and (!_alt and !_ctrl)) or (_dikCode in actionKeys "User6"
 	DZE_F = true;
 };
 if ((_dikCode == 0xDB) or (_dikCode == 0xDC)) then {
-  if (tagname) then {tagname = false;} else {tagname = true;};
-};
-
-if (_dikCode in actionKeys "TacticalView") then {
-  [] execVM "dzgm\noTactical.sqf";
+   if (tagname) then {tagname = false;} else {tagname = true;};
 };
 
 if (_dikCode == 0x9D) then {
   if (dialog) then {closeDialog 0;groupManagementActive = false;} else {createGearDialog [player, "RscDisplayGear"];[] execVM "dzgm\loadGroupManagement.sqf";};
- };
+};
  
 (_this) spawn Restrict_sideChat;
 _handled;
