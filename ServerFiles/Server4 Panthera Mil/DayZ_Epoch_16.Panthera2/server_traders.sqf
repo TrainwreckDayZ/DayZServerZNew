@@ -171,7 +171,7 @@ menu_Reynolds_PMC = [
 
 //Hooker2
 menu_Hooker2 = [
-	[["Ammo",693],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Explosives",529]],
+	[["Ammo",693],["DrugZ",700],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Explosives",529]],
 	[],
 	"neutral"
 ];

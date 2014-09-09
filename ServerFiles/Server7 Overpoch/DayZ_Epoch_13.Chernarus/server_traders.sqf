@@ -212,7 +212,7 @@ menu_Soldier_Sniper_KSVK_PMC = [
 ];
 //NE FOB GUBA
 menu_Hooker4 = [
-	[["Ammo",693],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Pistols&teaser",708],["Assult Rifles",711],["Sniper Rifles",710],["Submachine Guns",709],["HeavyMachineGuns",712],["Explosives",529]],
+	[["Ammo",693],["DrugZ",700],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Pistols&teaser",708],["Assult Rifles",711],["Sniper Rifles",710],["Submachine Guns",709],["HeavyMachineGuns",712],["Explosives",529]],
 	[],
 	"neutral"
 ];

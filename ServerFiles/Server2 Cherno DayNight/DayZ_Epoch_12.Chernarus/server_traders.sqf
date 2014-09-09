@@ -68,7 +68,7 @@ menu_UN_CDF_Soldier_Pilot_EP1 = [
 ];
 // Black Market Vendor
 menu_GUE_Soldier_3 = [
-	[["Black Market Ammo",527],["Black Market Weapons",526],["Explosives",529]],
+	[["Black Market Ammo",527],["DrugZ",700],["Black Market Weapons",526],["Explosives",529]],
 	[],
 	"neutral"
 ];

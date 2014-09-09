@@ -104,7 +104,7 @@ menu_UN_CDF_Soldier_Pilot_EP1 = [
 ];
 //Hooker Trader
 menu_Hooker3 = [
-	[["Ammo",693],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Explosives",529]],
+	[["Ammo",693],["DrugZ",700],["Clothing",694],["Helis",695],["Land Vehicles",696],["GunZ",697],["Explosives",529]],
 	[],
 	"neutral"
 ];
