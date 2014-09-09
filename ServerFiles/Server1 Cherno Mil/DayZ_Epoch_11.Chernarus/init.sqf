@@ -10,7 +10,7 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 player setVariable ["BIS_noCoreConversations", true];
-enableRadio true;
+enableRadio false;
 enableSentences false;
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
@@ -49,7 +49,7 @@ DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
 DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
-DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular"]; 
+DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
 dayz_fullMoonNights = true;
 DZE_SelfTransfuse = true;
