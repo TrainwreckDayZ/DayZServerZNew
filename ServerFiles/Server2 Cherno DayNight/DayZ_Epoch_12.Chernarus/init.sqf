@@ -47,6 +47,9 @@ setViewDistance 1500;
 setTerrainGrid 20;
 DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
+DZE_noRotate = []; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
+DZE_curPitch = 45; //Starting rotation angle. Only 1, 5, 45, or 90.
+
 DefaultMagazines = ["ItemBandage","ItemPainkiller","Machete_Swing"]; 
 DefaultWeapons = ["ItemMap","MeleeMachete","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 

@@ -46,6 +46,9 @@ setTerrainGrid 20;
 DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
+DZE_noRotate = []; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
+DZE_curPitch = 45; //Starting rotation angle. Only 1, 5, 45, or 90.
+
 DefaultMagazines = ["ItemBandage","ItemPainkiller","ItemHeatPack","ItemHeatPack","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
 DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 

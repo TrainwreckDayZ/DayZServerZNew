@@ -96,7 +96,7 @@ if (isServer && isNil {sm_done}) then {
 		diag_log ("HIVE: got " + str(_bQty) + " Epoch Objects and " + str(_vQty) + " Vehicles");
 	};
 	
-	// # NOW SPAWN OBJECTS #
+// # NOW SPAWN OBJECTS #
 	_totalvehicles = 0;
 	{
 		_idKey = 		_x select 1;
@@ -110,16 +110,31 @@ if (isServer && isNil {sm_done}) then {
 		_damage = 		_x select 8;
 		
 		_dir = 0;
+		_vector = [[0,0,0],[0,0,0]];
+		_vecExists = false;
+		
 		_pos = [0,0,0];
 		_wsDone = false;
-		if (count _worldspace >= 2) then
-		{
-			_dir = _worldspace select 0;
-			if (count (_worldspace select 1) == 3) then {
-				_pos = _worldspace select 1;
-				_wsDone = true;
-			}
-		};			
+    if (count _worldspace >= 2) then
+        {
+            if(count _worldspace == 3) then{
+                _vector = _worldspace select 2;
+                if(typename _vector == "ARRAY")then{
+                    if(count _vector == 2)then{
+                        if(((count (_vector select 0)) == 3) && ((count (_vector select 1)) == 3))then{
+                            _vecExists = true;
+                        };
+                    };
+
+                };
+
+            };
+            _dir = _worldspace select 0;
+            if (count (_worldspace select 1) == 3) then {
+                _pos = _worldspace select 1;
+                _wsDone = true;
+            }
+        };			
 		
 		if (!_wsDone) then {
 			if (count _worldspace >= 1) then { _dir = _worldspace select 0; };
@@ -167,23 +182,17 @@ if (isServer && isNil {sm_done}) then {
 			};
 
 			_object setVariable ["CharacterID", _ownerID, true];
-
+			
 			clearWeaponCargoGlobal  _object;
 			clearMagazineCargoGlobal  _object;
 			// _object setVehicleAmmo DZE_vehicleAmmo;
-
-
-
-
-
-
-
-
-
-			if(_type == "Ka137_MG_PMC") then {
-				_object disableTIEquipment true; 
-			};
+			
 			_object setdir _dir;
+			
+			if(_vecExists)then{
+				_object setVectorDirAndUp _vector;
+			};
+			
 			_object setposATL _pos;
 			_object setDamage _damage;
 			
@@ -200,10 +209,6 @@ if (isServer && isNil {sm_done}) then {
 				
 			};
 
-			if (typeOf(_object) in _cpcimmune) then {
-				_object addEventHandler ["HandleDamage", {false}];
-				_object enableSimulation false;
-			};
 			if (count _intentory > 0) then {
 				if (_type in DZE_LockedStorage) then {
 					// Fill variables with loot
@@ -222,10 +227,7 @@ if (isServer && isNil {sm_done}) then {
 						};
 						_isOK = 	isClass(configFile >> "CfgWeapons" >> _x);
 						if (_isOK) then {
-
-
 							_object addWeaponCargoGlobal [_x,(_objWpnQty select _countr)];
-
 						};
 						_countr = _countr + 1;
 					} count _objWpnTypes; 
@@ -239,10 +241,7 @@ if (isServer && isNil {sm_done}) then {
 						if (_x == "ItemTent") then { _x = "ItemTentOld" };
 						_isOK = 	isClass(configFile >> "CfgMagazines" >> _x);
 						if (_isOK) then {
-
-
 							_object addMagazineCargoGlobal [_x,(_objWpnQty select _countr)];
-
 						};
 						_countr = _countr + 1;
 					} count _objWpnTypes;
@@ -278,7 +277,6 @@ if (isServer && isNil {sm_done}) then {
 					
 					if(_ownerID != "0" && !(_object isKindOf "Bicycle")) then {
 						_object setvehiclelock "locked";
-						_object setVariable ["R3F_LOG_disabled",true,true];
 					};
 					
 					_totalvehicles = _totalvehicles + 1;
@@ -293,7 +291,6 @@ if (isServer && isNil {sm_done}) then {
 		};
 	} count (_BuildingQueue + _objectQueue);
 	// # END SPAWN OBJECTS #
-
 	// preload server traders menu data into cache
 	if !(DZE_ConfigTrader) then {
 		{
