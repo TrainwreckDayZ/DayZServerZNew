@@ -1,5 +1,5 @@
 // Vehicle Service Point (Repair) by Axe Cop
-// Modified for TrainwreckDayZ
+// Modified for TrainwreckDayZ by eraser1
 
 private ["_vehicle","_args","_costs","_type","_name","_hitpoints"];
 
