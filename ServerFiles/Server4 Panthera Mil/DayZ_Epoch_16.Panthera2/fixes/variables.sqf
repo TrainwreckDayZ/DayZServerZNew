@@ -175,6 +175,7 @@ R3F_action_deplacer_object = objNull;
 R3F_action_remorquables_target = objNull;
 R3F_action_charger_target = objNull;
 dayz_resetSelfActions = {
+s_player_plotManagement = -1;
 	s_player_fire =			-1;
 	s_player_cook =			-1;
 	s_player_boil =			-1;

@@ -21,7 +21,13 @@ if (!isDedicated) then {
 	player_packTent =				compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_packTent.sqf";
 	player_packVault =				compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_packVault.sqf";
 	player_unlockVault =			compile preprocessFileLineNumbers "fixes\player_unlockVault.sqf";
-	player_removeNearby =    		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\object_removeNearby.sqf";
+	player_removeNearby =    		compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\object_removeNearby.sqf";\
+	/*Plot*/
+PlotGetFriends      = compile preprocessFileLineNumbers "plotManagement\plotGetFriends.sqf";
+PlotNearbyHumans    = compile preprocessFileLineNumbers "plotManagement\plotNearbyHumans.sqf";
+PlotAddFriend       = compile preprocessFileLineNumbers "plotManagement\plotAddFriend.sqf";
+PlotRemoveFriend    = compile preprocessFileLineNumbers "plotManagement\plotRemoveFriend.sqf";
+/*Plot End*/
 	player_removeTankTrap = {
 		[["Hedgehog_DZ"], 1,"STR_EPOCH_ACTIONS_14"] call player_removeNearby;
 	};

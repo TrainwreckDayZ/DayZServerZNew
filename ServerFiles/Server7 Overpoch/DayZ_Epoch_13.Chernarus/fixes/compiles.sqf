@@ -138,6 +138,12 @@ if (!isDedicated) then {
 	player_hasTools =				compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_hasTools.sqf";
 	player_checkItems =				compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_checkItems.sqf";
 	player_removeItems =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\fn_removeItems.sqf";
+	/*Plot*/
+PlotGetFriends      = compile preprocessFileLineNumbers "plotManagement\plotGetFriends.sqf";
+PlotNearbyHumans    = compile preprocessFileLineNumbers "plotManagement\plotNearbyHumans.sqf";
+PlotAddFriend       = compile preprocessFileLineNumbers "plotManagement\plotAddFriend.sqf";
+PlotRemoveFriend    = compile preprocessFileLineNumbers "plotManagement\plotRemoveFriend.sqf";
+/*Plot End*/
 
 	player_traderCity = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_traderCity.sqf";
 	player_checkAndRemoveItems = {

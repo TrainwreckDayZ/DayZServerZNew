@@ -158,3 +158,4 @@ class RscTitles
 #include "dzgm\icons.hpp"
 };
 #include "dzgm\groupManagement.hpp"
+#include "plotManagement\plotManagement.hpp"

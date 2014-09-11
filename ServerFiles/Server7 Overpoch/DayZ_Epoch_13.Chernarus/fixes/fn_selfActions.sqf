@@ -265,11 +265,29 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 	_player_deleteBuild = false;
 	_player_lockUnlock_crtl = false;
 	 if (_canDo && (speed player <= 1) && ((_cursorTarget isKindOf "Plastic_Pole_EP1_DZ") || (_cursorTarget isKindOf "MAP_Sphere"))) then {
+	 if (s_player_plotManagement < 0) then {
+    _adminList = ["0152"]; // Add admins here if you admins to able to manage all plotpoles
+    _owner = _cursorTarget getVariable ["CharacterID","0"];
+    _friends = _cursorTarget getVariable ["plotfriends", []];
+    _fuid = [];
+    {
+    _friendUID = _x select 0;
+    _fuid = _fuid + [_friendUID];
+    } forEach _friends;
+    _allowed = [_owner];    
+    _allowed = [_owner] + _adminList + _fuid;
+    if(_owner == dayz_characterID || (getPlayerUID player) in _allowed)then{            
+    s_player_plotManagement = player addAction ["<t color='#0059FF'>Manage Plot</t>", "plotManagement\initPlotManagement.sqf", [], 5, false];
+    };
+};
 		 if (s_player_maintain_area < 0) then {
+		 
 		  	s_player_maintain_area = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTAREA"], "custom\maintain_area.sqf", ["maintain", _cursorTarget], 5, false];
 		 	s_player_maintain_area_preview = player addAction [format["<t color='#ff0000'>%1</t>",localize "STR_EPOCH_ACTIONS_MAINTPREV"], "custom\maintain_area.sqf", ["preview", _cursorTarget], 5, false];
 		 };
 	 } else {
+	 player removeAction s_player_plotManagement;
+    s_player_plotManagement = -1;
     		player removeAction s_player_maintain_area;
     		s_player_maintain_area = -1;
     		player removeAction s_player_maintain_area_preview;
@@ -281,11 +299,17 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 				_player_deleteBuild = true;
 			};
 		};
-                if(_isModular && (dayz_characterID == _ownerID)) then {
-                        if(_hasToolbox && "ItemCrowbar" in _itemsPlayer) then {
-                                _player_deleteBuild = true;
-                        };
-                };
+ if(_isModular) then {
+            if(_hasToolbox && "ItemCrowbar" in _itemsPlayer) then {
+                    _player_deleteBuild = true;
+            };
+    };
+//Allow owners to delete modular doors without locks
+    if(_isModularDoor) then {
+            if(_hasToolbox && "ItemCrowbar" in _itemsPlayer) then {
+                    _player_deleteBuild = true;
+            };      
+    };
 		if(_isVehicle) then {
 			if (!(canMove _cursorTarget) && (player distance _cursorTarget >= 2) && (count (crew _cursorTarget))== 0 && ((vectorUp _cursorTarget) select 2) < 0.5) then {
 				_playersNear = {isPlayer _x} count (player nearEntities ["CAManBase", 6]);
@@ -301,7 +325,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 
 	if(_player_deleteBuild) then {
 		if (s_player_deleteBuild < 0) then {
-			s_player_deleteBuild = player addAction [format[localize "str_actions_delete",_text], "\z\addons\dayz_code\actions\remove.sqf",_cursorTarget, 1, true, true, "", ""];
+			s_player_deleteBuild = player addAction [format[localize "str_actions_delete",_text], "fixes\remove.sqf",_cursorTarget, 1, true, true, "", ""];
 		};
 	} else {
 		player removeAction s_player_deleteBuild;
@@ -604,7 +628,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 		if (s_player_upgrade_build < 0) then {
 
 			s_player_lastTarget set [0,_cursorTarget];
-			s_player_upgrade_build = player addAction [format[localize "STR_EPOCH_ACTIONS_UPGRADE",_text], "\z\addons\dayz_code\actions\player_upgrade.sqf",_cursorTarget, -1, false, true, "",""];
+			s_player_upgrade_build = player addAction [format[localize "STR_EPOCH_ACTIONS_UPGRADE",_text], "fixes\player_upgrade.sqf",_cursorTarget, -1, false, true, "",""];
 		};
 	} else {
 		player removeAction s_player_upgrade_build;
@@ -619,7 +643,7 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 		};
 		if (s_player_downgrade_build < 0) then {
 			s_player_lastTarget set [1,_cursorTarget];
-			s_player_downgrade_build = player addAction [format[localize "STR_EPOCH_ACTIONS_REMLOCK",_text], "\z\addons\dayz_code\actions\player_buildingDowngrade.sqf",_cursorTarget, -2, false, true, "",""];
+			s_player_downgrade_build = player addAction [format[localize "STR_EPOCH_ACTIONS_REMLOCK",_text], "fixes\player_buildingDowngrade.sqf",_cursorTarget, -2, false, true, "",""];
 		};
 	} else {
 		player removeAction s_player_downgrade_build;
@@ -784,6 +808,8 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 		};
 	};
 } else {
+player removeAction s_player_plotManagement;
+s_player_plotManagement = -1;
 	{dayz_myCursorTarget removeAction _x} count s_player_repairActions;s_player_repairActions = [];
 	s_player_repair_crtl = -1;
 	{player removeAction _x} count s_player_combi;s_player_combi = [];
