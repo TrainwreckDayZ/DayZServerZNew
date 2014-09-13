@@ -141,6 +141,7 @@ if ((count _upgrade) > 0) then {
 
 			// Get direction
 			_dir = getDir _obj;
+
 			
 			//Get Vector
 			_vector = [(vectorDir _obj),(vectorUp _obj)];

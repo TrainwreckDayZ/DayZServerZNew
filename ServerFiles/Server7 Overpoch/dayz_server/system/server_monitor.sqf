@@ -197,7 +197,13 @@ _object setVariable ["plotfriends", _intentory, true];
 			
 			_object setposATL _pos;
 			_object setDamage _damage;
-			
+			// ### [CPC] Indestructible Buildables Fix
+if (typeOf(_object) in _cpcimmune) then {
+_object addEventHandler ["HandleDamage", {false}];
+_object enableSimulation false;
+};
+// ### [CPC] Indestructible Buildables Fix
+
 			if ((typeOf _object) in dayz_allowedObjects) then {
 				if (DZE_GodModeBase) then {
 					_object addEventHandler ["HandleDamage", {false}];
