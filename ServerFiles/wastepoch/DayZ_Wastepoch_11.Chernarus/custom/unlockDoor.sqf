@@ -21,9 +21,9 @@ if ((!isNull dayz_selectedDoor) && (isNil "KeyCodeTry")) then {
 		player setVariable["medForceUpdate",true,true];
 		_display = findDisplay 41144;
 		_display closeDisplay 3000;
-		cutText ["WRONG CODE ENTERED - WAIT 20 SECONDS", "PLAIN DOWN"];
+		cutText ["WRONG CODE ENTERED - WAIT 45 SECONDS", "PLAIN DOWN"];
 		KeyCodeTry = true;
-		[] spawn {sleep 20; KeyCodeTry = nil;};
+		[] spawn {sleep 45; KeyCodeTry = nil;};
 		[] spawn {disableSerialization; while {!isNil "KeyCodeTry"} do { _display = findDisplay 41144; _display closeDisplay 3000; sleep 0.001;};};
 	};
 } else {

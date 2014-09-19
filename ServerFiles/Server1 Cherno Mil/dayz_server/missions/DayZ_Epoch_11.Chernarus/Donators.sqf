@@ -2339,6 +2339,25 @@ if (true) then
   _this setPos [1213.57, 5965.58, 0.001];
 };
 
+//Waffen Gaming Donavonrocks Sphere 106001 I-UPBEUGRLEUFR
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [10690.7, 15233.9, 0], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [10690.7, 15233.9, 0];
+};
+
+//Bolota Sphere
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [4791.11, 2328.96, 2.324], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [4791.11, 2328.96, 2.324];
+};
 
 //Fuel tanks---------------------------------------------------
 

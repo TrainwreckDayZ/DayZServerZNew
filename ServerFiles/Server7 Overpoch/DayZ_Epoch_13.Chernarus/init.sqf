@@ -15,7 +15,7 @@ dayz_previousID = 0;
 
 player setVariable ["BIS_noCoreConversations", true];
 
-enableRadio false;
+enableRadio true;
 enableSentences false;
 
 

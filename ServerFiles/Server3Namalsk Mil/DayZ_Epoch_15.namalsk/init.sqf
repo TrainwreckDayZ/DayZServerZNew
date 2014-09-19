@@ -10,7 +10,7 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 player setVariable ["BIS_noCoreConversations", true];
-enableRadio false;
+enableRadio true;
 enableSentences false;
 spawnShoremode = 0;
 spawnArea= 1500;

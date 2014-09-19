@@ -10,7 +10,7 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 player setVariable ["BIS_noCoreConversations", true];
-enableRadio false;
+enableRadio true;
 enableSentences false;
 
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
