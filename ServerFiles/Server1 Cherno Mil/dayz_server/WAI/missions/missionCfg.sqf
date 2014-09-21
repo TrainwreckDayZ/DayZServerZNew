@@ -76,8 +76,6 @@ wai_mission_numberofguns = 15;
 // classnames of guns to spawn in ammo boxes (only class weapons)
 ammo_box_guns = [
 "M9SD",
-"AKS_74_UN_kobra",
-"AK_107_GL_pso",
 "M16A4_ACG_GL",
 "M4A1_HWS_GL_SD_Camo",
 "M4A1_RCO_GL",
