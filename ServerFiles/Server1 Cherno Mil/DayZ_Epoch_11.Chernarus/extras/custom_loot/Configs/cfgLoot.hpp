@@ -211,7 +211,8 @@ class CfgLoot {
 		,{"Skin_RU_Soldier_Crew_DZ", 0.02}
 	};
 	tents[] = {
-		{"ItemTentDomed", 0.75}
+		{"ItemTentDomed2", 0.25},
+		{"ItemTentOld", 0.25}
 	};
 	backpacks[] = {
 		{"DZ_ALICE_Pack_EP1", 0.3}
