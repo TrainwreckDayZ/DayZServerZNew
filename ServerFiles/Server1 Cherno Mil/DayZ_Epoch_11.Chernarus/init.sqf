@@ -44,7 +44,7 @@ DZE_HeliLift = false;
 DZE_PlayerZed = false;
 dayzSetViewDistance = 1500;
 setViewDistance 1500;
-setTerrainGrid 20;
+setTerrainGrid 50;
 DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
