@@ -24,8 +24,8 @@ if (dayz_combat == 1) then {
 	clearMagazineCargo _object;
 	clearWeaponCargo _object;
 	_object setVehicleLock "UNLOCKED";
-	PVDZE_veh_Lock = [_vehicle,false];
-	if (local _vehicle) then {
+	PVDZE_veh_Lock = [_object,false];
+	if (local _object) then {
 		PVDZE_veh_Lock spawn local_lockUnlock
 	} else {
 		publicVariable "PVDZE_veh_Lock";
