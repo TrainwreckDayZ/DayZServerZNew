@@ -44,7 +44,6 @@ DZE_HeliLift = false;
 DZE_PlayerZed = false;
 dayzSetViewDistance = 1500;
 setViewDistance 1500;
-setTerrainGrid 50;
 DZE_PlotPole = [100,125];
 DZE_DamageBeforeMaint = 0;
 DZE_R3F_WEIGHT = false;
@@ -72,6 +71,7 @@ progressLoadingScreen 0.5;
 call compile preprocessFileLineNumbers "server_traders.sqf";
 progressLoadingScreen 1.0;
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
+setTerrainGrid 50;
 
 if (isServer) then {
 	//[] execFSM "\ASM\fn_ASM.fsm"; //Uncomment if you are using ASM (RECOMMENDED)!
