@@ -23,13 +23,8 @@ if (dayz_combat == 1) then {
 	_object setVariable ["ObjectUID", _uniqueid, true];
 	clearMagazineCargo _object;
 	clearWeaponCargo _object;
-	_object setVehicleLock "UNLOCKED";
-	PVDZE_veh_Lock = [_object,false];
-	if (local _object) then {
-		PVDZE_veh_Lock spawn local_lockUnlock
-	} else {
-		publicVariable "PVDZE_veh_Lock";
-	};
+	if(locked _cursorTarget) then {
+		_Unlock = player addAction "Unlock Spawn Vehicle", "\z\addons\dayz_code\actions\unlock_veh.sqf",_cursorTarget];}
 	titleText ["Class selected! Note: Car will not save after restart.", "PLAIN DOWN", 5];
 	titleFadeOut 1;
 };
