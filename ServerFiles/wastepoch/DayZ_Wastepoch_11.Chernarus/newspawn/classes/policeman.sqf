@@ -24,6 +24,12 @@ if (dayz_combat == 1) then {
 	clearMagazineCargo _object;
 	clearWeaponCargo _object;
 	_object setVehicleLock "UNLOCKED";
+	PVDZE_veh_Lock = [_vehicle,false];
+	if (local _vehicle) then {
+		PVDZE_veh_Lock spawn local_lockUnlock
+	} else {
+		publicVariable "PVDZE_veh_Lock";
+	};
 	titleText ["Class selected! Note: Car will not save after restart.", "PLAIN DOWN", 5];
 	titleFadeOut 1;
 };
