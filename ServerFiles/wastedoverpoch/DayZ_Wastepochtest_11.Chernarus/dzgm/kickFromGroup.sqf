@@ -1,31 +1,26 @@
-#define groupManagementDialog 55510
-#define groupManagementGroupList 55512
-
 disableSerialization;
 
-private ["_plist","_dialog","_target","_index","_playerData","_check","_targetName"];
+private ["_dialog","_callerID","_targetID","_friendlies","_rfriendlies","_target","_index","_playerData","_check"];
 
-_dialog = findDisplay groupManagementDialog;
-_groupListBox = _dialog displayCtrl groupManagementGroupList;
-
+_dialog = findDisplay 55510;
+_groupListBox = _dialog displayCtrl 55512;
 _index = lbCurSel _groupListBox;
 _playerData = _groupListBox lbData _index;
 _check = 0;
+{
+	if (!isNull _x) then {
+		if (getPlayerUID _x != "") then {
+			if (str(_x) == _playerData) then {_target = _x;_check = 1;};
+		};
+	};
+} count playableUnits;
 
-_plist = units group player;         			
-{if (str(_x) == _playerData) then {_target = _x;_check = 1;};} count _plist;
-
-if (_target == player) exitWith {systemChat "You can't kick yourself";};
+if (_target == player) exitWith {systemChat "You can not kick yourself";};
 if (_check == 0) exitWith {systemChat "You must select someone to kick first";};
-
 [_target] join grpNull;
-_targetName = (name _target);
-deleteMarkerLocal _targetName;
 
-systemChat format["You have kicked %1 from the group",name _target];
-
-_callerID = player getVariable "CharacterID";
-_targetID = _target getVariable "CharacterID";
+_callerID = getPlayerUID player;
+_targetID = getPlayerUID _target;
 
 _friendlies = player getVariable ["friendlies", []];
 _friendlies =  _friendlies - [_targetID];
@@ -35,4 +30,5 @@ _rfriendlies = _target getVariable ["friendlies", []];
 _rfriendlies =  _rfriendlies - [_callerID];
 _target setVariable ["friendlies", _rfriendlies, true];
 
+systemChat format["You have kicked %1 from the group",name _target];
 systemChat format["%1 has been removed from your friendly list",name _target];

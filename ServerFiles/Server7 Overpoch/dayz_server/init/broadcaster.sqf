@@ -1,4 +1,6 @@
 while {true} do {
-   publicVariable "currentInvites";
-   uiSleep 1;
+	waitUntil {!isNil "currentInvites"};
+	_currentInvites = str(currentInvites);
+	publicVariable "currentInvites";
+	waitUntil {(_currentInvites) != str(currentInvites)};
 };
