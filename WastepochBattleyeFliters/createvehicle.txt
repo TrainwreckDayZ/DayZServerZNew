@@ -1,0 +1,11 @@
+//new
+5 "SeaGull"
+1 "" !"WeaponHolder"
+5 "box" !="DebugBoxPlayer_DZ" !"MedBox" !="AmmoBoxSmall_556" !="AmmoBoxSmall_762" !="ItemMatchbox" !="ItemToolbox" !="CardBoardBox" !="FoodBox1" !="FoodBox2" !="FoodBox3" !="LockboxStorageLocked" !="LockboxStorage" !="WeaponHolder_ItemLockbox"
+5 "BasicWeapons"
+5 "SpecialWeapons"
+5 "FunctionsManager"
+1 "M_Vikhr_AT"
+1 "M_Hellfire_AT"
+5 "Logic"
+5 "snowman"
