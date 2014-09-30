@@ -23,7 +23,7 @@ if (dayz_combat == 1) then {
 	_object setVariable ["ObjectUID", _uniqueid, true];
 	clearMagazineCargo _object;
 	clearWeaponCargo _object;
-	_object execVM "\z\addons\dayz_code\actions\unlock_veh.sqf";
+	_object addAction ["Unlock Spawn Vehicle", "\z\addons\dayz_code\actions\unlock_veh.sqf",_object];
 	titleText ["Class selected! Note: Car will not save after restart.", "PLAIN DOWN", 5];
 	titleFadeOut 1;
 };
