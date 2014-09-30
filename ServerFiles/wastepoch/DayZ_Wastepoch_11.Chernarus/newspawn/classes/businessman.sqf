@@ -25,6 +25,4 @@ if (dayz_combat == 1) then {
 	clearWeaponCargo _object;
 	titleText ["Class selected! Note: Car will not save after restart.", "PLAIN DOWN", 3];
 	titleFadeOut 1;
-	sleep 3;
-	[nil,nil,nil,[_object,"[infiSTAR.de ADMIN-TOOL]"]] execVM "\z\addons\dayz_code\actions\unlock_veh.sqf";
 };
