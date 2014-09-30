@@ -143,6 +143,9 @@ PlotGetFriends      = compile preprocessFileLineNumbers "plotManagement\plotGetF
 PlotNearbyHumans    = compile preprocessFileLineNumbers "plotManagement\plotNearbyHumans.sqf";
 PlotAddFriend       = compile preprocessFileLineNumbers "plotManagement\plotAddFriend.sqf";
 PlotRemoveFriend    = compile preprocessFileLineNumbers "plotManagement\plotRemoveFriend.sqf";
+MaintainPlot    				= compile preprocessFileLineNumbers "plotManagement\maintain_area.sqf";
+PlotPreview    					= compile preprocessFileLineNumbers "plotManagement\plotToggleMarkers.sqf";
+
 /*Plot End*/
 
 	player_traderCity = 			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\player_traderCity.sqf";

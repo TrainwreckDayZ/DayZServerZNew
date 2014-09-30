@@ -27,6 +27,9 @@ PlotGetFriends      = compile preprocessFileLineNumbers "plotManagement\plotGetF
 PlotNearbyHumans    = compile preprocessFileLineNumbers "plotManagement\plotNearbyHumans.sqf";
 PlotAddFriend       = compile preprocessFileLineNumbers "plotManagement\plotAddFriend.sqf";
 PlotRemoveFriend    = compile preprocessFileLineNumbers "plotManagement\plotRemoveFriend.sqf";
+MaintainPlot    				= compile preprocessFileLineNumbers "plotManagement\maintain_area.sqf";
+PlotPreview    					= compile preprocessFileLineNumbers "plotManagement\plotToggleMarkers.sqf";
+
 /*Plot End*/
 	player_removeTankTrap = {
 		[["Hedgehog_DZ"], 1,"STR_EPOCH_ACTIONS_14"] call player_removeNearby;
