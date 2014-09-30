@@ -53,6 +53,7 @@ class CfgBuildingLoot {
 			{"ItemSodaRbull", "magazine",0.01},
 			{"ItemSodaOrangeSherbet", "magazine",0.02},
 			{"ItemCompass", "weapon",0.04},
+			{"pistols", "cfglootweapon",0.12},
 			{"ItemKnife", "weapon",0.04},
 			{"ItemMatchbox_DZE", "weapon",0.03},
 			{"", "generic",0.38},
@@ -88,6 +89,7 @@ class CfgBuildingLoot {
 			{"ItemSodaRbull", "magazine",0.01},
 			{"ItemSodaOrangeSherbet", "magazine",0.02},
 			{"ItemCompass", "weapon",0.04},
+			{"pistols", "cfglootweapon",0.15},
 			{"ItemKnife", "weapon",0.05},
 			{"ItemMatchbox_DZE", "weapon",0.03},
 			{"", "generic",0.31},
@@ -215,6 +217,7 @@ class CfgBuildingLoot {
 			{"ItemSodaRbull", "magazine",0.01},
 			{"ItemSodaOrangeSherbet", "magazine",0.03},
 			{"ItemCompass", "weapon",0.03},
+			{"pistols", "cfglootweapon",0.08},
 			{"ItemKnife", "weapon",0.02},
 			{"ItemMatchbox_DZE", "weapon",0.04},
 			{"", "generic",0.21},
@@ -304,6 +307,7 @@ class CfgBuildingLoot {
 			{"machineguns", "cfglootweapon", 0.2}
 		};
 		lootTypeSmall[] = {
+			{"pistols", "cfglootweapon",0.15},
 			{"ItemKnife", "weapon",0.01},
 			{"ItemGPS", "weapon",0.02},
 			{"", "medical",0.09},
@@ -345,6 +349,7 @@ class CfgBuildingLoot {
 			{"machineguns", "cfglootweapon", 0.6}
 		};
 		lootTypeSmall[] = {
+			{"pistols", "cfglootweapon", 0.6},
 			{"ItemKnife", "weapon", 0.05},
 			{"ItemGPS", "weapon", 0.6},
 			{"", "medical", 0.6},
@@ -388,6 +393,7 @@ class CfgBuildingLoot {
 			{ "machineguns", "cfglootweapon", 0.01 }
 		};
 		lootTypeSmall[] = {
+			{ "pistols", "cfglootweapon", 0.14 },
 			{ "ItemKnife", "weapon", 0.04 },
 			{ "ItemGPS", "weapon", 0.02 },
 			{ "", "medical", 0.12 },
@@ -424,6 +430,7 @@ class CfgBuildingLoot {
 			{"militaryammo", "single", 0.05}
 		};
 		lootTypeSmall[] = {
+			{"pistols", "cfglootweapon", 0.6},
 			{"AmmoBoxSmall_556", "object", 0.6},
 			{"AmmoBoxSmall_762", "object", 0.6},
 			{"ItemKnife", "military", 0.6},

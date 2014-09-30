@@ -1,12 +1,23 @@
+#define groupManagementDialog 55510
+#define groupManagementPlayerList 55511
+#define groupManagementGroupList 55512
+#define groupManagementInviteButton 55514
+#define groupManagementKickButton 55515
+#define groupManagementDisbandButton 55516
+#define groupManagementLeaveButton 55517
+#define groupManagementAcceptButton 55518
+#define groupManagementDeclineButton 55519
+#define groupManagementInviteText 55520
+
 class GroupManagement {
 
-	idd = 55510;
+	idd = groupManagementDialog;
 	movingEnable = true;
 	enableSimulation = true;
 	
-	class ControlsBackground {
+	class controlsBackground {
 		
-		class MainBG : W_RscPicture {
+		class MainBG : w_RscPicture {
 			idc = -1;
 			text = "\ca\ui\data\ui_background_controlers_ca.paa";		
 			moving = true;
@@ -14,7 +25,7 @@ class GroupManagement {
 			w = 1.0; h = 0.65;
 		};
 		
-		class MainTitle : W_RscText {
+		class MainTitle : w_RscText {
 			idc = -1;
 			text = "Group Management";
 			sizeEx = 0.04;
@@ -23,7 +34,7 @@ class GroupManagement {
 			w = 0.3; h = 0.05;
 		};
 
-		class InviteTitleText : W_RscText {
+		class InviteTitleText : w_RscText {
 			idc = -1;
 			text = "Players";
 			sizeEx = 0.025;
@@ -32,7 +43,7 @@ class GroupManagement {
 			w = 0.3; h = 0.050;
 		};
 
-		class GroupTitleText : W_RscText {
+		class GroupTitleText : w_RscText {
 			idc = -1;
 			text = "Your Group";
 			sizeEx = 0.025;
@@ -41,11 +52,12 @@ class GroupManagement {
 			w = 0.3; h = 0.050;
 		};
 
-		class InviteText: W_RscStructuredText
+		class InviteText: w_RscStructuredText
 		{
-			idc = 55520;
+			idc = groupManagementInviteText;
 			text = "";
 			size = 0.025;
+
 			x = 0.255; y = 0.500;
 			w = 0.235; h = 0.075;
 		};
@@ -53,29 +65,29 @@ class GroupManagement {
 	
 	class controls {
 
-		class PlayerListBox : W_RscList {
-			idc = 55511;
+		class PlayerListBox : w_Rsclist {
+			idc = groupManagementPlayerList;
 			onLBSelChanged = "call playerSelectChange;";
 			x = 0.020; y = 0.200;
 			w = 0.235; h = 0.380;
 		};
 		
-		class RefreshButton : W_RscButton {
+		class RefreshButton : w_RscButton {
 			idc = -1;
 			text = "Refresh";
-			onButtonClick = "call updatePlayerList;";
+			onButtonClick = "call Updateplayerlist;";
 			x = 0.08; y = 0.59;
 			w = 0.125; h = 0.033 * safezoneH;
 			color[] = {0.1,0.95,0.1,1};
 		};
 		
-		class GroupListBox : W_RscList {
-			idc = 55512;
+		class GroupListBox : w_Rsclist {
+			idc = groupManagementGroupList;
 			x = 0.490; y = 0.200;
 			w = 0.235; h = 0.425;
 		};
 
-		class CloseButton : W_RscButton {
+		class CloseButton : w_RscButton {
 			idc = -1;
 			text = "Close";
 			onButtonClick = "closeDialog 0;groupManagmentActive = false;";
@@ -84,8 +96,8 @@ class GroupManagement {
 			color[] = {0.95,0.1,0.1,1};
 		};
 
-		class InviteButton : W_RscButton {
-			idc = 55514;
+		class InviteButton : w_RscButton {
+			idc = groupManagementInviteButton;
 			text = "Invite";
 			onButtonClick = "call inviteToGroup;";
 			x = 0.3075; y = 0.200;
@@ -93,8 +105,8 @@ class GroupManagement {
 			color[] = {0.1,0.95,0.1,1};
 		};
 
-		class KickButton : W_RscButton {
-			idc = 55515;
+		class KickButton : w_RscButton {
+			idc = groupManagementKickButton;
 			text = "Kick";
 			onButtonClick = "call kickFromGroup;";
 			x = 0.3075; y = 0.250;
@@ -102,8 +114,8 @@ class GroupManagement {
 			color[] = {0.95,0.1,0.1,1};
 		};
 
-		class DisbandButton : W_RscButton {
-			idc = 55516;
+		class DisbandButton : w_RscButton {
+			idc = groupManagementDisbandButton;
 			text = "Disband";
 			onButtonClick = "call disbandGroup;";
 			x = 0.3075; y = 0.300;
@@ -111,8 +123,8 @@ class GroupManagement {
 			color[] = {0.95,0.1,0.1,1};
 		};
 
-		class LeaveButton : W_RscButton {
-			idc = 55517;
+		class LeaveButton : w_RscButton {
+			idc = groupManagementLeaveButton;
 			text = "Leave Group";
 			onButtonClick = "call leaveGroup;";
 			x = 0.3075; y = 0.400;
@@ -120,8 +132,8 @@ class GroupManagement {
 			color[] = {0.95,0.1,0.1,1};
 		};
 
-		class AcceptInviteButton : W_RscButton {
-			idc = 55518;
+		class AcceptInviteButton : w_RscButton {
+			idc = groupManagementAcceptButton;
 			text = "Accept";
 			onButtonClick = "call acceptGroupInvite;";
 			x = 0.275; y = 0.625 - 0.0255 * safezoneH;
@@ -129,8 +141,8 @@ class GroupManagement {
 			color[] = {0.1,0.95,0.1,1};
 		};
 
-		class DeclineInviteButton : W_RscButton {
-			idc = 55519;
+		class DeclineInviteButton : w_RscButton {
+			idc = groupManagementDeclineButton;
 			text = "Decline";
 			onButtonClick = "call declineGroupInvite;";
 			x = 0.375; y = 0.625 - 0.0255 * safezoneH;

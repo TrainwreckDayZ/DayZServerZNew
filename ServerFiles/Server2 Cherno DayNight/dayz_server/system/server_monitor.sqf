@@ -266,7 +266,6 @@ _object setVariable ["plotfriends", _intentory, true];
 					
 					if(_ownerID != "0" && !(_object isKindOf "Bicycle")) then {
 						_object setvehiclelock "locked";
-						_object setVariable ["R3F_LOG_disabled",true,true];
 					};
 					
 					_totalvehicles = _totalvehicles + 1;

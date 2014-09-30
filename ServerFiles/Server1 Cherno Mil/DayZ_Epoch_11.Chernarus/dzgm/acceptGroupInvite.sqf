@@ -1,4 +1,4 @@
-private ["_callerID","_targetID","_friendlies","_rfriendlies","_groupExists","_inviterUID","_inviter"];
+private ["_callerID","_targetID","_friendlies","_rfriendlies","_center","_groupExists","_plist","_inviterUID","_inviter"];
 
 _groupExists = false;
 {
@@ -6,41 +6,37 @@ _groupExists = false;
     	_inviterUID = _x select 0;
         currentInvites set [_forEachIndex,"REMOVETHISCRAP"];
         currentInvites = currentInvites - ["REMOVETHISCRAP"];
-        publicVariableServer "currentInvites";
+        publicVariableServer "currentInvites";       
 	};
 } forEach currentInvites;
 
+_center = getMarkerPos "center";
+_plist = _center nearEntities ["AllVehicles",10000];
 {
-	if (!isNull _x) then {
+	if ((!isNull _x) && (getPlayerUID _x != "")) then {
 		if (getPlayerUID _x == _inviterUID) then {
 			_inviter = _x;
 			_groupExists = true;	    
 		};
 	};
-} count playableUnits;
+} count _plist;
 
 if (_groupExists) then {
 	[player] join (group _inviter);
 	
 	_callerID = getPlayerUID player;
-	{
-		if (!isNull _x) then {
-			if ((getPlayerUID _x != "") && (alive _x)) then {
-				_targetID = getPlayerUID _x;
-				
-				_friendlies = player getVariable ["friendlies", []];
-				_friendlies set [count _friendlies, _targetID];
-				player setVariable ["friendlies", _friendlies, true];
-				
-				_rfriendlies = _x getVariable ["friendlies", []];
-				_rfriendlies set [count _rfriendlies, _callerID];
-				_x setVariable ["friendlies", _rfriendlies, true];
-			};
-		};
-	} count units group player;
-	systemChat "You have accepted the invite";
-	systemChat "You are now friends with all group members";
+	_targetID = getPlayerUID _inviter;
+	
+	_friendlies = player getVariable ["friendlies", []];
+	_friendlies set [count _friendlies, _targetID];
+	player setVariable ["friendlies", _friendlies, true];
+	
+	_rfriendlies = _inviter getVariable ["friendlies", []];
+	_rfriendlies set [count _rfriendlies, _callerID];
+	_inviter setVariable ["friendlies", _rfriendlies, true];
+	
+    systemChat "You have accepted the invite";
 	systemChat "Press windows key to toggle player icons";
 } else {
 	systemChat "The group no longer exists";    
-};
+}; 

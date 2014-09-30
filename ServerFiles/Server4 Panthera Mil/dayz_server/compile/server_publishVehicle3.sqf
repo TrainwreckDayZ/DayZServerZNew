@@ -70,7 +70,10 @@ _key call server_hiveWrite;
 	_weapons = 		getWeaponCargo _object;
 	_magazines = 	getMagazineCargo _object;
 	_backpacks = 	getBackpackCargo _object;
-
+};
+	if(_class == "Ka137_MG_PMC") then {
+		_object disableTIEquipment true; 
+	};
 	clearWeaponCargoGlobal  _object;
 	clearMagazineCargoGlobal  _object;
 	clearBackpackCargoGlobal _object;

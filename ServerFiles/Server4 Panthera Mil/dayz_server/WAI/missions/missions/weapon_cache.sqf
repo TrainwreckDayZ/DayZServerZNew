@@ -4,7 +4,6 @@ _position = [getMarkerPos "center",0,5500,10,0,2000,0] call BIS_fnc_findSafePos;
 diag_log format["WAI: Mission Weapon Cache Started At %1",_position];
 _box = createVehicle ["BAF_VehicleBox",[(_position select 0),(_position select 1),0], [], 0, "CAN_COLLIDE"];
 [_box] call spawn_ammo_box;
-_box setVehicleInit "this allowDammage false";
 
 
 _rndnum = round (random 3) + 4;
