@@ -1,6 +1,6 @@
 disableSerialization;
 				
-private ["_center","_plist","_i","_dialog","_playerListBox","_groupListBox","_namestr","_index","_groupInvite","_groupKick","_groupDisband","_groupLeaveButton","_name","_units"];
+private ["_i","_dialog","_playerListBox","_groupListBox","_namestr","_index","_groupInvite","_groupKick","_groupDisband","_groupLeaveButton","_name","_units"];
 
 closeDialog 0;
 _i="createDialog";createDialog "GroupManagement";			
@@ -22,16 +22,15 @@ _groupLeaveButton ctrlShow false;
 _groupDeclineInvite ctrlShow false;
 _groupAcceptInvite ctrlShow false;
 _hasInvite = false;
-
-_center = getMarkerPos "center";
-_plist = _center nearEntities ["AllVehicles",10000];
 {
-	if ((!isNull _x) && (getPlayerUID _x != "")) then {
-		_namestr = name _x;             
-		_index = _playerListBox lbAdd _namestr;
-		_playerListBox lbSetData [_index,str(_x)];  
+	if (!isNull _x) then {
+		if (getPlayerUID _x != "") then {
+			_namestr = name _x;             
+			_index = _playerListBox lbAdd _namestr;
+			_playerListBox lbSetData [_index,str(_x)];
+		};
 	};	    
-} count _plist;
+} count playableUnits;
 
 while {groupManagmentActive} do {
     {if (_x select 1 == getPlayerUID player) then {_hasInvite = true};} forEach currentInvites;
@@ -54,18 +53,15 @@ while {groupManagmentActive} do {
     if (_hasInvite) then {
         _groupInviteText ctrlShow true;
         _groupAcceptInvite ctrlShow true;
-        _groupDeclineInvite ctrlShow true; 
-		
-		_center = getMarkerPos "center";
-		_plist = _center nearEntities ["AllVehicles",10000];
+        _groupDeclineInvite ctrlShow true;
         {
 			_invite = _x;
 			if (_invite select 1 == getPlayerUID player) then {
 				{
-					if ((!isNull _x) && (getPlayerUID _x != "")) then {
+					if (!isNull _x) then {
 						if (_invite select 0 == getPlayerUID _x) then {_name = name _x;};
 					};
-				} count _plist;
+				} count playableUnits;
 			};
 		} forEach currentInvites;
         _groupInviteText ctrlSetStructuredText parseText (format ["Group Invite From<br/>%1",_name]);
@@ -75,10 +71,12 @@ while {groupManagmentActive} do {
         _groupInviteText ctrlShow false; 
     };
     {
-		if ((!isNull _x) && (alive _x)) then {
-			_namestr = name _x;             
-			_index = _groupListBox lbAdd _namestr;
-			_groupListBox lbSetData [_index,str(_x)];
+		if (!isNull _x) then {
+			if ((getPlayerUID _x != "") && (alive _x)) then {
+				_namestr = name _x;             
+				_index = _groupListBox lbAdd _namestr;
+				_groupListBox lbSetData [_index,str(_x)];
+			};
 		};
     } count _units;
      

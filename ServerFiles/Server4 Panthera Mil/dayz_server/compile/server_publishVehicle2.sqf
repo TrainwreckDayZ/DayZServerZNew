@@ -91,10 +91,7 @@ _key call server_hiveWrite;
 		_object setvehiclelock "locked";
 		_object setVariable ["R3F_LOG_disabled",true,true];
 	};
-};
-	if(_class == "Ka137_MG_PMC") then {
-		_object disableTIEquipment true; 
-	};
+
 	clearWeaponCargoGlobal  _object;
 	clearMagazineCargoGlobal  _object;
 	// _object setVehicleAmmo DZE_vehicleAmmo;
@@ -102,7 +99,10 @@ _key call server_hiveWrite;
 		_object addWeapon "M240_veh";
 		_object addMagazine "100Rnd_762x51_M240";
 		_object addMagazine "100Rnd_762x51_M240";
-	
+	};
+	if(_class == "Ka137_MG_PMC") then {
+		_object disableTIEquipment true; 
+	};
 
 	_object setVariable ["ObjectID", _oid, true];
 	

@@ -9,11 +9,11 @@ kickFromGroup = compile preprocessFileLineNumbers "dzgm\kickFromGroup.sqf";
 leaveGroup = compile preprocessFileLineNumbers "dzgm\leaveGroup.sqf";
 mapLoop = compile preprocessFileLineNumbers "dzgm\mapLoop.sqf";
 playerSelectChange = compile preprocessFileLineNumbers "dzgm\playerSelectChange.sqf";
-Updateplayerlist = compile preprocessFileLineNumbers "dzgm\Updateplayerlist.sqf";
-tagname = true;
+updatePlayerList = compile preprocessFileLineNumbers "dzgm\updatePlayerList.sqf";
+tagName = true;
 	
-if (isNil "dzgm_init") then {call compile preprocessFileLineNumbers "dzgm\icons.sqf";};
+if (isNil "dzgmInit") then {call compile preprocessFileLineNumbers "dzgm\icons.sqf";};
 uiSleep 1;
-[] spawn dzgm_init;
+[] spawn dzgmInit;
 [] spawn mapLoop;
-systemChat "Press right control to open group management";
+systemChat "Right click on radio to open group management";

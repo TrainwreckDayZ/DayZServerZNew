@@ -1,11 +1,11 @@
-class dzgmHud_Rsc
+class DZGMHud_Rsc
 {
 	idd = -1;
 	movingEnable = 1;
 	enableSimulation = 1;
 	enableDisplay = 1;
 
-	onLoad = "uiNamespace setVariable ['dzgm_Hud_Disp',_this select 0];";
+	onLoad = "uiNamespace setVariable ['dzgmHudDisp',_this select 0];";
 
 	duration = 99999999999999999;
 	fadein  = 0;

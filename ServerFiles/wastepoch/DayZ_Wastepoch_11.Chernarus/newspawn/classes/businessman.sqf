@@ -22,6 +22,7 @@ if (dayz_combat == 1) then {
 	_object setVariable ["ObjectID", _uniqueid, true];
 	_object setVariable ["ObjectUID", _uniqueid, true];
 	clearMagazineCargo _object;
+	clearWeaponCargo _object;
 	titleText ["Class selected! Note: Car will not save after restart.", "PLAIN DOWN", 3];
 	titleFadeOut 1;
 };

@@ -10,6 +10,7 @@ diag_log format["WAI: Mission Convoy Started At %1",_position];
 
 _box = createVehicle ["BAF_VehicleBox",[(_position select 0),(_position select 1),0], [], 0, "CAN_COLLIDE"];
 [_box] call spawn_ammo_box;
+_box setVehicleInit "this allowDammage false";
 
 _veh = createVehicle [_vehclass,[(_position select 0) - 15,(_position select 1),0], [], 0, "CAN_COLLIDE"];
 _vehdir = round(random 360);
@@ -17,6 +18,7 @@ _veh setDir _vehdir;
 clearWeaponCargoGlobal _veh;
 clearMagazineCargoGlobal _veh;
 _veh setVariable ["ObjectID","1",true];
+_veh setVehicleInit "this allowDammage false";
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh];
 diag_log format["WAI: Mission Convoy spawned a %1",_vehclass];
 
@@ -27,6 +29,7 @@ _veh2 setDir _vehdir;
 clearWeaponCargoGlobal _veh2;
 clearMagazineCargoGlobal _veh2;
 _veh2 setVariable ["ObjectID","1",true];
+_veh2 setVehicleInit "this allowDammage false";
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh2];
 diag_log format["WAI: Mission Convoy spawned a %1",_vehclass2];
 
@@ -37,6 +40,7 @@ _veh3 setDir _vehdir;
 clearWeaponCargoGlobal _veh3;
 clearMagazineCargoGlobal _veh3;
 _veh3 setVariable ["ObjectID","1",true];
+_veh3 setVehicleInit "this allowDammage false";
 PVDZE_serverObjectMonitor set [count PVDZE_serverObjectMonitor,_veh3];
 diag_log format["WAI: Mission Convoy spawned a %1",_vehclass3];
 
@@ -114,6 +118,9 @@ if (_playerPresent) then {
 		(_playerPresent)
 	};
 	diag_log format["WAI: Mission Convoy Ended At %1",_position];
+	_veh setVehicleInit "this allowDammage true";
+	_veh2 setVehicleInit "this allowDammage true";
+	_veh3 setVehicleInit "this allowDammage true";
 	[nil,nil,rTitleText,"Survivors have secured the convoy!", "PLAIN",10] call RE;
 } else {
 	clean_running_mission = True;

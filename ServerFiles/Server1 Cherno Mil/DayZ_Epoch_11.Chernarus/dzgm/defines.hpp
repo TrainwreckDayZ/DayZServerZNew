@@ -363,7 +363,7 @@ class RscShortcutButton
 		align = "left";
 	};
 };
-class w_RscText {
+class W_RscText {
 	idc = -1;
 	type = 0;
 	style = 0x00;
@@ -375,7 +375,7 @@ class w_RscText {
 	text = "";
 };
 
-class w_RscStructuredText
+class W_RscStructuredText
 {
 	access = 0;
 	type = 13;
@@ -398,7 +398,7 @@ class w_RscStructuredText
 	shadow = 2;
 };
 
-class w_Rsclist
+class W_RscList
 {
 	type = 5;
 	style = 69;
@@ -439,7 +439,7 @@ class w_Rsclist
 	};
 };
 
-class w_RscPicture 
+class W_RscPicture 
 {
 	idc = -1; 
 	type = 0;
@@ -453,7 +453,7 @@ class w_RscPicture
 	text = "";	
 }; 
 
-class w_RscButtonBase {
+class W_RscButtonBase {
 	idc = -1;
 	type = 16;
 	style = 0;	
@@ -518,7 +518,7 @@ class w_RscButtonBase {
 	};
 };
 
-class w_RscButton : w_RscButtonBase {
+class W_RscButton : W_RscButtonBase {
 
 	w = 0.183825;
 	h = 0.0522876;

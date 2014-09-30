@@ -166,9 +166,6 @@ class CfgLootSmall {
 		{"200Rnd_556x45_M249",0.14}
 	};
 	pistols[] = {
-		{"glock17_EP1",0.10},
-		{"MakarovSD",0.10},
-		{"M9",0.07},
-		{"M9SD",0.04}
+		{"glock17_EP1",0}
 	};
 };
