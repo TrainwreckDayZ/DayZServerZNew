@@ -102,10 +102,20 @@ if (true) then
 _vehicle_0 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_Sphere", [4438.22, 8058.1, 356.823], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["MAP_Sphere", [14152.3, 2813.44, 3.078], [], 0, "CAN_COLLIDE"];
   _vehicle_0 = _this;
   _this setVehicleInit "this allowDammage false";
-  _this setPos [4438.22, 8058.1, 356.823];
+  _this setPos [14152.3, 2813.44, 3.078];
+};
+
+//g0thic_ice_cream Barakkus Sphere 76561198015614387 I-H5A8X3YCHL8K 002131
+_vehicle_0 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Sphere", [292.456, 2196.59, 0.002], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setVehicleInit "this allowDammage false";
+  _this setPos [292.456, 2196.59, 0.002];
 };
 
 //mhallensworth Hunter Sphere 76561198088177626
