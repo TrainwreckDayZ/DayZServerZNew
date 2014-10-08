@@ -49,8 +49,8 @@ DZE_R3F_WEIGHT = false;
 DZE_noRotate = []; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
 DZE_curPitch = 45; //Starting rotation angle. Only 1, 5, 45, or 90.
 
-DefaultMagazines = ["ItemBandage","ItemPainkiller","ItemHeatPack","ItemHeatPack","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
-DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","ItemRadio"]; 
+DefaultMagazines = ["ItemBandage","ItemPainkiller","ItemHeatPack","ItemHeatPack","17Rnd_9x19_glock17"]; 
+DefaultWeapons = ["ItemMap","glock17_EP1","ItemToolbox","Binocular","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
 dayz_fullMoonNights = true;
 DZE_SelfTransfuse = true;

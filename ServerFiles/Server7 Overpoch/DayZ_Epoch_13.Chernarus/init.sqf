@@ -59,8 +59,8 @@ DZE_curPitch = 45; //Starting rotation angle. Only 1, 5, 45, or 90.
 
 
 
-DefaultMagazines = ["ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"]; 
-DefaultWeapons = ["ItemMap","Makarov","ItemToolbox","Binocular","ItemRadio"]; 
+DefaultMagazines = ["ItemBandage","ItemPainkiller","17Rnd_9x19_glock17"]; 
+DefaultWeapons = ["ItemMap","glock17_EP1","ItemToolbox","Binocular","ItemRadio"]; 
 DefaultBackpack = "DZ_Patrol_Pack_EP1"; 
 
 
