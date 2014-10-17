@@ -327,7 +327,7 @@ class CfgLoot {
 		,{"M249_m145_EP1_DZE",0.6}
 		,{"m240_scoped_EP1_DZE",0.6}
 		,{"M240_DZ",0.18}
-		,{"M249_DZ",0.15}
+		,{"M249_EP1_DZ",0.15}
 		,{"Mk_48_DZ",0.15}
 	};
 	machinegunammo[] = {
