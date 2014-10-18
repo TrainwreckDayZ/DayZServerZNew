@@ -12,7 +12,7 @@ _isOk = false;
 		_isOk = _cTarget isKindOf _x;
 	};
 } count ["LandVehicle","Air", "Ship"];
-if((locked _cTarget) && _isOk && (((vehicle player) distance _cTarget) < 12)) then {
+if((locked _cTarget) && _isOk && !_inVehicle && (((vehicle player) distance _cTarget) < 12)) then {
 	cutText [(localize "str_epoch_player_7") , "PLAIN DOWN"];
 	_display closeDisplay 1;
 };
