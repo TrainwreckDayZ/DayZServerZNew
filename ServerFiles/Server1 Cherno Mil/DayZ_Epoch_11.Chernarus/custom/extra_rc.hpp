@@ -4,6 +4,10 @@ class ExtraRa {
 			text = "SpawnBike";
 			script = "execVM 'custom\bike.sqf'";
 		};
+		class DeployJetski {
+			text = "SpawnJetski";
+			script = "execVM 'custom\jetski.sqf'";
+		};
 	};
 };
 class ExtraRb {

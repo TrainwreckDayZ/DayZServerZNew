@@ -206,6 +206,14 @@ if ((!isNull cursorTarget) && !_inVehicle && !_isPZombie && ((player distance cu
 		player removeAction s_player_deploybike2;
 		s_player_deploybike2 = -1;
 	};
+	if ((speed player <= 1) && (_cursorTarget isKindOf "JetSkiYanahui_Case_Yellow") && (_cursorTarget getVariable ["SpawnedJetski",0] == 1)) then {
+		if (s_player_deployjetski2 < 0) then {
+			s_player_deployjetski2 = player addAction[("<t color=""#007ab7"">" + ("Re-Pack Jetski") +"</t>"),"custom\jetski2.sqf","",5,false,true,"", ""];
+		};
+	} else {
+		player removeAction s_player_deployjetski2;
+		s_player_deployjetski2 = -1;
+	};
 	_hastinitem = false;
 	{
 		if (_x in _magazinesPlayer) then {

@@ -1,0 +1,13 @@
+player removeAction s_player_deployjetski2;
+player playActionNow "Medic";
+r_interrupt = false;
+player addWeapon "ItemToolbox";
+player addMagazine "PartEngine","PartGeneric";
+deleteVehicle ((getPosATL player) nearestObject "JetSkiYanahui_Case_Yellow");
+[player,"repair",0,false,10] call dayz_zombieSpeak;
+[player,10,true,(getPosATL player)] spawn player_alertZombies;
+sleep 6;
+cutText [format["You have packed your jetski."], "PLAIN DOWN"];
+r_interrupt = false;
+player switchMove "";
+player playActionNow "stop";
