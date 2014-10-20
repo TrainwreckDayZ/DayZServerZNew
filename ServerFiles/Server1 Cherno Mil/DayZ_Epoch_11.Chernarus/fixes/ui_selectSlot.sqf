@@ -107,8 +107,8 @@ if (_button == 1) then {
 						//Engine start
 						_menu =  _parent displayCtrl (1600 + _numActions + 1);
 						_menu ctrlShow true;
-						_text =  "Engine";
-						_script =  "[""" + _ownerID + """] execVM ""custom\remote\remote_engine.sqf""";
+						_text =  "Engine On";
+						_script =  "[""" + _ownerID + """] execVM ""custom\remote\remote_start.sqf""";
 						_height = _height + (0.025 * safezoneH);
 						uiNamespace setVariable ['uiControl', _control];
 						_menu ctrlSetText _text;

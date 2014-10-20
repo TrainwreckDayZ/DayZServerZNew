@@ -16,6 +16,11 @@ _i = 0;
 					s_player_lockUnlock_crtl = 1;
 					player action ["lightOn", _vehicle];
 					_nul = [objNull, _vehicle, rSAY, "carlock", _sounddist] call RE;
+					{
+						unassignvehicle _x;
+						_x action ["EJECT", _vehicle];
+						sleep 0.1;
+					} forEach crew _vehicle;
 					sleep 0.5;
 					player action ["lightOff", _vehicle];
 					PVDZE_veh_Lock = [_vehicle,true];
